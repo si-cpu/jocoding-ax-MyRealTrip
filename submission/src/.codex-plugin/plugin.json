@@ -1,6 +1,6 @@
 {
   "name": "mrt-idea-gate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "마이리얼트립 서비스·콘텐츠 아이디어를 검증 가능한 명제로 분해해 초기 기획 가치를 판단하는 Codex 플러그인",
   "author": {
     "name": "AX Hackathon Participant"
