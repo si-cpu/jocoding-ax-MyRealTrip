@@ -1,0 +1,24 @@
+{
+  "name": "new-self-trip",
+  "version": "0.4.0",
+  "description": "공항에서 어디로 갈까, 어디서 잘까, 오늘·내일 뭐 하지의 세 사용법으로 새로운 여행 선택지를 찾습니다.",
+  "author": {
+    "name": "AX Hackathon Participant"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "새로운 나를 찾는 여행",
+    "shortDescription": "항공 목적지, 숙소, 오늘 할 일을 세 갈래로 찾아봅니다.",
+    "longDescription": "처음 사용법을 안내한 뒤 공항에서 어디로 갈까, 어디서 잘까, 오늘·내일 뭐 하지 중 요청을 분류합니다. 공식 마이리얼트립 API와 MCP로 검증 가능한 결과만 보여주고 익숙한 선택은 잠시 제외합니다.",
+    "developerName": "AX Hackathon Participant",
+    "category": "Travel",
+    "capabilities": ["Interactive", "Search"],
+    "defaultPrompt": [
+      "처음 사용하는데 무엇을 할 수 있는지 보여줘.",
+      "인천공항에서 4일간 갈 새로운 곳을 찾아줘. 일본과 태국은 많이 가봤어.",
+      "내일 도쿄에서 잘 건데 호텔에서만 자봤어.",
+      "오늘 도쿄에서 뭐 하지? 나는 야구를 좋아해."
+    ]
+  }
+}
