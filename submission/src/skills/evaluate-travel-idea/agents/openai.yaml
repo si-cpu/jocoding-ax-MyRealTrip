@@ -1,4 +1,0 @@
-interface:
-  display_name: "MRT Idea Gate"
-  short_description: "여행 서비스·콘텐츠 아이디어의 초기 기획 가치를 검증합니다"
-  default_prompt: "마이리얼트립 아이디어를 명제로 분해하고 기획 가치를 검토해줘"
