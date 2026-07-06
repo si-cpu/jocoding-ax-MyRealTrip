@@ -18,9 +18,9 @@ class ContentCollectionTests(unittest.TestCase):
 
     def test_partition_rejects_city_mismatch_and_utility(self):
         items = [
-            {"gid": "1", "description": "오사카 ∙ 투어", "category": "투어"},
-            {"gid": "2", "description": "교토 ∙ 투어", "category": "투어"},
-            {"gid": "3", "description": "오사카 ∙ 이동·교통", "category": "이동·교통"},
+            {"gid": "1", "description": "오사카 ∙ 투어", "category": "투어", "productUrl": "https://www.myrealtrip.com/offers/1"},
+            {"gid": "2", "description": "교토 ∙ 투어", "category": "투어", "productUrl": "https://www.myrealtrip.com/offers/2"},
+            {"gid": "3", "description": "오사카 ∙ 이동·교통", "category": "이동·교통", "productUrl": "https://www.myrealtrip.com/offers/3"},
         ]
         accepted, rejected = api.partition_tna_items(items, "오사카")
         self.assertEqual(["1"], [item["gid"] for item in accepted])
@@ -33,16 +33,16 @@ class ContentCollectionTests(unittest.TestCase):
         pages = [
             {
                 "items": [
-                    {"gid": "1", "description": "오사카 ∙ 투어", "category": "투어"},
-                    {"gid": "2", "description": "오사카 ∙ 입장권", "category": "입장권"},
+                    {"gid": "1", "description": "오사카 ∙ 투어", "category": "투어", "productUrl": "https://www.myrealtrip.com/offers/1"},
+                    {"gid": "2", "description": "오사카 ∙ 입장권", "category": "입장권", "productUrl": "https://experiences.myrealtrip.com/products/2"},
                 ],
                 "totalCount": 3,
                 "hasNextPage": True,
             },
             {
                 "items": [
-                    {"gid": "2", "description": "오사카 ∙ 입장권", "category": "입장권"},
-                    {"gid": "3", "description": "오사카 ∙ 체험", "category": "체험"},
+                    {"gid": "2", "description": "오사카 ∙ 입장권", "category": "입장권", "productUrl": "https://experiences.myrealtrip.com/products/2"},
+                    {"gid": "3", "description": "오사카 ∙ 체험", "category": "체험", "productUrl": "https://www.myrealtrip.com/experiences/products/3"},
                 ],
                 "totalCount": 3,
                 "hasNextPage": False,
@@ -56,7 +56,7 @@ class ContentCollectionTests(unittest.TestCase):
 
     def test_collect_search_marks_page_limit(self):
         page = {
-            "items": [{"gid": "1", "description": "부산 ∙ 투어", "category": "투어"}],
+            "items": [{"gid": "1", "description": "부산 ∙ 투어", "category": "투어", "productUrl": "https://www.myrealtrip.com/offers/1"}],
             "totalCount": 200,
             "hasNextPage": True,
         }
@@ -119,6 +119,40 @@ class ContentCollectionTests(unittest.TestCase):
         with mock.patch.object(api, "post", return_value=response):
             result = api.run(args)
         self.assertFalse(result["bookable"])
+
+    def test_product_url_accepts_official_subdomains_only(self):
+        self.assertEqual(
+            "https://experiences.myrealtrip.com/products/123",
+            api.validate_product_url("https://experiences.myrealtrip.com/products/123"),
+        )
+        for invalid in (
+            "http://www.myrealtrip.com/offers/1",
+            "https://myrealtrip.com.evil.test/offers/1",
+            "https://user@www.myrealtrip.com/offers/1",
+            "https://www.myrealtrip.com/",
+        ):
+            with self.subTest(invalid=invalid), self.assertRaises(ValueError):
+                api.validate_product_url(invalid)
+
+    def test_url_check_accepts_reachable_official_redirect(self):
+        response = mock.MagicMock()
+        response.geturl.return_value = "https://www.myrealtrip.com/experiences/products/123"
+        response.getcode.return_value = 200
+        response.__enter__.return_value = response
+        with mock.patch.object(api.urllib.request, "urlopen", return_value=response):
+            result = api.check_product_url("https://experiences.myrealtrip.com/products/123")
+        self.assertTrue(result["reachable"])
+        self.assertEqual(200, result["status"])
+
+    def test_url_check_rejects_redirect_outside_official_domain(self):
+        response = mock.MagicMock()
+        response.geturl.return_value = "https://evil.test/phishing"
+        response.getcode.return_value = 302
+        response.__enter__.return_value = response
+        with mock.patch.object(api.urllib.request, "urlopen", return_value=response):
+            result = api.check_product_url("https://www.myrealtrip.com/offers/123")
+        self.assertFalse(result["reachable"])
+        self.assertEqual("UNSAFE_REDIRECT", result["reason"])
 
 
 if __name__ == "__main__":

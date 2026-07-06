@@ -14,6 +14,7 @@ import os
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from typing import Any
 
@@ -28,6 +29,7 @@ UTILITY_CATEGORY_TOKENS = {
     "렌터카",
     "여행자보험",
 }
+ALLOWED_PRODUCT_HOSTS = {"myrealtrip.com"}
 
 
 class ApiError(RuntimeError):
@@ -60,6 +62,81 @@ def category_is_utility(category: str) -> bool:
     return any(token in normalized for token in UTILITY_CATEGORY_TOKENS)
 
 
+def is_allowed_product_host(hostname: str | None) -> bool:
+    host = (hostname or "").rstrip(".").casefold()
+    return any(host == allowed or host.endswith(f".{allowed}") for allowed in ALLOWED_PRODUCT_HOSTS)
+
+
+def validate_product_url(value: str) -> str:
+    url = value.strip()
+    parsed = urllib.parse.urlsplit(url)
+    if parsed.scheme != "https":
+        raise ValueError("Product URL must use HTTPS")
+    if parsed.username or parsed.password or parsed.port:
+        raise ValueError("Product URL must not contain credentials or a custom port")
+    if not is_allowed_product_host(parsed.hostname):
+        raise ValueError("Product URL must use an official MyRealTrip domain")
+    if not parsed.path or parsed.path == "/":
+        raise ValueError("Product URL must point to a product path")
+    return url
+
+
+def check_product_url(value: str, timeout: int = 15) -> dict[str, Any]:
+    url = validate_product_url(value)
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": "Mozilla/5.0 MyRealTripContentMap/0.5"},
+        method="HEAD",
+    )
+    try:
+        response = urllib.request.urlopen(request, timeout=timeout)
+    except urllib.error.HTTPError as exc:
+        if exc.code not in (403, 405):
+            return {"url": url, "reachable": False, "status": exc.code, "reason": "HTTP_ERROR"}
+        request = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0 MyRealTripContentMap/0.5",
+                "Range": "bytes=0-0",
+            },
+            method="GET",
+        )
+        try:
+            response = urllib.request.urlopen(request, timeout=timeout)
+        except urllib.error.HTTPError as retry_exc:
+            return {
+                "url": url,
+                "reachable": False,
+                "status": retry_exc.code,
+                "reason": "HTTP_ERROR",
+            }
+        except urllib.error.URLError as retry_exc:
+            return {"url": url, "reachable": False, "status": None, "reason": str(retry_exc.reason)}
+    except urllib.error.URLError as exc:
+        return {"url": url, "reachable": False, "status": None, "reason": str(exc.reason)}
+
+    with response:
+        final_url = response.geturl()
+        status = response.getcode()
+    try:
+        validate_product_url(final_url)
+    except ValueError:
+        return {
+            "url": url,
+            "finalUrl": final_url,
+            "reachable": False,
+            "status": status,
+            "reason": "UNSAFE_REDIRECT",
+        }
+    return {
+        "url": url,
+        "finalUrl": final_url,
+        "reachable": 200 <= status < 400,
+        "status": status,
+        "reason": None if 200 <= status < 400 else "HTTP_ERROR",
+    }
+
+
 def partition_tna_items(
     items: list[dict[str, Any]], city: str
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
@@ -73,6 +150,11 @@ def partition_tna_items(
             reason = "CITY_MISMATCH_OR_MISSING"
         elif category_is_utility(str(item.get("category", ""))):
             reason = "UTILITY_CATEGORY"
+        else:
+            try:
+                validate_product_url(str(item.get("productUrl", "")))
+            except ValueError:
+                reason = "INVALID_PRODUCT_URL"
 
         if reason:
             rejected.append(
@@ -292,6 +374,11 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--date", required=True)
     add_common_arguments(p)
 
+    p = sub.add_parser("url-check")
+    p.add_argument("--url", required=True)
+    p.add_argument("--timeout", type=int, default=15)
+    add_common_arguments(p)
+
     return parser
 
 
@@ -342,6 +429,11 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
             "bookable": bool(options),
             "data": data,
         }
+
+    if args.command == "url-check":
+        if not 1 <= args.timeout <= 60:
+            raise ValueError("timeout must be between 1 and 60 seconds")
+        return check_product_url(args.url, timeout=args.timeout)
 
     raise ValueError(f"Unsupported command: {args.command}")
 

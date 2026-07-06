@@ -104,7 +104,16 @@ Do not label the first item as best or recommended.
 - Empty or failed option lookup: do not call it bookable for that date.
 - Never turn a search starting price into a date-specific checkout price.
 
-## 10. Coverage language
+## 10. Product URL safety
+
+- Accept HTTPS URLs only.
+- Accept `myrealtrip.com` and its subdomains only.
+- Reject credentials, custom ports, missing product paths, and non-MyRealTrip redirects.
+- Check only links about to be displayed, not every collected URL.
+- Treat HTTP 2xx and 3xx ending on an official MyRealTrip domain as reachable.
+- Omit a failed link and report the failure; never synthesize a replacement URL.
+
+## 11. Coverage language
 
 - All pages and eligible details completed: `조회된 마이리얼트립 상품 전체에서`
 - Page or detail limit reached: `이번에 확인한 상품 범위에서`

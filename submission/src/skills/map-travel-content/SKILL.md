@@ -26,7 +26,8 @@ Then ask only for the destination when it is missing. Date is optional.
 7. Apply the evidence contract and normalize only verified aliases.
 8. Separate accepted keywords into `뭐 하지?` and `뭐 먹지?`.
 9. Show keywords first. Expand related products after the user selects a keyword, unless the user explicitly asks for links immediately.
-10. When a date is supplied, verify every expanded product with TNA options for that date.
+10. Before displaying an expanded product link, run `../../scripts/myrealtrip_api.py url-check --url PRODUCT_URL`. Keep only links with `reachable: true` and a final official MyRealTrip domain.
+11. When a date is supplied, verify every expanded product with TNA options for that date.
 
 ## Output
 
@@ -72,3 +73,4 @@ State `이번에 확인한 상품 범위에서` when collection metadata says re
 - Empty city result: state that no linked product was found; do not fill the gap with web suggestions.
 - Detail unavailable: use only content directly supported by the search title.
 - Date options empty or unknown: provide the product only as a discovery link, not as available for that date.
+- URL validation failure: omit the broken link, state that the official product page could not be reached, and do not invent a replacement URL.
