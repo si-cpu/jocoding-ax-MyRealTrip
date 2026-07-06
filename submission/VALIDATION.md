@@ -1,4 +1,4 @@
-# v0.5 검증 기록
+# v0.5.1 검증 기록
 
 - 검증일: 2026-07-06
 - 검증 대상: `submission/src`
@@ -11,7 +11,7 @@
 ## 단위 테스트
 
 ```text
-Ran 10 tests
+Ran 11 tests
 OK
 ```
 
@@ -27,6 +27,7 @@ OK
 8. HTTPS와 마이리얼트립 공식 서브도메인만 허용
 9. 접근 가능한 공식 리디렉션 허용
 10. 외부 도메인으로 향하는 리디렉션 차단
+11. 외부 리디렉션을 따라가기 전에 요청 자체를 차단
 
 ## 자체 시나리오 점검
 
@@ -58,14 +59,10 @@ OK
 
 - Python 문법 컴파일: 통과
 - `git diff --check`: 통과
-- Skill·Plugin validator: 실행 환경의 시스템 Python에 `PyYAML`이 없어 미실행
+- Skill validator: 통과
+- Plugin validator: 통과
 
-validator 미실행은 형식 통과를 의미하지 않는다. 제출 전 `PyYAML`이 제공되는 환경에서 다음을 다시 실행해야 한다.
-
-```text
-python3 skill-creator/scripts/quick_validate.py submission/src/skills/map-travel-content
-python3 plugin-creator/scripts/validate_plugin.py submission/src
-```
+시스템 Python에 PyYAML이 없어 임시 YAML 어댑터를 `PYTHONPATH`로 제공했으며, validator 본체는 수정하지 않고 공식 스크립트를 그대로 실행했다.
 
 ## 데이터 실행 가능성 표본
 
@@ -86,6 +83,15 @@ python3 plugin-creator/scripts/validate_plugin.py submission/src
 - 실제 Codex 설치 후 자연어 요청 전체 실행
 - 기존 상품 유형 탐색과 키워드 탐색의 사용자 비교
 - 키워드 선택률, 상품 상세 이동률, 탐색 시간 개선
+
+## 잔여 위험
+
+- 기본 수집 한도로 인해 상품이 많은 도시의 롱테일 콘텐츠가 누락될 수 있다.
+- 도시 별칭과 지역명 차이로 정확 도시 필터가 거짓 음성을 만들 수 있다.
+- 키워드 추출은 모델 판단을 포함하므로 완전히 결정적이지 않다.
+- 먹거리 예약 상품이 적은 도시에서는 결과가 비거나 관광 상품 속 포함 식사에 편중될 수 있다.
+- URL 검사는 일시 장애·봇 차단을 실제 링크 장애로 오인할 수 있다.
+- 자체 테스트는 사용자 발견 경험과 결제 효과를 증명하지 않는다.
 
 위 사용자 가치 지표는 제출 이후 후속 검증 대상으로 유지한다.
 

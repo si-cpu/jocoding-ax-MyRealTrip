@@ -36,6 +36,29 @@ class ApiError(RuntimeError):
     pass
 
 
+class UnsafeRedirectError(RuntimeError):
+    pass
+
+
+class SafeProductRedirectHandler(urllib.request.HTTPRedirectHandler):
+    def redirect_request(
+        self,
+        request: urllib.request.Request,
+        file_pointer: Any,
+        code: int,
+        message: str,
+        headers: Any,
+        new_url: str,
+    ) -> urllib.request.Request | None:
+        try:
+            validate_product_url(new_url)
+        except ValueError as exc:
+            raise UnsafeRedirectError(new_url) from exc
+        return super().redirect_request(
+            request, file_pointer, code, message, headers, new_url
+        )
+
+
 def normalize_text(value: str) -> str:
     return re.sub(r"[^0-9a-z가-힣]+", "", value.casefold())
 
@@ -81,6 +104,13 @@ def validate_product_url(value: str) -> str:
     return url
 
 
+def open_product_request(
+    request: urllib.request.Request, timeout: int
+) -> Any:
+    opener = urllib.request.build_opener(SafeProductRedirectHandler())
+    return opener.open(request, timeout=timeout)
+
+
 def check_product_url(value: str, timeout: int = 15) -> dict[str, Any]:
     url = validate_product_url(value)
     request = urllib.request.Request(
@@ -89,7 +119,15 @@ def check_product_url(value: str, timeout: int = 15) -> dict[str, Any]:
         method="HEAD",
     )
     try:
-        response = urllib.request.urlopen(request, timeout=timeout)
+        response = open_product_request(request, timeout)
+    except UnsafeRedirectError as exc:
+        return {
+            "url": url,
+            "finalUrl": str(exc),
+            "reachable": False,
+            "status": None,
+            "reason": "UNSAFE_REDIRECT",
+        }
     except urllib.error.HTTPError as exc:
         if exc.code not in (403, 405):
             return {"url": url, "reachable": False, "status": exc.code, "reason": "HTTP_ERROR"}
@@ -102,7 +140,15 @@ def check_product_url(value: str, timeout: int = 15) -> dict[str, Any]:
             method="GET",
         )
         try:
-            response = urllib.request.urlopen(request, timeout=timeout)
+            response = open_product_request(request, timeout)
+        except UnsafeRedirectError as retry_exc:
+            return {
+                "url": url,
+                "finalUrl": str(retry_exc),
+                "reachable": False,
+                "status": None,
+                "reason": "UNSAFE_REDIRECT",
+            }
         except urllib.error.HTTPError as retry_exc:
             return {
                 "url": url,

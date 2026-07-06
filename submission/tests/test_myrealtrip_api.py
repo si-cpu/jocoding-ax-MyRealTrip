@@ -139,7 +139,7 @@ class ContentCollectionTests(unittest.TestCase):
         response.geturl.return_value = "https://www.myrealtrip.com/experiences/products/123"
         response.getcode.return_value = 200
         response.__enter__.return_value = response
-        with mock.patch.object(api.urllib.request, "urlopen", return_value=response):
+        with mock.patch.object(api, "open_product_request", return_value=response):
             result = api.check_product_url("https://experiences.myrealtrip.com/products/123")
         self.assertTrue(result["reachable"])
         self.assertEqual(200, result["status"])
@@ -149,10 +149,23 @@ class ContentCollectionTests(unittest.TestCase):
         response.geturl.return_value = "https://evil.test/phishing"
         response.getcode.return_value = 302
         response.__enter__.return_value = response
-        with mock.patch.object(api.urllib.request, "urlopen", return_value=response):
+        with mock.patch.object(api, "open_product_request", return_value=response):
             result = api.check_product_url("https://www.myrealtrip.com/offers/123")
         self.assertFalse(result["reachable"])
         self.assertEqual("UNSAFE_REDIRECT", result["reason"])
+
+    def test_redirect_handler_blocks_external_url_before_following(self):
+        handler = api.SafeProductRedirectHandler()
+        request = api.urllib.request.Request("https://www.myrealtrip.com/offers/123")
+        with self.assertRaises(api.UnsafeRedirectError):
+            handler.redirect_request(
+                request,
+                None,
+                302,
+                "Found",
+                {},
+                "https://evil.test/phishing",
+            )
 
 
 if __name__ == "__main__":
