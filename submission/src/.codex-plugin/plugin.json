@@ -1,24 +1,23 @@
 {
-  "name": "new-self-trip",
-  "version": "0.4.0",
-  "description": "공항에서 어디로 갈까, 어디서 잘까, 오늘·내일 뭐 하지의 세 사용법으로 새로운 여행 선택지를 찾습니다.",
+  "name": "travel-content-map",
+  "version": "0.5.0",
+  "description": "여행지의 마이리얼트립 상품을 구체적인 할 일과 먹을 일 키워드로 다시 펼쳐봅니다.",
   "author": {
     "name": "AX Hackathon Participant"
   },
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "새로운 나를 찾는 여행",
-    "shortDescription": "항공 목적지, 숙소, 오늘 할 일을 세 갈래로 찾아봅니다.",
-    "longDescription": "처음 사용법을 안내한 뒤 공항에서 어디로 갈까, 어디서 잘까, 오늘·내일 뭐 하지 중 요청을 분류합니다. 공식 마이리얼트립 API와 MCP로 검증 가능한 결과만 보여주고 익숙한 선택은 잠시 제외합니다.",
+    "displayName": "여행 콘텐츠 지도",
+    "shortDescription": "여행지에서 할 일과 먹을 일을 구체적인 키워드로 펼쳐봅니다.",
+    "longDescription": "마이리얼트립의 투어·티켓·체험·식사 상품에 흩어진 장소, 작품, 팀, 공연, 음식과 활동을 뭐 하지와 뭐 먹지로 나눕니다. 개인화 순위 대신 근거가 확인된 키워드를 보여주고 선택한 키워드를 공식 상품 페이지로 연결합니다.",
     "developerName": "AX Hackathon Participant",
     "category": "Travel",
     "capabilities": ["Interactive", "Search"],
     "defaultPrompt": [
-      "처음 사용하는데 무엇을 할 수 있는지 보여줘.",
-      "인천공항에서 4일간 갈 새로운 곳을 찾아줘. 일본과 태국은 많이 가봤어.",
-      "내일 도쿄에서 잘 건데 호텔에서만 자봤어.",
-      "오늘 도쿄에서 뭐 하지? 나는 야구를 좋아해."
+      "오사카에서 뭐 하고 뭐 먹을 수 있어?",
+      "런던 상품을 해리포터·축구·공연 같은 키워드로 보여줘.",
+      "부산에서 할 일과 먹을 일을 마이리얼트립 상품으로 찾아줘."
     ]
   }
 }

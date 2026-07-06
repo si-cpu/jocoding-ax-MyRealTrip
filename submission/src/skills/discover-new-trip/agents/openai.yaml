@@ -1,4 +1,0 @@
-interface:
-  display_name: "새로운 나를 찾는 여행"
-  short_description: "항공 목적지·숙소·오늘 할 일을 세 갈래로 안내해요"
-  default_prompt: "Use $discover-new-trip to show the three ways to discover a new trip, then help with the one I choose."
