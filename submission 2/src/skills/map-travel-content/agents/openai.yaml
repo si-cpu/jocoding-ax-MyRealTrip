@@ -1,0 +1,4 @@
+interface:
+  display_name: "여행 경험 진열대"
+  short_description: "상품 형식 뒤에 가려진 여행 경험을 먼저 펼쳐봐요"
+  default_prompt: "Use $map-travel-content to build balanced experience shelves for my destination from official MyRealTrip products, then show purchase methods only after I choose an experience."

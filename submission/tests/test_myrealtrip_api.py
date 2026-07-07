@@ -37,6 +37,20 @@ class ContentCollectionTests(unittest.TestCase):
         item = {"itemName": "유니버설 스튜디오 재팬 입장권", "category": "티켓"}
         self.assertEqual("ADMISSION", api.classify_purchase_form(item))
 
+    def test_detail_policy_routes_tours_tickets_and_passes(self):
+        self.assertEqual(
+            "DETAIL_FOR_DISCOVERY",
+            api.discovery_detail_policy({"itemName": "오사카 시내 일일투어"}),
+        )
+        self.assertEqual(
+            "TITLE_FOR_DISCOVERY",
+            api.discovery_detail_policy({"itemName": "오사카성 천수각 입장권"}),
+        )
+        self.assertEqual(
+            "DETAIL_ON_SELECTION",
+            api.discovery_detail_policy({"itemName": "오사카 주유패스 1일권"}),
+        )
+
     def test_collect_search_paginates_deduplicates_and_reports_complete(self):
         pages = [
             {
@@ -65,7 +79,13 @@ class ContentCollectionTests(unittest.TestCase):
 
     def test_category_shelves_collect_without_popularity_sort(self):
         category_response = {
-            "data": {"categories": [{"name": "입장권", "value": "ticket"}, {"name": "투어", "value": "tour"}]},
+            "data": {"categories": [
+                {"name": "전체", "value": "all"},
+                {"name": "입장권", "value": "ticket"},
+                {"name": "이동·교통", "value": "transportation_v2"},
+                {"name": "유심·와이파이", "value": "usimwifi"},
+                {"name": "투어", "value": "tour"},
+            ]},
             "result": {"status": 200},
         }
         def collected(city, *, size, max_pages, category, sort):
@@ -80,9 +100,19 @@ class ContentCollectionTests(unittest.TestCase):
             mock.patch.object(api, "collect_search", side_effect=collected) as collect,
         ):
             result = api.collect_category_shelves("오사카")
-        self.assertEqual(2, result["coverage"]["uniqueEligibleItems"])
-        self.assertEqual(["ticket", "tour"], [s["category"]["value"] for s in result["shelves"]])
+        self.assertEqual(3, result["coverage"]["uniqueEligibleItems"])
+        self.assertEqual(
+            ["ticket", "transportation_v2", "tour"],
+            [s["category"]["value"] for s in result["shelves"]],
+        )
+        self.assertEqual(2, result["coverage"]["categoriesSkipped"])
         self.assertTrue(all(call.kwargs["sort"] is None for call in collect.call_args_list))
+
+    def test_discovery_categories_keep_transport_but_skip_pure_utility(self):
+        self.assertTrue(api.category_is_discovery_eligible({"name": "이동·교통", "value": "transportation_v2"}))
+        self.assertFalse(api.category_is_discovery_eligible({"name": "전체", "value": "all"}))
+        self.assertFalse(api.category_is_discovery_eligible({"name": "여행용품", "value": "travel_goods"}))
+        self.assertFalse(api.category_is_discovery_eligible({"name": "여행편의/대여", "value": "convenience"}))
 
     def test_collect_search_marks_page_limit(self):
         page = {
