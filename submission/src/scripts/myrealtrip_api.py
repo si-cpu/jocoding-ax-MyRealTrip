@@ -21,14 +21,6 @@ from typing import Any
 
 BASE_URL = "https://partner-ext-api.myrealtrip.com"
 API_KEY_ENV = "MYREALTRIP_API_KEY"
-UTILITY_CATEGORY_TOKENS = {
-    "이동교통",
-    "교통편의",
-    "유심와이파이",
-    "여행편의대여",
-    "렌터카",
-    "여행자보험",
-}
 ALLOWED_PRODUCT_HOSTS = {"myrealtrip.com"}
 
 
@@ -80,9 +72,27 @@ def item_city(description: str) -> str:
     return description.split("∙", 1)[0].strip()
 
 
-def category_is_utility(category: str) -> bool:
-    normalized = normalize_text(category)
-    return any(token in normalized for token in UTILITY_CATEGORY_TOKENS)
+def classify_purchase_form(item: dict[str, Any]) -> str:
+    """Describe how an experience is sold without treating it as the experience."""
+    text = normalize_text(
+        " ".join(
+            str(item.get(field, ""))
+            for field in ("category", "itemName", "title", "description")
+        )
+    )
+    rules = (
+        ("PASS", ("패스", "pass")),
+        ("FOOD", ("식사권", "레스토랑", "푸드투어", "쿠킹", "미식")),
+        ("TOUR", ("투어", "가이드")),
+        ("ACTIVITY", ("액티비티", "체험", "클래스", "워크숍")),
+        ("SCENIC_TRANSPORT", ("로프웨이", "케이블카", "크루즈", "유람선", "관광열차", "스카이캡슐", "해변열차")),
+        ("TRANSPORT", ("이동교통", "교통편의", "공항철도", "공항버스", "픽업", "샌딩", "렌터카")),
+        ("ADMISSION", ("입장권", "티켓", "관람권")),
+    )
+    for form, tokens in rules:
+        if any(normalize_text(token) in text for token in tokens):
+            return form
+    return "OTHER"
 
 
 def is_allowed_product_host(hostname: str | None) -> bool:
@@ -194,8 +204,6 @@ def partition_tna_items(
         reason = None
         if not declared_city or normalize_text(declared_city) != target:
             reason = "CITY_MISMATCH_OR_MISSING"
-        elif category_is_utility(str(item.get("category", ""))):
-            reason = "UTILITY_CATEGORY"
         else:
             try:
                 validate_product_url(str(item.get("productUrl", "")))
@@ -213,7 +221,9 @@ def partition_tna_items(
                 }
             )
         else:
-            accepted.append(item)
+            enriched = dict(item)
+            enriched["purchaseForm"] = classify_purchase_form(item)
+            accepted.append(enriched)
     return accepted, rejected
 
 
@@ -279,7 +289,7 @@ def collect_search(
     size: int = 100,
     max_pages: int = 3,
     category: str | None = None,
-    sort: str | None = "selling_count_desc",
+    sort: str | None = None,
 ) -> dict[str, Any]:
     if not 1 <= size <= 100:
         raise ValueError("TNA size must be between 1 and 100")
@@ -316,6 +326,70 @@ def collect_search(
             "eligibleItems": len(accepted),
             "completeSearch": not has_next,
             "truncatedByPageLimit": has_next,
+        },
+    }
+
+
+def category_entries(data: Any) -> list[dict[str, str]]:
+    """Normalize documented and defensively supported category response shapes."""
+    if isinstance(data, dict):
+        raw = data.get("categories", data.get("items", []))
+    else:
+        raw = data
+    entries: list[dict[str, str]] = []
+    for entry in raw or []:
+        if isinstance(entry, str):
+            entries.append({"name": entry, "value": entry})
+        elif isinstance(entry, dict):
+            value = str(entry.get("value") or entry.get("code") or entry.get("name") or "").strip()
+            name = str(entry.get("name") or entry.get("label") or value).strip()
+            if value:
+                entries.append({"name": name, "value": value})
+    return entries
+
+
+def collect_category_shelves(
+    city: str, *, size: int = 100, max_pages_per_category: int = 1
+) -> dict[str, Any]:
+    """Collect each official product category separately to reduce popularity bias."""
+    raw_categories = unwrap(post("/v1/products/tna/categories", {"city": city})) or []
+    categories = category_entries(raw_categories)
+    shelves: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    all_discarded: list[dict[str, Any]] = []
+    for category in categories:
+        collected = collect_search(
+            city,
+            size=size,
+            max_pages=max_pages_per_category,
+            category=category["value"],
+            sort=None,
+        )
+        unique_items = []
+        for item in collected["items"]:
+            gid = str(item.get("gid", "")).strip()
+            if gid and gid not in seen:
+                seen.add(gid)
+                unique_items.append(item)
+        all_discarded.extend(collected["discarded"])
+        shelves.append(
+            {
+                "category": category,
+                "items": unique_items,
+                "coverage": collected["coverage"],
+            }
+        )
+    return {
+        "city": city,
+        "shelves": shelves,
+        "discarded": all_discarded,
+        "coverage": {
+            "categoriesReturned": len(categories),
+            "categoriesCollected": len(shelves),
+            "uniqueEligibleItems": len(seen),
+            "completeCategories": bool(shelves) and all(
+                shelf["coverage"]["completeSearch"] for shelf in shelves
+            ),
         },
     }
 
@@ -411,6 +485,14 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--detail-limit", type=int, default=100, help="0 means all eligible items")
     add_common_arguments(p)
 
+    p = sub.add_parser("tna-shelves")
+    p.add_argument("--city", required=True)
+    p.add_argument("--size", type=int, default=100)
+    p.add_argument(
+        "--max-pages-per-category", type=int, default=1, help="0 means all pages"
+    )
+    add_common_arguments(p)
+
     p = sub.add_parser("tna-detail")
     p.add_argument("--gid", required=True)
     add_common_arguments(p)
@@ -455,6 +537,13 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
             size=args.size,
             max_pages=args.max_pages,
             category=args.category,
+        )
+
+    if args.command == "tna-shelves":
+        return collect_category_shelves(
+            args.city,
+            size=args.size,
+            max_pages_per_category=args.max_pages_per_category,
         )
 
     if args.command == "tna-detail":

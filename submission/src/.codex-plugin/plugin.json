@@ -1,7 +1,7 @@
 {
   "name": "travel-content-map",
-  "version": "0.5.1",
-  "description": "여행지의 마이리얼트립 상품을 구체적인 할 일과 먹을 일 키워드로 다시 펼쳐봅니다.",
+  "version": "0.6.0",
+  "description": "상품 형식에 가려진 여행 경험을 균형 있는 콘텐츠 진열대로 펼쳐봅니다.",
   "author": {
     "name": "AX Hackathon Participant"
   },
@@ -9,15 +9,15 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "여행 콘텐츠 지도",
-    "shortDescription": "여행지에서 할 일과 먹을 일을 구체적인 키워드로 펼쳐봅니다.",
-    "longDescription": "마이리얼트립의 투어·티켓·체험·식사 상품에 흩어진 장소, 작품, 팀, 공연, 음식과 활동을 뭐 하지와 뭐 먹지로 나눕니다. 개인화 순위 대신 근거가 확인된 키워드를 보여주고 선택한 키워드를 공식 상품 페이지로 연결합니다.",
+    "shortDescription": "상품 형식 뒤의 여행 경험을 발견형 진열대로 보여줍니다.",
+    "longDescription": "마이리얼트립 상품을 카테고리별로 균형 있게 확인해 입장권·패스·투어라는 판매 형식 뒤의 장소, 작품, 팀, 공연, 음식과 활동을 먼저 보여줍니다. 여행자가 경험을 고르면 이용 가능한 구매 방식과 공식 상품을 펼칩니다.",
     "developerName": "AX Hackathon Participant",
     "category": "Travel",
     "capabilities": ["Interactive", "Search"],
     "defaultPrompt": [
-      "오사카에서 뭐 하고 뭐 먹을 수 있어?",
-      "런던 상품을 해리포터·축구·공연 같은 키워드로 보여줘.",
-      "부산에서 할 일과 먹을 일을 마이리얼트립 상품으로 찾아줘."
+      "오사카 상품에 가려진 경험을 테마별 진열대로 보여줘.",
+      "고베 누노비키 허브원을 이용하는 방법을 입장권·패스·투어로 나눠줘.",
+      "부산의 관광형 이동 경험과 순수 이동 편의를 구분해줘."
     ]
   }
 }

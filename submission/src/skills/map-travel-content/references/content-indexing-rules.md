@@ -13,6 +13,7 @@ Every displayed keyword must retain:
 - exact source field
 - short source excerpt
 - official `productUrl`
+- purchase form, kept separate from the experience label
 
 Reject `UNSUPPORTED` relations.
 
@@ -28,7 +29,24 @@ Use evidence in this order:
 
 Treat search `description` such as `오사카 ∙ 투어` as location/category metadata, not content evidence.
 
-## 3. DO keywords
+## 3. Separate content from purchase form
+
+Classify two independent axes:
+
+- experience: the named thing the traveler may want to do, see, or eat
+- purchase form: admission, pass, tour, activity, food product, scenic transport, transport, or other
+
+`고베 누노비키 허브원` is an experience. `입장권`, `로프웨이 결합권`, `패스 포함`, and `투어 포함` are ways to access it. Never merge the second axis into the first.
+
+Use these semantic roles:
+
+- `CORE_EXPERIENCE`: independently selectable content
+- `ACCESS_METHOD`: a product that directly grants or includes access to that content
+- `PURE_UTILITY`: logistics without independently selectable experience evidence
+
+Do not globally reject transport. A ropeway, cruise, sightseeing train, sky capsule, or beach train can be `CORE_EXPERIENCE`; airport transfer, SIM, insurance, rental car, and generic point-to-point transport are normally `PURE_UTILITY`.
+
+## 4. DO keywords
 
 Prefer concrete nouns or noun-action pairs that can become a reason to travel:
 
@@ -39,7 +57,7 @@ Prefer concrete nouns or noun-action pairs that can become a reason to travel:
 
 Keep a broader place only when it is independently selectable. For a product containing `도톤보리 오코노미야키 식사`, index `도톤보리` as DO and `오코노미야키` as EAT.
 
-## 4. EAT keywords
+## 5. EAT keywords
 
 Prefer concrete food, drink, restaurant experience, or food-making activity:
 
@@ -50,7 +68,7 @@ Prefer concrete food, drink, restaurant experience, or food-making activity:
 
 Prioritize products where food is purchased, reserved, included, tasted, or made. If food appears only as optional nearby advice, do not link it as a bookable food experience.
 
-## 5. Reject low-information terms
+## 6. Reject low-information terms
 
 Reject:
 
@@ -60,7 +78,7 @@ Reject:
 - logistics: 픽업, 샌딩, 이동, 와이파이, 유심, 보험
 - unsupported inference: an anime-related product does not prove `나루토`
 
-## 6. Normalize without over-merging
+## 7. Normalize without over-merging
 
 Normalize punctuation, repeated whitespace, and verified aliases.
 
@@ -78,33 +96,31 @@ Do not merge neighboring but distinct experiences:
 
 When uncertain, keep separate labels or reject the alias.
 
-## 7. Grouping
+## 8. Thematic shelves and grouping
 
 Group products under a keyword only when every product independently supports it. Do not transfer evidence from one product to another.
 
-Order without claiming personalization:
+Group experiences under populated themes such as `테마파크·작품`, `스포츠·공연`, `문화·역사`, `자연·근교`, `만들기·체험`, and `먹거리`. Themes organize discovery; they are not user preference predictions.
 
-1. evidence strength
-2. number of supporting products
-3. stable display order such as Korean alphabetical order
+Use a stable display order such as Korean alphabetical order. Do not order by sales, popularity, rating, price, or number of supporting products. Category-balanced collection is a coverage method, not a ranking signal.
 
 Do not label the first item as best or recommended.
 
-## 8. Geographic rules
+## 9. Geographic rules
 
 - Require exact city evidence from structured search metadata.
 - A city product may include a named nearby destination; keep that keyword when the itinerary explicitly includes it.
 - Expand a region to cities only after disclosing the mapping, such as `연해주 → 블라디보스토크·우수리스크`.
 - Reject products whose primary city conflicts with the requested city.
 
-## 9. Availability language
+## 10. Availability language
 
 - With no date: say the product is listed by MyRealTrip and require page confirmation.
 - With a date and non-empty options: say options were returned for that date.
 - Empty or failed option lookup: do not call it bookable for that date.
 - Never turn a search starting price into a date-specific checkout price.
 
-## 10. Product URL safety
+## 11. Product URL safety
 
 - Accept HTTPS URLs only.
 - Accept `myrealtrip.com` and its subdomains only.
@@ -113,8 +129,8 @@ Do not label the first item as best or recommended.
 - Treat HTTP 2xx and 3xx ending on an official MyRealTrip domain as reachable.
 - Omit a failed link and report the failure; never synthesize a replacement URL.
 
-## 11. Coverage language
+## 12. Coverage language
 
-- All pages and eligible details completed: `조회된 마이리얼트립 상품 전체에서`
-- Page or detail limit reached: `이번에 확인한 상품 범위에서`
+- Every returned category and all its pages/details completed: `조회된 마이리얼트립 상품 전체에서`
+- Any category page or detail limit reached: `이번에 카테고리별로 확인한 상품 범위에서`
 - API unavailable: stop; do not replace official inventory with general web knowledge.
