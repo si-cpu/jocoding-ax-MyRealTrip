@@ -119,9 +119,11 @@ Group products under a keyword only when every product independently supports it
 
 Group experiences under populated themes such as `테마파크·작품`, `스포츠·공연`, `문화·역사`, `자연·근교`, `만들기·체험`, and `먹거리`. Themes organize discovery; they are not user preference predictions.
 
-Use a stable display order such as Korean alphabetical order. Do not order by sales, popularity, rating, price, or number of supporting products. Category-balanced collection is a coverage method, not a ranking signal.
+Assign each normalized experience to exactly one best-fit theme. Use Korean alphabetical order inside `전체 보기`.
 
-Do not label the first item as best or recommended.
+Derived views may order by evidence only when their names disclose the measure: `많이 검증된 경험 TOP 5` uses distinct supporting-product count plus explicitly returned review count; `덜 노출된 경험 TOP 3` uses the smallest positive product count; `대표 경험` requires repeated independent support; `숨은 선택지` is supported but relatively less repeated.
+
+Product overlap measures MyRealTrip marketplace exposure, not Korean visitor density, quietness, or objective popularity. For operator-facing explanations, repeated support can be described as a stable content candidate and low repeated support as a content-discovery candidate. Never label the first item as best or recommended.
 
 ## 9. Geographic rules
 
@@ -150,4 +152,5 @@ Do not label the first item as best or recommended.
 
 - Every returned category and all its pages/details completed: `조회된 마이리얼트립 상품 전체에서`
 - Any category page or detail limit reached: `이번에 카테고리별로 확인한 상품 범위에서`
+- A TOP/representative/hidden view is valid only for the completed corpus or must carry the limited-range qualifier.
 - API unavailable: stop; do not replace official inventory with general web knowledge.

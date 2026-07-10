@@ -1,11 +1,11 @@
 ---
 name: map-travel-content
-description: "Turn a destination into balanced MyRealTrip-backed experience shelves, then reveal whether a selected experience is available as an admission ticket, pass, tour, activity, food product, or scenic transport. Use when a traveler asks what to do or eat and needs concrete named reasons to travel without popularity ranking or inferred personalization."
+description: "Turn all available MyRealTrip products for a destination into non-overlapping experience shelves and evidence-labeled views, then reveal purchase methods for a selected experience. Use when a traveler wants broad choice before choosing what fits them."
 ---
 
 # Map Travel Content
 
-Build an experience display shelf, not a personalized recommendation or a product-format list.
+Build an experience display shelf, not a personalized recommendation or a product-format list. Keep product cards behind experience selection so the traveler can understand the destination's appeal before comparing purchase methods.
 
 ## First response
 
@@ -21,8 +21,8 @@ Then ask only for the destination when it is missing. Date is optional.
 2. Use the official `myrealtrip` MCP server configured in the plugin's `.mcp.json`. Do not require a Partner REST API key from the traveler.
 3. From the available MyRealTrip MCP tools, use the TNA category, product search, product detail, product option, and official product-link capabilities that match the task. Never invent a tool name or call a non-MyRealTrip source as inventory.
 4. Get the destination's official product categories first. Skip the aggregate `전체/all` category and categories devoted only to SIM/Wi-Fi, travel goods, rental/convenience, or insurance. Keep transport categories because ropeways, cruises, and sightseeing trains may be experiences.
-5. Search each retained category separately without explicitly requesting popularity, rating, or price sorting. The MCP currently applies its server default when sort is omitted; category balancing reduces but does not prove removal of every server-side ranking bias.
-6. Sample candidates across every retained category shelf and deduplicate by `gid` or official product URL. Do not let one high-volume product format crowd out the others. When legacy and current categories overlap, retain the evidence once rather than showing duplicates.
+5. Search every retained category separately and continue pagination until `hasNextPage` is false. Do not impose an item cap or stop after the first page. Query sequentially when the MCP rate-limits parallel calls. Do not explicitly request popularity, rating, or price sorting.
+6. Deduplicate products across legacy/current categories by `gid` or official URL. Extract every supported experience, merge only verified aliases of the same experience, and assign each experience to exactly one best-fit thematic shelf. Do not sample or intentionally shorten the initial index.
 7. Route evidence lookup by product form:
    - admission/ticket: extract the named experience from the search title; do not fetch detail merely to discover more keywords
    - tour: fetch detail and extract independently selectable stops or activities only from complete, visible itinerary or positive inclusion evidence
@@ -30,17 +30,20 @@ Then ask only for the destination when it is missing. Date is optional.
    - food/activity/scenic transport: use the concrete title first and fetch detail only when the title is ambiguous or the traveler expands it
 8. For each candidate, decide separately: `CORE_EXPERIENCE`, `ACCESS_METHOD`, or `PURE_UTILITY`. A ropeway, cruise, or sightseeing train can be the experience; an airport transfer, SIM, insurance, or generic rail pass is utility unless it explicitly names an independently selectable attraction.
 9. For tours, extract concrete content from titles, inclusions, and itineraries. Never treat exclusions as positive evidence. Apply the evidence contract and normalize only verified aliases.
-10. Group accepted experiences into populated thematic shelves, then split food into `뭐 먹지?`. Sort stably by name; never rerank by popularity, rating, price, or supporting-product count.
-11. Show experiences first. After the user selects one, group independently supported products under purchase methods such as `입장권`, `패스 포함`, `투어 포함`, `체험`, `식사`, or `관광형 이동수단`.
-12. Before displaying a product link, accept only HTTPS links on `myrealtrip.com` or its subdomains returned by the official MCP. If the local validation script is executable, additionally run `../../scripts/myrealtrip_api.py url-check --url PRODUCT_URL`.
-13. When a date is supplied, verify every expanded product with the MCP TNA option capability for that date.
+10. Group accepted experiences into populated thematic shelves, then split food into `뭐 먹지?`. Provide five evidence-labeled views: `전체 보기` contains every non-overlapping experience; `많이 검증된 경험 TOP 5` uses distinct supporting products and returned review evidence; `덜 노출된 경험 TOP 3` uses the smallest positive supporting-product count; `대표 경험` repeats across products; `숨은 선택지` has support but relatively less repetition.
+11. Disclose the fields used and use normalized name as a stable tie-break. Frame repeated support as MyRealTrip marketplace validation and low repeated support as lower marketplace exposure or a content-discovery candidate. Never translate product overlap into `한국인이 적은/많은 곳`, visitor volume, quietness, or objective popularity.
+12. Show experiences first. After selection, group independently supported products under `입장권`, `패스 포함`, `투어 포함`, `체험`, `식사`, or `관광형 이동수단`.
+13. Before displaying a link, accept only HTTPS MyRealTrip URLs returned by the official MCP. If executable, additionally run `../../scripts/myrealtrip_api.py url-check --url PRODUCT_URL`.
+14. When a date is supplied, verify every expanded product with the MCP TNA option capability.
 
 ## Output
 
-Use this structure:
+Start with the view selector and default to `전체 보기`:
 
 ```markdown
 ## {여행지}에서 발견할 수 있는 경험
+
+보기: 전체 보기 | 많이 검증된 경험 TOP 5 | 덜 노출된 경험 TOP 3 | 대표 경험 | 숨은 선택지
 
 ### 자연·근교
 
@@ -58,7 +61,7 @@ Use this structure:
 
 Do not show empty sections. If one section has no supported keyword, say that no linked content was confirmed in the checked product range.
 
-Do not show empty themes. Keep the initial shelf scannable and offer to unfold more items when evidence is abundant.
+Do not show empty themes. In `전체 보기`, show every indexed experience. Use headings or collapsible sections for scanability, not omission.
 
 When expanding a selected experience:
 
@@ -79,8 +82,10 @@ State `이번에 확인한 상품 범위에서` when collection metadata says re
 ## Judgment boundaries
 
 - Do not choose the best product for the user.
+- Do not put concrete product cards before the destination experience map unless the user directly asks for a product list.
 - Do not infer personality, budget, companions, or hidden preferences.
 - Do not use popularity, rating, or price as evidence that a keyword fits the user.
+- Do not call low product overlap `한국인이 적은 곳`, `한적한 곳`, or `덜 방문한 곳`.
 - Do not infer `나다움`; let the traveler express it by selecting an experience.
 - Never display `입장권`, `패스`, `투어` as experience keywords. They are purchase methods shown only after selection.
 - Do not mine admission-ticket descriptions for extra nearby attractions; the ticket title defines its initial experience.
@@ -95,10 +100,24 @@ State `이번에 확인한 상품 범위에서` when collection metadata says re
 
 - MCP unavailable or unauthorized: explain that the official MyRealTrip connection is unavailable and stop. Do not ask the traveler for a Partner API key.
 - Empty category list or city result: state that no linked product was found; do not fill the gap with web suggestions.
+- Rate limit: retry sequentially after the server-provided delay. If pagination remains incomplete, label every view `이번에 확인한 상품 범위에서` and do not claim total coverage.
 - Detail unavailable: use only content directly supported by the search title.
 - Tour detail truncated or missing structured itinerary: use only complete names visible in the search title or positive detail fields. Do not reconstruct clipped text or use excluded admission fees as proof of a visit.
 - Date options empty or unknown: provide the product only as a discovery link, not as available for that date.
 - URL validation failure: omit the broken link, state that the official product page could not be reached, and do not invent a replacement URL.
+
+## Inappropriate request handling
+
+Refuse or safely redirect requests that exceed travel discovery and official product-linking scope:
+
+- Do not invent MyRealTrip product URLs, ticket availability, stock, prices, rankings, or official inclusion evidence.
+- Do not ask for, store, echo, or place in logs API keys, tokens, coupon codes, account data, traveler PII, booking history, or payment data.
+- Do not perform booking, payment, cancellation, refund, account, or reservation changes.
+- Do not infer personal traits, budget, companions, nationality, or hidden preferences from the request.
+- Do not translate product overlap into Korean visitor density, quietness, real-world crowd size, or objective popularity.
+- Do not connect a product to an experience using exclusions, clipped descriptions, broad nearby-area mentions, or general web knowledge.
+
+When a request falls into these cases, state the boundary briefly and offer the safe supported action, such as showing official MyRealTrip-linked experiences, checking purchase methods for a selected experience, or asking the traveler to confirm availability on the official product page.
 
 ## Developer-only REST fallback
 

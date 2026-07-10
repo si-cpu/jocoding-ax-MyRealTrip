@@ -369,9 +369,9 @@ def category_is_discovery_eligible(category: dict[str, str]) -> bool:
 
 
 def collect_category_shelves(
-    city: str, *, size: int = 100, max_pages_per_category: int = 1
+    city: str, *, size: int = 100, max_pages_per_category: int = 0
 ) -> dict[str, Any]:
-    """Collect each official product category separately to reduce popularity bias."""
+    """Collect every page of each official category unless a limit is explicit."""
     raw_categories = unwrap(post("/v1/products/tna/categories", {"city": city})) or []
     returned_categories = category_entries(raw_categories)
     categories = [
@@ -515,7 +515,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--city", required=True)
     p.add_argument("--size", type=int, default=100)
     p.add_argument(
-        "--max-pages-per-category", type=int, default=1, help="0 means all pages"
+        "--max-pages-per-category", type=int, default=0, help="0 means all pages"
     )
     add_common_arguments(p)
 
