@@ -1,0 +1,11 @@
+services:
+  experience-stamp-map:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: experience-stamp-map-web:local
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      NEXT_TELEMETRY_DISABLED: "1"

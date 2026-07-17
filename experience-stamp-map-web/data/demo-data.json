@@ -1,0 +1,2870 @@
+{
+  "cities": [
+    {
+      "id": "osaka",
+      "country": "일본",
+      "name": "오사카",
+      "positioning": "입장권·패스·미식이 풍부한 검증형 도시",
+      "demandSignal": "대표 경험 선명 / 공식 상품 연결 많음",
+      "experiences": [
+        {
+          "id": "usj",
+          "title": "유니버설 스튜디오 재팬",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 18,
+          "repeats": 42,
+          "priceBand": "8만~14만원",
+          "tags": [
+            "대표 경험",
+            "많이 검증된 경험 TOP 5",
+            "입장권 중심"
+          ],
+          "purchaseMethods": [
+            "스튜디오 입장권",
+            "익스프레스 패스",
+            "닌텐도 월드 포함 여부 확인",
+            "공식 상품 URL 비교"
+          ],
+          "businessHint": "반복 근거가 많아 대표 경험으로 노출하고, 패스 포함 여부를 명확히 분리해야 한다.",
+          "officialAssets": []
+        },
+        {
+          "id": "harukas",
+          "title": "아베노 하루카스 300",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 7,
+          "repeats": 13,
+          "priceBand": "1만~3만원",
+          "tags": [
+            "전망대",
+            "단독 입장권",
+            "패스 대체"
+          ],
+          "purchaseMethods": [
+            "단독 입장권",
+            "오사카 패스 포함 여부",
+            "하루카스 방문이 명시된 투어",
+            "날짜별 예약 가능 여부"
+          ],
+          "businessHint": "독립 전망대라 단독 입장권 비교가 중심이고, 패스·투어는 대체 이용 방식으로 붙인다.",
+          "officialAssets": [
+            {
+              "id": "asset-harukas",
+              "asset_type": "ATTRACTION",
+              "name": "아베노 하루카스 300",
+              "category": "전망대",
+              "lat": 34.6459,
+              "lng": 135.5135,
+              "official_url": "https://www.abenoharukas-300.jp/",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "id": "umeda-sky",
+          "title": "우메다 스카이빌딩 공중정원",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 6,
+          "repeats": 12,
+          "priceBand": "1만~3만원",
+          "tags": [
+            "전망대",
+            "대표 경험",
+            "도심 야경"
+          ],
+          "purchaseMethods": [
+            "단독 입장권",
+            "패스 포함 여부",
+            "야경 시간대 비교",
+            "공식 상품 URL 비교"
+          ],
+          "businessHint": "전망대 계열 경험으로 하루카스와 비교가 가능해 전망대 선택 피로를 줄일 수 있다.",
+          "officialAssets": [
+            {
+              "id": "asset-umeda-sky",
+              "asset_type": "ATTRACTION",
+              "name": "우메다 스카이빌딩 공중정원",
+              "category": "전망대",
+              "lat": 34.7053,
+              "lng": 135.4906,
+              "official_url": "https://www.skybldg.co.jp/",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "id": "osaka-castle",
+          "title": "오사카성 천수각",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 5,
+          "repeats": 11,
+          "priceBand": "무료~2만원",
+          "tags": [
+            "역사",
+            "공식 자산",
+            "도보"
+          ],
+          "purchaseMethods": [
+            "단독 입장권",
+            "도보 코스",
+            "패스 포함 여부",
+            "공식 자산 확인"
+          ],
+          "businessHint": "역사·도보·공원 동선을 함께 묶을 수 있는 대표 공식 자산이다.",
+          "officialAssets": [
+            {
+              "id": "asset-osaka-castle",
+              "asset_type": "ATTRACTION",
+              "name": "오사카성 천수각",
+              "category": "역사",
+              "lat": 34.6873,
+              "lng": 135.5262,
+              "official_url": "https://www.osakacastle.net/",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "id": "kaiyukan",
+          "title": "가이유칸",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 4,
+          "repeats": 9,
+          "priceBand": "2만~5만원",
+          "tags": [
+            "실내",
+            "가족",
+            "베이 에어리어"
+          ],
+          "purchaseMethods": [
+            "단독 입장권",
+            "덴포잔 연계",
+            "실내 대안",
+            "날짜별 예약 가능 여부"
+          ],
+          "businessHint": "베이 에어리어에서 가족/실내 대안으로 강한 시설 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-kaiyukan",
+              "asset_type": "ATTRACTION",
+              "name": "가이유칸",
+              "category": "수족관",
+              "lat": 34.6545,
+              "lng": 135.4289,
+              "official_url": "https://www.kaiyukan.com/",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "id": "dotonbori",
+          "title": "도톤보리",
+          "category": "뭐 하지",
+          "evidence": "지역 공식 자산",
+          "products": 2,
+          "repeats": 8,
+          "priceBand": "무료",
+          "tags": [
+            "대표 장소",
+            "야간 산책 가능",
+            "스토리 엔딩"
+          ],
+          "purchaseMethods": [
+            "무료 산책",
+            "스냅/야경 투어",
+            "먹거리 지도",
+            "스토리 코스"
+          ],
+          "businessHint": "장소 앵커를 먼저 고르게 하고, 야간 산책·스냅·먹거리 상품은 선택 이후의 이용 방식으로 붙인다.",
+          "officialAssets": [
+            {
+              "id": "asset-dotonbori",
+              "asset_type": "ATTRACTION",
+              "name": "도톤보리",
+              "category": "야간 산책",
+              "lat": 34.6687,
+              "lng": 135.5013,
+              "official_url": "https://osaka-info.jp/",
+              "confidence": 0.8
+            }
+          ]
+        },
+        {
+          "id": "hep-five",
+          "title": "헵파이브 대관람차",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 3,
+          "repeats": 7,
+          "priceBand": "1만원 내외",
+          "tags": [
+            "숨은 선택지",
+            "짧은 체류",
+            "야경"
+          ],
+          "purchaseMethods": [
+            "단독 탑승권",
+            "도심 야경 코스",
+            "패스 대체",
+            "짧은 일정 후보"
+          ],
+          "businessHint": "도심 야경과 짧은 체류 경험으로 숨은 선택지에 가깝다.",
+          "officialAssets": []
+        },
+        {
+          "id": "tsutenkaku",
+          "title": "츠텐카쿠",
+          "category": "뭐 하지",
+          "evidence": "지역 공식 자산",
+          "products": 2,
+          "repeats": 7,
+          "priceBand": "1만~3만원",
+          "tags": [
+            "레트로 전망",
+            "신세카이",
+            "숨은 선택지"
+          ],
+          "purchaseMethods": [
+            "단독 입장권",
+            "신세카이 동선",
+            "쿠시카츠 결합",
+            "야경 시간대 비교"
+          ],
+          "businessHint": "신세카이와 쿠시카츠 동선을 함께 만드는 레트로 전망 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-tsutenkaku",
+              "asset_type": "ATTRACTION",
+              "name": "츠텐카쿠",
+              "category": "전망/레트로",
+              "lat": 34.6525,
+              "lng": 135.5063,
+              "official_url": "https://www.tsutenkaku.co.jp/",
+              "confidence": 0.82
+            }
+          ]
+        },
+        {
+          "id": "takoyaki",
+          "title": "타코야키",
+          "category": "뭐 먹지",
+          "evidence": "지역 공식 자산",
+          "products": 2,
+          "repeats": 7,
+          "priceBand": "5천~2만원",
+          "tags": [
+            "대표 음식",
+            "거리 먹거리",
+            "도톤보리"
+          ],
+          "purchaseMethods": [
+            "거리 먹거리",
+            "도톤보리 결합",
+            "난바 야식",
+            "예약 불필요 후보"
+          ],
+          "businessHint": "도톤보리·난바 거리 동선에서 가볍게 선택하는 대표 먹거리 앵커다.",
+          "officialAssets": []
+        },
+        {
+          "id": "shinsekai",
+          "title": "신세카이",
+          "category": "뭐 하지",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 7,
+          "priceBand": "무료~3만원",
+          "tags": [
+            "거리 앵커",
+            "로컬 분위기",
+            "먹거리 연결"
+          ],
+          "purchaseMethods": [
+            "무료 산책",
+            "쿠시카츠 결합",
+            "츠텐카쿠 연계",
+            "저녁 거리 코스"
+          ],
+          "businessHint": "오사카다운 거리 분위기와 먹거리 선택을 동시에 보여주는 장소 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-shinsekai",
+              "asset_type": "ATTRACTION",
+              "name": "신세카이",
+              "category": "거리",
+              "lat": 34.6526,
+              "lng": 135.5062,
+              "official_url": "https://osaka-info.jp/",
+              "confidence": 0.8
+            }
+          ]
+        },
+        {
+          "id": "tempozan",
+          "title": "덴포잔",
+          "category": "뭐 하지",
+          "evidence": "지역 공식 자산",
+          "products": 2,
+          "repeats": 6,
+          "priceBand": "무료~3만원",
+          "tags": [
+            "베이 에어리어",
+            "대관람차",
+            "항구 연결"
+          ],
+          "purchaseMethods": [
+            "무료 산책",
+            "가이유칸 연계",
+            "오사카항 연결",
+            "대관람차 후보"
+          ],
+          "businessHint": "오사카항·가이유칸·대관람차를 연결하는 베이 에어리어 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-tempozan",
+              "asset_type": "ATTRACTION",
+              "name": "덴포잔",
+              "category": "베이 에어리어",
+              "lat": 34.6557,
+              "lng": 135.4305,
+              "official_url": "https://osaka-info.jp/",
+              "confidence": 0.82
+            }
+          ]
+        },
+        {
+          "id": "kushikatsu",
+          "title": "쿠시카츠",
+          "category": "뭐 먹지",
+          "evidence": "지역 공식 자산",
+          "products": 2,
+          "repeats": 6,
+          "priceBand": "1만~4만원",
+          "tags": [
+            "로컬 음식",
+            "신세카이",
+            "저녁 후보"
+          ],
+          "purchaseMethods": [
+            "신세카이 식사",
+            "로컬 술집 후보",
+            "츠텐카쿠 결합",
+            "저녁 시간대 추천"
+          ],
+          "businessHint": "신세카이·츠텐카쿠와 결합되는 오사카 로컬 먹거리 앵커다.",
+          "officialAssets": []
+        },
+        {
+          "id": "shinsaibashi",
+          "title": "신사이바시",
+          "category": "뭐 하지",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 6,
+          "priceBand": "무료~쇼핑별도",
+          "tags": [
+            "쇼핑",
+            "거리 산책",
+            "난바 연결"
+          ],
+          "purchaseMethods": [
+            "쇼핑 거리 산책",
+            "도톤보리 연결",
+            "카페 후보",
+            "비예약 코스"
+          ],
+          "businessHint": "난바·도톤보리와 이어지는 쇼핑/거리 산책 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-shinsaibashi",
+              "asset_type": "ATTRACTION",
+              "name": "신사이바시",
+              "category": "쇼핑 거리",
+              "lat": 34.6745,
+              "lng": 135.5004,
+              "official_url": "https://osaka-info.jp/",
+              "confidence": 0.78
+            }
+          ]
+        },
+        {
+          "id": "okonomiyaki",
+          "title": "오코노미야키",
+          "category": "뭐 먹지",
+          "evidence": "지역 공식 자산",
+          "products": 2,
+          "repeats": 5,
+          "priceBand": "1만~4만원",
+          "tags": [
+            "먹거리",
+            "숨은 선택지",
+            "콘텐츠 후보"
+          ],
+          "purchaseMethods": [
+            "미식 투어",
+            "지역 식당 후보",
+            "지도형 콘텐츠",
+            "예약 상품 부족 표시"
+          ],
+          "businessHint": "음식 앵커를 먼저 고르게 하고, 모던야키·미식 투어·식당 후보는 하위 방식으로 붙인다.",
+          "officialAssets": []
+        },
+        {
+          "id": "sumiyoshi-taisha",
+          "title": "스미요시타이샤",
+          "category": "뭐 하지",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 5,
+          "priceBand": "무료~1만원",
+          "tags": [
+            "신사",
+            "로컬",
+            "숨은 선택지"
+          ],
+          "purchaseMethods": [
+            "무료 방문",
+            "로컬 신사 코스",
+            "도시철도 이동",
+            "혼잡 낮은 시간대"
+          ],
+          "businessHint": "중심 관광지와 다른 신사/로컬 분위기를 보여주는 숨은 장소 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-sumiyoshi-taisha",
+              "asset_type": "ATTRACTION",
+              "name": "스미요시타이샤",
+              "category": "신사",
+              "lat": 34.6127,
+              "lng": 135.4938,
+              "official_url": "https://www.sumiyoshitaisha.net/",
+              "confidence": 0.8
+            }
+          ]
+        },
+        {
+          "id": "nakanoshima",
+          "title": "나카노시마",
+          "category": "뭐 하지",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 5,
+          "priceBand": "무료",
+          "tags": [
+            "강변",
+            "산책",
+            "카페"
+          ],
+          "purchaseMethods": [
+            "강변 산책",
+            "카페 결합",
+            "미술관 후보",
+            "비예약 여백 코스"
+          ],
+          "businessHint": "강변 산책·카페·미술관 후보를 묶는 느슨한 도심 휴식 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-nakanoshima",
+              "asset_type": "ATTRACTION",
+              "name": "나카노시마",
+              "category": "강변",
+              "lat": 34.6914,
+              "lng": 135.5018,
+              "official_url": "https://osaka-info.jp/",
+              "confidence": 0.78
+            }
+          ]
+        },
+        {
+          "id": "amerika-mura",
+          "title": "아메리카무라",
+          "category": "뭐 하지",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 5,
+          "priceBand": "무료~쇼핑별도",
+          "tags": [
+            "거리 문화",
+            "카페",
+            "편집숍"
+          ],
+          "purchaseMethods": [
+            "거리 문화 산책",
+            "카페/편집숍",
+            "신사이바시 연결",
+            "짧은 체류 후보"
+          ],
+          "businessHint": "젊은 거리 분위기와 카페/편집숍 탐색을 보여주는 선택지다.",
+          "officialAssets": [
+            {
+              "id": "asset-amerika-mura",
+              "asset_type": "ATTRACTION",
+              "name": "아메리카무라",
+              "category": "거리 문화",
+              "lat": 34.672,
+              "lng": 135.4975,
+              "official_url": "https://osaka-info.jp/",
+              "confidence": 0.76
+            }
+          ]
+        },
+        {
+          "id": "ramen-osaka",
+          "title": "오사카 라멘",
+          "category": "뭐 먹지",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 4,
+          "priceBand": "1만~2만원",
+          "tags": [
+            "먹거리",
+            "야식",
+            "짧은 식사"
+          ],
+          "purchaseMethods": [
+            "야식 후보",
+            "난바/우메다 식사",
+            "짧은 식사",
+            "예약 불필요 후보"
+          ],
+          "businessHint": "밤 일정 이후 짧게 붙일 수 있는 식사 후보로 먹거리 폭을 넓힌다.",
+          "officialAssets": []
+        },
+        {
+          "id": "kuromon",
+          "title": "구로몬시장 먹거리",
+          "category": "뭐 먹지",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 4,
+          "priceBand": "1만~5만원",
+          "tags": [
+            "먹거리",
+            "시장",
+            "지도 앵커"
+          ],
+          "purchaseMethods": [
+            "시장 산책",
+            "미식 지도",
+            "오전 코스",
+            "상품화 후보"
+          ],
+          "businessHint": "시장형 먹거리 경험은 상품보다 공식 자산과 지도 앵커로 보여주는 편이 자연스럽다.",
+          "officialAssets": []
+        },
+        {
+          "id": "kansai-airport",
+          "title": "간사이 국제공항",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 4,
+          "priceBand": "공항 이동비 별도",
+          "tags": [
+            "공항 앵커",
+            "입출국",
+            "숙소 후보 연결"
+          ],
+          "purchaseMethods": [
+            "공항→난바 철도 이동",
+            "공항→우메다 철도 이동",
+            "라피트/JR 비교",
+            "도착시간 기준 타임라인"
+          ],
+          "businessHint": "오사카 여행의 입출국 앵커로 난바·우메다 숙소 후보와 연결한다.",
+          "officialAssets": [
+            {
+              "id": "asset-kansai-airport",
+              "asset_type": "AIRPORT",
+              "name": "간사이 국제공항",
+              "category": "공항",
+              "lat": 34.4347,
+              "lng": 135.2442,
+              "official_url": "https://www.kansai-airport.or.jp/",
+              "confidence": 0.85
+            }
+          ]
+        },
+        {
+          "id": "shin-osaka-station",
+          "title": "신오사카역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 4,
+          "priceBand": "교통비 별도",
+          "tags": [
+            "역 앵커",
+            "광역 이동",
+            "신칸센"
+          ],
+          "purchaseMethods": [
+            "신칸센/광역 이동",
+            "교토·고베 연계",
+            "시내 지하철 환승",
+            "짐 보관 후보"
+          ],
+          "businessHint": "교토·고베·나라 확장 일정과 오사카 시내를 잇는 광역 이동 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-shin-osaka",
+              "asset_type": "STATION",
+              "name": "신오사카역",
+              "category": "역",
+              "lat": 34.7335,
+              "lng": 135.5001,
+              "official_url": null,
+              "confidence": 0.82
+            }
+          ]
+        },
+        {
+          "id": "umeda-station",
+          "title": "우메다역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 4,
+          "priceBand": "지하철/철도비 별도",
+          "tags": [
+            "지하철/철도",
+            "환승",
+            "우메다"
+          ],
+          "purchaseMethods": [
+            "우메다 환승",
+            "스카이빌딩 접근",
+            "헵파이브 접근",
+            "우메다 숙소 후보 연결"
+          ],
+          "businessHint": "우메다 스카이빌딩·헵파이브·우메다 숙소 후보를 묶는 북부 환승 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-umeda-station",
+              "asset_type": "SUBWAY_STATION",
+              "name": "우메다역",
+              "category": "지하철/철도",
+              "lat": 34.7048,
+              "lng": 135.498,
+              "official_url": null,
+              "confidence": 0.8
+            }
+          ]
+        },
+        {
+          "id": "namba-station",
+          "title": "난바역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 3,
+          "priceBand": "교통비 별도",
+          "tags": [
+            "역 접근",
+            "도시 내 이동",
+            "일정 최적화"
+          ],
+          "purchaseMethods": [
+            "역 접근성 비교",
+            "도보/지하철 이동",
+            "짐 보관 후보",
+            "동선 병목 확인"
+          ],
+          "businessHint": "도톤보리·구로몬시장·숙소 후보를 연결하는 도시 내 이동 기준점이다.",
+          "officialAssets": [
+            {
+              "id": "asset-namba",
+              "asset_type": "TRANSIT_ANCHOR",
+              "name": "난바역",
+              "category": "도시 내 이동",
+              "lat": 34.6662,
+              "lng": 135.5018,
+              "official_url": null,
+              "confidence": 0.75
+            }
+          ]
+        },
+        {
+          "id": "hommachi-station",
+          "title": "혼마치역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 3,
+          "priceBand": "지하철비 별도",
+          "tags": [
+            "지하철",
+            "환승",
+            "중간 거점"
+          ],
+          "purchaseMethods": [
+            "미도스지선 환승",
+            "주오선 환승",
+            "난바↔우메다 중간 이동",
+            "오사카성 방향 이동"
+          ],
+          "businessHint": "난바·우메다·오사카성을 잇는 지하철 환승 기준점이다.",
+          "officialAssets": [
+            {
+              "id": "asset-hommachi-station",
+              "asset_type": "SUBWAY_STATION",
+              "name": "혼마치역",
+              "category": "지하철",
+              "lat": 34.6814,
+              "lng": 135.5016,
+              "official_url": null,
+              "confidence": 0.78
+            }
+          ]
+        },
+        {
+          "id": "osakako-station",
+          "title": "오사카코역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 3,
+          "priceBand": "지하철비 별도",
+          "tags": [
+            "지하철",
+            "베이 에어리어",
+            "항구 접근"
+          ],
+          "purchaseMethods": [
+            "베이 에어리어 접근",
+            "오사카항 연결",
+            "덴포잔 방향 이동",
+            "도심 복귀 동선"
+          ],
+          "businessHint": "오사카항·덴포잔 베이 에어리어 접근을 위한 지하철 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-osakako-station",
+              "asset_type": "SUBWAY_STATION",
+              "name": "오사카코역",
+              "category": "지하철",
+              "lat": 34.6545,
+              "lng": 135.4344,
+              "official_url": null,
+              "confidence": 0.78
+            }
+          ]
+        },
+        {
+          "id": "osaka-port",
+          "title": "오사카항",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 3,
+          "priceBand": "교통비 별도",
+          "tags": [
+            "항구 앵커",
+            "베이 에어리어",
+            "도시 내 이동"
+          ],
+          "purchaseMethods": [
+            "베이 에어리어 이동",
+            "덴포잔 연계",
+            "지하철 이동",
+            "크루즈/항구 동선 후보"
+          ],
+          "businessHint": "덴포잔·베이 에어리어·크루즈성 이동을 묶는 항구 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-osaka-port",
+              "asset_type": "PORT",
+              "name": "오사카항",
+              "category": "항구",
+              "lat": 34.6539,
+              "lng": 135.4294,
+              "official_url": null,
+              "confidence": 0.78
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fukuoka",
+      "country": "일본",
+      "name": "후쿠오카",
+      "positioning": "야타이·도심 미식·짧은 동선이 강한 야간형 도시",
+      "demandSignal": "공식 야타이 자산과 T&A 상품 매칭 여지 큼",
+      "experiences": [
+        {
+          "id": "nakasu-yatai",
+          "title": "나카스 야타이",
+          "category": "뭐 먹지",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 12,
+          "priceBand": "1만~4만원",
+          "tags": [
+            "먹거리",
+            "공식 야타이",
+            "야간 코스"
+          ],
+          "purchaseMethods": [
+            "공식 야타이 데이터",
+            "야간 미식 코스",
+            "지도 앵커",
+            "상품화 후보"
+          ],
+          "businessHint": "공식 야타이 데이터셋으로 검증 가능한 야간 미식 대표 경험이다.",
+          "officialAssets": [
+            {
+              "id": "asset-nakasu-yatai",
+              "asset_type": "FOOD_STALL",
+              "name": "나카스 야타이",
+              "category": "야타이",
+              "lat": 33.5914,
+              "lng": 130.4063,
+              "official_url": "https://yokanavi.com/yatai/",
+              "confidence": 0.92
+            }
+          ]
+        },
+        {
+          "id": "tenjin-yatai",
+          "title": "텐진 야타이",
+          "category": "뭐 먹지",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 10,
+          "priceBand": "1만~4만원",
+          "tags": [
+            "먹거리",
+            "도심 야타이",
+            "야간 앵커"
+          ],
+          "purchaseMethods": [
+            "공식 야타이 데이터",
+            "도심 야식",
+            "지도 앵커",
+            "상품화 후보"
+          ],
+          "businessHint": "도심 숙소와 연결하기 좋은 야간 앵커라 짧은 여행 동선에 적합하다.",
+          "officialAssets": [
+            {
+              "id": "asset-tenjin-yatai",
+              "asset_type": "FOOD_STALL",
+              "name": "텐진 야타이",
+              "category": "야타이",
+              "lat": 33.5903,
+              "lng": 130.3991,
+              "official_url": "https://yokanavi.com/yatai/",
+              "confidence": 0.92
+            }
+          ]
+        },
+        {
+          "id": "tonkotsu-ramen",
+          "title": "하카타 돈코츠 라멘",
+          "category": "뭐 먹지",
+          "evidence": "지역 공식 자산",
+          "products": 2,
+          "repeats": 9,
+          "priceBand": "1만~2만원",
+          "tags": [
+            "대표 음식",
+            "짧은 식사",
+            "콘텐츠 후보"
+          ],
+          "purchaseMethods": [
+            "대표 음식 경험",
+            "라멘 지도",
+            "짧은 식사",
+            "상품화 후보"
+          ],
+          "businessHint": "대표 음식이지만 특정 식당 추천보다 먹거리 경험 단위로 보여주는 편이 좋다.",
+          "officialAssets": []
+        },
+        {
+          "id": "dazaifu",
+          "title": "다자이후",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 4,
+          "repeats": 8,
+          "priceBand": "2만~8만원",
+          "tags": [
+            "대표 장소",
+            "근교",
+            "반나절 가능"
+          ],
+          "purchaseMethods": [
+            "반나절 투어",
+            "교통 직접 이동",
+            "가이드 투어",
+            "날짜별 예약 가능 여부"
+          ],
+          "businessHint": "근교 장소 앵커를 먼저 보여주고, 반나절 투어·교통 직접 이동은 선택 이후의 이용 방식으로 비교한다.",
+          "officialAssets": [
+            {
+              "id": "asset-dazaifu",
+              "asset_type": "ATTRACTION",
+              "name": "다자이후",
+              "category": "근교",
+              "lat": 33.5198,
+              "lng": 130.5347,
+              "official_url": "https://www.dazaifutenmangu.or.jp/",
+              "confidence": 0.82
+            }
+          ]
+        },
+        {
+          "id": "canal-city",
+          "title": "캐널시티 하카타",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 3,
+          "repeats": 7,
+          "priceBand": "무료~3만원",
+          "tags": [
+            "쇼핑",
+            "비 오는 날",
+            "도심형"
+          ],
+          "purchaseMethods": [
+            "도심 방문",
+            "공연/쇼핑 결합",
+            "비 오는 날 대안",
+            "공식 상품 URL 비교"
+          ],
+          "businessHint": "쇼핑·공연·식사를 한 번에 묶는 도심형 경험으로 비 오는 날 대안이 된다.",
+          "officialAssets": []
+        },
+        {
+          "id": "fukuoka-tower",
+          "title": "후쿠오카 타워",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 3,
+          "repeats": 6,
+          "priceBand": "1만~3만원",
+          "tags": [
+            "전망",
+            "야경",
+            "해변 동선"
+          ],
+          "purchaseMethods": [
+            "단독 입장권",
+            "야경 시간대",
+            "해변 코스",
+            "공식 상품 URL 비교"
+          ],
+          "businessHint": "야경·해변 동선과 결합하기 좋은 전망 경험이다.",
+          "officialAssets": []
+        },
+        {
+          "id": "ohori-park",
+          "title": "오호리공원 산책",
+          "category": "뭐 하지",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 6,
+          "priceBand": "무료",
+          "tags": [
+            "숨은 선택지",
+            "산책",
+            "무료"
+          ],
+          "purchaseMethods": [
+            "무료 산책",
+            "오전 회복 코스",
+            "카페 결합",
+            "공식 자산 확인"
+          ],
+          "businessHint": "상품 연결은 약하지만 일정의 여백과 회복감을 주는 숨은 선택지다.",
+          "officialAssets": []
+        },
+        {
+          "id": "hakata-station",
+          "title": "하카타역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 5,
+          "priceBand": "교통비 별도",
+          "tags": [
+            "역 앵커",
+            "도시 내 이동",
+            "시간표"
+          ],
+          "purchaseMethods": [
+            "역 앵커",
+            "공항 연결",
+            "도심 이동",
+            "타임라인 기준점"
+          ],
+          "businessHint": "공항·야타이·도심 관광지를 연결하는 핵심 시간표 기준점이다.",
+          "officialAssets": [
+            {
+              "id": "asset-hakata-station",
+              "asset_type": "TRANSIT_ANCHOR",
+              "name": "하카타역",
+              "category": "역 앵커",
+              "lat": 33.5902,
+              "lng": 130.4207,
+              "official_url": null,
+              "confidence": 0.8
+            }
+          ]
+        },
+        {
+          "id": "fukuoka-airport",
+          "title": "후쿠오카 공항",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 4,
+          "priceBand": "교통비 별도",
+          "tags": [
+            "공항 앵커",
+            "도심 접근",
+            "도시 내 이동"
+          ],
+          "purchaseMethods": [
+            "공항 앵커",
+            "도심 이동",
+            "출발/도착 시간",
+            "타임라인 기준점"
+          ],
+          "businessHint": "공항 접근성이 강한 도시라 타임라인 첫 이동 앵커로 중요하다.",
+          "officialAssets": [
+            {
+              "id": "asset-fukuoka-airport",
+              "asset_type": "TRANSIT_ANCHOR",
+              "name": "후쿠오카 공항",
+              "category": "공항 앵커",
+              "lat": 33.5859,
+              "lng": 130.4507,
+              "official_url": null,
+              "confidence": 0.8
+            }
+          ]
+        },
+        {
+          "id": "tenjin-station",
+          "title": "텐진역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 4,
+          "priceBand": "교통비 별도",
+          "tags": [
+            "역 앵커",
+            "도심 이동",
+            "야간 동선"
+          ],
+          "purchaseMethods": [
+            "도심 환승",
+            "야타이 접근",
+            "쇼핑 동선",
+            "숙소 후보 연결"
+          ],
+          "businessHint": "텐진 야타이·쇼핑·숙소 후보를 연결하는 도심 이동 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-tenjin-station",
+              "asset_type": "STATION",
+              "name": "텐진역",
+              "category": "역",
+              "lat": 33.5913,
+              "lng": 130.3989,
+              "official_url": null,
+              "confidence": 0.78
+            }
+          ]
+        },
+        {
+          "id": "nakasu-kawabata-station",
+          "title": "나카스카와바타역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 3,
+          "priceBand": "지하철비 별도",
+          "tags": [
+            "지하철",
+            "나카스",
+            "야간 동선"
+          ],
+          "purchaseMethods": [
+            "나카스 접근",
+            "캐널시티 접근",
+            "하카타·텐진 사이 이동",
+            "야간 복귀 동선"
+          ],
+          "businessHint": "나카스 야타이·캐널시티·하카타항 사이 야간 동선을 줄이는 지하철 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-nakasu-kawabata-station",
+              "asset_type": "SUBWAY_STATION",
+              "name": "나카스카와바타역",
+              "category": "지하철",
+              "lat": 33.5942,
+              "lng": 130.4061,
+              "official_url": null,
+              "confidence": 0.78
+            }
+          ]
+        },
+        {
+          "id": "ohori-koen-station",
+          "title": "오호리공원역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 3,
+          "priceBand": "지하철비 별도",
+          "tags": [
+            "지하철",
+            "공원",
+            "서쪽 동선"
+          ],
+          "purchaseMethods": [
+            "오호리공원 접근",
+            "후쿠오카 타워 방향 이동",
+            "오전 산책 동선",
+            "도심 복귀 동선"
+          ],
+          "businessHint": "오호리공원과 후쿠오카 타워 방향을 잇는 서쪽 지하철 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-ohori-koen-station",
+              "asset_type": "SUBWAY_STATION",
+              "name": "오호리공원역",
+              "category": "지하철",
+              "lat": 33.5907,
+              "lng": 130.3797,
+              "official_url": null,
+              "confidence": 0.78
+            }
+          ]
+        },
+        {
+          "id": "hakata-port",
+          "title": "하카타항",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 3,
+          "priceBand": "항구 이동비 별도",
+          "tags": [
+            "항구 앵커",
+            "베이사이드",
+            "도시 내 이동"
+          ],
+          "purchaseMethods": [
+            "항구 앵커",
+            "베이사이드 이동",
+            "하카타역 연결",
+            "여객터미널 기준점"
+          ],
+          "businessHint": "여객터미널·베이사이드·도심 야간 동선을 연결하는 항구 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-hakata-port",
+              "asset_type": "PORT",
+              "name": "하카타항",
+              "category": "항구",
+              "lat": 33.6064,
+              "lng": 130.4017,
+              "official_url": null,
+              "confidence": 0.78
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "busan",
+      "country": "한국",
+      "name": "부산",
+      "positioning": "해안 동선·시장 미식·야경이 타임라인으로 살아나는 도시",
+      "demandSignal": "역/해변/시장 앵커 중요, 숙소는 MCP 후보로 별도 수집",
+      "experiences": [
+        {
+          "id": "haeundae",
+          "title": "해운대",
+          "category": "뭐 하지",
+          "evidence": "지역 공식 자산",
+          "products": 5,
+          "repeats": 11,
+          "priceBand": "무료~2만원",
+          "tags": [
+            "대표 경험",
+            "해안",
+            "숙소 후보 연결"
+          ],
+          "purchaseMethods": [
+            "무료 산책",
+            "스냅/요트 결합",
+            "해변 동선",
+            "공식 자산 확인"
+          ],
+          "businessHint": "해안 장소 앵커를 먼저 보여주고, 동백섬·스냅·요트·숙소 선택은 하위 방식으로 연결한다.",
+          "officialAssets": [
+            {
+              "id": "asset-haeundae",
+              "asset_type": "ATTRACTION",
+              "name": "해운대",
+              "category": "해안",
+              "lat": 35.1587,
+              "lng": 129.1604,
+              "official_url": "https://www.visitbusan.net/",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "id": "blueline",
+          "title": "해운대 블루라인파크",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 5,
+          "repeats": 10,
+          "priceBand": "1만~3만원",
+          "tags": [
+            "관광형 이동",
+            "해안",
+            "입장권"
+          ],
+          "purchaseMethods": [
+            "탑승권",
+            "해안 코스",
+            "해운대 연계",
+            "날짜별 예약 가능 여부"
+          ],
+          "businessHint": "관광형 이동수단이면서 자체 경험이므로 교통 상품과 구분해 보여준다.",
+          "officialAssets": []
+        },
+        {
+          "id": "gwangalli-night",
+          "title": "광안리",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 4,
+          "repeats": 9,
+          "priceBand": "무료~5만원",
+          "tags": [
+            "야경",
+            "스토리 엔딩",
+            "공유 강함"
+          ],
+          "purchaseMethods": [
+            "야경 투어",
+            "요트/스냅 결합",
+            "무료 관람",
+            "저녁 시간대 추천"
+          ],
+          "businessHint": "장소 앵커로 먼저 보여주고, 야경·요트·스냅 상품은 선택 이후의 이용 방식으로 붙인다.",
+          "officialAssets": [
+            {
+              "id": "asset-gwangalli",
+              "asset_type": "ATTRACTION",
+              "name": "광안리",
+              "category": "야경",
+              "lat": 35.1532,
+              "lng": 129.1187,
+              "official_url": "https://www.visitbusan.net/",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "id": "gamcheon",
+          "title": "감천문화마을",
+          "category": "뭐 하지",
+          "evidence": "공식 상품",
+          "products": 3,
+          "repeats": 8,
+          "priceBand": "무료~4만원",
+          "tags": [
+            "대표 경험",
+            "스냅",
+            "도보"
+          ],
+          "purchaseMethods": [
+            "도보/스냅 투어",
+            "자유 방문",
+            "카페 코스",
+            "공식 상품 URL 비교"
+          ],
+          "businessHint": "스냅·도보·스토리 콘텐츠로 묶기 좋은 대표 경험이다.",
+          "officialAssets": []
+        },
+        {
+          "id": "huinnyeoul",
+          "title": "흰여울문화마을",
+          "category": "뭐 하지",
+          "evidence": "지역 공식 자산",
+          "products": 2,
+          "repeats": 6,
+          "priceBand": "무료~3만원",
+          "tags": [
+            "숨은 선택지",
+            "해안 마을",
+            "카페"
+          ],
+          "purchaseMethods": [
+            "무료 산책",
+            "카페 지도",
+            "스냅 후보",
+            "상품화 후보"
+          ],
+          "businessHint": "대표 명소보다는 감성형 숨은 선택지로 보여주면 선택 폭이 넓어진다.",
+          "officialAssets": []
+        },
+        {
+          "id": "gukje",
+          "title": "국제시장",
+          "category": "뭐 먹지",
+          "evidence": "지역 공식 자산",
+          "products": 2,
+          "repeats": 5,
+          "priceBand": "1만~3만원",
+          "tags": [
+            "먹거리",
+            "구도심",
+            "콘텐츠 후보"
+          ],
+          "purchaseMethods": [
+            "미식 지도",
+            "시장 동선",
+            "지역 추천 식당",
+            "상품 부족 표시"
+          ],
+          "businessHint": "시장 앵커를 먼저 고르게 하고, 돼지국밥·씨앗호떡 같은 먹거리 후보는 하위 선택지로 붙인다.",
+          "officialAssets": [
+            {
+              "id": "asset-gukje",
+              "asset_type": "MARKET",
+              "name": "국제시장",
+              "category": "시장",
+              "lat": 35.1027,
+              "lng": 129.0287,
+              "official_url": "https://www.visitbusan.net/",
+              "confidence": 0.85
+            }
+          ]
+        },
+        {
+          "id": "jagalchi",
+          "title": "자갈치시장",
+          "category": "뭐 먹지",
+          "evidence": "지역 공식 자산",
+          "products": 2,
+          "repeats": 5,
+          "priceBand": "2만~6만원",
+          "tags": [
+            "먹거리",
+            "시장",
+            "해산물"
+          ],
+          "purchaseMethods": [
+            "시장 방문",
+            "해산물 식사",
+            "구도심 코스",
+            "공식 자산 확인"
+          ],
+          "businessHint": "시장 앵커를 먼저 고르게 하고, 해산물 식사·구도심 코스는 선택 이후의 방식으로 비교한다.",
+          "officialAssets": [
+            {
+              "id": "asset-jagalchi",
+              "asset_type": "MARKET",
+              "name": "자갈치시장",
+              "category": "시장",
+              "lat": 35.0967,
+              "lng": 129.0305,
+              "official_url": "https://www.visitbusan.net/",
+              "confidence": 0.85
+            }
+          ]
+        },
+        {
+          "id": "busan-station",
+          "title": "부산역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 5,
+          "priceBand": "교통비 별도",
+          "tags": [
+            "역 앵커",
+            "구도심",
+            "KTX"
+          ],
+          "purchaseMethods": [
+            "역 앵커",
+            "구도심 이동",
+            "시장 접근",
+            "타임라인 기준점"
+          ],
+          "businessHint": "KTX·구도심·시장 동선의 시작점이다.",
+          "officialAssets": [
+            {
+              "id": "asset-busan-station",
+              "asset_type": "STATION",
+              "name": "부산역",
+              "category": "역",
+              "lat": 35.1152,
+              "lng": 129.0415,
+              "official_url": null,
+              "confidence": 0.82
+            }
+          ]
+        },
+        {
+          "id": "gimhae-airport",
+          "title": "김해국제공항",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 4,
+          "priceBand": "공항 이동비 별도",
+          "tags": [
+            "공항 앵커",
+            "입출국",
+            "숙소 후보 연결"
+          ],
+          "purchaseMethods": [
+            "공항→서면 경전철 이동",
+            "공항→해운대 도시철도 이동",
+            "경전철/도시철도 환승",
+            "도착시간 기준 타임라인"
+          ],
+          "businessHint": "부산 여행의 입출국 앵커로 서면·해운대 숙소 후보와 연결한다.",
+          "officialAssets": [
+            {
+              "id": "asset-gimhae-airport",
+              "asset_type": "AIRPORT",
+              "name": "김해국제공항",
+              "category": "공항",
+              "lat": 35.1796,
+              "lng": 128.9382,
+              "official_url": "https://www.airport.co.kr/gimhae/",
+              "confidence": 0.85
+            }
+          ]
+        },
+        {
+          "id": "seomyeon-station",
+          "title": "서면역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 4,
+          "priceBand": "교통비 별도",
+          "tags": [
+            "역 앵커",
+            "중심지",
+            "도시 내 이동"
+          ],
+          "purchaseMethods": [
+            "환승 기준점",
+            "서면 중심 동선",
+            "야간 이동",
+            "숙소 후보 연결"
+          ],
+          "businessHint": "해운대와 구도심 사이를 잇는 도시 내 이동 기준점이다.",
+          "officialAssets": [
+            {
+              "id": "asset-seomyeon-station",
+              "asset_type": "STATION",
+              "name": "서면역",
+              "category": "역",
+              "lat": 35.1579,
+              "lng": 129.0592,
+              "official_url": null,
+              "confidence": 0.78
+            }
+          ]
+        },
+        {
+          "id": "haeundae-station",
+          "title": "해운대역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 4,
+          "priceBand": "도시철도비 별도",
+          "tags": [
+            "도시철도",
+            "해운대",
+            "숙소 후보 연결"
+          ],
+          "purchaseMethods": [
+            "해운대 접근",
+            "블루라인파크 연계",
+            "해운대 숙소 후보 연결",
+            "서면 방향 이동"
+          ],
+          "businessHint": "해운대·블루라인파크·해운대 숙소 후보를 잇는 도시철도 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-haeundae-station",
+              "asset_type": "SUBWAY_STATION",
+              "name": "해운대역",
+              "category": "도시철도",
+              "lat": 35.163,
+              "lng": 129.158,
+              "official_url": null,
+              "confidence": 0.8
+            }
+          ]
+        },
+        {
+          "id": "gwangan-station",
+          "title": "광안역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 3,
+          "priceBand": "도시철도비 별도",
+          "tags": [
+            "도시철도",
+            "광안리",
+            "야간 동선"
+          ],
+          "purchaseMethods": [
+            "광안리 접근",
+            "야경 동선",
+            "서면↔해운대 중간 이동",
+            "저녁 복귀 동선"
+          ],
+          "businessHint": "광안리 야경과 서면·해운대 사이 이동을 보완하는 도시철도 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-gwangan-station",
+              "asset_type": "SUBWAY_STATION",
+              "name": "광안역",
+              "category": "도시철도",
+              "lat": 35.1578,
+              "lng": 129.1134,
+              "official_url": null,
+              "confidence": 0.78
+            }
+          ]
+        },
+        {
+          "id": "nampo-station",
+          "title": "남포역",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 3,
+          "priceBand": "도시철도비 별도",
+          "tags": [
+            "도시철도",
+            "구도심",
+            "시장 접근"
+          ],
+          "purchaseMethods": [
+            "국제시장 접근",
+            "자갈치시장 접근",
+            "부산항 연결",
+            "구도심 도보 동선"
+          ],
+          "businessHint": "국제시장·자갈치시장·부산항을 묶는 구도심 도시철도 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-nampo-station",
+              "asset_type": "SUBWAY_STATION",
+              "name": "남포역",
+              "category": "도시철도",
+              "lat": 35.0979,
+              "lng": 129.0347,
+              "official_url": null,
+              "confidence": 0.78
+            }
+          ]
+        },
+        {
+          "id": "busan-port",
+          "title": "부산항",
+          "category": "도시 내 이동",
+          "evidence": "지역 공식 자산",
+          "products": 1,
+          "repeats": 3,
+          "priceBand": "항구 이동비 별도",
+          "tags": [
+            "항구 앵커",
+            "국제여객터미널",
+            "구도심"
+          ],
+          "purchaseMethods": [
+            "항구 앵커",
+            "부산역 연결",
+            "국제여객터미널",
+            "구도심 동선"
+          ],
+          "businessHint": "국제여객터미널·부산역·구도심을 연결하는 항구 앵커다.",
+          "officialAssets": [
+            {
+              "id": "asset-busan-port",
+              "asset_type": "PORT",
+              "name": "부산항",
+              "category": "항구",
+              "lat": 35.1176,
+              "lng": 129.0486,
+              "official_url": null,
+              "confidence": 0.78
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl-busan-1",
+      "trip_id": "demo-busan-trip",
+      "city_id": "busan",
+      "experience_id": "busan-station",
+      "event_type": "STATION_ARRIVAL",
+      "label": "부산역 도착",
+      "initial_recorded_at": "2026-08-14T10:00:00",
+      "user_selected_time": "10:00",
+      "time_status": "INITIAL_RECORDED",
+      "sequence_order": 1,
+      "source_type": "GENERATED_SUGGESTION",
+      "is_user_confirmed": 0
+    },
+    {
+      "id": "tl-busan-2",
+      "trip_id": "demo-busan-trip",
+      "city_id": "busan",
+      "experience_id": "gukje",
+      "event_type": "MEAL_OR_BREAK",
+      "label": "국제시장",
+      "initial_recorded_at": "2026-08-14T12:00:00",
+      "user_selected_time": "",
+      "time_status": "TIME_UNDECIDED",
+      "sequence_order": 2,
+      "source_type": "SELECTED_EXPERIENCE",
+      "is_user_confirmed": 0
+    },
+    {
+      "id": "tl-busan-3",
+      "trip_id": "demo-busan-trip",
+      "city_id": "busan",
+      "experience_id": "haeundae",
+      "event_type": "EXPERIENCE_VISIT",
+      "label": "해운대",
+      "initial_recorded_at": "2026-08-14T16:00:00",
+      "user_selected_time": "16:30",
+      "time_status": "TIME_SELECTED",
+      "sequence_order": 3,
+      "source_type": "SELECTED_EXPERIENCE",
+      "is_user_confirmed": 1
+    },
+    {
+      "id": "tl-busan-4",
+      "trip_id": "demo-busan-trip",
+      "city_id": "busan",
+      "experience_id": "gwangalli-night",
+      "event_type": "EXPERIENCE_VISIT",
+      "label": "광안리",
+      "initial_recorded_at": "2026-08-14T20:00:00",
+      "user_selected_time": "20:00",
+      "time_status": "TIME_SELECTED",
+      "sequence_order": 4,
+      "source_type": "SELECTED_EXPERIENCE",
+      "is_user_confirmed": 1
+    },
+    {
+      "id": "tl-fukuoka-1",
+      "trip_id": "demo-fukuoka-trip",
+      "city_id": "fukuoka",
+      "experience_id": "fukuoka-airport",
+      "event_type": "AIRPORT_ARRIVAL",
+      "label": "후쿠오카 공항 도착",
+      "initial_recorded_at": "2026-08-12T11:00:00",
+      "user_selected_time": "11:00",
+      "time_status": "INITIAL_RECORDED",
+      "sequence_order": 1,
+      "source_type": "GENERATED_SUGGESTION",
+      "is_user_confirmed": 0
+    },
+    {
+      "id": "tl-fukuoka-2",
+      "trip_id": "demo-fukuoka-trip",
+      "city_id": "fukuoka",
+      "experience_id": "hakata-station",
+      "event_type": "STATION_ARRIVAL",
+      "label": "하카타역 이동",
+      "initial_recorded_at": "2026-08-12T11:30:00",
+      "user_selected_time": "11:40",
+      "time_status": "TIME_SELECTED",
+      "sequence_order": 2,
+      "source_type": "SELECTED_EXPERIENCE",
+      "is_user_confirmed": 1
+    },
+    {
+      "id": "tl-fukuoka-3",
+      "trip_id": "demo-fukuoka-trip",
+      "city_id": "fukuoka",
+      "experience_id": "dazaifu",
+      "event_type": "EXPERIENCE_VISIT",
+      "label": "다자이후",
+      "initial_recorded_at": "2026-08-12T14:00:00",
+      "user_selected_time": "14:00",
+      "time_status": "TIME_SELECTED",
+      "sequence_order": 3,
+      "source_type": "SELECTED_EXPERIENCE",
+      "is_user_confirmed": 1
+    },
+    {
+      "id": "tl-fukuoka-4",
+      "trip_id": "demo-fukuoka-trip",
+      "city_id": "fukuoka",
+      "experience_id": "nakasu-yatai",
+      "event_type": "MEAL_OR_BREAK",
+      "label": "나카스 야타이",
+      "initial_recorded_at": "2026-08-12T20:00:00",
+      "user_selected_time": "20:30",
+      "time_status": "TIME_SELECTED",
+      "sequence_order": 4,
+      "source_type": "SELECTED_EXPERIENCE",
+      "is_user_confirmed": 1
+    },
+    {
+      "id": "tl-osaka-1",
+      "trip_id": "demo-osaka-trip",
+      "city_id": "osaka",
+      "experience_id": "kansai-airport",
+      "event_type": "AIRPORT_ARRIVAL",
+      "label": "간사이 국제공항 도착",
+      "initial_recorded_at": "2026-08-10T10:00:00",
+      "user_selected_time": "10:00",
+      "time_status": "INITIAL_RECORDED",
+      "sequence_order": 1,
+      "source_type": "GENERATED_SUGGESTION",
+      "is_user_confirmed": 0
+    },
+    {
+      "id": "tl-osaka-2",
+      "trip_id": "demo-osaka-trip",
+      "city_id": "osaka",
+      "experience_id": "namba-station",
+      "event_type": "TRANSIT_OR_STAY",
+      "label": "난바역 이동 후 숙소 체크인 또는 짐 보관",
+      "initial_recorded_at": "2026-08-10T12:00:00",
+      "user_selected_time": "12:30",
+      "time_status": "TIME_SELECTED",
+      "sequence_order": 2,
+      "source_type": "SELECTED_ACCOMMODATION",
+      "is_user_confirmed": 1
+    },
+    {
+      "id": "tl-osaka-3",
+      "trip_id": "demo-osaka-trip",
+      "city_id": "osaka",
+      "experience_id": "harukas",
+      "event_type": "EXPERIENCE_VISIT",
+      "label": "아베노 하루카스 300",
+      "initial_recorded_at": "2026-08-10T15:00:00",
+      "user_selected_time": "16:00",
+      "time_status": "TIME_SELECTED",
+      "sequence_order": 3,
+      "source_type": "SELECTED_EXPERIENCE",
+      "is_user_confirmed": 1
+    },
+    {
+      "id": "tl-osaka-4",
+      "trip_id": "demo-osaka-trip",
+      "city_id": "osaka",
+      "experience_id": "okonomiyaki",
+      "event_type": "MEAL_OR_BREAK",
+      "label": "오코노미야키",
+      "initial_recorded_at": "2026-08-10T18:00:00",
+      "user_selected_time": "",
+      "time_status": "TIME_UNDECIDED",
+      "sequence_order": 4,
+      "source_type": "SELECTED_EXPERIENCE",
+      "is_user_confirmed": 0
+    }
+  ],
+  "funnelMetrics": [
+    {
+      "city_id": "busan",
+      "step_name": "city_view",
+      "started_count": 632,
+      "completed_count": 632,
+      "dropoff_count": 0
+    },
+    {
+      "city_id": "busan",
+      "step_name": "experience_select",
+      "started_count": 632,
+      "completed_count": 338,
+      "dropoff_count": 294
+    },
+    {
+      "city_id": "busan",
+      "step_name": "timeline_adjust",
+      "started_count": 338,
+      "completed_count": 176,
+      "dropoff_count": 162
+    },
+    {
+      "city_id": "busan",
+      "step_name": "story_generate",
+      "started_count": 176,
+      "completed_count": 98,
+      "dropoff_count": 78
+    },
+    {
+      "city_id": "fukuoka",
+      "step_name": "city_view",
+      "started_count": 812,
+      "completed_count": 812,
+      "dropoff_count": 0
+    },
+    {
+      "city_id": "fukuoka",
+      "step_name": "experience_select",
+      "started_count": 812,
+      "completed_count": 438,
+      "dropoff_count": 374
+    },
+    {
+      "city_id": "fukuoka",
+      "step_name": "timeline_adjust",
+      "started_count": 438,
+      "completed_count": 244,
+      "dropoff_count": 194
+    },
+    {
+      "city_id": "fukuoka",
+      "step_name": "story_generate",
+      "started_count": 244,
+      "completed_count": 132,
+      "dropoff_count": 112
+    },
+    {
+      "city_id": "osaka",
+      "step_name": "city_view",
+      "started_count": 1284,
+      "completed_count": 1284,
+      "dropoff_count": 0
+    },
+    {
+      "city_id": "osaka",
+      "step_name": "experience_select",
+      "started_count": 1284,
+      "completed_count": 746,
+      "dropoff_count": 538
+    },
+    {
+      "city_id": "osaka",
+      "step_name": "timeline_adjust",
+      "started_count": 746,
+      "completed_count": 392,
+      "dropoff_count": 354
+    },
+    {
+      "city_id": "osaka",
+      "step_name": "story_generate",
+      "started_count": 392,
+      "completed_count": 208,
+      "dropoff_count": 184
+    }
+  ],
+  "errorLogs": [
+    {
+      "city_id": "fukuoka",
+      "step_name": "official_asset_fetch",
+      "error_type": "PUBLIC_DATASET_ONLY",
+      "user_safe_message": "실시간 개점상태 없이 공개 야타이 기본정보만 사용합니다."
+    },
+    {
+      "city_id": "osaka",
+      "step_name": "timeline",
+      "error_type": "TIME_UNDECIDED",
+      "user_safe_message": "시간을 정하지 않아도 스토리를 만들 수 있습니다."
+    },
+    {
+      "city_id": "busan",
+      "step_name": "product_match",
+      "error_type": "SEED_LIMITED",
+      "user_safe_message": "1차 MVP에서는 공식 자산을 소량 seed로만 사용합니다."
+    }
+  ],
+  "officialDataSources": [
+    {
+      "id": "src-busan-seed",
+      "country": "한국",
+      "city_id": "busan",
+      "source_name": "Busan Official Tourism/Food Seed",
+      "source_type": "MANUAL_SEED",
+      "base_url": "https://www.visitbusan.net",
+      "license": "official reference",
+      "requires_api_key": 0,
+      "update_cycle": "manual",
+      "last_checked_at": "2026-07-17",
+      "priority": 1
+    },
+    {
+      "id": "src-fukuoka-yatai",
+      "country": "일본",
+      "city_id": "fukuoka",
+      "source_name": "Fukuoka Yatai CKAN/BODIK Dataset",
+      "source_type": "CKAN_DATASET",
+      "base_url": "https://data.bodik.jp/dataset/401307_yataiopendata",
+      "license": "CC BY",
+      "requires_api_key": 0,
+      "update_cycle": "as updated",
+      "last_checked_at": "2026-07-17",
+      "priority": 1
+    },
+    {
+      "id": "src-mrt-mcp",
+      "country": "공통",
+      "city_id": "osaka",
+      "source_name": "MyRealTrip MCP",
+      "source_type": "MCP",
+      "base_url": "https://mcp-servers.myrealtrip.com/mcp",
+      "license": "Partner/API terms",
+      "requires_api_key": 0,
+      "update_cycle": "on demand",
+      "last_checked_at": "2026-07-17",
+      "priority": 1
+    },
+    {
+      "id": "src-osaka-mapnavi",
+      "country": "일본",
+      "city_id": "osaka",
+      "source_name": "Osaka City Map Navi Open Data",
+      "source_type": "CSV",
+      "base_url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY",
+      "requires_api_key": 0,
+      "update_cycle": "as updated",
+      "last_checked_at": "2026-07-17",
+      "priority": 1
+    }
+  ],
+  "officialAssets": [
+    {
+      "id": "asset-gimhae-airport",
+      "city_id": "busan",
+      "source_id": "src-busan-seed",
+      "asset_type": "AIRPORT",
+      "name": "김해국제공항",
+      "category": "공항",
+      "address": "부산광역시 강서구",
+      "lat": 35.1796,
+      "lng": 128.9382,
+      "official_url": "https://www.airport.co.kr/gimhae/",
+      "description": "부산 입출국과 시내 이동의 시작점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-gwangalli",
+      "city_id": "busan",
+      "source_id": "src-busan-seed",
+      "asset_type": "ATTRACTION",
+      "name": "광안리",
+      "category": "야경",
+      "address": "부산광역시 수영구",
+      "lat": 35.1532,
+      "lng": 129.1187,
+      "official_url": "https://www.visitbusan.net/",
+      "description": "부산 야경과 공유 스토리의 대표 경험",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_TOURISM",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-haeundae",
+      "city_id": "busan",
+      "source_id": "src-busan-seed",
+      "asset_type": "ATTRACTION",
+      "name": "해운대",
+      "category": "해안",
+      "address": "부산광역시 해운대구",
+      "lat": 35.1587,
+      "lng": 129.1604,
+      "official_url": "https://www.visitbusan.net/",
+      "description": "해안 산책과 액티비티 동선의 대표 앵커",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_TOURISM",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-gukje",
+      "city_id": "busan",
+      "source_id": "src-busan-seed",
+      "asset_type": "MARKET",
+      "name": "국제시장",
+      "category": "시장",
+      "address": "부산광역시 중구",
+      "lat": 35.1027,
+      "lng": 129.0287,
+      "official_url": "https://www.visitbusan.net/",
+      "description": "구도심 미식/시장 동선의 기준점",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_TOURISM",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-jagalchi",
+      "city_id": "busan",
+      "source_id": "src-busan-seed",
+      "asset_type": "MARKET",
+      "name": "자갈치시장",
+      "category": "시장",
+      "address": "부산광역시 중구",
+      "lat": 35.0967,
+      "lng": 129.0305,
+      "official_url": "https://www.visitbusan.net/",
+      "description": "해산물 먹거리와 항구 경험의 공식 자산",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_TOURISM",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-busan-port",
+      "city_id": "busan",
+      "source_id": "src-busan-seed",
+      "asset_type": "PORT",
+      "name": "부산항",
+      "category": "항구",
+      "address": "부산광역시 동구",
+      "lat": 35.1176,
+      "lng": 129.0486,
+      "official_url": null,
+      "description": "국제여객터미널·부산역·구도심 이동의 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-busan-station",
+      "city_id": "busan",
+      "source_id": "src-busan-seed",
+      "asset_type": "STATION",
+      "name": "부산역",
+      "category": "역",
+      "address": "부산광역시 동구",
+      "lat": 35.1152,
+      "lng": 129.0415,
+      "official_url": null,
+      "description": "KTX·구도심·항구 이동의 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-seomyeon-station",
+      "city_id": "busan",
+      "source_id": "src-busan-seed",
+      "asset_type": "STATION",
+      "name": "서면역",
+      "category": "역",
+      "address": "부산광역시 부산진구",
+      "lat": 35.1579,
+      "lng": 129.0592,
+      "official_url": null,
+      "description": "해운대와 구도심 사이 환승 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-gwangan-station",
+      "city_id": "busan",
+      "source_id": "src-busan-seed",
+      "asset_type": "SUBWAY_STATION",
+      "name": "광안역",
+      "category": "도시철도",
+      "address": "부산광역시 수영구",
+      "lat": 35.1578,
+      "lng": 129.1134,
+      "official_url": null,
+      "description": "광안리 야경과 서면·해운대 이동을 보완하는 도시철도 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-nampo-station",
+      "city_id": "busan",
+      "source_id": "src-busan-seed",
+      "asset_type": "SUBWAY_STATION",
+      "name": "남포역",
+      "category": "도시철도",
+      "address": "부산광역시 중구",
+      "lat": 35.0979,
+      "lng": 129.0347,
+      "official_url": null,
+      "description": "국제시장·자갈치시장·부산항을 잇는 구도심 도시철도 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-haeundae-station",
+      "city_id": "busan",
+      "source_id": "src-busan-seed",
+      "asset_type": "SUBWAY_STATION",
+      "name": "해운대역",
+      "category": "도시철도",
+      "address": "부산광역시 해운대구",
+      "lat": 35.163,
+      "lng": 129.158,
+      "official_url": null,
+      "description": "해운대·블루라인파크·해운대 숙소 후보의 도시철도 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-dazaifu",
+      "city_id": "fukuoka",
+      "source_id": "src-fukuoka-yatai",
+      "asset_type": "ATTRACTION",
+      "name": "다자이후",
+      "category": "근교",
+      "address": "太宰府市",
+      "lat": 33.5198,
+      "lng": 130.5347,
+      "official_url": "https://www.dazaifutenmangu.or.jp/",
+      "description": "후쿠오카 반나절 근교 경험",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_AREA",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-nakasu-yatai",
+      "city_id": "fukuoka",
+      "source_id": "src-fukuoka-yatai",
+      "asset_type": "FOOD_STALL",
+      "name": "나카스 야타이",
+      "category": "야타이",
+      "address": "福岡市博多区中洲",
+      "lat": 33.5914,
+      "lng": 130.4063,
+      "official_url": "https://yokanavi.com/yatai/",
+      "description": "후쿠오카 야간 미식 대표 공식 자산",
+      "is_certified": 1,
+      "certification_type": "FUKUOKA_CITY_YATAI",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-tenjin-yatai",
+      "city_id": "fukuoka",
+      "source_id": "src-fukuoka-yatai",
+      "asset_type": "FOOD_STALL",
+      "name": "텐진 야타이",
+      "category": "야타이",
+      "address": "福岡市中央区天神",
+      "lat": 33.5903,
+      "lng": 130.3991,
+      "official_url": "https://yokanavi.com/yatai/",
+      "description": "숙소와 연결하기 좋은 도심 야타이 구역",
+      "is_certified": 1,
+      "certification_type": "FUKUOKA_CITY_YATAI",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-hakata-port",
+      "city_id": "fukuoka",
+      "source_id": "src-fukuoka-yatai",
+      "asset_type": "PORT",
+      "name": "하카타항",
+      "category": "항구",
+      "address": "福岡市博多区築港本町",
+      "lat": 33.6064,
+      "lng": 130.4017,
+      "official_url": null,
+      "description": "여객터미널과 베이사이드 이동의 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-tenjin-station",
+      "city_id": "fukuoka",
+      "source_id": "src-fukuoka-yatai",
+      "asset_type": "STATION",
+      "name": "텐진역",
+      "category": "역",
+      "address": "福岡市中央区天神",
+      "lat": 33.5913,
+      "lng": 130.3989,
+      "official_url": null,
+      "description": "야타이·쇼핑·도심 숙소 후보를 잇는 이동 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-nakasu-kawabata-station",
+      "city_id": "fukuoka",
+      "source_id": "src-fukuoka-yatai",
+      "asset_type": "SUBWAY_STATION",
+      "name": "나카스카와바타역",
+      "category": "지하철",
+      "address": "福岡市博多区上川端町",
+      "lat": 33.5942,
+      "lng": 130.4061,
+      "official_url": null,
+      "description": "나카스 야타이·캐널시티·하카타항 동선을 잇는 지하철 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-ohori-koen-station",
+      "city_id": "fukuoka",
+      "source_id": "src-fukuoka-yatai",
+      "asset_type": "SUBWAY_STATION",
+      "name": "오호리공원역",
+      "category": "지하철",
+      "address": "福岡市中央区大手門",
+      "lat": 33.5907,
+      "lng": 130.3797,
+      "official_url": null,
+      "description": "오호리공원과 서쪽 해변 방향 이동 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-hakata-station",
+      "city_id": "fukuoka",
+      "source_id": "src-fukuoka-yatai",
+      "asset_type": "TRANSIT_ANCHOR",
+      "name": "하카타역",
+      "category": "역 앵커",
+      "address": "福岡市博多区博多駅中央街",
+      "lat": 33.5902,
+      "lng": 130.4207,
+      "official_url": null,
+      "description": "공항·도심 관광지 연결의 핵심 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-fukuoka-airport",
+      "city_id": "fukuoka",
+      "source_id": "src-fukuoka-yatai",
+      "asset_type": "TRANSIT_ANCHOR",
+      "name": "후쿠오카 공항",
+      "category": "공항 앵커",
+      "address": "福岡市博多区",
+      "lat": 33.5859,
+      "lng": 130.4507,
+      "official_url": null,
+      "description": "도심 접근성이 강한 일정 시작점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-kansai-airport",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "AIRPORT",
+      "name": "간사이 국제공항",
+      "category": "공항",
+      "address": "大阪府泉佐野市",
+      "lat": 34.4347,
+      "lng": 135.2442,
+      "official_url": "https://www.kansai-airport.or.jp/",
+      "description": "오사카 입출국과 시내 이동의 시작점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-kaiyukan",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "가이유칸",
+      "category": "수족관",
+      "address": "大阪市港区",
+      "lat": 34.6545,
+      "lng": 135.4289,
+      "official_url": "https://www.kaiyukan.com/",
+      "description": "베이 에어리어의 실내 시설 앵커",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_FACILITY",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-nakanoshima",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "나카노시마",
+      "category": "강변",
+      "address": "大阪市北区",
+      "lat": 34.6914,
+      "lng": 135.5018,
+      "official_url": "https://osaka-info.jp/",
+      "description": "강변 산책과 카페/미술관 후보를 묶는 도심 휴식 앵커",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_AREA",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-tempozan",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "덴포잔",
+      "category": "베이 에어리어",
+      "address": "大阪市港区",
+      "lat": 34.6557,
+      "lng": 135.4305,
+      "official_url": "https://osaka-info.jp/",
+      "description": "오사카항·가이유칸과 연결되는 베이 에어리어 앵커",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_AREA",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-dotonbori",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "도톤보리",
+      "category": "야간 산책",
+      "address": "大阪市中央区",
+      "lat": 34.6687,
+      "lng": 135.5013,
+      "official_url": "https://osaka-info.jp/",
+      "description": "야간 산책과 사진 스토리의 대표 구간",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_AREA",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-sumiyoshi-taisha",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "스미요시타이샤",
+      "category": "신사",
+      "address": "大阪市住吉区",
+      "lat": 34.6127,
+      "lng": 135.4938,
+      "official_url": "https://www.sumiyoshitaisha.net/",
+      "description": "로컬 신사 분위기를 보여주는 숨은 장소 앵커",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_FACILITY",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-shinsaibashi",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "신사이바시",
+      "category": "쇼핑 거리",
+      "address": "大阪市中央区",
+      "lat": 34.6745,
+      "lng": 135.5004,
+      "official_url": "https://osaka-info.jp/",
+      "description": "도톤보리·난바와 이어지는 쇼핑/거리 산책 앵커",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_AREA",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-shinsekai",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "신세카이",
+      "category": "거리",
+      "address": "大阪市浪速区",
+      "lat": 34.6526,
+      "lng": 135.5062,
+      "official_url": "https://osaka-info.jp/",
+      "description": "쿠시카츠와 거리 산책을 묶는 로컬 장소 앵커",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_AREA",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-amerika-mura",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "아메리카무라",
+      "category": "거리 문화",
+      "address": "大阪市中央区",
+      "lat": 34.672,
+      "lng": 135.4975,
+      "official_url": "https://osaka-info.jp/",
+      "description": "카페·편집숍·거리 문화를 보여주는 선택지",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_AREA",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-harukas",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "아베노 하루카스 300",
+      "category": "전망대",
+      "address": "大阪市阿倍野区",
+      "lat": 34.6459,
+      "lng": 135.5135,
+      "official_url": "https://www.abenoharukas-300.jp/",
+      "description": "오사카 전망대 경험의 단독 입장권 기준점",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_FACILITY",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-osaka-castle",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "오사카성 천수각",
+      "category": "역사",
+      "address": "大阪市中央区",
+      "lat": 34.6873,
+      "lng": 135.5262,
+      "official_url": "https://www.osakacastle.net/",
+      "description": "역사·공원·도보 동선의 대표 앵커",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_FACILITY",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-umeda-sky",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "우메다 스카이빌딩 공중정원",
+      "category": "전망대",
+      "address": "大阪市北区",
+      "lat": 34.7053,
+      "lng": 135.4906,
+      "official_url": "https://www.skybldg.co.jp/",
+      "description": "도심 야경과 전망 경험 비교 자산",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_FACILITY",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-tsutenkaku",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "ATTRACTION",
+      "name": "츠텐카쿠",
+      "category": "전망/레트로",
+      "address": "大阪市浪速区",
+      "lat": 34.6525,
+      "lng": 135.5063,
+      "official_url": "https://www.tsutenkaku.co.jp/",
+      "description": "신세카이와 결합되는 레트로 전망 앵커",
+      "is_certified": 1,
+      "certification_type": "OFFICIAL_FACILITY",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-osaka-port",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "PORT",
+      "name": "오사카항",
+      "category": "항구",
+      "address": "大阪市港区",
+      "lat": 34.6539,
+      "lng": 135.4294,
+      "official_url": null,
+      "description": "베이 에어리어와 항구형 이동의 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-shin-osaka",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "STATION",
+      "name": "신오사카역",
+      "category": "역",
+      "address": "大阪市淀川区",
+      "lat": 34.7335,
+      "lng": 135.5001,
+      "official_url": null,
+      "description": "신칸센·광역 이동과 시내 이동의 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-osakako-station",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "SUBWAY_STATION",
+      "name": "오사카코역",
+      "category": "지하철",
+      "address": "大阪市港区",
+      "lat": 34.6545,
+      "lng": 135.4344,
+      "official_url": null,
+      "description": "오사카항과 베이 에어리어 접근 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-umeda-station",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "SUBWAY_STATION",
+      "name": "우메다역",
+      "category": "지하철/철도",
+      "address": "大阪市北区",
+      "lat": 34.7048,
+      "lng": 135.498,
+      "official_url": null,
+      "description": "우메다 관광지와 북부 숙소 후보를 잇는 환승 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-hommachi-station",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "SUBWAY_STATION",
+      "name": "혼마치역",
+      "category": "지하철",
+      "address": "大阪市中央区",
+      "lat": 34.6814,
+      "lng": 135.5016,
+      "official_url": null,
+      "description": "난바·우메다·오사카성 사이의 지하철 환승 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    },
+    {
+      "id": "asset-namba",
+      "city_id": "osaka",
+      "source_id": "src-osaka-mapnavi",
+      "asset_type": "TRANSIT_ANCHOR",
+      "name": "난바역",
+      "category": "도시 내 이동",
+      "address": "大阪市中央区",
+      "lat": 34.6662,
+      "lng": 135.5018,
+      "official_url": null,
+      "description": "도톤보리·구로몬시장·시내 이동의 기준점",
+      "is_certified": 1,
+      "certification_type": "TRANSIT_ANCHOR",
+      "last_collected_at": "2026-07-17"
+    }
+  ],
+  "accommodationCandidates": [
+    {
+      "id": "stay-busan-seomyeon-hotel",
+      "city_id": "busan",
+      "source_type": "MCP_ACCOMMODATION",
+      "source_id": "src-mrt-mcp",
+      "area_name": "서면",
+      "accommodation_type": "호텔",
+      "decision_reason": "해운대와 구도심 사이 이동 균형이 좋아 다중 앵커 일정에 적합",
+      "risk_signal": "야간 유흥가 인접 여부 확인 필요",
+      "breakfast_available": 1,
+      "smoking_policy_signal": "금연 객실 우선 확인",
+      "bedding_signal": "최근 후기 확인 필요",
+      "price_band": "8만~16만원",
+      "product_count": 4,
+      "collection_status": "MCP 수집 예정"
+    },
+    {
+      "id": "stay-busan-haeundae-hotel",
+      "city_id": "busan",
+      "source_type": "MCP_ACCOMMODATION",
+      "source_id": "src-mrt-mcp",
+      "area_name": "해운대",
+      "accommodation_type": "호텔/리조트",
+      "decision_reason": "해변·블루라인파크 중심 일정에 적합",
+      "risk_signal": "성수기 가격 급등/오션뷰 과금 확인 필요",
+      "breakfast_available": 1,
+      "smoking_policy_signal": "금연 객실 우선 확인",
+      "bedding_signal": "침구/습도 후기 확인 필요",
+      "price_band": "12만~28만원",
+      "product_count": 6,
+      "collection_status": "MCP 수집 예정"
+    },
+    {
+      "id": "stay-fukuoka-tenjin-hotel",
+      "city_id": "fukuoka",
+      "source_type": "MCP_ACCOMMODATION",
+      "source_id": "src-mrt-mcp",
+      "area_name": "텐진",
+      "accommodation_type": "호텔",
+      "decision_reason": "야타이·쇼핑·도심 이동이 쉬워 야간형 일정에 적합",
+      "risk_signal": "번화가 소음 후기 확인 필요",
+      "breakfast_available": 1,
+      "smoking_policy_signal": "금연 객실 우선 확인",
+      "bedding_signal": "최근 후기 확인 필요",
+      "price_band": "10만~19만원",
+      "product_count": 4,
+      "collection_status": "MCP 수집 예정"
+    },
+    {
+      "id": "stay-fukuoka-hakata-hotel",
+      "city_id": "fukuoka",
+      "source_type": "MCP_ACCOMMODATION",
+      "source_id": "src-mrt-mcp",
+      "area_name": "하카타",
+      "accommodation_type": "호텔",
+      "decision_reason": "공항·하카타역 접근성이 좋아 짧은 여행에 적합",
+      "risk_signal": "객실 크기/소음 후기 확인 필요",
+      "breakfast_available": 1,
+      "smoking_policy_signal": "금연 객실 우선 확인",
+      "bedding_signal": "침구 청결 후기 확인 필요",
+      "price_band": "9만~18만원",
+      "product_count": 5,
+      "collection_status": "MCP 수집 예정"
+    },
+    {
+      "id": "stay-osaka-namba-hotel",
+      "city_id": "osaka",
+      "source_type": "MCP_ACCOMMODATION",
+      "source_id": "src-mrt-mcp",
+      "area_name": "난바",
+      "accommodation_type": "호텔",
+      "decision_reason": "도톤보리·구로몬시장 접근성이 좋아 첫 숙소 후보로 비교",
+      "risk_signal": "흡연층 분리/침구 후기 확인 필요",
+      "breakfast_available": 1,
+      "smoking_policy_signal": "금연 객실 우선 확인",
+      "bedding_signal": "침구 냄새 관련 후기 확인 필요",
+      "price_band": "12만~22만원",
+      "product_count": 6,
+      "collection_status": "MCP 수집 예정"
+    },
+    {
+      "id": "stay-osaka-umeda-hotel",
+      "city_id": "osaka",
+      "source_type": "MCP_ACCOMMODATION",
+      "source_id": "src-mrt-mcp",
+      "area_name": "우메다",
+      "accommodation_type": "호텔",
+      "decision_reason": "전망대·교통 환승 중심이라 도시 내 이동 피로가 낮음",
+      "risk_signal": "역세권 소음 후기 확인 필요",
+      "breakfast_available": 1,
+      "smoking_policy_signal": "금연 객실 우선 확인",
+      "bedding_signal": "최근 후기 확인 필요",
+      "price_band": "13만~24만원",
+      "product_count": 5,
+      "collection_status": "MCP 수집 예정"
+    }
+  ],
+  "anchorAutomation": {
+    "latestRun": {
+      "id": "run-20260717130052",
+      "source_snapshot_path": "data/raw_anchor_records.json",
+      "generated_path": "data/generated_anchor_candidates.json",
+      "rule_version": "anchor-rules-v0.1",
+      "total_records": 10,
+      "accepted_candidates": 2,
+      "review_candidates": 5,
+      "rejected_candidates": 3,
+      "created_at": "2026-07-17T13:00:52.024497+00:00"
+    },
+    "candidates": [
+      {
+        "id": "candidate-fukuoka-나카스-야타이",
+        "run_id": "run-20260717130052",
+        "city_id": "fukuoka",
+        "source_type": "BODIK_CKAN",
+        "source_record_id": "official-fukuoka-yatai-nakasu",
+        "raw_name": "나카스 야타이",
+        "normalized_name": "나카스 야타이",
+        "category": "뭐 먹지",
+        "anchor_type": "FOOD",
+        "confidence": 0.78,
+        "automation_status": "AUTO_ACCEPT",
+        "reason": "공식성·반복 신호·상품 신호가 충분해 자동 후보로 채택합니다.",
+        "product_signal": 1,
+        "official_signal": 1,
+        "repeats_signal": 12
+      },
+      {
+        "id": "candidate-osaka-가이유칸",
+        "run_id": "run-20260717130052",
+        "city_id": "osaka",
+        "source_type": "OFFICIAL_ASSET",
+        "source_record_id": "official-osaka-kaiyukan",
+        "raw_name": "가이유칸",
+        "normalized_name": "가이유칸",
+        "category": "뭐 하지",
+        "anchor_type": "PLACE",
+        "confidence": 0.8,
+        "automation_status": "AUTO_ACCEPT",
+        "reason": "공식성·반복 신호·상품 신호가 충분해 자동 후보로 채택합니다.",
+        "product_signal": 4,
+        "official_signal": 1,
+        "repeats_signal": 9
+      },
+      {
+        "id": "candidate-busan-남포역",
+        "run_id": "run-20260717130052",
+        "city_id": "busan",
+        "source_type": "OFFICIAL_TRANSIT",
+        "source_record_id": "official-busan-nampo",
+        "raw_name": "남포역",
+        "normalized_name": "남포역",
+        "category": "뭐 먹지",
+        "anchor_type": "FOOD",
+        "confidence": 0.53,
+        "automation_status": "NEEDS_REVIEW",
+        "reason": "근거는 있으나 자동 노출 전 사람이 검수해야 합니다.",
+        "product_signal": 0,
+        "official_signal": 1,
+        "repeats_signal": 3
+      },
+      {
+        "id": "candidate-busan-광안리-야경-요트",
+        "run_id": "run-20260717130052",
+        "city_id": "busan",
+        "source_type": "MRT_TNA",
+        "source_record_id": "mrt-busan-gwangalli",
+        "raw_name": "광안리 야경 요트 투어",
+        "normalized_name": "광안리 야경 요트",
+        "category": "뭐 하지",
+        "anchor_type": "PLACE",
+        "confidence": 0.45,
+        "automation_status": "NEEDS_REVIEW",
+        "reason": "근거는 있으나 자동 노출 전 사람이 검수해야 합니다.",
+        "product_signal": 4,
+        "official_signal": 0,
+        "repeats_signal": 9
+      },
+      {
+        "id": "candidate-osaka-타코야키",
+        "run_id": "run-20260717130052",
+        "city_id": "osaka",
+        "source_type": "OFFICIAL_FOOD",
+        "source_record_id": "official-osaka-takoyaki",
+        "raw_name": "타코야키",
+        "normalized_name": "타코야키",
+        "category": "뭐 먹지",
+        "anchor_type": "FOOD",
+        "confidence": 0.69,
+        "automation_status": "NEEDS_REVIEW",
+        "reason": "근거는 있으나 자동 노출 전 사람이 검수해야 합니다.",
+        "product_signal": 2,
+        "official_signal": 1,
+        "repeats_signal": 7
+      },
+      {
+        "id": "candidate-osaka-유니버설-스튜디오-재팬",
+        "run_id": "run-20260717130052",
+        "city_id": "osaka",
+        "source_type": "MRT_TNA",
+        "source_record_id": "mrt-osaka-usj-001",
+        "raw_name": "유니버설 스튜디오 재팬 입장권",
+        "normalized_name": "유니버설 스튜디오 재팬",
+        "category": "뭐 하지",
+        "anchor_type": "PLACE",
+        "confidence": 0.65,
+        "automation_status": "NEEDS_REVIEW",
+        "reason": "근거는 있으나 자동 노출 전 사람이 검수해야 합니다.",
+        "product_signal": 18,
+        "official_signal": 0,
+        "repeats_signal": 42
+      },
+      {
+        "id": "candidate-osaka-혼마치역",
+        "run_id": "run-20260717130052",
+        "city_id": "osaka",
+        "source_type": "OFFICIAL_TRANSIT",
+        "source_record_id": "official-osaka-hommachi",
+        "raw_name": "혼마치역",
+        "normalized_name": "혼마치역",
+        "category": "도시 내 이동",
+        "anchor_type": "TRANSIT",
+        "confidence": 0.53,
+        "automation_status": "NEEDS_REVIEW",
+        "reason": "근거는 있으나 자동 노출 전 사람이 검수해야 합니다.",
+        "product_signal": 0,
+        "official_signal": 1,
+        "repeats_signal": 3
+      },
+      {
+        "id": "candidate-busan-해운대-호텔",
+        "run_id": "run-20260717130052",
+        "city_id": "busan",
+        "source_type": "MRT_ACCOMMODATION",
+        "source_record_id": "mrt-busan-accommodation",
+        "raw_name": "해운대 호텔",
+        "normalized_name": "해운대 호텔",
+        "category": "뭐 하지",
+        "anchor_type": "PLACE",
+        "confidence": 0.44,
+        "automation_status": "REJECTED",
+        "reason": "숙소는 경험 앵커가 아니라 accommodation_candidates/MCP 숙소 후보로 분리합니다.",
+        "product_signal": 6,
+        "official_signal": 0,
+        "repeats_signal": 6
+      },
+      {
+        "id": "candidate-fukuoka-하카타-버스터미널",
+        "run_id": "run-20260717130052",
+        "city_id": "fukuoka",
+        "source_type": "OFFICIAL_TRANSIT",
+        "source_record_id": "official-fukuoka-bus-stop",
+        "raw_name": "하카타 버스터미널",
+        "normalized_name": "하카타 버스터미널",
+        "category": "도시 내 이동",
+        "anchor_type": "TRANSIT",
+        "confidence": 0.53,
+        "automation_status": "REJECTED",
+        "reason": "MVP 도시 내 이동에서는 버스 앵커를 제외합니다.",
+        "product_signal": 0,
+        "official_signal": 1,
+        "repeats_signal": 3
+      },
+      {
+        "id": "candidate-osaka-슈퍼-닌텐도-월드-포함-여부-확인",
+        "run_id": "run-20260717130052",
+        "city_id": "osaka",
+        "source_type": "MRT_TNA",
+        "source_record_id": "mrt-osaka-nintendo-check-001",
+        "raw_name": "슈퍼 닌텐도 월드 포함 여부 확인",
+        "normalized_name": "슈퍼 닌텐도 월드 포함 여부 확인",
+        "category": "뭐 하지",
+        "anchor_type": "PLACE",
+        "confidence": 0.47,
+        "automation_status": "REJECTED",
+        "reason": "검증 조건은 독립 앵커가 아니라 상위 경험의 확인 항목으로 내려갑니다.",
+        "product_signal": 4,
+        "official_signal": 0,
+        "repeats_signal": 10
+      }
+    ]
+  },
+  "citySet": [
+    "오사카",
+    "후쿠오카",
+    "부산"
+  ]
+}

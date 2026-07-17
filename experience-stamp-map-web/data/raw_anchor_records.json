@@ -1,0 +1,102 @@
+[
+  {
+    "source_record_id": "mrt-osaka-usj-001",
+    "city_id": "osaka",
+    "source_type": "MRT_TNA",
+    "name": "유니버설 스튜디오 재팬 입장권",
+    "description": "오사카 대표 테마파크 입장권과 익스프레스 패스",
+    "product_count": 18,
+    "repeat_count": 42,
+    "official": false
+  },
+  {
+    "source_record_id": "mrt-osaka-nintendo-check-001",
+    "city_id": "osaka",
+    "source_type": "MRT_TNA",
+    "name": "슈퍼 닌텐도 월드 포함 여부 확인",
+    "description": "USJ 입장권 옵션 확인용 문구",
+    "product_count": 4,
+    "repeat_count": 10,
+    "official": false
+  },
+  {
+    "source_record_id": "official-osaka-kaiyukan",
+    "city_id": "osaka",
+    "source_type": "OFFICIAL_ASSET",
+    "name": "가이유칸",
+    "description": "오사카 베이 에어리어 수족관",
+    "product_count": 4,
+    "repeat_count": 9,
+    "official": true
+  },
+  {
+    "source_record_id": "official-osaka-takoyaki",
+    "city_id": "osaka",
+    "source_type": "OFFICIAL_FOOD",
+    "name": "타코야키",
+    "description": "오사카 대표 거리 먹거리",
+    "product_count": 2,
+    "repeat_count": 7,
+    "official": true
+  },
+  {
+    "source_record_id": "official-osaka-hommachi",
+    "city_id": "osaka",
+    "source_type": "OFFICIAL_TRANSIT",
+    "name": "혼마치역",
+    "description": "오사카 지하철 환승역",
+    "product_count": 0,
+    "repeat_count": 3,
+    "official": true
+  },
+  {
+    "source_record_id": "official-fukuoka-yatai-nakasu",
+    "city_id": "fukuoka",
+    "source_type": "BODIK_CKAN",
+    "name": "나카스 야타이",
+    "description": "후쿠오카 공식 야타이 데이터셋 기반 야간 미식 구역",
+    "product_count": 1,
+    "repeat_count": 12,
+    "official": true
+  },
+  {
+    "source_record_id": "official-fukuoka-bus-stop",
+    "city_id": "fukuoka",
+    "source_type": "OFFICIAL_TRANSIT",
+    "name": "하카타 버스터미널",
+    "description": "버스 이동 중심 시설",
+    "product_count": 0,
+    "repeat_count": 3,
+    "official": true
+  },
+  {
+    "source_record_id": "mrt-busan-gwangalli",
+    "city_id": "busan",
+    "source_type": "MRT_TNA",
+    "name": "광안리 야경 요트 투어",
+    "description": "광안리 야경을 보는 요트 상품",
+    "product_count": 4,
+    "repeat_count": 9,
+    "official": false
+  },
+  {
+    "source_record_id": "official-busan-nampo",
+    "city_id": "busan",
+    "source_type": "OFFICIAL_TRANSIT",
+    "name": "남포역",
+    "description": "국제시장·자갈치시장과 연결되는 부산 도시철도역",
+    "product_count": 0,
+    "repeat_count": 3,
+    "official": true
+  },
+  {
+    "source_record_id": "mrt-busan-accommodation",
+    "city_id": "busan",
+    "source_type": "MRT_ACCOMMODATION",
+    "name": "해운대 호텔",
+    "description": "침구 후기와 금연 객실 확인이 필요한 숙소 후보",
+    "product_count": 6,
+    "repeat_count": 6,
+    "official": false
+  }
+]
