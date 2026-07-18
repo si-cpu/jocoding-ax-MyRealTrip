@@ -83,6 +83,15 @@ DIRECT_TARGETS = [
         note="Parks and sports facilities; useful as secondary official assets.",
     ),
     Target(
+        city="Tokyo",
+        source_key="tokyo_tourist_spot_parameter_survey",
+        dataset_name="Tokyo tourist spot parameter survey: tourist spot visitor results",
+        url="https://www.opendata.metro.tokyo.lg.jp/sangyouroudou/tourist_number_survey/R6tourist_number_survey_1.csv",
+        expected_kind="csv",
+        priority="A3",
+        note="Tokyo Metropolitan Government open-data CSV for tourist spot visitor survey; official place anchors with demand signal.",
+    ),
+    Target(
         city="Hiroshima",
         source_key="hiroshima_tourism_facilities",
         dataset_name="Hiroshima open data: tourism facilities",
@@ -123,6 +132,13 @@ DIRECT_TARGETS = [
 
 CKAN_BASES = [
     {
+        "city": "Kyoto",
+        "base": "https://data.bodik.jp",
+        "priority": "A3",
+        "queries": ["京都府 観光施設一覧", "260002_kankou_shisetsu", "観光施設 京都府"],
+        "note": "Kyoto Prefecture tourism facility dataset via BODIK/CKAN.",
+    },
+    {
         "city": "Fukuoka",
         "base": "https://data.bodik.jp",
         "priority": "A4/A5",
@@ -147,6 +163,34 @@ CKAN_BASES = [
 
 
 MANUAL_TARGETS = [
+    {
+        "city": "Seoul",
+        "source_key": "seoul_open_data_tourist_spots",
+        "need": "Find Seoul-wide official tourist spot/open-data resource. District-only sources such as Mapo-gu tourist boundary CSV should be isolated from Seoul-wide analysis.",
+        "reason": "Need city-wide official source or explicitly district-scoped analysis.",
+        "priority": "B1",
+    },
+    {
+        "city": "Busan",
+        "source_key": "busan_tourism_lod",
+        "need": "Evaluate Busan film/culture/tourism LOD TTL from data.go.kr and extract tourism-place triples if downloadable without login.",
+        "reason": "LOD/TTL parser needed; not a simple CSV primary anchor yet.",
+        "priority": "B1",
+    },
+    {
+        "city": "Yeosu",
+        "source_key": "yeosu_tourism_info",
+        "need": "Use data.go.kr Yeosu tourism information file/API candidate if downloadable or with service key.",
+        "reason": "Public Data Portal resource found; may require portal download/API handling.",
+        "priority": "B1",
+    },
+    {
+        "city": "Daejeon",
+        "source_key": "daejeon_major_tourist_visitors",
+        "need": "Use data.go.kr Daejeon major tourist spot visitor status if downloadable or with service key.",
+        "reason": "Public Data Portal resource found; good demand-signal anchor candidate but may be annual/old and API-converted.",
+        "priority": "B1",
+    },
     {
         "city": "Nara",
         "source_key": "nara_official_tourism_assets",

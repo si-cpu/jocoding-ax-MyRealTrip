@@ -1,0 +1,13 @@
+{
+  "city": "Tokyo",
+  "source_key": "tokyo_tourist_spot_parameter_survey",
+  "dataset_name": "Tokyo tourist spot parameter survey: tourist spot visitor results",
+  "url": "https://www.opendata.metro.tokyo.lg.jp/sangyouroudou/tourist_number_survey/R6tourist_number_survey_1.csv",
+  "expected_kind": "csv",
+  "priority": "A3",
+  "note": "Tokyo Metropolitan Government open-data CSV for tourist spot visitor survey; official place anchors with demand signal.",
+  "saved_path": "data/official_tourism_sources/raw/tokyo_tourist_spot_parameter_survey.csv",
+  "bytes": 185,
+  "content_type": "text/csv",
+  "downloaded_at": "2026-07-18T15:54:51+0900"
+}
