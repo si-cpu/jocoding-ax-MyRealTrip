@@ -77,7 +77,7 @@ def is_partner_candidate_only(anchor: dict[str, str]) -> bool:
 
 
 def is_primary_tourism_asset(anchor: dict[str, str]) -> bool:
-    return anchor.get("official_source_type") in {"tourism_facility", "tourism_seed"} and anchor.get("anchor_type") == "place"
+    return anchor.get("official_source_type") == "tourism_facility" and anchor.get("anchor_type") == "place"
 
 
 def clean(text: str | None) -> str:
@@ -349,7 +349,7 @@ def main() -> int:
             "## Important interpretation",
             "",
             "- `상품화 부족 자산` means no direct MCP product match in the collected sample, not proof of zero market demand.",
-            "- `MCP 미수집 자산` means official/seed anchors exist but the city has no collected MCP products yet, often due to collection rate limits.",
+            "- Multi-city manual/DMO seed candidates are excluded from this primary scoring file to avoid contaminating official-data analysis.",
             "- MCP collection was rate-limited for several non-tour categories, so the current match is a first-pass sample.",
             "- Generic Fukuoka yatai aliases such as `야타이` and `포장마차` apply only to the aggregate `후쿠오카 야타이` anchor.",
             "- Individual yatai stalls are kept as partner candidates and excluded from primary tourism-asset gap scoring to avoid restaurant-level overcounting.",

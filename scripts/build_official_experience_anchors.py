@@ -296,11 +296,15 @@ def main() -> int:
     anchors.extend(fukuoka_yatai_anchors())
     anchors.extend(hiroshima_facility_anchors())
     anchors.extend(hiroshima_event_anchors())
-    anchors.extend(multicity_seed_anchors())
+    seed_anchors = multicity_seed_anchors()
 
     write_csv(OUT / "official_experience_anchors.csv", anchors)
+    write_csv(OUT / "multicity_seed_candidate_anchors.csv", seed_anchors)
     with (OUT / "official_experience_anchors.jsonl").open("w", encoding="utf-8") as f:
         for row in anchors:
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    with (OUT / "multicity_seed_candidate_anchors.jsonl").open("w", encoding="utf-8") as f:
+        for row in seed_anchors:
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
     summary = {
@@ -312,7 +316,10 @@ def main() -> int:
         "outputs": [
             str((OUT / "official_experience_anchors.csv").relative_to(ROOT)),
             str((OUT / "official_experience_anchors.jsonl").relative_to(ROOT)),
+            str((OUT / "multicity_seed_candidate_anchors.csv").relative_to(ROOT)),
+            str((OUT / "multicity_seed_candidate_anchors.jsonl").relative_to(ROOT)),
         ],
+        "seed_candidate_count_excluded_from_primary_anchors": len(seed_anchors),
     }
     (REPORTS / "official_anchor_build_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -331,13 +338,15 @@ def main() -> int:
         "",
         "- `data/official_tourism_sources/anchors/official_experience_anchors.csv`",
         "- `data/official_tourism_sources/anchors/official_experience_anchors.jsonl`",
+        "- `data/official_tourism_sources/anchors/multicity_seed_candidate_anchors.csv`",
+        "- `data/official_tourism_sources/anchors/multicity_seed_candidate_anchors.jsonl`",
         "",
         "## Notes",
         "",
         "- Fukuoka yatai anchors are deduplicated by `屋台ID`.",
         "- Hiroshima tourism facilities are filtered to Hiroshima city code `341002`.",
         "- Hiroshima event anchors are time-sensitive and should be discounted or excluded when expired.",
-        "- Multi-city seed anchors are official/DMO reference seeds for first-pass comparison; replace with city open-data resources when available.",
+        "- Multi-city seed anchors are exported separately as candidate/demo anchors and are excluded from the primary official anchor file to avoid analysis contamination.",
     ]
     (REPORTS / "OFFICIAL_ANCHOR_BUILD_REPORT.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
