@@ -83,6 +83,15 @@ DIRECT_TARGETS = [
         note="Parks and sports facilities; useful as secondary official assets.",
     ),
     Target(
+        city="Kyoto",
+        source_key="kyoto_pref_tourism_facilities",
+        dataset_name="Kyoto Prefecture tourism facility list",
+        url="https://data.bodik.jp/dataset/6ad07527-e6ad-4528-b1ad-00e8b5bd1b38/resource/7f63e283-49c4-4737-a838-ccea5cdbc205/download/260002kankoushisetsu.csv",
+        expected_kind="csv",
+        priority="A3",
+        note="Official Kyoto Prefecture tourism facility CSV resource URL discovered from BODIK dataset page; this environment currently receives 403.",
+    ),
+    Target(
         city="Tokyo",
         source_key="tokyo_tourist_spot_parameter_survey",
         dataset_name="Tokyo tourist spot parameter survey: tourist spot visitor results",
