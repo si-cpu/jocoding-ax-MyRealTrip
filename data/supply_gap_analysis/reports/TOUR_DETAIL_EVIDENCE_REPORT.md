@@ -1,6 +1,6 @@
 # Tour Detail Evidence Report
 
-- Generated at: 2026-07-18T15:09:46+09:00
+- Generated at: 2026-07-18T15:23:09+09:00
 - Checked title-level tour matches: 2
 - Detail evidence counts: {'exclusion_only': 1, 'detail_unavailable': 1}
 

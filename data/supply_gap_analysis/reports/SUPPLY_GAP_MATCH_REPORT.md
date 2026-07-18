@@ -1,21 +1,21 @@
 # Supply Gap Match Report
 
-- Generated at: 2026-07-18T14:55:13+09:00
+- Generated at: 2026-07-18T15:23:09+09:00
 - Official anchors: 172
-- Primary tourism-asset anchors: 64
+- Primary tourism-asset anchors: 32
 - Partner-candidate anchors excluded from primary scoring: 108
 - MCP products: 63
-- Auto alias anchors used: 2
-- Auto aliases used: 2
+- Auto alias anchors used: 32
+- Auto aliases used: 49
 - Direct matches: 2
 - Matched anchors: 2
-- Classification counts: {'상품화 부족 자산': 62, '부분 상품화 자산': 2}
+- Classification counts: {'상품화 부족 자산': 30, '부분 상품화 자산': 2}
 
 ## By city
 
 | City | Classification counts |
 |---|---|
-| jp-hiroshima | {'상품화 부족 자산': 62, '부분 상품화 자산': 2} |
+| jp-hiroshima | {'상품화 부족 자산': 30, '부분 상품화 자산': 2} |
 
 ## Important interpretation
 

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-18T15:09:46+09:00",
-  "total_official_assets": 64,
+  "generated_at": "2026-07-18T15:23:09+09:00",
+  "total_official_assets": 32,
   "matched_partial_assets": 2,
-  "under_connected_assets": 62,
+  "under_connected_assets": 30,
   "outputs": [
     "data/supply_gap_analysis/exports/supply_gap_exact_list.csv",
     "data/supply_gap_analysis/exports/matched_assets_exact_list.csv",

@@ -63,7 +63,7 @@ def load_display_aliases() -> dict[str, str]:
                 matched_count = int(row.get("matched_product_count") or 0)
             except ValueError:
                 continue
-            if matched_count <= 0 or confidence < 0.75:
+            if confidence < 0.75:
                 continue
             aliases.setdefault(row["anchor_id"], row["alias_ko"])
     return aliases

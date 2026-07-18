@@ -72,8 +72,12 @@ PARTNER_CANDIDATE_FIELDS = [
 
 def is_partner_candidate_only(anchor: dict[str, str]) -> bool:
     return anchor.get("official_source_type") in {"official_yatai", "official_yatai_cluster"} or anchor.get(
-        "anchor_type"
+    "anchor_type"
     ) in {"food_place", "place_cluster"}
+
+
+def is_primary_tourism_asset(anchor: dict[str, str]) -> bool:
+    return anchor.get("official_source_type") == "tourism_facility" and anchor.get("anchor_type") == "place"
 
 
 def clean(text: str | None) -> str:
@@ -115,7 +119,7 @@ def load_auto_aliases() -> dict[str, list[str]]:
             matched_count = int(row.get("matched_product_count") or 0)
         except ValueError:
             continue
-        if matched_count <= 0 or confidence < 0.75:
+        if confidence < 0.75:
             continue
         aliases[row["anchor_id"]].append(clean(row.get("alias_ko")))
     return aliases
@@ -199,7 +203,7 @@ def main() -> int:
     matches = []
     matched_by_anchor: dict[str, list[dict[str, str]]] = defaultdict(list)
     auto_aliases = load_auto_aliases()
-    primary_anchors = [anchor for anchor in anchors if not is_partner_candidate_only(anchor)]
+    primary_anchors = [anchor for anchor in anchors if is_primary_tourism_asset(anchor)]
     partner_candidate_anchors = [anchor for anchor in anchors if is_partner_candidate_only(anchor)]
     for anchor in primary_anchors:
         city_query = city_to_query(anchor["city_id"])
@@ -231,9 +235,7 @@ def main() -> int:
             matched_by_anchor[anchor["anchor_id"]].append(match)
 
     scores = []
-    for anchor in anchors:
-        if is_partner_candidate_only(anchor):
-            continue
+    for anchor in primary_anchors:
         anchor_matches = matched_by_anchor.get(anchor["anchor_id"], [])
         unique_products = {}
         for match in anchor_matches:
