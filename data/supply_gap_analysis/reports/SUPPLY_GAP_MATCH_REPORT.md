@@ -1,26 +1,31 @@
 # Supply Gap Match Report
 
-- Generated at: 2026-07-18T16:17:18+09:00
-- Official anchors: 742
-- Primary tourism-asset anchors: 602
+- Generated at: 2026-07-18T21:05:17+09:00
+- Official anchors: 471
+- Primary tourism-asset anchors: 331
 - Partner-candidate anchors excluded from primary scoring: 108
-- MCP products: 146
-- Auto alias anchors used: 42
-- Auto aliases used: 62
-- Direct matches: 28
-- Matched anchors: 9
-- Classification counts: {'상품화 부족 자산': 593, '검증된 대표 경험': 4, '부분 상품화 자산': 5}
+- MCP products: 283
+- Auto alias anchors used: 37
+- Auto aliases used: 53
+- Direct matches: 36
+- Matched anchors: 12
+- Classification counts: {'MCP 추가 수집 필요': 319, '연결 후보(투어 상세 확인 필요)': 8, '부분 상품화 자산': 3, '검증된 대표 경험': 1}
 
 ## By city
 
 | City | Classification counts |
 |---|---|
-| jp-hiroshima | {'상품화 부족 자산': 30, '부분 상품화 자산': 2} |
-| jp-kyoto | {'상품화 부족 자산': 563, '검증된 대표 경험': 4, '부분 상품화 자산': 3} |
+| jp-fukuoka | {'MCP 추가 수집 필요': 5} |
+| jp-hiroshima | {'부분 상품화 자산': 3, 'MCP 추가 수집 필요': 25, '검증된 대표 경험': 1} |
+| jp-kyoto | {'연결 후보(투어 상세 확인 필요)': 8, 'MCP 추가 수집 필요': 289} |
 
 ## Important interpretation
 
-- `상품화 부족 자산` means no direct MCP product match in the collected sample, not proof of zero market demand.
+- Every Kyoto primary asset is matched with a Korean translated name generated from its official kana reading; curated standard translations are marked separately from automatic transliterations.
+- `매칭 보류(한국어 번역 부족)` is not a supply gap. Japanese-to-Korean translation must be completed first.
+- `연결 후보(투어 상세 확인 필요)` is title-level evidence only; itinerary/inclusion detail must confirm an actual visit.
+- `수집 표본 내 미연결 후보` means a Korean translated name had no direct match after a complete MCP collection. It is still not proof of zero market demand.
+- `MCP 추가 수집 필요` means the Korean translated name is ready, but category/page errors prevent a supply-gap conclusion.
 - Multi-city manual/DMO seed candidates are excluded from this primary scoring file to avoid contaminating official-data analysis.
 - MCP collection was rate-limited for several non-tour categories, so the current match is a first-pass sample.
 - Generic Fukuoka yatai aliases such as `야타이` and `포장마차` apply only to the aggregate `후쿠오카 야타이` anchor.

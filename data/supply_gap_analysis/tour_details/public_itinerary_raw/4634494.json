@@ -1,0 +1,50 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 17067,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "쿠스휴게소",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/18/6zMs/OS3hzTHSp2.JPG",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "유후인",
+          "description": "유후인 탑승가능",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/18/BGZU/aR6HZwdxnw.jpg",
+          "duration": "2시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2674871,
+              "lng": 131.3655357
+            },
+            "label": "유후인 플로랄빌리지"
+          }
+        },
+        {
+          "title": "벳푸 아프리칸 사파리 & 먹이 주기 체험(A팀 B팀 크로스 운영)",
+          "description": "13:00~ 14:00   A팀 - 아프리칸 사파리 투어    B팀 - 먹이 주기 체험\n  \n14:00~ 15:00   A팀 - 먹이 주기 체험     B팀 - 아프리칸 사파리 투어",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/18/STc0/NwUrfKw3CT.jpg",
+          "duration": "2시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.35092509999999,
+              "lng": 131.4137658
+            },
+            "label": "아프리칸 사파리"
+          }
+        },
+        {
+          "title": "벳푸 가마도 지옥",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/28/4Q0E/fvYinpBAUb.JPG",
+          "duration": "40분 소요"
+        }
+      ]
+    }
+  ]
+}

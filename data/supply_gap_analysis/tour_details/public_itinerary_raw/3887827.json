@@ -1,0 +1,24 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 12951,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "첫째 날 코스",
+          "description": "09：00 후쿠오카　출발 \r\n      ---> 나가사키 도착\r\n      ---> 글로버 공원,오우라 성당\r\n      ---> 차이나타운및 메가네바시\r\n      ---> 점심식사( 중식또는 현지식 1인￥1、000～￥2、000 )\r\n      ---> 나가사키 항\r\n  　--->평화의 공원,원폭 기념관\r\n      ---> 이나사야마 전망대\r\n      ---> 숙소",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/158216/248464_original_1720447891.jpg?1720447891",
+          "duration": "540분 소요"
+        },
+        {
+          "title": "둘째 날 코스",
+          "description": "08：40 숙소 출발\r\n       --->운젠 도착 \r\n       --->지옥 온천\r\n       --->니타제2전망대\r\n       ---> 점심식사( 중식또는 현지식 1인￥1、000～￥2、000 )\r\n       ---> 운젠아마쿠사 국립공원\r\n       ---> 시마바라 성\r\n       ---> 야나가와로 출발\r\n       ---> 야나가와 카와쿠다리 \r\n       ---> 후쿠오카 도착",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/158216/248465_original_1720447891.jpg?1720447891",
+          "duration": "540분 소요"
+        }
+      ]
+    }
+  ]
+}

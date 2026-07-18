@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "searchParams": {
+    "query": "히로시마",
+    "page": 2,
+    "perPage": 20,
+    "category": "ticket_v2"
+  },
+  "pagination": {
+    "currentPage": 2,
+    "hasNextPage": false,
+    "totalCount": 0,
+    "itemsInThisPage": 0
+  },
+  "products": []
+}

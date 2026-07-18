@@ -1,0 +1,36 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 20854,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "출발",
+          "description": ""
+        },
+        {
+          "title": "이쓰쿠시마 신사",
+          "description": ""
+        },
+        {
+          "title": "히로시마 평화기념공원",
+          "description": ""
+        },
+        {
+          "title": "슈케이엔 정원",
+          "description": ""
+        },
+        {
+          "title": "히로시마 성",
+          "description": ""
+        },
+        {
+          "title": "복귀",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

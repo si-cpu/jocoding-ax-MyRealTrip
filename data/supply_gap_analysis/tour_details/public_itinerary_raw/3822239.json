@@ -1,0 +1,74 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 7235,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "미팅 및 출발",
+          "description": "미팅 시간｜08:45 ~ 09:00(15분간 진행)\n미팅 장소｜하카타역 치쿠시구치 오리엔탈호텔 1층 로손편의점 앞",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/01/upzY/diAIaFncaN.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔 후쿠오카점"
+          }
+        },
+        {
+          "title": "카라토시장(자유중식)",
+          "description": "현지 어부가 잡아 키운 물고기를 판매하는 시장으로서 일본 전국에서도 보기 어려운 판매 구조를 띄고 있는 시장입니다. 시모노세키의 신선한 해산물을 그 자리에서 맛볼 수 있는 특별한 경험을 와쿠와쿠에서 함께 하세요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/01/FJk6/YHQyM1fyan.jpg",
+          "duration": "2시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.9566087,
+              "lng": 130.945824
+            },
+            "label": "가라토시장"
+          }
+        },
+        {
+          "title": "모지코 레트로",
+          "description": "1899년 개항한, 큐슈 최북단에 위치한 국제무역항 모지코\n그때 당시의 모습을 복원하여 레트로한 감성이 물씬 풍기는 곳 입니다. 아인슈타인이 머물렀던 영빈관, 옛 큐슈철도본사를 보존하고 있습니다. 19세기 일본을 만나러 가볼까요?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/01/09Sh/xrgOcsKADB.jpg",
+          "duration": "2시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.94783,
+              "lng": 130.96375
+            },
+            "label": "모지코 레트로"
+          }
+        },
+        {
+          "title": "고쿠라성",
+          "description": "기타큐슈의 상징이자 일본에서 6번째로 큰 고성 고쿠라성\n후쿠오카에서 유일하게 옛 모습을 간직하고 있습니다. 무라사키 강을 건너, 아름다운 정원까지 관람하세요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/01/X6Bj/QMrQPvXC81.jpg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.88437,
+              "lng": 130.87387
+            },
+            "label": "고쿠라 성"
+          }
+        },
+        {
+          "title": "도착 및 해산",
+          "description": "하카타역 도착 후 해산! 버스에서 안내해드린 숨겨진 맛집과 와쿠와쿠만의 꿀팁들로 완벽한 하루를 마무리 하실 수 있어요!",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔 후쿠오카점"
+          }
+        }
+      ]
+    }
+  ]
+}

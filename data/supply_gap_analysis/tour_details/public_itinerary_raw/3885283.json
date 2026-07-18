@@ -1,0 +1,35 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 11658,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "후쿠오카내 숙소 픽업 아마쿠사로 이동",
+          "description": "후쿠오카 현에서 구마모토 아마쿠사로 이동합니다.\r\n이동시간이 길어서 중간중간 휴게소 들릴게요~",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/125996/191664_original_1670553396.jpg?1670553396",
+          "duration": "180분 소요"
+        },
+        {
+          "title": "점심시간 아마쿠사 명물 요리 카이센동",
+          "description": "일본 내에서도 유명한 아마쿠사 바다. 특히 해산물이 유명해 카이센동 및 사시미 등이 유명합니다.\r\n현진이 추천하는 카이센동 드셔보세요",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/125996/191665_original_1670553396.jpg?1670553396",
+          "duration": "60분 소요"
+        },
+        {
+          "title": "온천체험",
+          "description": "미끌 미끌 아마쿠사의 온천 지친 몸 과 마음까지 따뜻해져요~",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/125996/191667_original_1670553396.jpg?1670553396",
+          "duration": "60분 소요"
+        },
+        {
+          "title": "후쿠오카 숙소로 이동",
+          "description": "후쿠오카시내의 숙소로 안전하게 모셔다 드리겠습니다 ^^\r\n당신의 소중한 하루를 현지인이 만들어낸 특별한 코스로 안내하고 싶습니다~",
+          "duration": "180분 소요"
+        }
+      ]
+    }
+  ]
+}

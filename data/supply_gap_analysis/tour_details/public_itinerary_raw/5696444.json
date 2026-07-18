@@ -1,0 +1,46 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 22020,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "미팅 장소:08:30 로손 후쿠오카 하카타 오리엔탈 호텔 (하카타역 츠쿠시구치 앞)",
+          "description": "**투어 출발 10분 전까지 미팅 장소에 도착해 주세요. \n제시간에 출발하며 늦으실 경우 기다리기 어려우니 시간 엄수 부탁드립니다~",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/31/zeIF/820hXPw1ym.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔후쿠오카"
+          }
+        },
+        {
+          "title": "9:10 다자이후 텐만구",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/31/opVh/csa2bom0xE.jpg",
+          "duration": "1시간 30분 소요"
+        },
+        {
+          "title": "12:40 벳푸 케이블카",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/31/7c6d/ZFnH1FgRob.jpg",
+          "duration": "1시간 소요"
+        },
+        {
+          "title": "14:10 유후인 마을",
+          "description": "관광 마차 체험（선택 사항)\n유노히라 거리 （자유 산책）\n긴린호（금린호）（자유 산책）\n유후인 플라워 빌리지（자유 관람）\n ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/31/ZdtD/CwuqAZnub1.jpg",
+          "duration": "2시간 20분 소요"
+        },
+        {
+          "title": "18:20 하카타 역 도착하여 즐거웠던 하루 일정을 마칩니다!",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

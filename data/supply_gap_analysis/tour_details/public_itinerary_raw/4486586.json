@@ -1,0 +1,135 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 16982,
+      "title": "열차포함",
+      "slots": [
+        {
+          "title": "10:00 ▼구마모토성 (자유 시간 / 입장료 800엔, 본인 부담)",
+          "description": "구마모토성은 일본 3대 명성 중 하나\n축성 후 400년 이상이 지난 지금도 구마모토 시내 중심부의 언덕 위에 우뚝 서 있습니다. \n또한 구마모토성 인근에는 사쿠라노바바 조사이엔(桜の馬場 城彩苑) 이 있어 함께 둘러보시기 좋습니다.\n성하마을 콘셉트로 조성된 이 관광지는 역사문화 체험관인 ‘와쿠와쿠자(湧々座)’, 다양한 지역 먹거리를 즐길 수 있는 ‘사쿠라노 코지(桜の小路)’ 등으로 구성되어 있어, 구마모토 특산품 쇼핑과 식사를 함께 즐길 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/13/Go7K/A0Cv2BYkOW.jpg",
+          "duration": "1시간 50분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.80574,
+              "lng": 130.70596
+            },
+            "label": "구마모토 성"
+          }
+        },
+        {
+          "title": "13:10 ▼아소산 & 쿠사센리 (자유 시간, 점심시간 포함, 기타 입장료 본인 부담)",
+          "description": "활화산을 가까이에서 관찰할 수 있는 몇 안되는 명소 중 하나로, 화구를 내려다보며 끊임없이 피어오르는 하얀 연기를 직접 눈으로 확인할 수 있어요!\n대자연의 놀라운 힘과 웅장한 경관을 체험하며 특별한 여행의 추억을 만들어 보세요.\n",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/13/PBKB/Cm2Vf7ws9J.jpg",
+          "duration": "2시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.884907,
+              "lng": 131.0849344
+            },
+            "label": "아소산 나카타케 화구"
+          }
+        },
+        {
+          "title": "13:10 ▼아소산 & 쿠사센리 (자유 시간, 점심시간 포함, 기타 입장료 본인 부담)",
+          "description": "광활한 초원에서 자연의 감동을 느낄 수 있는 곳, 바로 구마모토의 구사센리예요. 풀이 천 리나 펼쳐져 있다는 뜻의 '구사센리(草千里)'에서 말도 구경하고, 연못에 비친 푸른 하늘도 감상해 보세요.\n\n* 3월 초부터 12월 초까지 승마 체험이 가능합니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/13/SEaR/yzc0BKa2xL.jpg",
+          "duration": "2시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8818249,
+              "lng": 131.0533279
+            },
+            "label": "구사센리(구사센리가하마)"
+          }
+        },
+        {
+          "title": "15:30 ▼미치노에키 아소(가이드 미동반)",
+          "description": "열차를 기다리는 시간도 지루하지 않아요!\n‘미치노에키 아소’ 주변에서 자유롭게 둘러보세요.\n이곳에서는 웅장한 아소 오악(阿蘇五岳) 의 절경을 감상할 수 있으며,\n제철 채소, 과일, 육류, 유제품, 디저트, 수제 도시락 등 다양한 아소 지역 특산물을 만나보실 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/13/qzq6/My4XkXRyxX.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 32.9370003,
+              "lng": 131.0808584
+            },
+            "label": "미치노에키 아소"
+          }
+        },
+        {
+          "title": "15:56 ▼ 아소보이(Aso Boy) 탑승 후 구마모토역으로 귀환 (가이드 미동반)",
+          "description": "열차 시간 15:56-17:08",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/13/ehWL/uMG0CEK88S.jpg"
+        }
+      ]
+    },
+    {
+      "itineraryId": 16982,
+      "title": "열차불포함",
+      "slots": [
+        {
+          "title": "10:00 ▼구마모토성 (자유 시간 / 입장료 800엔, 본인 부담)",
+          "description": "구마모토성은 일본 3대 명성 중 하나\n축성 후 400년 이상이 지난 지금도 구마모토 시내 중심부의 언덕 위에 우뚝 서 있습니다. \n또한 구마모토성 인근에는 사쿠라노바바 조사이엔(桜の馬場 城彩苑) 이 있어 함께 둘러보시기 좋습니다.\n성하마을 콘셉트로 조성된 이 관광지는 역사문화 체험관인 ‘와쿠와쿠자(湧々座)’, 다양한 지역 먹거리를 즐길 수 있는 ‘사쿠라노 코지(桜の小路)’ 등으로 구성되어 있어, 구마모토 특산품 쇼핑과 식사를 함께 즐길 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/13/Xi1j/7UaIGt3iQT.jpg",
+          "duration": "1시간 50분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.80574,
+              "lng": 130.70596
+            },
+            "label": "구마모토 성"
+          }
+        },
+        {
+          "title": "13:10 ▼아소산 & 쿠사센리 (자유 시간, 점심시간 포함, 기타 입장료 본인 부담)",
+          "description": "활화산을 가까이에서 관찰할 수 있는 몇 안되는 명소 중 하나로, 화구를 내려다보며 끊임없이 피어오르는 하얀 연기를 직접 눈으로 확인할 수 있어요!\n대자연의 놀라운 힘과 웅장한 경관을 체험하며 특별한 여행의 추억을 만들어 보세요.\n",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/13/Vk0d/pTXKJfkR25.jpg",
+          "duration": "2시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.884907,
+              "lng": 131.0849344
+            },
+            "label": "아소산 나카타케 화구"
+          }
+        },
+        {
+          "title": "13:10 ▼아소산 & 쿠사센리 (자유 시간, 점심시간 포함, 기타 입장료 본인 부담)",
+          "description": "광활한 초원에서 자연의 감동을 느낄 수 있는 곳, 바로 구마모토의 구사센리예요. 풀이 천 리나 펼쳐져 있다는 뜻의 '구사센리(草千里)'에서 말도 구경하고, 연못에 비친 푸른 하늘도 감상해 보세요.\n\n* 3월 초부터 12월 초까지 승마 체험이 가능합니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/13/AXyP/280Ol4J15e.jpg",
+          "duration": "2시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8818249,
+              "lng": 131.0533279
+            },
+            "label": "구사센리(구사센리가하마)"
+          }
+        },
+        {
+          "title": "15:30 ▼미치노에키 아소(가이드 미동반)",
+          "description": "열차를 기다리는 시간도 지루하지 않아요! \n‘미치노에키 아소’ 주변에서 자유롭게 둘러보세요.\n이곳에서는 웅장한 아소 오악(阿蘇五岳) 의 절경을 감상할 수 있으며,\n제철 채소, 과일, 육류, 유제품, 디저트, 수제 도시락 등 다양한 아소 지역 특산물을 만나보실 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/13/P0mc/mjKGilhcA6.jpg",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.9370003,
+              "lng": 131.0808584
+            },
+            "label": "미치노에키 아소"
+          }
+        },
+        {
+          "title": "15:45 오늘의 일정을 마치고 귀환합니다 ",
+          "description": ""
+        },
+        {
+          "title": "18:00 후쿠오카 로손 오리엔탈 호텔 후쿠오카점 앞 최종하차",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/13/DTWT/HJitinrESW.jpg"
+        }
+      ]
+    }
+  ]
+}

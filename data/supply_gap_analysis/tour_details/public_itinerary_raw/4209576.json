@@ -1,0 +1,133 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 14555,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "출발",
+          "description": "우리끼리 떠나는 프라이빗 맞춤투어 시작",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/11/27/s2yi/e5KflVbrse.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.584637,
+              "lng": 130.4437
+            },
+            "label": "후쿠오카 (FUK)"
+          }
+        },
+        {
+          "title": "쿠스휴게소(한정판 마시는 요구르트)",
+          "description": "이곳에서만 맛볼수 있는 맛있는 요구르트",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/03/05/BmAs/HiEf2b5Ad3.jpg",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2828507,
+              "lng": 131.116804
+            },
+            "label": "구스 고속도로 휴게소(하행)"
+          }
+        },
+        {
+          "title": "아프리칸 사파리",
+          "description": "아시아 최대규모의 사파리 파크로 차를 타고 다양한 동물들을 가까이에서 관찰할수 있어요 ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/03/18/QF4X/IO8uGR52DK.jpg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.35031,
+              "lng": 131.41495
+            },
+            "label": "아프리칸 사파리"
+          }
+        },
+        {
+          "title": "지옥온천 순례지(가마도지옥)",
+          "description": "벳푸에는 7개의 지옥온천이 있습니다.\n땅에서부터 솟아 오르는 원수로 인해 수증기가 마치 지옥같아 지옥온천이라는 별칭이 지어졌습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/03/05/mOPa/vRvs2CVwu2.jpg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.3163879,
+              "lng": 131.4723906
+            },
+            "label": "가마도 지옥"
+          }
+        },
+        {
+          "title": "사기리다이 전망대",
+          "description": "유후인 마을과 유후산을 한눈에 담을수 있어요",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/03/18/SzNj/uws3ifg7O3.jpg",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2600229,
+              "lng": 131.3825262
+            },
+            "label": "사기리다이 전망대"
+          }
+        },
+        {
+          "title": "긴린 호수",
+          "description": "온천수와 청수가 만나 이루어진 긴린코호수\n이른새벽 뭉게뭉게 피어나는 안개는 몸도 마음도 정화되는 기분이 듭니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/03/20/S2Lm/vQ1VlYSMdE.jpg",
+          "duration": "20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.266644,
+              "lng": 131.36911
+            },
+            "label": "긴린 호수"
+          }
+        },
+        {
+          "title": "유노츠보거리",
+          "description": "유후인역(湯布院駅)에서 내려 긴린코(金鱗湖) 호수로 향하는 길목에 있는 \"유노츠보 거리(湯の坪街道)\". 거리변에는 70여개의 가게가 늘어서 있어 그날의 점심 식사는 조금씩 맛보면서 걸어다니는 것으로 충분할 정도입니다. 음식 이외에도, 미술관이나 지역 특산품을 구입할 수 있는 기념품 가게, 앤틱 잡화 가게도 있어, 이곳을 걷는 것만으로 유후인을 마음껏 만끽할 수 있습니다\n",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/03/05/pjh1/xMDFJKXSlH.jpg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2629565,
+              "lng": 131.3555767
+            },
+            "label": "유후인역앞 버스센터"
+          }
+        },
+        {
+          "title": "진격의 거인 동상 오오야마댐",
+          "description": "매니아들은 꼭 한번 방문하는 오오야마 댐의 에렌 미카사 아르민 동상",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/19/Qh5K/Gv62JsYY65.jpg",
+          "duration": "20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2430332,
+              "lng": 130.9563371
+            },
+            "label": "오야마 댐"
+          }
+        },
+        {
+          "title": "스즈메의 문단속 포스터 배경지 분고모리",
+          "description": "인기 애니 스즈메의 문단속 포스터 배경지 분고모리 기관고 ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/19/xAuH/2sRqZeZ3CK.jpg",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2817679,
+              "lng": 131.1567115
+            },
+            "label": "분고모리 기관고 공원"
+          }
+        },
+        {
+          "title": "귀환",
+          "description": "우리끼리 떠나는 프라이빗 맞춤투어 종료",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/11/27/7mbN/BtegggiNLe.jpg"
+        }
+      ]
+    }
+  ]
+}

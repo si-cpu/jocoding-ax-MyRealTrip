@@ -1,0 +1,88 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 22286,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "08:00 하카타역 치쿠시 출구",
+          "description": "집합 장소에는 반드시 10분 일찍 도착해 주세요. 협조해 주셔서 감사합니다.지각하거나 미참석하시는 경우 환불이 어렵습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/13/BBI4/GtIldYJ0xm.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5897928,
+              "lng": 130.4233148
+            },
+            "label": "로손"
+          }
+        },
+        {
+          "title": "9:40 유후인역",
+          "description": "유후인은 일본 오이타현 유후시에 위치한 규슈를 대표하는 온천 마을 중 하나입니다. **유후다케**의 아름다운 산세와 **긴린코**로 유명하며, 자연 풍경과 온천 문화가 조화를 이루고 있습니다. 마을 안에는 개성 있는 카페와 디저트 가게, 수공예 상점들이 모여 있어 한적하고 여유로운 분위기를 자아내며, 관광과 휴양을 함께 즐길 수 있는 인기 여행지로 사랑받고 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/13/zhY0/MviY8Hz6Ts.jpg",
+          "duration": "2시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2626697,
+              "lng": 131.355101
+            },
+            "label": "유후인역"
+          }
+        },
+        {
+          "title": "12:32 유후인노모리",
+          "description": "유후인노모리는 JR 규슈가 운영하는 인기 관광열차로, 하카타와 유후인, 오이타 지역을 연결합니다. 열차 내부는 목재 인테리어와 복고풍 디자인을 특징으로 하여 따뜻하고 아늑한 승차 분위기를 만들어 줍니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/13/NL4e/Q4GR7nkwmI.jpg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2626697,
+              "lng": 131.355101
+            },
+            "label": "유후인역"
+          }
+        },
+        {
+          "title": "14:00 우미 지고쿠 온천",
+          "description": "처음 보면 잠시 멍해질 정도입니다. 온천수는 투명한 파란색이지만, 실제 온도는 거의 끓는 수준이라 김이 계속 올라옵니다. 사진 찍기에도 좋고 시각적으로도 강한 임팩트를 주며, 벳푸 ‘지옥 온천’ 중에서도 가장 대표적인 곳입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/13/Fxhj/rmHjoc4WCV.jpg",
+          "duration": "30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.3168115,
+              "lng": 131.4687384
+            },
+            "label": "우미 지고쿠 (바다지옥)"
+          }
+        },
+        {
+          "title": "16:00 다자이후 텐만구",
+          "description": "참배길 양쪽으로는 우메가에모치 향이 퍼지고, 다이코바시를 지나면 붉은 다리의 그림자가 물 위에 비칩니다. 이곳에는 ‘학문의 신’이 모셔져 있어 많은 일본 학생들이 소원을 빕니다. 분위기는 조용하지만 한산하지 않고, 일본 신사 특유의 의식적인 느낌이 잘 살아 있습니다.\n12월 28일부터 1월 5일까지는 다자이후 텐만구에서 대규모 신년 행사가 진행되어 교통 혼잡으로 단체 차량 진입이 어려운 관계로, 해당 기간에는 방문지가 뇨이린지로 변경됩니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/13/73yr/ewLi5Er2vX.jpg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.520805,
+              "lng": 130.53479
+            },
+            "label": "다자이후 텐만구"
+          }
+        },
+        {
+          "title": "18:00 하카타역 치쿠시 출구",
+          "description": "실제 귀환 시간은 당일 도로 상황에 따라 달라질 수 있으며, 정확한 도착 시간은 보장되지 않습니다.\n저녁 식사 예약이나 비행기, 신칸센 등 이동 일정은 잡지 말아주시기 바랍니다. 양해 부탁드립니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/13/PjGe/N2lyymQ8DR.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5897928,
+              "lng": 130.4233148
+            },
+            "label": "로손"
+          }
+        }
+      ]
+    }
+  ]
+}

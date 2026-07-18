@@ -1,0 +1,1113 @@
+{
+  "widget": {
+    "type": "ListView",
+    "children": [
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/24/64y9/nhxGQb7K2n.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "[수족관&동물원] 유후인&벳푸 우미타마고, 다카사키야마 후쿠오카 근교 일일투어 소소버스투어",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "마리트 최초",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "99,000원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/5854894"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/5854894"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/5854894"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/5854894"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/08/22/rZsS/BhtvSnWOVr.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "[프라이빗투어] 후쿠오카,나가사키,사가,쿠마모토 주요 관광명소를 한번에! 2박3일 투어",
+                            "weight": "bold"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 4.9 (7)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "575,000원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/3511661"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/3511661"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/3511661"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/3511661"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/22/byck/sMRJorLERe.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "규슈&오이타: 다자이후 천만궁&벳푸 곤돌라&긴린호 일일투어(후쿠오카 출발)",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "무료취소",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "33,900원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/4476030"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/4476030"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/4476030"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/4476030"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/03/j8Fh/kiIGdRd71x.jpeg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "다카치호 관광 열차 당일 투어",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "즉시 확정",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "64,285원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/5704124"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/5704124"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/5704124"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/5704124"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/BA0M/gzH2Nw8Z49.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "[후쿠오카/유후인/벳푸/구마모토 프라이빗] 일본 큐슈 3일 알찬 투어 (FUK-2030)",
+                            "weight": "bold"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "267,901원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/4159287"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/4159287"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/4159287"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/4159287"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/1IyM/JkCEWFhNQG.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "[유후인/벳푸/후쿠오카 프라이빗] 일본 큐슈 2일 프라이빗 투어 (FUK-2020)",
+                            "weight": "bold"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "179,012원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/4159277"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/4159277"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/4159277"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/4159277"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/08/19/UhOf/4H7Si0ittl.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "[큐슈] 2박3일 가족이 즐기는 프라이빗 투어!",
+                            "weight": "bold"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 4.7 (18)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "2,000,000원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/3509069"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/3509069"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/3509069"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/3509069"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/27/bJ89/G2RVvhYkda.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "[프라이빗/후쿠오카 출발] 힐링이되는 구마모토의 바다 아마쿠사.맞춤여행.세미스냅.vip투어",
+                            "weight": "bold"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "680,000원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/3885283"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/3885283"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/3885283"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/3885283"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/08/19/fI7d/vhNwUBhn17.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "큐슈 전지역 통역업무 지원~일본/후쿠오카",
+                            "weight": "bold"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "350,000원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/3509081"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/3509081"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/3509081"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/3509081"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/27/gkD0/2y7aUQSn7i.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "후쿠오카에서 떠나봐요. 벳푸, 유후인, 다자이후까지 하루만에 다 보고올까요?",
+                            "weight": "bold"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "130,000원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/3887821"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/3887821"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/3887821"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/3887821"
+        }
+      }
+    ],
+    "limit": 10
+  },
+  "name": "myrealtrip",
+  "copy_text": "**후쿠오카 투어/액티비티 검색 결과**\n1. **[수족관&동물원] 유후인&벳푸 우미타마고, 다카사키야마 후쿠오카 근교 일일투어 소소버스투어** \n   99,000원~\n2. **[프라이빗투어] 후쿠오카,나가사키,사가,쿠마모토 주요 관광명소를 한번에! 2박3일 투어** ⭐4.9\n   575,000원~\n3. **규슈&오이타: 다자이후 천만궁&벳푸 곤돌라&긴린호 일일투어(후쿠오카 출발)** \n   33,900원~\n4. **다카치호 관광 열차 당일 투어** \n   64,285원~\n5. **[후쿠오카/유후인/벳푸/구마모토 프라이빗] 일본 큐슈 3일 알찬 투어 (FUK-2030)** \n   267,901원~\n📋 총 268개 중 20개 표시"
+}

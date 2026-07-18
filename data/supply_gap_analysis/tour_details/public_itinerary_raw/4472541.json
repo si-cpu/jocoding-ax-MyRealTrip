@@ -1,0 +1,128 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 16260,
+      "title": "구로카와 온천 코스",
+      "slots": [
+        {
+          "title": "8:00 출발：로손 후쿠오카 오리엔탈 호텔 하카타 에키 치쿠시구치 ",
+          "description": "Address:4-23 Hakataekichuogai, HakataWard, Fukuoka,812-0012,Japan\n08:00출발이니, 가능하면 집합 장소에 10분 일찍 도착해 주시기 바랍니다. 출발 전날 밤 18시부터 22시 사이에 차량 번호와 기사 연락처 등의 관련 정보를 고객님의 이메일로 발송해 드릴 예정입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/22/mhO3/rBrJkCkIZi.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5908373,
+              "lng": 130.4221034
+            },
+            "label": "4-23 Hakataekichūōgai"
+          }
+        },
+        {
+          "title": "10:40  아소 화산-중앙 분화구",
+          "description": "아소 화산은 세계에서 가장 큰 활화산 중 하나로, 직경 약 25km의 칼데라를 가지고 있습니다(기상 상황에 따라 개방). 분화구 주변에는 전망대가 마련되어 있어 지구의 거대한 에너지를 체감할 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/22/cvhC/gsH2kZPFWK.jpg",
+          "duration": "20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.884907,
+              "lng": 131.0849344
+            },
+            "label": "아소산 나카타케 화구"
+          }
+        },
+        {
+          "title": "11：00-아소산 초천리(자유롭게 점심 식사 가능한 시간 포함)",
+          "description": "-아소 화산 기슭에 펼쳐진 약 100헥타르의 광활한 초원. 봄에는 야생화, 여름은 푸른 잔디, 가을은 황금빛, 겨울(12-2월)은 설경으로 계절별 매력이 있습니다. \n-초천리 인근에 위치, 4D 영상과 실시간 화산 화면으로 아소의 지질 신비를 전시. 희귀 화산암 표본과 어린이 체험존(분출 실험)이 특징.\n선택 가능한 자체 자금 조달 프로젝트:\n🏇 말 타기：화산 초원에서의 승마 (5/20/25분 선택)\n아소 화산 박물관 (입장료 1100엔)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/22/hxk5/LApKFcz6H0.jpg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8818249,
+              "lng": 131.0533279
+            },
+            "label": "구사센리(구사센리가하마)"
+          }
+        },
+        {
+          "title": "12:50-아소 신사",
+          "description": "2500년 역사를 가진 신사로 진분조니 문이 유명합니다. 3-4월에는 산책로의 벚꽃 터널, 가을에는 단풍 명소로도 인기가 높습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/22/qSr2/N7hvkeHF8E.jpg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.9480333,
+              "lng": 131.1158274
+            },
+            "label": "아소 신사"
+          }
+        },
+        {
+          "title": "14:10-구로카와 온천",
+          "description": "미쉐린 2스타 온천마을로 30여 개의 독특한 온천 여관이 있습니다. \"온천 메구리 테마티켓\"(1300엔)으로 3곳의 온천을 체험할 수 있으며, 밤에는 등불이 어우러진 낭만적인 거리를 즐길 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/22/BFgX/Ey1XsbgbT6.jpg",
+          "duration": "1시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.0780191,
+              "lng": 131.1416136
+            },
+            "label": "Kurokawa Onsen"
+          }
+        },
+        {
+          "title": "15:40-귀국 여행을 시작하세요",
+          "description": "18:00 후쿠오카 오리엔탈 호텔 도착 후 해산. \n귀경 시간은 참고용이며, 당일 일정 진행 상황이나 교통 상황에 따라 변경될 수 있습니다.",
+          "duration": "2시간 20분 소요"
+        }
+      ]
+    },
+    {
+      "itineraryId": 16260,
+      "title": "구마모토성 코스",
+      "slots": [
+        {
+          "title": "8:00 출발：로손 후쿠오카 오리엔탈 호텔 하카타 에키 치쿠시구치 ",
+          "description": "Address:4-23 Hakataekichuogai, HakataWard, Fukuoka,812-0012,Japan\n08:00출발이니, 가능하면 집합 장소에 10분 일찍 도착해 주시기 바랍니다. 출발 전날 밤 18시부터 22시 사이에 차량 번호와 기사 연락처 등의 관련 정보를 고객님의 이메일로 발송해 드릴 예정입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/05/07/eZhs/69xKqO3NcV.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5908373,
+              "lng": 130.4221034
+            },
+            "label": "4-23 Hakataekichūōgai"
+          }
+        },
+        {
+          "title": "10:00- 구마모토성 (일본 3대 명성)",
+          "description": "관람 시간: 약 90-110분 | 💴 입장료: 800엔 (별도)\n✨ 특징:\n✅ 천수각: 지진 복원된 역사적 보물\n✅ 무샤가에시 석축: 독특한 방어 성벽\n✅ 사쿠라노코지: 성 아래 거리의 명물 음식거리\n✅ 쿠마몬 부장 사무실: 귀여운 부장과 만남 ，한정 판매 굿즈 쇼핑(*별도로 이동 시, 도보 왕복 30분 소요되니 시간 배분에 유의해 주세요.)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/05/12/7jY2/5tTYq4GDeF.jpg",
+          "duration": "1시간 10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.80574,
+              "lng": 130.70596
+            },
+            "label": "구마모토 성"
+          }
+        },
+        {
+          "title": "13:10-아소 화산 & 초천리",
+          "description": "-아소 화산은 세계에서 가장 큰 활화산 중 하나로, 직경 약 25km의 칼데라를 가지고 있습니다(기상 상황에 따라 개방). 분화구 주변에는 전망대가 마련되어 있어 지구의 거대한 에너지를 체감할 수 있습니다.\n-아소 화산 기슭에 펼쳐진 약 100헥타르의 광활한 초원. 봄에는 야생화, 여름은 푸른 잔디, 가을은 황금빛, 겨울(12-2월)은 설경으로 계절별 매력이 있습니다. \n-초천리 인근에 위치, 4D 영상과 실시간 화산 화면으로 아소의 지질 신비를 전시. 희귀 화산암 표본과 어린이 체험존(분출 실험)이 특징.\n선택 가능한 자체 자금 조달 프로젝트:\n🏇 말 타기：화산 초원에서의 승마 (5/20/25분 선택)\n🚁 헬기 투어：화산 크레이터 조망 (별도 요금)\n아소 화산 박물관 (입장료 1100엔)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/05/12/uFwJ/UahlyhTr1V.jpg",
+          "duration": "1시간 20분 소요"
+        },
+        {
+          "title": "15:30-아소 도로휴게소",
+          "description": "✨ 하이라이트：\n장관의 화산 경관：세계적 규모의 칼데라(아소 오악)와 외륜산 전망 가능\n지역 특산품：아소 직판 농산물, 유제품, 수제 도시락 등 현지에서만 구입 가능한 상품\n《원피스》 콜라보：광장에 우솝 동상 전시 (구마모토현 공식 프로젝트)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/05/12/o5FF/BlEqPD9GvP.jpg",
+          "duration": "20분 소요"
+        },
+        {
+          "title": "15:45 귀국 여행 시작",
+          "description": "18:00 경 후쿠오카 오리엔탈 호텔 도착, 오늘의 일정을 마칩니다.\n귀경 시간은 참고용이며, 당일 일정 진행 상황이나 교통 상황에 따라 변경될 수 있습니다."
+        }
+      ]
+    }
+  ]
+}

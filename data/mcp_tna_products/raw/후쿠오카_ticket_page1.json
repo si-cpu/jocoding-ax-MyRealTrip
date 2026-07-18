@@ -1,0 +1,1203 @@
+{
+  "widget": {
+    "type": "ListView",
+    "children": [
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/16/9uPm/CGQZmg91Kw.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "후쿠오카 마린월드 우미노나카미치 수족관 입장권",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "즉시 확정",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 4.8 (433)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "11,532원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/5869302"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/5869302"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/5869302"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/5869302"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://d6bztw1vgnv55.cloudfront.net/1504819/offer_photos/125248/722379_original_1669625460.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "후쿠오카 타워 전망대 입장권",
+                            "weight": "bold"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 4.6 (1913)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "1,642원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://www.myrealtrip.com/offers/125248"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://www.myrealtrip.com/offers/125248"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://www.myrealtrip.com/offers/125248"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://www.myrealtrip.com/offers/125248"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/28/jDqs/Y20RvIGGCF.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "[즉시확정/당일사용] 후쿠오카 타워 전망대 입장권",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "즉시 확정",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 4.8 (157)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "1,983원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/6083008"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/6083008"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/6083008"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/6083008"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/06/16/oUkO/8rP0yLfYLx.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "[기간 한정 할인] 하우스텐보스 애프터3 입장권 패스포트",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "즉시 확정",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 4.7 (62)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "53,917원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/6082914"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/6082914"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/6082914"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/6082914"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/06/16/zfUe/pKk4AuRU5I.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "[기간 한정 할인] 하우스텐보스 입장권 1DAY 패스포트",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "즉시 확정",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 4.8 (53)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "34,727원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/6082913"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/6082913"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/6082913"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/6082913"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://d6bztw1vgnv55.cloudfront.net/1504819/offer_photos/165385/1295776_original_1754648897.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "[즉시 확정] 산리오 하모니랜드 입장권(후쿠오카)",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "즉시 확정",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 4.6 (34)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "31,700원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://www.myrealtrip.com/offers/165385"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://www.myrealtrip.com/offers/165385"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://www.myrealtrip.com/offers/165385"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://www.myrealtrip.com/offers/165385"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/16/SJAc/1ZeppEQPT5.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "팀랩 포레스트 후쿠오카 입장권",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "즉시 확정",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 4.5 (33)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "8,983원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/5869396"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/5869396"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/5869396"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/5869396"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/13/4CDO/S0064XYOvu.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "하우스텐보스 1일 프리패스와 송영버스를 한번에! / B-0155",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "즉시 확정",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 4.6 (103)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "144,871원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/3426959"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/3426959"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/3426959"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/3426959"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/28/BJhY/Sa0ULDScaO.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "기타큐슈&시모노세키시 조이 패스 (3시설)",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "즉시 확정",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 5 (12)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "45,202원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/6082985"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/6082985"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/6082985"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/6082985"
+        }
+      },
+      {
+        "type": "ListViewItem",
+        "children": [
+          {
+            "type": "Box",
+            "direction": "row",
+            "children": [
+              {
+                "type": "Box",
+                "children": [
+                  {
+                    "type": "Image",
+                    "src": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/16/Qx2x/jf1kwWBZdN.jpg",
+                    "alt": "이미지",
+                    "width": 120,
+                    "radius": "lg",
+                    "fit": "cover"
+                  }
+                ],
+                "padding": 1,
+                "radius": "xl",
+                "height": "100%",
+                "align": "stretch"
+              },
+              {
+                "type": "Box",
+                "direction": "row",
+                "children": [
+                  {
+                    "type": "Col",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "일본 후쿠오카 오이타 하모니랜드 1일 패스포트",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Badge",
+                            "label": "즉시 확정",
+                            "color": "info",
+                            "variant": "soft",
+                            "size": "sm"
+                          }
+                        ],
+                        "gap": 1,
+                        "align": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "value": "⭐ 5 (10)",
+                        "weight": "medium",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "Box",
+                        "direction": "row",
+                        "children": [
+                          {
+                            "type": "Text",
+                            "value": "28,615원~",
+                            "weight": "bold"
+                          },
+                          {
+                            "type": "Button",
+                            "label": "예약하기",
+                            "onClickAction": {
+                              "type": "open_url",
+                              "payload": {
+                                "target": {
+                                  "url": "https://experiences.myrealtrip.com/products/5869260"
+                                }
+                              },
+                              "handler": "client",
+                              "loadingBehavior": "none",
+                              "url": "https://experiences.myrealtrip.com/products/5869260"
+                            },
+                            "style": "primary",
+                            "size": "xs"
+                          }
+                        ],
+                        "justify": "between",
+                        "align": "center"
+                      }
+                    ],
+                    "gap": 2,
+                    "flex": 1
+                  }
+                ],
+                "padding": {
+                  "x": 3,
+                  "y": 2
+                },
+                "flex": 1
+              }
+            ],
+            "gap": 0,
+            "background": {
+              "dark": "#2A2A2A",
+              "light": "#FFFFFF"
+            },
+            "radius": "xl",
+            "width": "100%",
+            "align": "stretch"
+          }
+        ],
+        "onClickAction": {
+          "type": "open_url",
+          "payload": {
+            "target": {
+              "url": "https://experiences.myrealtrip.com/products/5869260"
+            }
+          },
+          "handler": "client",
+          "loadingBehavior": "none",
+          "url": "https://experiences.myrealtrip.com/products/5869260"
+        }
+      }
+    ],
+    "limit": 10
+  },
+  "name": "myrealtrip",
+  "copy_text": "**후쿠오카 투어/액티비티 검색 결과**\n1. **후쿠오카 마린월드 우미노나카미치 수족관 입장권** ⭐4.8\n   11,532원~\n2. **후쿠오카 타워 전망대 입장권** ⭐4.6\n   1,642원~\n3. **[즉시확정/당일사용] 후쿠오카 타워 전망대 입장권** ⭐4.8\n   1,983원~\n4. **[기간 한정 할인] 하우스텐보스 애프터3 입장권 패스포트** ⭐4.7\n   53,917원~\n5. **[기간 한정 할인] 하우스텐보스 입장권 1DAY 패스포트** ⭐4.8\n   34,727원~\n📋 총 60개 중 20개 표시"
+}

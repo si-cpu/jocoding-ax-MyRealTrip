@@ -1,9 +1,0 @@
-{
-  "args": {
-    "query": "후쿠오카",
-    "category": "ticket_v2",
-    "page": 1,
-    "perPage": 20
-  },
-  "error": "HTTP Error 429: Too Many Requests"
-}

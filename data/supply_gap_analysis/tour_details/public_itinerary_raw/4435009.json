@@ -1,0 +1,51 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 16211,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "오호리공원 잉본정원🍀",
+          "description": "숙소 공항 후쿠오카시내 픽업 후 이동 \n만난 장소에 따라서 이동시간이 조금 달라집니다\n\n8:00~8:30픽업 이동 시간 약35분~45분\n\n오호리공원일본정원에 9:00도착\n\n10:15분 다음 목적지 신구어항(아이노시마)으로 이동\n",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/22/2Ugn/7DZz2fURGv.jpeg",
+          "duration": "1시간 20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5825662,
+              "lng": 130.3787844
+            },
+            "label": "오호리공원 일본정원"
+          }
+        },
+        {
+          "title": "아이노시마🐈",
+          "description": "신구어항 까지 이동시간 약 40분~50분\n\n마을 도선 페리 신구\n\nhttps://www.town.shingu.fukuoka.jp/kurashi/doro_kotsuu/2/2/3158.html\n\n11:30 페리 탑승 아이노시마로 출발\n11:47 아이노시마 도착\n\n중간에서 점심식사\n\n13:50 페리 탑승 신구어항으로 출발\n14:07 신구어항 도착\n\n다음 목적지 다자이후덴만구 이동",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/23/CAv1/s1A6xfZmK5.jpeg",
+          "duration": "2시간 10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.7628296,
+              "lng": 130.3688173
+            },
+            "label": "아이노시마 섬"
+          }
+        },
+        {
+          "title": "다자이후텐만구⛩️",
+          "description": "다자이후텐만구 까지 이동시간 약 45분~55분 \n\n약 15:00에 다자이후텐구 도착\n\n16:30 다자이후텐만구 출발\n\n숙소 또는 원하시는 장소로 모셔다 드립니다",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/23/bxWs/wNIsmoSKbl.png",
+          "duration": "1시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.520805,
+              "lng": 130.53479
+            },
+            "label": "다자이후 텐만구"
+          }
+        }
+      ]
+    }
+  ]
+}

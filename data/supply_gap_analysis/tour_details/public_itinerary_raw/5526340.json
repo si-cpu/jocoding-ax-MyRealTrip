@@ -1,0 +1,54 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 21181,
+      "title": "A. 대중교통",
+      "slots": [
+        {
+          "title": "가이드와 만나세요",
+          "description": "호텔 로비 또는 히로시마 역"
+        },
+        {
+          "title": "미야지마",
+          "description": "이쓰쿠시마 신사 (입장료 포함)\n점심은 포함되어 있지 않습니다. 점심은 각자 준비해 주시기 바랍니다.",
+          "duration": "3시간 30분 소요"
+        },
+        {
+          "title": "시모세 미술관 (입장료 포함)",
+          "description": "미야지마구치에서 시모세 미술관까지, 그리고 시모세 미술관에서 히로시마 역까지 시내버스를 이용합니다.",
+          "duration": "1시간 30분 소요"
+        },
+        {
+          "title": "투어 종료",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "itineraryId": 21181,
+      "title": "B. 개인 차량",
+      "slots": [
+        {
+          "title": "가이드와 만나세요",
+          "description": "호텔 로비 또는 히로시마 역"
+        },
+        {
+          "title": "미야지마",
+          "description": "이쓰쿠시마 신사 (입장료 포함)\n점심 식사는 포함되지 않습니다. 점심은 각자 준비해 주시기 바랍니다.",
+          "duration": "3시간 30분 소요"
+        },
+        {
+          "title": "시모세 미술관 (입장료 포함)",
+          "description": "미야지마구치에서 시모세 미술관까지, 그리고 시모세 미술관에서 히로시마 역까지 개인 차량 이용",
+          "duration": "1시간 30분 소요"
+        },
+        {
+          "title": "투어 종료",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

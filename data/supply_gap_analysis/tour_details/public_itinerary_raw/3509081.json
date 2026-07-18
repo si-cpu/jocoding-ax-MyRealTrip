@@ -1,0 +1,18 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 3215,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "큐슈전문 통역",
+          "description": "기업간 비즈니스 통역/간담회통역/세미너통역/시장조사 통역/문화 탐방 통역/ 수행 통역/취재 통역/관공서 통역/상담회통역/전시회통역/시찰통역",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/37143/87579_original_1529045268.jpg?1529045268",
+          "duration": "5시간 소요"
+        }
+      ]
+    }
+  ]
+}

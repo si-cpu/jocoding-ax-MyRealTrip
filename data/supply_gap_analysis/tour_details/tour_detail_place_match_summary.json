@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-07-18T21:05:17+09:00",
+  "reviewed_official_places": 34,
+  "positive_place_product_links": 7,
+  "negative_only_place_product_mentions": 0,
+  "matched_official_places": 3,
+  "by_city": {
+    "후쿠오카": {
+      "matched_official_places": 0,
+      "matched_tour_products": 0,
+      "place_product_links": 0
+    },
+    "히로시마": {
+      "matched_official_places": 3,
+      "matched_tour_products": 6,
+      "place_product_links": 7
+    }
+  },
+  "matched_alias_counts": {
+    "슈케이엔": 2,
+    "히로시마성": 2,
+    "히로시마 평화기념자료관": 2,
+    "원자력 박물관": 1
+  }
+}

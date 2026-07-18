@@ -1,0 +1,78 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 22249,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "8:00 모임 장소: 하카타역 츠쿠시구치 출구",
+          "description": "집합 장소에는 반드시 10분 일찍 도착해 주세요. 협조해 주셔서 감사합니다.지각하거나 미참석하시는 경우 환불이 어렵습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/24/lgiS/mn0LayfVmz.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔후쿠오카"
+          }
+        },
+        {
+          "title": "쿠마모토성",
+          "description": "쿠마모토의 상징이자 일본에서 손꼽히는 견고한 성곽입니다. 2016년 지진으로 큰 피해를 입었지만, 현재는 ‘전통 목조 기술’로의 복원 작업이 진행 중이며, 일부 구역에서 그 위용을 확인할 수 있어요. 복원 현장을 직접 보며 역사적 가치와 재난을 극복하는 현대의 노력을 생생히 느껴보세요. 성 내부 전시장에서는 가토 기요마사의 철학이 담긴 건축 비밀이 펼쳐집니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/24/WDpj/y4NyrFuk2b.jpg",
+          "duration": "1시간 40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8061463,
+              "lng": 130.7058304
+            },
+            "label": "1-1 Honmaru"
+          }
+        },
+        {
+          "title": "쿠사센리 & 아소 화산 ",
+          "description": "아소 외륜산 중턱에 펼쳐진 직경 1km의 청청한 초원입니다. 계절에 따라 모습을 바꾸는 드라마틱한 풍경이 눈길을 사로잡아요. 🐎 추가 체험 안내: 초원 위를 걸으며 느끼는 평화로움도 좋지만, 말 타기 체험(유료/선택)을 통해 더 특별한 추억을 만들 수 있습니다. 인근의 아소 화산 박물관에서는 화산의 형성 과정과 아소 지역의 지질학적 신비를 재미있는 전시로 배울 수 있는 좋은 기회입니다. 더 장관을 원하신다면, 아소산 헬리콥터 관광(유료/선택)을 통해 하늘에서만 볼 수 있는 웅장한 화산 지형의 전경을 감상해 보세요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/24/SxUS/juvXxStrdy.jpg",
+          "duration": "50분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8818249,
+              "lng": 131.0533279
+            },
+            "label": "구사센리(구사센리가하마)"
+          }
+        },
+        {
+          "title": "아소역 하차 & 아소 도로휴게소",
+          "description": "화산 탐방의 출발점이자 여정의 마무리 장소입니다. 아소역은 목조 구조가 돋보이는 아기자기한 역사입니다. 인근 아소 도로휴게소에서는 여행의 마지막을 빛낼 다양한 현지 특산품(아카우스 소고기 가공품、신선한 유제품、화산 재배 농산물 등)을 찾아볼 수 있어 가족이나 친구를 위한 선물 구매에 좋습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/24/2npJ/jZNypHTcLp.jpg",
+          "duration": "20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.9369691,
+              "lng": 131.0809372
+            },
+            "label": "1440-1 Kurokawa"
+          }
+        },
+        {
+          "title": "15:45 즐거운 당일 여행을 무사히 마쳤습니다. 🌟",
+          "description": "귀환 시간은 참고용이며, 당일 일정 진행 상황이나 교통 상황에 따라 일찍 끝날 수 있습니다."
+        },
+        {
+          "title": "18:00 모든 일정을 마친 후, 후쿠오카로 돌아옵니다.",
+          "description": "해산 장소: 하카타역 츠쿠시구치 출구",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔후쿠오카"
+          }
+        }
+      ]
+    }
+  ]
+}

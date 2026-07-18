@@ -1,0 +1,137 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 8054,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "스미요시 신사(住吉神社): 투어 소개 및 코스 안내",
+          "description": "인천 국제 공항 기준으로 1시간 30분 정도면 갈 수 있는 도시, 후쿠오카! 그래서 한국인들이 즐겨 찾는 도시죠. 아울러 먹거리, 쇼핑, 편리한 교통 등 여행하기 너무나 좋은 곳입니다. 후쿠오카의 매력을 파헤치러 가보시죠!\n그리고 일본 이야기할 때, 빼놓을 수 없는 것이 '신사'인데요. 하지만 '신사는 나쁘다'라고 생각하시는 분들이 있으실 겁니다. 어떤 신사가 괜찮은지, 이 스미요시 신사는 어떤 곳인지 설명해 드리겠습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/43WH/WYuoXb3FGJ.jpg",
+          "duration": "20분 소요"
+        },
+        {
+          "title": "도리이와 데미즈야",
+          "description": "일본 신사에 가면 흔히 볼 수 있는 대문 같은 기둥과 수도. 신에게 예의를 갖추기 위해 만들어 진 거죠. 어떻게 예의를 갖추는지 살펴보고 갈게요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/tnGu/ibSPb2QLlu.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "배전과 본전",
+          "description": "이곳은 신에게 참배하는 공간입니다. 종교마다 기도하는 방법이 있죠? 신도도 마찬가지인데요. 어떻게 참배하는지 간단하게 알아보고 가겠습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/EQqn/NwFq1thvVU.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "고대의 리키시 상(古代力士像)",
+          "description": "고대 역사 동상'이라고도 불리는 이 조각상! '리키시(역사)'는 스모 선수를 뜻합니다. 그래서 이 동상에 어떤 행동을 하면, 강인한 힘을 가진 리시키들의 기운을 받을 수 있다는 전설이 있는데요. 그게 무엇일지 함께 살펴 보시죠!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/4j0U/wJJ8ERn1Bw.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "스모장",
+          "description": "우리가 앞에서 본 '리시키'의 경기장, 도효(土俵)입니다. 경기장에 온 만큼 스모 선수의 경기복(마와시)에 숨어있는 비밀 1가지를 소개해 드릴게요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/C5B2/x1ASiCVT1C.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "밋카 에비스 신사(三日恵比須神社)",
+          "description": "큰 신사에는 작은 신사들이 딸려 있는데요. 이걸 섭말사라고 합니다. 그중에서도 우리가 볼 이곳은 에비스 신을 모시는 곳인데요. 사람 좋은 미소를 짓는 동상이 바로, 에비스 신입니다. 소원을 생각하면서 칠복신 중 하나인 에비스 신을 만져보세요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/UhUU/lPtubTEoYh.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "이나리 신사",
+          "description": "사실, 이곳에 있는 이나리 신사는 2개입니다. 우리가 알던 모습의 신사와 '이게 신사라고?' 싶은 게 있죠. 그곳에서는 어떻게 참배하는지 살펴보겠습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/etfD/H0oG8Yn7jC.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "복을 기원하는 4개의 섭말사",
+          "description": "스미요시 신사가 섭말사가 많은 신사죠? 근데 이곳엔 그게 모여있습니다. 신사마다 모시는 신이 다르죠. 그중 한 신사에만 독특한 비석이 있는데요. 이 비석이 왜 이곳에 세워져 있을까요?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/JUMG/4nmvHa2tup.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "라쿠스이엔(樂水園)",
+          "description": "잘 가꿔진 일본식 정원과 차를 마실 수 있는 다실을 갖추고 있어서 휴식을 취하기 좋은 곳입니다. 하지만, 이곳은 입장료와 다실 이용료를 지불해야 하는 곳이죠. 여행 일정을 고려하셔서 방문 여부를 선택해 주세요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/sMbY/XhroxjQkat.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "캐널시티 하카타",
+          "description": "'스타필드', '타임스퀘어', '아이파크몰'과 같은 복합 쇼핑몰입니다. 다양한 패션 소품 상점부터 음식점, 카페, 영화관 등이 있죠. 또한, 이곳에서는 분수 쇼도 있어서 볼거리와 즐길 거리가 가득합니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/OQlv/HkBjHI249z.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "구시다 신사(櫛田神社)",
+          "description": "참배하면 안 되는 신사를 알아봤었는데요. 바로, 이곳입니다. 한국인에게는 가슴 아픈 역사가 숨겨져 있는 곳이죠. 왜 참배하면 안 되는지, 이곳에서의 주의 사항은 무엇인지 알려드리겠습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/X6T0/JBpwjZYhfj.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "역석(力石)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/HjDE/AClzc7Chmj.jpg"
+        },
+        {
+          "title": "야마카사(山笠)",
+          "description": "거대하고 화려한 장식물, 발견하셨죠? 장인들의 손길로 만들어진 '야마카사'는 780년 넘게 이어지는 '하카타 기온 야마카사'라는 축제에 쓰입니다. 야마카사와 축제에 대해 소개해 드릴게요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/tRtt/9WQ8VmdX6z.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "구시다 신사의 본당",
+          "description": "신에게 참배하는 장소입니다. 하지만, 우리는 참배를 하지 않는 게 좋겠죠~? 지붕에 신들의 모습을 재밌게 표현한 조각들과 영천학의 우물까지 살펴보겠습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/J2Rg/nv73UsrEz2.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "누문(樓門)",
+          "description": "신사의 정문 역할을 하는 곳이죠. 평범해 보이는 이 문에는 '에토에호방(干支恵方盤)'이라는 것이 있는데요. 여기서 일본의 문화를 느껴볼 수 있습니다. 어떤 문화가 있는지 살펴볼까요?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/4t2j/lPW9WJBTzS.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "카와바타 상점가",
+          "description": "지붕이 있는 아케이드형 상점가로, 130년 넘게 깔끔하게 유지되고 있는데요. 다양한 전통 상점과 현대적인 가게가 공존하고 있는 곳이죠. 상점가에 온 만큼 후쿠오카의 3대 명물에 대해 간단히 소개해 드리겠습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/6L6O/4t3k5jF3a7.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "나카스 포장마차 거리",
+          "description": "나카스 강가를 따라 펼쳐진 포장마차(야타이)가 있는 곳인데요. 하지만, 낮에 가셨다면, 한적한 산책로처럼 보일 겁니다. 사실, 이곳의 진가는 저녁에 시작되기 때문이죠. 일본의 야타이 문화에 대해 알려드릴게요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/8oAK/dNH4OXw4a1.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "후쿠오카 성터",
+          "description": "이름에서 알 수 있듯이 성의 모습이 온전하지 않습니다. 그렇다고 해서 볼 게 없는 건 아니죠. 봄이면 벚꽃이 만개하는 '마이즈루 공원'에서 멋진 풍경을 즐겨보세요! 다음 코스로 이동하시는 길에 있는 후쿠오카의 번화가 '다이묘 거리'도 소개해 드리겠습니다.\n그리고 후쿠오카 시에 있는 지역으로서 하카타를 인식하고 계실 텐데요. 과거에 후쿠오카와 하카타는 엄연히 다른 도시였습니다. 이 둘이 하나의 도시가 된 사연을 들려드릴게요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/X00X/cnUFLFkJVr.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "오호리 공원(大濠公園)",
+          "description": "도심 속 오아시스 같은 한적한 공원이죠. 잔잔하고 큰 호수와 걷기 좋은 산책로를 걷다 보면, 여유를 느낄 수 있는 곳입니다. 공원의 규모가 커서 여행 일정을 고려하여 방문 여부를 결정해 주세요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/XRDc/2bpwrurQ2o.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "모모치 해변 공원",
+          "description": "해가 쨍쨍한 낮에도, 노을이 질 무렵에도, 밤에도 아름다운 해변입니다. 지중해 느낌의 리조트나 후쿠오카 타워를 배경으로 사진을 남긴다면, 인생샷을 건질 수 있는 곳이죠!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/BFFn/wWxHmq0alH.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "후쿠오카 타워",
+          "description": "후쿠오카의 대표 랜드마크죠! 계절이나 기념일마다 다른 테마를 가지는 일루미네이션과 후쿠오카의 전망을 360도 파노라마로 볼 수 있는 곳입니다. 아름다운 뷰를 자랑하는 이곳에서 투어를 마무리 해볼게요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/11/EDdA/6CsW81nsUw.jpg",
+          "duration": "10분 소요"
+        }
+      ]
+    }
+  ]
+}

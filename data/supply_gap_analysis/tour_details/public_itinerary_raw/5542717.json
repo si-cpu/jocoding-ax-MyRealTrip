@@ -1,0 +1,32 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 20853,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "투어 시작",
+          "description": ""
+        },
+        {
+          "title": "이쓰쿠시마 신사 오도리이",
+          "description": ""
+        },
+        {
+          "title": "히로시마 평화기념공원",
+          "description": ""
+        },
+        {
+          "title": "대성원",
+          "description": ""
+        },
+        {
+          "title": "투어 종료",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

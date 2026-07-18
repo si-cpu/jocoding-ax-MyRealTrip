@@ -1,0 +1,46 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 12853,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "8:20 로손 후쿠오카 오리엔탈 호텔 하카타 에키 치쿠시구치",
+          "description": "ローソンオリエンタルホテル Fukuoka Store 4-23 Hakataekichuogai, Hakata Ward, Fukuoka, 812-0012 Japan",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/159284/250212_original_1721922674.jpg?1721922674"
+        },
+        {
+          "title": "09:40 관문해협전망대",
+          "description": "간몬 해협의 아름다운 풍경을 감상할 수 있는 전망대",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/159284/250213_original_1721923028.jpg?1721923028",
+          "duration": "20분 소요"
+        },
+        {
+          "title": "10:50 아키요시동굴(Akiyoshi Cave）",
+          "description": "",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/159284/250214_original_1721923023.jpg?1721923023",
+          "duration": "120분 소요"
+        },
+        {
+          "title": "14:00 모토노스미 이나리신사(Motonosumi Inari Shrine)",
+          "description": "",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/159284/250215_original_1721923023.jpg?1721923023",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "15:20  쓰노시마 대교",
+          "description": "",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/159284/250216_original_1722266259.jpg?1722266259",
+          "duration": "30분 소요"
+        },
+        {
+          "title": "18:30 로손 후쿠오카 오리엔탈 호텔 하카타역 치쿠시구치",
+          "description": "",
+          "duration": "160분 소요"
+        }
+      ]
+    }
+  ]
+}

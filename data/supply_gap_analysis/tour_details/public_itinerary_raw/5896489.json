@@ -1,0 +1,66 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 26795,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "9:00  하카다역 JR 선 중앙 개찰구 오른손 편 티켓 판매구 앞 ",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/09/xuQG/pAJKB6dLWt.jpg"
+        },
+        {
+          "title": "9:30 JR기차를 타고 하카다역을 출발 ",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/27/RpSl/rTwHKk0chz.jpg"
+        },
+        {
+          "title": "9:40 JR 쵸쟈바루역 도착 ",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/27/uUvL/dTaVQ1UJk2.jpg"
+        },
+        {
+          "title": "9:50 카요이쵸 공원 도착 (공원 활동 80분 소요) ",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/27/Zr6q/d5bAAlr2TN.jpg"
+        },
+        {
+          "title": "11:10 카요이쵸 공원 출발 ",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/27/1f4P/89NP6AUXGT.jpg"
+        },
+        {
+          "title": "11:20 썬 레이크 가스야 도착 (화장실 휴식, 15분 자유시간) ",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/27/bjRD/RQ2dii5xvs.jpg"
+        },
+        {
+          "title": "11:35  썬 레이크 가스야 출발 ",
+          "description": ""
+        },
+        {
+          "title": "11:45 요리미치 올드 하우스 베이커리에 도착 (25분 동안 빵, 쉐이크, 커피를 구매하실 수 있습니다).",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/27/LfkZ/blV6c8iSgX.jpg"
+        },
+        {
+          "title": "12:10  요리미치 베이커리 출발 ",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/27/uj5A/1eFfNzLmd2.jpg"
+        },
+        {
+          "title": "12:36 죠챠바루역 출발 ",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/27/cv1s/pb7FIJTSrU.jpg"
+        },
+        {
+          "title": "13:03 하카다역 도착 (투어 종료)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/27/jueK/Jb5HZt8gL8.jpg"
+        }
+      ]
+    }
+  ]
+}

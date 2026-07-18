@@ -252,15 +252,18 @@ def collect_city(
     for category in selected_categories:
         seen_urls: set[str] = set()
         empty_or_duplicate_pages = 0
+        category_failed = False
         for page in range(1, max_pages + 1):
             args = {"query": city, "category": category["value"], "page": page, "perPage": 20}
             raw_path = RAW / f"{city}_{category['value']}_page{page}.json"
+            used_cached_response = use_cache and raw_path.exists()
             try:
-                if use_cache and raw_path.exists():
+                if used_cached_response:
                     response = json.loads(raw_path.read_text(encoding="utf-8"))
                 else:
                     response = call_mcp("searchTnas", args, call_id)
             except Exception as exc:
+                category_failed = True
                 (RAW / f"{city}_{category['value']}_page{page}_error.json").write_text(
                     json.dumps({"args": args, "error": str(exc)}, ensure_ascii=False, indent=2),
                     encoding="utf-8",
@@ -278,6 +281,9 @@ def collect_city(
                     }
                 break
             call_id += 1
+            stale_page_error = RAW / f"{city}_{category['value']}_page{page}_error.json"
+            if stale_page_error.exists():
+                stale_page_error.unlink()
             raw_path.write_text(
                 json.dumps(response, ensure_ascii=False, indent=2), encoding="utf-8"
             )
@@ -306,7 +312,11 @@ def collect_city(
                 empty_or_duplicate_pages = 0
             if empty_or_duplicate_pages >= 2:
                 break
-            time.sleep(delay)
+            if not used_cached_response:
+                time.sleep(delay)
+        if not category_failed:
+            for stale_error in RAW.glob(f"{city}_{category['value']}_page*_error.json"):
+                stale_error.unlink()
 
     deduped = dedupe_products(products)
     summary = {
@@ -364,6 +374,9 @@ def main() -> int:
                 use_cache=args.use_cache,
                 stop_on_429=args.stop_on_429,
             )
+            stale_collection_error = RAW / f"{city}_collection_error.json"
+            if stale_collection_error.exists():
+                stale_collection_error.unlink()
         except Exception as exc:
             rows = []
             summary = {
@@ -381,10 +394,14 @@ def main() -> int:
         call_id += 500
         new_rows.extend(rows)
         summaries.append(summary)
-        write_csv(PROCESSED / f"{city}_mcp_tna_products.csv", rows)
 
     all_rows = dedupe_rows(all_rows + new_rows)
     write_csv(PROCESSED / "mcp_tna_products.csv", all_rows)
+    for city in cities:
+        write_csv(
+            PROCESSED / f"{city}_mcp_tna_products.csv",
+            [row for row in all_rows if row.get("city_query") == city],
+        )
     with (PROCESSED / "mcp_tna_products.jsonl").open("w", encoding="utf-8") as f:
         for row in all_rows:
             f.write(json.dumps(row, ensure_ascii=False) + "\n")

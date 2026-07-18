@@ -1,0 +1,43 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 12013,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "다자이후 천망궁신사",
+          "description": "후쿠오카에서  30분 거리인 다자이후 천만궁  관광투어. \r\n학문의 신을 모시는 신사로 일본 3대신사에 손꼽히는 장소.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/135183/226225_original_1718956976.jpg?1718956976",
+          "duration": "120분 소요"
+        },
+        {
+          "title": "히타시 마메다 전통거리",
+          "description": "300년된 양조장을 중심으로 옛 일본거리를 느낄수 있는곳\r\n현지 곡식으로 빚은 술과 간장, 양갱으로 유명한 상점거리",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/135183/246750_original_1720434229.jpg?1720434229",
+          "duration": "120분 소요"
+        },
+        {
+          "title": "아소산 대관봉",
+          "description": "동양에서 가장큰 화산 칼데라지형으로\r\n멀리 칼데라중심의 아소화산을 바라보는 절경이 아름다운곳.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/135183/246751_original_1718956976.jpg?1718956976",
+          "duration": "120분 소요"
+        },
+        {
+          "title": "구로가와 온천거리",
+          "description": "화산지대 쿠로가와 골짜기에 \n위치한 일본식 온천거리",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/05/92Si/OuuWkJof4s.jpg",
+          "duration": "1시간 60분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.0777667,
+              "lng": 131.1478841
+            },
+            "label": "구로카와 온센 오쿠노유"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 11672,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "▶︎ 미팅, 포장마차 거리 ◀︎",
+          "description": "포장마차에 어떤 음식이 있는지, \r\n분위기인지를 보면서 거리를 한 바퀴 돌아요~!",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/145195/225696_original_1703734067.jpg?1703734067",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "▶︎ 포장마차 ◀︎",
+          "description": "포장마차에서 다양한 음식을 맛보세요!\r\n가이드와의 회화는 물론, \r\n옆자리 손님이나 사장님과의 교류도 하나의 재미입니다 ^^",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/145195/225714_original_1703734066.jpg?1703734066"
+        },
+        {
+          "title": "▶︎ 사케 바 ◀︎",
+          "description": "일본에 오시면 마셔야 하는 것이 바로 사케입니다🍶\r\n맛있는 안주와 같이 즐겨주세요~",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/145195/225715_original_1703743749.jpg?1703743749"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 3211,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "우레시노 올레길 ",
+          "description": "12.5km 올레길은 우레시노 오차밭이 펼쳐져 있는 곳입니다.  외외 편백나무 숲과 22세기 아시아의 숲 또한 올레길에 포함되어 있으며 마음, 몸, 눈, 등이 건강해지는 것을 느낄 수 있는 코스 입니다.  (코스 총 소요시간은 5시간 입니다.)",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3392/13075_original_1525859702.jpg?1525859702",
+          "duration": "70분 소요"
+        },
+        {
+          "title": "타케오신사 ",
+          "description": "수령3000년 수목이 있는 신사이며 파워스포터지역 입니다. 운을 한층 더 높여주는 곳으로 유명한 곳입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3392/13076_original_1525859700.jpg?1525859700",
+          "duration": "30분 소요"
+        },
+        {
+          "title": "야나가와",
+          "description": "마을수로를 사공의 배를 타고 유유하게 마을 역사와 경관을 관광하는 곳입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3392/13077_original_1525859697.jpg?1525859697",
+          "duration": "70분 소요"
+        },
+        {
+          "title": "키쿠치계곡",
+          "description": "산림욕을 즐길 수있는 산새 깊은 곳에 자리한 계곡으로 유명한 곳입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3392/13078_original_1525859695.jpg?1525859695",
+          "duration": "90분 소요"
+        },
+        {
+          "title": "대관봉",
+          "description": "아소의 그랜드 캐니언으로 불리는 전망대 입니다. \r\n자연경관의 위대함을 잘 연출되어 있는 곳으로 많이 알려져 있는 곳입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3392/13079_original_1525859693.jpg?1525859693",
+          "duration": "30분 소요"
+        },
+        {
+          "title": "쿠로카와 ",
+          "description": "계곡을 따라 료칸이 들어서 있는 아담한 료칸 지역으로 큐슈인들이 뽑은 가장 인기 있는 온천지역 입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3392/13083_original_1525859690.jpg?1525859690",
+          "duration": "30분 소요"
+        },
+        {
+          "title": "벳부 카마도 지옥",
+          "description": "1200년 학이 모이는 산이라 불리우는 츠루미산이 분화하여 생긴 지형을 관광자원으로 보존한 곳 입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3392/13084_original_1525859688.jpg?1525859688",
+          "duration": "80분 소요"
+        },
+        {
+          "title": "유노하나",
+          "description": "온천 입욕제를  재배하는 곳이며 무형민속문화재로 등록되어 있는 곳입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3392/13086_original_1525859686.jpg?1525859686",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "유후인",
+          "description": "분지라는 지역에 자리한 온천지역 유후인은 일본여성들이 뽑은 가장 가고 싶어하는 랭킹 1위에 선정된 곳입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3392/13088_original_1525859683.jpg?1525859683",
+          "duration": "30분 소요"
+        },
+        {
+          "title": "다자이후 천만궁",
+          "description": "학문의 신을 모신 궁으로 신사이며 승진,진급,진학,국가시험합격등의 기원을 드리는 유명한 곳입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3392/13089_original_1525859681.jpg?1525859681",
+          "duration": "90분 소요"
+        },
+        {
+          "title": "후쿠오카 캐널시티",
+          "description": "주상복합 쇼핑몰이며 후쿠오카의 유행의 근원지로 다양한 볼거리를 제공하는 곳입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3392/13090_original_1525859679.jpg?1525859679",
+          "duration": "30분 소요"
+        }
+      ]
+    }
+  ]
+}

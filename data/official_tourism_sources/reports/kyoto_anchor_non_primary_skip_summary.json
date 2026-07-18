@@ -1,29 +1,37 @@
 {
   "source": "data/official_tourism_sources/processed/accepted/kyoto_tourism_facilities_city_only.csv",
-  "skipped_non_primary_rows": 208,
-  "skip_terms": [
-    "ホテル",
-    "旅館",
-    "お宿",
-    "宿",
-    "民宿",
-    "ペンション",
-    "ロッジ",
-    "ゲストハウス",
-    "レストラン",
-    "食堂",
-    "料理",
-    "カフェ",
-    "喫茶",
-    "茶屋",
-    "菓",
-    "餅",
-    "豆腐",
-    "とうふ",
-    "納豆",
-    "甘味",
-    "グリル",
-    "パーク",
-    "駐車場"
-  ]
+  "source_rows": 778,
+  "primary_anchor_rows": 297,
+  "disposition_counts": {
+    "excluded_non_primary": 291,
+    "primary": 297,
+    "needs_review": 177,
+    "excluded_component": 13
+  },
+  "classification_counts": {
+    "commercial_business": 100,
+    "retail_or_rental_service": 62,
+    "parking": 16,
+    "religious_site": 164,
+    "museum_or_gallery": 60,
+    "administrative_or_sports_facility": 11,
+    "heritage_or_landmark": 40,
+    "food_or_beverage": 49,
+    "ambiguous_facility": 155,
+    "lodging_or_bathing": 26,
+    "time_limited_event": 7,
+    "district_or_street": 9,
+    "nature_or_park": 24,
+    "visitor_cultural_candidate": 22,
+    "closed_or_expired": 3,
+    "abstract_course": 2,
+    "transport_or_convenience": 15,
+    "child_record_of_same_place": 13
+  },
+  "primary_translation_status_counts": {
+    "reviewed": 34,
+    "auto_needs_review": 263
+  },
+  "audit_file": "data/official_tourism_sources/reports/kyoto_facility_classification_audit.csv",
+  "policy": "Only high-confidence place-level assets enter primary scoring. Non-primary, ambiguous, and same-place component records remain auditable."
 }

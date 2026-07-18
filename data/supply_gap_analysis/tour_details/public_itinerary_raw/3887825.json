@@ -1,0 +1,33 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 12950,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "💕나가사키 하루동안 둘러보기",
+          "description": "- 09：00 출발\r\n\r\n- 11：00  오우라성당 \r\n                 글로버 정원및 상점가 관람, 도심부 드라이브",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/158215/248450_original_1720433744.jpg?1720433744",
+          "duration": "540분 소요"
+        },
+        {
+          "title": "🎇점심은 차이나타운에서 짬뽕!!",
+          "description": "- 12：20 ～ 13：20　차이나타운 일대 관광 및 점심식사,\r\n　　　　　　　　　　메가네 바시 관광\r\n\r\n- 13：40 ～ 14：20    나가사키 항 관람",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/158215/248451_original_1720433744.jpg?1720433744"
+        },
+        {
+          "title": "평화를 위한 시간...",
+          "description": "- 14：40 평화의 공원\r\n\r\n- 15：00 원폭자료관 관람",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/158215/248452_original_1720433744.jpg?1720433744"
+        },
+        {
+          "title": "아름다운 나가사키를 한눈에",
+          "description": "- 15：30 이나사야마 전망대 관람\r\n\r\n- 16：30 사가로 출발\r\n\r\n- 18：00～30분 사가 도착 -  투어 종료",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/158215/248453_original_1720433946.jpg?1720433946"
+        }
+      ]
+    }
+  ]
+}

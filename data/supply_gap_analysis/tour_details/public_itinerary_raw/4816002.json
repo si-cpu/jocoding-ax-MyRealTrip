@@ -1,0 +1,26 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 18085,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "12:00 미팅",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/26/dWr5/ZwuKqv0IVX.jpg"
+        },
+        {
+          "title": "15:00 하우스텐보스 (입장권 + 불꽃놀이 관람석 별도)",
+          "description": "",
+          "duration": "6시간 30분 소요"
+        },
+        {
+          "title": "24:00 후쿠오카 로손 오리엔탈 호텔 후쿠오카점 앞 최종하차",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

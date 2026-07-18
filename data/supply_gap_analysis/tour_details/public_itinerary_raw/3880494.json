@@ -1,0 +1,27 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 10497,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "함께 만드는 코스",
+          "description": "희망하는 일정 및 코스에 대해 이야기하고 조율합니다.\r\n\r\n카카오톡 등의 메신저를 통해서 진행되며, 당신의 취향에 맞는 거리 및 맛집, 여행지 등을 토대로 코스를 만듭니다.\r\n\r\n\r\n\r\n1. 오전일정은 보통 10시에 만나며, 일정은 최대 다섯 시간입니다 :)\r\n\r\n2. 차량렌트를 이용하실 경우 렌트 가격은 다음의 링크를 참고하세요 / https://rent.toyota.co.jp/ko/",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7816/32453_original_1463393868.jpg?1463393868"
+        },
+        {
+          "title": "당신이 주인공이 되는 여행",
+          "description": "당신과 동행하며 시내 곳곳을 안내합니다.\r\n\r\n여행하는 동안에 당신과 당신이 사랑하는 사람들, 당신의 여행을 자연스러운 모습 그대로 촬영합니다.\r\n\r\n1. 텐진, 다이묘, 이마이즈미 등 예쁜 편집샵이 가득한 후쿠오카의 뒷골목을 안내합니다:)\r\n\r\n2. 차량렌트를 이용하실 경우에도 왕복 다섯 시간 거리라면 OK!\r\n\r\n3. 다섯 시간 이상의 일정 또는 먼 지역까지의 여행일 경우 먼저 상담을 신청해주세요:)",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7816/32454_original_1463393870.jpg?1463393870"
+        },
+        {
+          "title": "당신의 여행을 사진으로 선물합니다",
+          "description": "당신의 후쿠오카 여행이 애틋한 추억이 될 수 있도록, 당신이 여행하는 동안의 사진을 편집, 보정한뒤 당신에게 선물합니다.\r\n\r\n여행중 자연스러운 모습을 촬영하며, 원하실 경우 컨셉촬영도 가능합니다 :)\r\n\r\n사진 촬영을 원하시지 않아도 투어 진행은 가능합니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7816/32455_original_1463393877.jpg?1463393877"
+        }
+      ]
+    }
+  ]
+}

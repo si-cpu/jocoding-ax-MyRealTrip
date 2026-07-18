@@ -48,8 +48,8 @@ def action_for(row: dict[str, str]) -> str:
     if row["official_source_type"] == "official_event":
         return "이벤트 유효기간 확인 후 상품화 후보 검토"
     if row["anchor_type"] == "food_place":
-        return "별칭/상세일정/파트너 후보 검토"
-    return "별칭/상세일정/파트너 후보 검토"
+        return "번역명/상세일정/파트너 후보 검토"
+    return "번역명/상세일정/파트너 후보 검토"
 
 
 def load_display_aliases() -> dict[str, str]:
@@ -70,6 +70,8 @@ def load_display_aliases() -> dict[str, str]:
 
 
 def korean_display_name(anchor: dict[str, str], display_aliases: dict[str, str]) -> str:
+    if anchor.get("anchor_name_ko"):
+        return anchor["anchor_name_ko"]
     if anchor.get("anchor_id") in display_aliases:
         return display_aliases[anchor["anchor_id"]]
     return "미정"
@@ -155,7 +157,11 @@ def main() -> int:
     write_csv(
         OUT / "matched_assets_exact_list.csv",
         fields,
-        [row for row in rows if row["classification"] == "부분 상품화 자산"],
+        [
+            row
+            for row in rows
+            if row["classification"] in {"부분 상품화 자산", "검증된 대표 경험"}
+        ],
     )
     write_csv(
         OUT / "under_connected_assets_exact_list.csv",
@@ -169,7 +175,14 @@ def main() -> int:
         "",
         f"- Generated at: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         f"- Total official assets: {len(rows)}",
-        f"- Matched/partial assets: {sum(1 for row in rows if row['classification'] == '부분 상품화 자산')}",
+        "- Matched/partial assets: "
+        + str(
+            sum(
+                1
+                for row in rows
+                if row["classification"] in {"부분 상품화 자산", "검증된 대표 경험"}
+            )
+        ),
         f"- Under-connected assets: {sum(1 for row in rows if row['classification'] == '상품화 부족 자산')}",
         "",
         "## City summary",
@@ -190,7 +203,7 @@ def main() -> int:
         ]
     )
     for row in rows:
-        if row["classification"] != "부분 상품화 자산":
+        if row["classification"] not in {"부분 상품화 자산", "검증된 대표 경험"}:
             continue
         lines.append(
             f"| {row['city']} | {row['official_name_ja']} | {row['display_name_ko']} | {row['mcp_one_to_one_status']} | {row['evidence_levels']} | {row['tour_detail_evidence_levels']} | {row['mcp_product_count']} | {row['matched_product_titles']} |"
@@ -216,7 +229,11 @@ def main() -> int:
     summary = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "total_official_assets": len(rows),
-        "matched_partial_assets": sum(1 for row in rows if row["classification"] == "부분 상품화 자산"),
+        "matched_partial_assets": sum(
+            1
+            for row in rows
+            if row["classification"] in {"부분 상품화 자산", "검증된 대표 경험"}
+        ),
         "under_connected_assets": sum(1 for row in rows if row["classification"] == "상품화 부족 자산"),
         "outputs": [
             "data/supply_gap_analysis/exports/supply_gap_exact_list.csv",

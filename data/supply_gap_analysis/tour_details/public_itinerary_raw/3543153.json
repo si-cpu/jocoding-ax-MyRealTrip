@@ -1,0 +1,150 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 5898,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "다자이후 역(太宰府駅): 투어 소개 및 코스안내",
+          "description": "본격적인 투어를 시작하기 전, 오늘 함께할 다자이후 텐만구에 대해 소개하겠습니다. 아울러 우리 투어의 출발점, 다자이후 역에서 다자이후로 가는 방법 및 일본의 신사와 신도에 대해 알려드릴게요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/jlvj/1sNrQDOL5p.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "첫 번째 도리이(鳥居)",
+          "description": "다자이후 오모테산도에 위치한 첫 번째 도리이입니다. 도리이의 의미와 다자이후 텐만구에서 모시는 학문의 신, 스가와라 미치자네가 누구인지에 대해 소개해 드릴게요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/e87l/Ptnu2BcpvO.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "특별한 인테리어의 스타벅스",
+          "description": "마치 성냥깨비를 쌓아 만든 것 같은 독특한 디자인의 스타벅스! 건축가 쿠마 켄고가 설계한 이곳은 다자이후 텐만구를 방문하는 많은 분들이 인증샷을 남기는 사진 명소입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/zCoq/K1ju0xAAu4.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "우메가에 모찌(梅ヶ枝餅)",
+          "description": "다자이후 텐만구에 오면 반드시 먹어봐야 하는 구운 찹쌀떡 우메가에 모찌! 매화 문양이 그려져 있는 이 떡에는 어떤 전설이 숨어 있을까요?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/rII4/0XyhvvDs23.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "다자이후 텐만구 입구",
+          "description": "다자이후 역에서 오모테산도를 지나면 나타나는 커다란 비석과 도리이! 이곳에서부터 본격적으로 다자이후 텐만구가 시작됩니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/jQ9G/i7sF7wGQjz.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "스가와라공 노래비(菅原道真公 歌碑)",
+          "description": "커다란 녹나무 옆 비석에는 스가와라 미치자네가 다자이후로 좌천되기 전, 교토의 집에 있는 매화나무에게 읊어준 시가 적혀 있습니다. 이 시를 들은 매화나무는 하룻밤만에 교토에서 다자이후까지 날아왔다고 하죠.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/YrQz/QDCO5HbcRq.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "연수왕원(延寿王院)",
+          "description": "입구 도리이에서 정면으로 보이는 이곳은 과거에 신관들이나 참배객의 숙소로 쓰였던 곳입니다. 이곳의 담장에는 다섯 개의 줄무늬가 들어 있는데요. 이 줄무늬는 무엇을 의미할까요?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/mfN6/yiQiiQpxMP.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "황소 동상(御神牛)",
+          "description": "다자이후 텐만구에 오면 꼭 해야 하는 것! 바로 커다란 황소 동상을 쓰다듬는 것입니다. 어디를 쓰다듬어야 하는지, 왜 이곳에 황소 동상이 있는지 알려드릴게요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/dwKA/LyocaJINyz.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "코마이누(狛犬)",
+          "description": "재앙으로부터 신사를 수호하기 위해 세우는 코마이누! 유래를 알고나면 더욱 친근하게 느껴지실 겁니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/ePu5/yyb5Bkfm7u.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "심자 연못(心字池)과 타이코 다리(太鼓橋)",
+          "description": "연못가의 오래된 녹나무들과 붉은색 다리가 만들어내는 환상적인 풍경을 볼 수 있는 곳! 이곳의 다리는 각각 과거, 현재, 미래를 의미하기 때문에 건널 때 주의사항이 있다고 하는데요. 다리 위에서 해서는 안될 행동들을 알려드릴게요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/s9QG/ULuOp7esGA.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "기린(麒麟)과 피리새(鷽) 동상",
+          "description": "용의 머리에 사슴의 몸을 하고 있는 상상의 동물 기린, 그리고 행운을 전하는 수호새 피리새! 기린과 피리새상에 얽힌 재미있는 이야기들을 들려드릴게요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/VHJy/fVcQd15Bcj.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "테미즈야(手水舎)",
+          "description": "일본의 대부분의 신사 앞에는 본전으로 들어가기 전에 손을 씻을 수 있는 공간인 '테미즈야'가 마련되어 있는데요. 다른 신사에서는 볼 수 없는 이곳만의 특징을 찾아볼까요?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/YhY0/BFiVJfBikj.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "누문(楼門)",
+          "description": "일반적으로 신사의 문은 도리이지만, 이곳에는 도리이 외에도 주로 절에서 볼 수 있는 커다란 문을 볼 수 있습니다. 이유가 무엇일까요?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/CvjZ/httoNqpQA7.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "토비우메(飛梅)",
+          "description": "다자이후 텐만구의 6,000그루의 매화나무 중에서 가장 먼저 꽃을 피우는 것으로 알려진 나무! 교토에서 다자이후까지 날아왔다고 해서 토비우메(批梅)라고 부르는 이 나무에 얽힌 전설을 들려드릴게요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/mq9Q/88YozwSo3y.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "본전(本殿)",
+          "description": "다자이후 텐만구에서 가장 신성한 장소인 본전입니다. 사실 이곳은 스가와라 미치자네의 원혼을 달래기 위해 세워졌는데요. 스가와라 미치자네의 죽음 후에 어떤 일들이 있었던 걸까요?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/2INS/WWXW3F0C69.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "에마(絵馬)와 오마모리(お守り)",
+          "description": "소원을 적는 나무판인 에마, 그리고 부적을 의미하는 오마모리. 일본의 신사에 오면 자주 볼 수 있는 것들인데요. 에마의 유래와 오마모리 구매 시 주의사항에 대해 알려드릴게요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/93AU/AmS4bBjUEk.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "오미쿠지(おみくじ)",
+          "description": "운세를 점치는 쪽지, 오미쿠지! 다자이후 텐만구의 오미쿠지에는 흉도, 대흉도 없다?! 다른 신사에는 없는 다자이후 텐만구 오미쿠지만의 특별함을 소개해 드릴게요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/VJ17/3chLXbXD5b.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "액막이 표주박(厄晴れひょうたん)",
+          "description": "본전의 뒤편으로 오면 작은 표주박들이 주렁주렁 매달려 있는 곳을 볼 수 있는데요. 이 표주박들은 어떻게 사용하는 걸까요?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/6IVb/Gh5IayHpoL.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "포정총(庖丁塚)과 필총(筆塚)",
+          "description": "식칼과 붓에 제사를 지낸다!? 온갖 것들에 신이 깃들어 있다고 믿는 일본인들의 문화가 나타나있는 이색적인 장소를 소개합니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/LJUJ/oOW60yGbyq.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "텐카이 이나리 신사(天開稲荷神社)",
+          "description": "다자이후 텐만구에서 도보 10분 거리에 있는 작은 신사! 줄지어 늘어선 주홍색 도리이를 볼 수 있는 이곳은 곡식과 풍요, 나아가 사업과 번창과 성공을 관장하는 이나리 신을 모시는 신사입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/xXE5/X3pZnPzRuL.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "매실의 종납소(梅の種納め所)",
+          "description": "종종 관광객들이 착각하여 쓰레기를 버리기도 하지만 이것은 쓰레기통이 아니라 먹고난 매실의 씨앗을 보관하는 곳입니다. 어째서 이곳에서는 씨앗을 버리지 않고 모아두는 걸까요?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/cW1M/pqQ95xbjeU.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "나카지마 신사(中島神社)",
+          "description": "나가는 길에 살짝 계단을 올라가면 만날 수 있는 나카지마 신사. 이곳은 과자의 신, 타지마모리 미코토를 모시는 신사인데요. 타지마모리 미코토가 과자의 신이 된 데에는 안타까운 전설이 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/Pd1b/Cd9MhyZykD.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "창포 연못(菖蒲池)",
+          "description": "우리 투어의 마지막 장소는 창포 연못입니다. 6월 초에 방문하면 연못을 가득 메운 3만송이의 꽃창포를 볼 수 있는 곳인데요. 이곳에서 투어를 정리하며 마무리 인사를 드리도록 하겠습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/11/tkDm/8DpnDl5OCL.jpg",
+          "duration": "10분 소요"
+        }
+      ]
+    }
+  ]
+}

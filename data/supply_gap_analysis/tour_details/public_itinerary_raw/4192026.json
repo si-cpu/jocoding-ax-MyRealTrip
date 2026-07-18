@@ -1,0 +1,82 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 14481,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "히로시마 워싱턴 호텔 출발",
+          "description": "09:00 히로시마 워싱턴 호텔 출발",
+          "place": {
+            "coordinate": {
+              "lat": 34.3915288,
+              "lng": 132.4626192
+            },
+            "label": "히로시마 워싱턴 호텔"
+          }
+        },
+        {
+          "title": "미야지마 출구 도착 및 배 출발",
+          "description": "09:40 미야지마 출구 도착\n10:00 배 출발",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/24/ufRX/OogBimQ9Qd.jpg"
+        },
+        {
+          "title": "미야지마 도착 및 중식(불포함)",
+          "description": "10:20 미야지마 도착\n- 자유관광 및 자유중식(불포함)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/24/pd7H/CnQm92FYRK.jpg",
+          "duration": "2시간 40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 34.2732114,
+              "lng": 132.3052488
+            },
+            "label": "이쓰쿠시마 섬"
+          }
+        },
+        {
+          "title": "미야지마 출발 및 미야지마 출구 도착",
+          "description": "13:00 미야지마 출발\n13:20 미야지마 출구 도착",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/24/VSFI/QW4JvRRqKP.jpg"
+        },
+        {
+          "title": "평화공원, 원폭돔",
+          "description": "14:20 평화공원, 원폭돔 도착 및 견학",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/24/4ZhV/QHh5lS2ov8.jpg",
+          "duration": "1시간 40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 34.395483,
+              "lng": 132.453592
+            },
+            "label": "원폭 돔"
+          }
+        },
+        {
+          "title": "히로시마 성",
+          "description": "16:00 히로시마 성 출발\n16:30 히로시마 성 도착 및 견학",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/24/xO4x/VOumeoqkxJ.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 34.40253,
+              "lng": 132.45897
+            },
+            "label": "히로시마 성"
+          }
+        },
+        {
+          "title": "히로시마 워싱턴 호텔 출발 및 호텔 도착",
+          "description": "17:30 히로시마 워싱턴 호텔 출발\n18:00 히로시마 워싱턴 호텔 도착",
+          "place": {
+            "coordinate": {
+              "lat": 34.3915288,
+              "lng": 132.4626192
+            },
+            "label": "히로시마 워싱턴 호텔"
+          }
+        }
+      ]
+    }
+  ]
+}

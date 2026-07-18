@@ -1,0 +1,162 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 14155,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "(1일) 야나가와와 구마모토, 아소산 투어",
+          "description": "아름다운 물의 마을 - 야나가와\n오사카성, 나고야성과 더블어 일본을 대표하는 - 구마모토성\n세계 최대급의 칼데라가 만든 웅대한 자연 - 아소산\n\n☞ 투어 코스\n후쿠오카 픽업 → 【후쿠오카 → 야나가와(1:00)】 → ◆ 야나가와 뱃놀이 → 【야나가와 → 구마모토(1:30)】 → ◆ 구마모토 천수각 → 【구마모토 → 아소산(1:10)】 → ◆ 아소산→ 【아소산 → 유후인(1:50)】",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/14/hyrx/Y9JLmQ4mNm.jpg"
+        },
+        {
+          "title": "후쿠오카 픽업\t\t",
+          "description": "후쿠오카 시내에서 픽업 합니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/IXRx/sLcJ875dTT.jpg"
+        },
+        {
+          "title": "◆ 야나가와 뱃놀이\t\t\t",
+          "description": "아름다운 물의 마을 야나가와를 방문하는 관광객이 연간 100만명이 넘을 정도로 일본사람들에게는 아주 유면한 관광지입니다. 그 이유는 바로 마을 전체를 휘감고 도는 수로를 따라 서정적안 풍경을 감상 할 수 있는 가와쿠다리(배를 타고 돌아보는 관광)가 있기 때문입니다.\n\n특히, 러브레터의 나카야마 미호가 출연한 도쿄 맑은에서는 두 사람의 신혼 여행지로 영화의 스토리를 풀어나가는 중 요한 무대가 되기도 했습니다 \n\n베니스 같은 화려함은 없지만 왠지 마음을 편안하게 해주는 소박한 아름다움과 서정을 둠뿍 머금고 있는 야나가와 여행은 분명 즐거울 것 입니다.\n\n☞ 이용 시간: 9:00 ~ 저녁무렵\n   이용 요금: ￥1,500~1,600(중학생이상), ￥800~820(어린이)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/GwwH/MP4sXFf46c.jpg"
+        },
+        {
+          "title": "(1일) 중식",
+          "description": "(1일) 중식\n\n☞ 식사 불포함\n- 구마모토 키츠레츠테이(미슐랭 흑돼지 돈카츠 맛집)\n\n☞ 구마모토 지점\n- 신시가 본점: 구마모토시 주오구 신시가 8-18 (096-322-8771)\n- 미나미쿠마모토점: 구마모토시 주오구 하기와라초 2-5 (프레스포 쿠마모쿠 내) (096-334-5451)\n- 아뮤 플라자 쿠마모토 가게: 구마모토시 니시구 가스가 3가 15-26 (096-201-2140)\n- 구마모토시 히가시구 호타쿠보 3가 14-5: 구마모토시 히가시구 호타쿠보 3가 14-5 (096-234-7251)\n- Open: 11:00 - 21:30\n- 가격:  돈까스 진(180g): ￥2,530 / 선(140g): ￥2,050 / 소(90g): ￥1,800\n            ~ ￥3,000\n- https://hayashi-sangyo.jp/",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/GXyb/dnwcOXY8S7.jpg"
+        },
+        {
+          "title": "◆ 구마모토성 천수각\t",
+          "description": "일면 은행나무성이라 불리는 구마모토성은 오사카성, 나고야성과 더블어 일본을 대표하는 성으로 유명 합니다.\n\n축성 당시 성곽의 넓이는 98만㎡, 그 둘레만 약 9km에 이를 정도로 운대한 성곽이었으며, 성 안에는 덴슈카쿠가 2개, 성우가 49개, 성문이 29개, 누문이 18개, 우물이 120개나 되는 엄청난 규모였습니다.\n\n☞ 이용 시간: 9:00 ~ 17:00\n   이용 요금: ￥800(고등학생이상), ￥300(초,중등학생), 미취학아동 무료 ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/DqSu/LiZjHI1wkv.jpg"
+        },
+        {
+          "title": "◆ 아소산\t",
+          "description": "아소산은 해발 1,000m가 넘는 다섯개의 산봉우리를 통틀어 일컫는 명칭으로, 정식변칭은 아소고다게 입니다. \n\n자연의 신비로움을 보여주는 이 웅장한 지형은 지금부터 30만~9만년전 4번에 걸친 가대 칼데라 분화에 의해 형성된 것이라고 합니다. 지금도 쉴새없이 하얀 연기를 내뿜는 활화산 입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/MKmk/99eRLmjMAE.jpg"
+        },
+        {
+          "title": "(1일) 석식",
+          "description": "☞ 식사 불포함\n\n<< 추천 식사 >>\n☞ 유후인 키구라 (세이로무시)\n세이로(스팀용기)에 식재를 넣고 아랫쪽에서 수증기를 가함으로 스팀으로 가열하는 조리법 및 요리로\n실제로 고객의 눈앞에서 커다란 세이로(스팀용기)를 사용하여 세이로무시 스팀요리를 만듭니다\n- 지점: 유후인 카구라(081-977-75-9570), 유후인 슌사이로만(081-977-28-8722)\n\n- 메뉴: 소고기 세이로무시 세트: ￥2,420 / 건미 세이로무시 세트: ￥1,980\n           장어 세이로: ￥2,970 / 해산물 세이로무시: ￥2,970\n~ ￥3,000\n\n- https://www.yufuin-kagura.com/ko/",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/Kk93/2oaehFiJ3u.jpg"
+        },
+        {
+          "title": "(1일) 숙소",
+          "description": "☞ 숙소 불포함\n- 조식 포함\n- 2인1실\n\n<< 추천 숙소 >>\n☞ Ryokan Reimei (평점 8.4 Very Good)\n- 2212-35 Kawakami, Yufu, Oita, 879-5102\n- Twin Room with Mountain View (Sleep 2)\n\n☞ Yufuin Onsen Yufuin Kotobuki Hananosho (평점 8.8 Excellent)\n- 2900-5 Yufuincho Kawakami, Yufu, Oita-ken, 879-5102\n- Traditional Room, Mountain View ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/i0gi/HTd818vWqy.jpg"
+        },
+        {
+          "title": "(2일) 유후인와 벳푸 투어\t\t",
+          "description": "일본인이 뽑은 최고의 온천 - 유후인과 벳푸\n\n☞ 투어 코스\n유후인 출발 → 유후인 투어【◆ 긴린코 호수 → ◆ 유노츠보 거리(산책) → ◆유후인 민속시장 】→ 중식 → 벳푸 투어【◆ 유노하나 유황재배지 → ◆ 지옥온천(가마솥 지옥 온천)】 → 벳푸 도착(석식:료칸)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/ikeK/TzifaMg0qY.jpg"
+        },
+        {
+          "title": "(2일) 조식",
+          "description": "☞ 호텔 조식",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/DsRy/DLRuzxDqaP.jpg"
+        },
+        {
+          "title": "◆ 긴린코 호수\t",
+          "description": "호수의 잉어가 수면 위를 뛰어오르는 모습이 석양에 비쳐 그 비늘빛이 금빛으로 보인다 해서 긴린코라는 이름이 불렀다고 합니다.\n\n둘레 약 400m의 호수 서쪽 밑바닥에서는 온천수가 솟아나고 동쪽에서는 차가운 물이 솟아나, 새벽 무렵이면 언제나 수면에서 하얀 수증기가 솟아올라 신비한 분위기가 감돕니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/C9Rb/3OfrmUZeys.jpg"
+        },
+        {
+          "title": "◆ 유노츠보 거리\t",
+          "description": "유노츠보 거리는 70여개의 가게가 늘어서 있습니다.\n\n길가에는 오이타의 특산품을 판매하는 기념품 가게와 토리텐 등 현지 음식을 먹을 수 있는 음식점이 줄지어 늘어서 있어 많은 관광객으로 붐비고 있습니다.\n\n또한, 거리에서 조금 벗어난 오이타 강가는 사계절의 경치를 즐길 수 있어 추천하는 산책 장소이며, 한가로운 전원 풍경 등 유후인에서만 느낄 수 있는 멋진 분위기를 접할 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/Y0TF/DAcXtpmfAD.jpg"
+        },
+        {
+          "title": "◆ 유후인 민속시장\t\t\t",
+          "description": "일본 전통 시장으로 120여개의 점포가 입점한 광광 명소입니다.\n\n시장안에는 일본 전통 다양한 먹거리가 있어 맛보고, 선물로 사갈 수도 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/QaEK/eOtx9qcbGS.jpg"
+        },
+        {
+          "title": "(2일) 중식",
+          "description": "☞ 식사 불포함\n\n◆ 추천 메뉴: 유후인 넨린\n가이세키 및 일본 가정식 스타일의 식당입니다. \n☞ 오픈 시간: 11:00 ~ 14:30 / 17:00 ~ 21:00 (금 휴무)\n☞ 메뉴: 메밀 샐러드 정식, 닭고기 튀김 정식, 기타 계절 한정 메뉴\n☞ 가격: ￥1,000 /￥1,200 /￥1,500\n \n\n◆ 추천 메뉴: 유후마부시\n유후인 지역 특산물을 활용한 히츠마부시 스타일의 솥밥 요리인 유후마부시가 압도적인 인기를 얻고 있습니다.\n☞ 오픈 시간: 10:30 ~ 19:30 \n☞ 메뉴: 분고규 마부시(와규), 지토리 마부시(닭고기), 우나기 마부시(장어)\n☞ 가격: ￥2,750 /￥2,950",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/Cfo5/lpT4YYTnwK.jpg"
+        },
+        {
+          "title": "◆ 유노하나 유황재배지\t\t",
+          "description": "묘반 유노사토라고 불리기도 하고 유노하나라고 불리기도 하는 이곳이 바로 유황재배지로 유명한 유노하나 입니다.\n\n유노하나는 에도시대 이후로 유황 즉, 유노하나를 지속적으로 재배해오고있는데 전통 그대로 재배하고 있어 실제로 사용하기도 하지만 관광시설로도 큰 인기를 얻고있습니다. 기본적으로 벳부 지역 자체가 온천수가 풍부하기에 토양 자체에 유황성분이 깃들어 있습니다. 그래서 이걸 전통적인 방법을 통해 유황을 결정화 시키는 것이 바로 이 유황재배지가 하는 일 입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/2A1m/vPze6mUMVv.jpg"
+        },
+        {
+          "title": "◆ 벳푸 지옥온천 8탕  \t\t",
+          "description": "벳푸는 일본 온천의 대표적인 도시로 벳푸 8탕은 유명합니다.\n- 우미 지고쿠(海地獄): 코발트빛의 예쁜 바다같은 연못이 있는 온천\n- 야마 지코쿠(山地獄): 산을 닮은 온천\n- 치노이케 지고쿠(血の池地獄): 온천수의 색깔이 붉은색으로 물들어 피와 같다고하여 붙여진 온천\n- 타츠마키 지코쿠(龍券地): 열탕이 25분간격으로 20m 공중으로 뿜어져 나오는 간헐천 온천\n- 오니야마 지고쿠: 온천 하얀증기가 햇살에서 나오는 열을 이용해 80마리 넘는 악어를 사육하는 온천\n- 시라이케 지고쿠(白池地獄): 온천수가 푸른빛이 감도는 흰색 온천\n- 가마도 지고쿠(솥지옥): 돌사이에 뿜어져 나오는 증기가 지옥의 도깨비 입김을 내뿜는듯한 느낌의 온천\n- 오니이시보즈 지고쿠: 뜨거운 진흙이 끓어 오르는 모양이 마치 중의 머리를 닮은 온천\n\n\n☞ 이용 시간: 800am - 5:00pm\n   입장료: ￥400(대인), ￥300(고교생), ￥250(중학생), ￥200(소학생)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/Sq9i/WjJyrxNmL6.jpg"
+        },
+        {
+          "title": "가마도 지코쿠(가마솥 온천)\t\t",
+          "description": "가마도 지옥은 바위 사이에서 뿜어져 나오는 증기로 밥을 지어 신전에 바쳤다고 하여 붙여진 이름입니다. 이곳에서는 여러 종류의 점토가 녹아내려 다갈색의 빛을 띄는 간헐천과 코발트블루 색깔의 푸른 간헐천 등 여러가지 형태로 형성된 다양한 지옥을 볼 수 있습니다.\n\n가마도 지옥의 온천 노도노유에서는 10년이 젊어진다는 온천수를 마실 수 있고, 하다노유에서는 손과 발을 온천 증기에 넣어 보는 체험을 할 수 있습니다. 또한 3종류의 족욕코너가 있으며, 지옥 푸딩, 지옥 간장, 유노하나 적귀 아이스크림이 있는 기념품 숍도 자리하고 있습니다.\n",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/kDDF/ZvjhiaOzqo.jpg"
+        },
+        {
+          "title": "(2일) 석식",
+          "description": "☞ 호텔 석식\n- 료칸 가이세키 정식 추천",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/J5lN/Ij29Jcktwr.jpg"
+        },
+        {
+          "title": "(2일) 숙소",
+          "description": "◆ 벳푸 료칸 1박 불포함\n- 조식과 석식(가이세키) 포함\n- 온천\n\n<< 추천 숙소 >>\n☞ Makibanoie (평점 9.8 Expedition)\n    - 2870-1 Kawakami, Yufuin-cho, Yufu, Oita-ken, 879-5102\n    - 2 Large Twin Beds (Sleeps 4)\n\n☞ Hana Beppu (평점 9.6 Expedition)\n   - 16-50, Kamitanoyumachi, Beppu, Oita, 8740908\n   - 2 Large Twin Beds (Sleeps 4) / 4 Twin Futons (Sleeps 4)\n\n☞ Yusai Bekkan (평점 9.4 Expedition)\n   - 6561-1 Manganji, Minamioguni, Kumamoto, 869-2402\n  - 2 Twin Futons (Sleeps 2) / 2 Twin Beds (Sleeps 2)\n\n※ 호텔 예약을 도와드릴 수 있",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/6Sii/XF44c8BbxB.jpg"
+        },
+        {
+          "title": "(3일) 후쿠오카  투어\t\t",
+          "description": "규슈의 가장 큰 상업도시 - 후쿠오카\n\n☞ 투어 코스 \n벳푸 출발 → ◆ 삿포로맥주 큐슈 히타공장(맥주시흠)  → ◆ 다자이후 텐만궁 → 후쿠오카 투어【◆ 우미노나카미치 해변공원 → ◆ 마린월드(옵션) → ◆ 캐널시티 히카타】→ 후쿠오카 도착(나카스 야다이 포장마차 거리)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/eLsz/069VZSEptr.jpg"
+        },
+        {
+          "title": "(3일) 조식",
+          "description": "☞ 료칸 조식",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/xfm0/wL2KMLRUGM.jpg"
+        },
+        {
+          "title": "◆ 삿포로맥주 큐슈 히타공장",
+          "description": "오이타현 히타시에 위치한 삿포로 맥주의 주요 생산 거점으로, 견학과 시음이 가능한 인기 관광지입니다. 히타의 청정 지하수를 사용해 맥주를 제조하며, 무료 투어와 유료 시음 공간이 마련되어 있습니다.\n\n☞ 휴무일: 월, 화요일 (공휴일인 경우 익일), 연말연시\n☞ 무료견학: 예약 없이 방문 가능. 생산 라인과 갤러리 관람\n☞ 유료투어: 가이드 동반 투어로, 500엔에 생맥주 1잔 시음 포함",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/bWpA/mIi6bu1IZB.jpg"
+        },
+        {
+          "title": "◆ 다자이후 텐마구\t\t",
+          "description": "학문이 뛰어난 스가와라 집안의 댜표적인 학자인 스가와라 미치자네를 기리기 위해 세운 신사로, 1591년에 건축된 다자이후 덴칸구의 본전은 일본 중요문화재로 지정되었습니다.\n\n다자이후 덴만구의 입구로 들어서면 제일 먼저 울창한 매화나무와 신자이케라는 연못이 눈에 들어옵니다. 이 연못에는 연못을 가로지르는 주홍색 구름다리 3개가 있는데 각각 과거, 현재, 미래를 상징 합니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/b8jb/lW0ygTIgcC.jpg"
+        },
+        {
+          "title": "◆ 다자이후 텐만구 입구",
+          "description": "☞ 다지이후 텐만구 입구에는 일본 길거리 음식을 즐길 수 있는 명소입니다. \n- 우메가에모치\n- 아마오우 다이후쿠 모나카\n- 아마오우 치즈케이크\n- 다자이후 버거\n- 부타만(돼지 고기만두)\n- 스타벅스 다자이후점",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/vhct/cLRI2Mx0Cm.jpg"
+        },
+        {
+          "title": "◆ 캐널 시티 히카타\t\t\t",
+          "description": "캐널시티 하카타는 단순한 쇼핑몰이 아니라 '도시속의 하나의 도시' '즐거움이 교차하는 미래도시형 공간'을 컨셉으로 15만평의 부지위에 만든 미래도시 입니다. \n\n6개 대형건물이 마치 하나의 쇼핑몰을 이루듯 모여있고, 그 사이를 길이 180m의 인공운하가 구불구불 흐르면서 역동적인 공간을 연출하고 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/ivyn/8w787opVNv.jpg"
+        },
+        {
+          "title": "(3일) 중식",
+          "description": "◆ 캐널시티 하카타 빌딩내 식당가에서 자유식 입니다.\n\n- 돈코츠 라멘(이치란라멘): 후쿠오카의 대표적인 음식으로, 캐널시티 내 이치란 라멘 등 여러 라멘 전문점에서 맛볼 수 있습니다.\n- 모츠나베(잇토쿠야, 이치타카): 신선한 내장과 채소를 함께 끓여 먹는 후쿠오카의 명물 요리입니다.\n- 멘타이코(우오덴, 멘타이쥬): 매콤한 명란젓 요리는 이자카야 등 현지 식당에서 즐길 수 있으며, 밥반찬으로도 인기가 많습니다.\n- 미즈타키(하마다야): 닭고기와 채소를 푹 끓여 먹는 나베 요리로, 후쿠오카의 또 다른 별미입니다.\n- 덴푸라(다카오): 캐널시티 내 덴푸라 전문점에서는 바로 튀겨주는 튀김을 맛볼 수 있습니다.\n- 고보텐 우동(우동타이라): 후쿠오카만의 독특한 풍미를 가진 우동입니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/17/R0AU/4bFQ8mFYz3.jpg"
+        },
+        {
+          "title": "◆ 우미노나카미치 해변 공원",
+          "description": "후쿠오카와 시카노시마를 연결하는 해상공원으로 후쿠오카 도심에서 매우 가까운 거리의 대형 리조트 지역입니다, \n\n세계 제5위의 대형 공원공원을 목표로 조성한 공원인 만큼 면적 약 450ha의 규모가 광대합니다.\n\n공원 안에는 자연의 멋을 그대로 살린 광장과 못, 대관람차, 동물의 숲, 들생의 숲, 수족관 마린월드, 수영장등 다양한 오락시설이 흩어져 있습니다.\n\n☞ 이용 시간: 9:30 ~ 16:30(3-10월), 9:30 ~ 16:00(11-2월)\n   이용 요금: ￥410(어른), ￥80(초,중학생)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/SXcw/MBkRQDgJTK.jpg"
+        },
+        {
+          "title": "◆ (옵션)마린월드",
+          "description": "1989년 4월 국영 우미노나카미치 해변공원의 문화 리조트 지역에 개관한 수족관으로 규슈에서 가장 큰 규모를 자랑 합니다,\n\n아열대 수족, 온대걔 수족, 아한대 수족을 해류의 흐름에 따라 남에서 북으로 차례대로 전시 합니다.\n\n특히 골고래와 물개의 쇼, 깜짝 놀랄정도로 큰 상어가 있는 파노라마 수조에서 진행되는 수중연기쇼, 고래와 해달 등 볼거리가 많아 아이들이 가장 좋아 합니다.\n\n☞ 이용 시간: 9:30 ~ 17:30, 9:30 ~ 21:00(하계), 10:00 ~ 17:00 (12-2월)\n   이용 요금: ￥2,500(고등학생이상), ￥2,200(65세이상). ￥1,200(초중학생), ￥700(3세~)\n",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/U6Si/Vsj7fHsF6Q.jpg"
+        },
+        {
+          "title": "나카스 야다이 포장마차 거리\t",
+          "description": "네온사인이 빛나는 강가의 포장마차 야다이(포장마차)는 후쿠오카의 상징입니다,\n강변을 따라 늘어선 포장마차는 후쿠오카의 명물 하카타 라멘을 비롯해 야키토리 등 간단한 식사류와 술, 주류를 즐길 수 있습니다.\n\n◆ 추천 매뉴\n- 코킨짱(야키라멘)\n- 켄카이(해산물 텐푸라)\n- 마미짱(하카타 라멘, 오뎅)\n- 가케시 상(야키 만두)\n- 토모짱(돈코츠 라멘)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/UsYX/8DOTTuNJWF.jpg"
+        },
+        {
+          "title": "차량",
+          "description": "☞ 투어 인원에 맞게 차량은 변경됩니다.\n- 승용차 (2명)\n- 7/8인승 (최소 3명 ~ 최대 5명)\n- 10/14인승 (최소 6명 ~ 최대 13명)\n- 마이크로(최소 14명 ~ 최대 21명)\n\n※ 투어시 캐리어는 24인치이하 캐리어 1개씩 지참 가능 합니다.\n   단, 초과시는 상담시 문의 바랍니다.\n※ 카시트가 필요시 상담시 요청하시면 준비할 수 있습니다.(랜트비 1일 ￥1,100)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/07/WeKg/pWJx4ERX7R.jpg"
+        }
+      ]
+    }
+  ]
+}

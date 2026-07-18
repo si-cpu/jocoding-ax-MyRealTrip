@@ -1,0 +1,74 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 19232,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "하기의 코스는 일정 예시를 들었습니다. 고객님의 스케쥴에 맞춰 드립니다.",
+          "description": "유후인-벳푸 코스, 아이를 위한 코스, 대자연을 볼 수 있는 아소산 코스 등\n다양한 코스가 준비 되어 있으니 편하게 문의 주세요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/14/O0kh/rVCmPji4iz.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.584637,
+              "lng": 130.4437
+            },
+            "label": "후쿠오카 (FUK)"
+          }
+        },
+        {
+          "title": "다자이후 텐만구",
+          "description": "학문의 신인 스가와라노 미치자네를 모시는 곳으로, 입시 합격및 학업 성취 등을 기원하는 참배객들로 1년 내내 붐비는 곳이다. 입구에 있는 소의 동상의 머리를 만지면 머리가 맑아지고, 자신의 몸에서 건강이 좋지않은 부위를 만지면 그 부위의 병이 낫는다는 속설이 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/14/bvog/opACCVidbK.jpg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.520805,
+              "lng": 130.53479
+            },
+            "label": "다자이후 텐만구"
+          }
+        },
+        {
+          "title": "히타 마메다 마치",
+          "description": "히타시 마메다 마치는 에도시대 (1603년 ~ 1868년) 막부의 직할 텐료 지대로서 번창한 마을입니다.\n일본에서 가장 오래된 상가와 창고가 늘어선 히타관광 명소로 알려진 곳 중 하나입니다.\n\"천년 아카리(등불)\"나 \"텐료 히타 히나 마츠리(天領日田おひなまつり)\"등 계절에 따른 다양한 이벤트도 개최되어 관광 시즌에는 전국 각지에서 많은 사람들이 찾아옵니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/14/cGcU/P0LeDwxnuC.jpg",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "유후인 & 긴린코호수",
+          "description": "NHK가 선정한 가장 일본적인 마을로, 아기자기한 상점들이 즐비해 일본 여성들이 가고싶어 하는 관광지1위의 관광지입니다.\n긴린코 호수는 '노을이 비친 물고기들의 비늘이 금빛으로 빛난다'고 하여 긴린코(金鱗湖)라 이름 지어졌다. 맑은 물과 주변의 고풍스러운 건물들이 어우러진 풍광으로도 유명하다. 호수의 냉온수가 만나 신비로운 안개를 자아낸다.",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.26615,
+              "lng": 131.36557
+            },
+            "label": "규슈 유후인 민속 마을"
+          }
+        },
+        {
+          "title": "가마도지옥",
+          "description": "일본 최고의 온천 용출량을 자랑하는 오이타현 벳부에 위치한 지옥순례 중 한 곳으로, 고을의 수호신 가마도 하치만쿠의 제사 때 제단에 올릴 밥을 온천에서 뿜어져 나오는 98℃의 증기를 이용하여 지은 것에서 그 이름이 유래되었다",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/14/s8E6/Zgqc7M3eUs.jpg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.31608,
+              "lng": 131.47276
+            },
+            "label": "가마도 지고쿠"
+          }
+        },
+        {
+          "title": "라라포트 후쿠오카",
+          "description": "라라포트 후쿠오카는 대형 쇼핑 체인 매장으로 다양한 유명브랜드 매장이 즐비해 알찬 쇼핑을 즐길 수 있다. 마트,영화관,야외쉼터,풋살장 등 다양한 상업시설이 입점해 있어 후쿠오카의 핫 플레이스로 떠오르고 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/14/sxut/QWvzmPAgco.jpg",
+          "duration": "40분 소요"
+        }
+      ]
+    }
+  ]
+}

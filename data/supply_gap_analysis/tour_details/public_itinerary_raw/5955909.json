@@ -1,0 +1,66 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 27170,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "하카타역(博多駅) 치쿠시구치(筑紫口) 출구 오리엔탈호텔 1층 로손 편의점 앞 미팅",
+          "description": "⭐️ 미팅시간 : 07:30 / 출발시간 : 07:50\n(구글지도검색 : 로손 오리엔탈호텔후쿠오카)\n( 4-23 Hakataekichuogai, Hakata Ward, Fukuoka, 812-0012 일본 )\n\n* 미팅 장소, 시간을 사전에 숙지해 주시고 투어 당일 여유롭게 미팅 장소로 모여주시길 바랍니다.\n라쿠투어 빨간색 피켓을 들고 있는 가이드를 찾아주세요. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/21/CfZ0/hZzUGSobgh.jpg"
+        },
+        {
+          "title": "쿠스 휴게소",
+          "description": "❤️ 여행의 시작은~? 휴게소 ❤️\n잠시 들렸다 가실께요 ~~~ 🚎🚎\n\n** 쿠스 휴게소에서만 먹을 수 있는 인생 요구르트도 있어요! 필수로 드세요 ~~",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/21/2XCE/tbzjCf1qIK.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "벳푸 아프리칸 사파리 ✨입장권포함✨",
+          "description": "🔥🔥🔥 벳푸 핫플 🔥🔥🔥  \n동양 최대의 체험형 사파리 ʕ•ᴥ•ʔ \n드넓은 초원에서 자유롭게 다니는 동물들을 바로 옆에서 구경 가능해요 \n가족, 아이들에게 강!추!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/13/3PAb/HBkQQex2PU.jpg",
+          "duration": "2시간 소요"
+        },
+        {
+          "title": "벳푸 아프리칸 사파리 ✨입장권포함✨",
+          "description": "벳푸 아프리칸 사파리 투어는 라쿠투어 버스 탑승한 채로 사파리 내부를 둘러볼 수 있는 투어입니다.\n온 가족이 함께 즐기는 특별한 하루, 야생의 감동을 직접 만나보세요!\n\n일반 동물원과 달리 동물들이 자유롭게 생활하는 환경 속에서 보다 생생한 모습을 만날 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/13/E0eF/J6G5PK24Yh.jpg"
+        },
+        {
+          "title": "벳푸 아프리칸 사파리 ✨입장권포함✨",
+          "description": "⭐️사파리존 - 탑승하신 버스를 통해 투어 진행\n(곰, 사자, 기린, 코뿔소, 호랑이, 얼룩말, 코끼리, 치타, 들소 등등..)\n\n⭐️만남존 - 자유시간 동물과의 교감 포인트\n(캥거루, 말, 원숭이, 토끼, 카피바라, 고양이, 강아지, 고슴도치 등등..)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/13/MEPU/ynU0CGzaRP.jpg"
+        },
+        {
+          "title": "유후인 (온천마을산책, 긴린코호수, 플로랄빌리지) * 중식&자유시간",
+          "description": "일본에서 두 번째로 많은 온천량을 자랑하는 마을.\n유후인은 주변이 산으로 둘러싸여 있어 조용하고 편안한 느낌을 주는 곳이죠!\n개성 있는 가게들이 옹기종기 들어서 있고, 마치 마을 전체가 한 폭의 그림처럼 예쁜 모습을 하고 있어요~",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/21/aooC/pJyr0mFh3j.jpg",
+          "duration": "3시간 20분 소요"
+        },
+        {
+          "title": "유후인 (온천마을산책, 긴린코호수, 플로랄빌리지) ",
+          "description": "유후인의 가장 유명한 관광지인 '긴린코 호수'.. ★\n물고기 비늘이 석양에 비칠 때 금색으로 보인다 하여 ‘긴린코’라는 이름이 지어졌다고 합니다.\n서쪽 밑바닥에서는 온천이 솟아 나오며 동쪽에서는 민물이 솟아오르는데 이 온도차로 인해 물안개가 발생해 몽환적인 느낌을 자아냅니다. 호수와 주변 풍경을 만끽하며 산책해 보시죠 ~~~ ʕ ᵔᴥᵔ ʔ gogo~",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/21/qdPx/1SlaQxNhXY.jpg"
+        },
+        {
+          "title": "유후인 (온천 마을 산책, 긴린코 호수, 플로랄 빌리지) ",
+          "description": "영국의 코츠월즈 지방을 재현한 테마파크!\n마법사를 상징하는 부엉이 마스코트와, 유럽풍의 상점들로 마법 마을에 온듯한 분위기를 느낄 수 있답니다.\n여러 소품들로 잘 꾸며져 있어 어디든 포토 스팟 Point ~~ ☞☞",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/21/IqVV/EIFc807pCM.jpg"
+        },
+        {
+          "title": "야마다(또는 키야마) 휴게소",
+          "description": "❤️ 여행의 마무리는~? 휴게소 ❤️\n잠시 들렸다 가실께요 ~~~ 🚎🚎\n",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/21/rmn4/CQsk698ATl.png",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "하카타역(博多駅) 치쿠시구치(筑紫口) 출구 오리엔탈호텔 1층 로손 편의점 앞 하차",
+          "description": "⭐️미팅 장소와 동일한 곳에서 하차합니다.\n도착시간은 17:30 정도입니다. 현지 도로상황에 따라 변경될 수 있는 점 양해 부탁드립니다.\n\n즐거운 투어 되셨길 바라며, 라쿠투어와의 소중한 추억 간직해 주세요 💓 감사합니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/21/tJxR/2DO0Ht98X5.jpg"
+        }
+      ]
+    }
+  ]
+}

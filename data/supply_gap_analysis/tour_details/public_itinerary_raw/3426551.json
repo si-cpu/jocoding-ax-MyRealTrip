@@ -1,0 +1,102 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 1013,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "미팅 및 출발",
+          "description": "미팅 시간｜08:15 ~ 08:25(10분간 진행)\n미팅 장소｜하카타역 치쿠시구치 로손 오리엔탈호텔 후쿠오카점 앞",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/13/hqWO/anwC1x0FNW.jpg",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔 후쿠오카점"
+          }
+        },
+        {
+          "title": "유후인",
+          "description": "긴린코 호수, 온천, 카페, 기념품샵 등 다양한 볼거리와 먹거리가 가득한 유후인 마을입니다. 영화 해리포터 촬영장을 재연한 플로랄 빌리지와 물안개가 떠 있는 긴린호수! 작은 신사를 배경으로 신비로운 인생샷을 남길 수 있어요!\t\t\t",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/13/ojx5/te9aTCGtnT.jpg",
+          "duration": "3시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2674871,
+              "lng": 131.3655357
+            },
+            "label": "유후인 플로랄빌리지"
+          }
+        },
+        {
+          "title": "유후다케",
+          "description": "유후인 어디에서나 보이는 해발 1,584m의 산, 유후다케.\n유후인에서 가장 높고 웅장한 산으로 알려져 있습니다. 유후다케는 버스를 타고 이동하며 관광합니다.\n\n*날씨가 좋은 경우, 하차 후 포토타임이 있습니다!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/13/6APv/5hUZzqrISo.jpg",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.282333,
+              "lng": 131.3903704
+            },
+            "label": "유후 산"
+          }
+        },
+        {
+          "title": "벳부 가마도지옥",
+          "description": "100도 전후의 증기와 열탕이 분출하는 벳부의 대표코스.\n지옥쇼, 족욕, 발찜질, 먹거리 등 다양한 볼거리가 가득해요! 라무네와 촉촉한 계란까지 맛볼 수 있는 인기 No.1 코스!\n\n*가마도지옥 입장료와 족욕수건이 포함 되어있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/13/hvSh/cTd88RKie2.jpg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.31608,
+              "lng": 131.47276
+            },
+            "label": "가마도 지고쿠"
+          }
+        },
+        {
+          "title": "쿠스휴게소",
+          "description": "벳부에서 다자이후로 넘어가는 길에 위치한 쿠스휴게소\n쿠스휴게소에서만 판매하는 인생 요구르트를 만나실 수 있어요! 잊지말고 꼭! 드셔보세요~!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/13/jNUR/4aT0iN8i0O.jpg",
+          "duration": "20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2828669,
+              "lng": 131.1167373
+            },
+            "label": "구스 고속도로 휴게소(하행)"
+          }
+        },
+        {
+          "title": "다자이후 텐만구",
+          "description": "'학문의 신'을 모시는 곳 다자이후 텐만구\n학업 성취와 각종 합격을 기원하는 참배객이 많이 모입니다. 머리를 쓰다듬으면 똑똑해진다는 황소동상과 운세뽑기! 명물 우메가에 모찌와 스타벅스까지 볼거리가 다양합니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/13/rN85/d6q2xRXE0c.jpg",
+          "duration": "1시간 10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.520805,
+              "lng": 130.53479
+            },
+            "label": "다자이후 텐만구"
+          }
+        },
+        {
+          "title": "도착 및 해산",
+          "description": "하카타역 도착 후 해산! 버스에서 안내해드린 숨겨진 맛집과 와쿠와쿠만의 꿀팁들로 완벽한 하루를 마무리 하실 수 있어요!\t\t\t",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/13/9Bmq/IfmojwJ7tA.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔 후쿠오카점"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 1018,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "미팅 및 출발",
+          "description": "미팅 시간｜08:30~08:40(10분간 진행)\n미팅 장소｜하카타역 치쿠시구치 로손 오리엔탈호텔 후쿠오카점 앞",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/26/WRyJ/8r7r7uWUAD.jpg",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔후쿠오카"
+          }
+        },
+        {
+          "title": "야자수 그네",
+          "description": "동화 속 한 장면과 같은 바다와 포토존, 바로 야자수 그네!\n그중 바다 위를 나는 것 같은 야자수 포토존은 어른들에게 인기가 많고 이외에도 20가지 넘는 다양한 조형물과 그네가 있답니다! 푸른 바다와 인생사진 찍으러 가볼까요!?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/26/5q9a/clzGmdWXME.png",
+          "duration": "50분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.6291753,
+              "lng": 130.2266849
+            },
+            "label": "Palm Tree Swing"
+          }
+        },
+        {
+          "title": "사쿠라이 후타미가우라",
+          "description": "이토시마의 인기 장소, 사쿠라이 후타미가우라\n신이 건너오는 문 ‘토리이’ 안에 펼쳐 진 아름다운 풍경과 부부간의 유대를 나타내는 부부바위와 함께 소중한 사람과 사진을 남기면 더욱 돈독한 사이가 되겠죠?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/26/9vms/7ujKADDosY.jpg",
+          "duration": "30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.6382481,
+              "lng": 130.1964505
+            },
+            "label": "후타미가우라 주차장"
+          }
+        },
+        {
+          "title": "마타이치노시오 제염소 톳단",
+          "description": "톳단공방은 이토시마 서쪽 끝에 위치하여 전통 방식으로 소금을 만드는 제염소 입니다. 이곳의 자랑은 소금이 눈처럼 뿌려진 소금푸딩 입니다! 단짠단짠의 정석같은 맛!\n이외에도 톳단 자체제작 조미료과 먹거리도 있어요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/26/IBkX/j2TuDyWz2U.jpg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5771816,
+              "lng": 130.0897402
+            },
+            "label": "마타이치노시오 제염소 공방 톳탄"
+          }
+        },
+        {
+          "title": "니지노 마쓰바라_차창관람",
+          "description": "일본 3대 소나무 숲 중 하나인, 니지노 마쓰바라\n에도시대부터 자리잡은 백만그루의 흑송들이 가라쓰로 가는 길목에 빽빽하게 위치해 있습니다. 약 4.5km 가량의 소나무길 드라이브를 편안하게 차창 관람해보세요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/26/Dpuv/YBnRnQ2Sdj.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.446316,
+              "lng": 129.99075
+            },
+            "label": "니지노 마츠바라"
+          }
+        },
+        {
+          "title": "가라쓰역(자유중식)",
+          "description": "사가현의 제 2의 대표 도시, 가라쓰는 예로부터 대륙과 교역을 했던 마쓰우라 지방 하구에 생성되어 풍부한 상인 문화가 발달하였습니다. 옛 가라쓰 은행 그리고 상점가의 도자기와 공예품을 구경하며 점심시간을 보내볼까요?",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/26/jJ8s/9DZvpcYmqo.png",
+          "duration": "1시간 40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.4462912,
+              "lng": 129.9677347
+            },
+            "label": "가라쓰 역"
+          }
+        },
+        {
+          "title": "다케오신사",
+          "description": "8세기경 세상의 평화를 바라며 만들어진 다케오 신사\n장수의 신을 모시는 이곳에서 기도를 올리면 장수와 행운을 부르고 부부노송나무와 다케오 3000년 녹나무가 유명해요! 인근에는 다케오시립도서관도 있으니 방문하는걸 추천!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/26/uaKo/jlw2eGjreJ.jpg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.1881294,
+              "lng": 130.0209037
+            },
+            "label": "다케오신사"
+          }
+        },
+        {
+          "title": "라라포트_중도하차",
+          "description": "라라포트에서 중도하차 가능합니다!\n중도하차 하실 경우, 사전에 말씀 부탁드립니다!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/26/q4Uw/UQEnURahFB.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5651945,
+              "lng": 130.4412689
+            },
+            "label": "라라포트 후쿠오카"
+          }
+        },
+        {
+          "title": "도착 및 해산",
+          "description": "하카타역 도착 후 해산!\n버스에서 안내해드린 숨겨진 맛집과 와쿠와쿠만의 꿀팁들로\n완벽한 하루를 마무리 하실 수 있어요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/26/58xL/p3PRQSuTyl.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔후쿠오카"
+          }
+        }
+      ]
+    }
+  ]
+}

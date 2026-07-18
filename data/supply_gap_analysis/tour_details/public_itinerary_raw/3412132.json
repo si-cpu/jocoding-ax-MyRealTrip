@@ -1,0 +1,43 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 642,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "츠노시마전망대",
+          "description": "코발트 블루의 푸른 바다 사이로 뻗어 있는 대교와 섬의 모습이 아름다워 CF, 드라마 등 각종 촬영지로 선정되었으며 드라이브 코스로도 사랑받고 있습니다. 어느 방향에서 찍어도 인생샷 가능한 포토스팟이니 천천히 둘러보며 사진을 남겨보세요!",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/150781/234033_original_1710311764.jpg?1710311764",
+          "duration": "30분 소요"
+        },
+        {
+          "title": "모토노스미이나리신사",
+          "description": "CNN이 선정한 일본의 아름다운 장소로 붉은 신사문과 해안 절벽, 푸른 나무의 절경을 볼 수 있습니다. 6m 높이의 도리에 있는 새전함에 동전을 넣으면 사랑이 이루어진다고 알려져 있어 사랑하는 사람이 있다면 도전해 보는 것을 추천드립니다!",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/150781/234034_original_1710311764.jpg?1710311764",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "점식식사&아키요시동굴",
+          "description": "금강산도 식후경! 야마구치의 명물인 복어 솥밥 정식 세트가 준비되어 있습니다.\r\n배를 채웠다면 다시 관람할 시간! 인류의 역사보다 훨씬 더 긴 세월에 걸쳐 완성된 자연의 예술 작품인 아키요시다이와 무려 3억 년의 역사를 지닌 석회암 동굴을 감상할 수 있습니다. 동굴 내부는 1년 내내 17℃로 일정하여 여름에는 시원하고 겨울에는 따뜻하게 쾌적한 관광이 가능합",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/150781/234035_original_1710311764.jpg?1710311764",
+          "duration": "1시간 40분 소요"
+        },
+        {
+          "title": "나가토 유모토 온천",
+          "description": "최근 온천가 재생프로젝트로 주목받고 있는 6백년의 전통을 가진 온천으로 알칼리성 온천수로 신경통,근육통,피로회복, 등에 효능이 있다고 알려져 있습니다",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/150781/234036_original_1710311764.jpg?1710311764",
+          "duration": "1시간 10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 34.330025,
+              "lng": 131.17226
+            },
+            "label": "나가토-유모토 온센"
+          }
+        }
+      ]
+    }
+  ]
+}
