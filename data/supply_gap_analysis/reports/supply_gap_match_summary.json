@@ -1,21 +1,43 @@
 {
-  "generated_at": "2026-07-18T15:23:09+09:00",
-  "official_anchor_count": 172,
-  "primary_official_anchor_count": 32,
+  "generated_at": "2026-07-18T15:28:52+09:00",
+  "official_anchor_count": 228,
+  "primary_official_anchor_count": 88,
   "partner_candidate_anchor_count": 108,
   "mcp_product_count": 63,
-  "auto_alias_anchor_count": 32,
-  "auto_alias_count": 49,
+  "auto_alias_anchor_count": 88,
+  "auto_alias_count": 105,
   "match_count": 2,
   "matched_anchor_count": 2,
   "classification_counts": {
     "상품화 부족 자산": 30,
-    "부분 상품화 자산": 2
+    "부분 상품화 자산": 2,
+    "MCP 미수집 자산": 56
   },
   "by_city_classification": {
     "jp-hiroshima": {
       "상품화 부족 자산": 30,
       "부분 상품화 자산": 2
+    },
+    "jp-kyoto": {
+      "MCP 미수집 자산": 8
+    },
+    "jp-osaka": {
+      "MCP 미수집 자산": 8
+    },
+    "jp-tokyo": {
+      "MCP 미수집 자산": 8
+    },
+    "kr-busan": {
+      "MCP 미수집 자산": 8
+    },
+    "kr-daejeon": {
+      "MCP 미수집 자산": 8
+    },
+    "kr-seoul": {
+      "MCP 미수집 자산": 8
+    },
+    "kr-yeosu": {
+      "MCP 미수집 자산": 8
     }
   }
 }

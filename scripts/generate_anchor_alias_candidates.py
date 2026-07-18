@@ -19,6 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ANCHORS = ROOT / "data" / "official_tourism_sources" / "anchors" / "official_experience_anchors.csv"
 PRODUCTS = ROOT / "data" / "mcp_tna_products" / "processed" / "mcp_tna_products.csv"
+SEEDS = ROOT / "data" / "official_tourism_sources" / "processed" / "curated" / "multicity_tourism_seed_assets.csv"
 OUT = ROOT / "data" / "supply_gap_analysis"
 REPORTS = OUT / "reports"
 ALIAS_CSV = OUT / "auto_anchor_alias_candidates.csv"
@@ -157,7 +158,18 @@ def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
 
 
 def is_primary_tourism_anchor(anchor: dict[str, str]) -> bool:
-    return anchor.get("official_source_type") == "tourism_facility" and anchor.get("anchor_type") == "place"
+    return anchor.get("official_source_type") in {"tourism_facility", "tourism_seed"} and anchor.get("anchor_type") == "place"
+
+
+def load_seed_aliases() -> dict[tuple[str, str], str]:
+    if not SEEDS.exists():
+        return {}
+    aliases = {}
+    for row in read_csv(SEEDS):
+        key = (clean(row.get("city_id")), clean(row.get("official_name_local")))
+        if key[0] and key[1] and clean(row.get("display_name_ko")):
+            aliases[key] = clean(row.get("display_name_ko"))
+    return aliases
 
 
 def rule_translate_jp_to_ko(name: str) -> list[tuple[str, str, float]]:
@@ -201,11 +213,15 @@ def title_match_count(alias: str, products: list[dict[str, str]], city_name: str
 def main() -> int:
     anchors = [a for a in read_csv(ANCHORS) if is_primary_tourism_anchor(a)]
     products = read_csv(PRODUCTS) if PRODUCTS.exists() else []
+    seed_aliases = load_seed_aliases()
     rows = []
     seen: set[tuple[str, str]] = set()
     for anchor in anchors:
         official_name = clean(anchor.get("anchor_name_local") or anchor.get("anchor_name"))
         candidates = []
+        seed_alias = seed_aliases.get((anchor.get("city_id", ""), official_name))
+        if seed_alias:
+            candidates.append((seed_alias, "seed_display_name_ko", 0.95))
         if anchor.get("anchor_name_en"):
             candidates.append((anchor["anchor_name_en"], "official_english_name", 0.7))
         candidates.extend(rule_translate_jp_to_ko(official_name))

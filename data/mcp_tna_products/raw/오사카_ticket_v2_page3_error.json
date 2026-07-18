@@ -1,0 +1,9 @@
+{
+  "args": {
+    "query": "오사카",
+    "category": "ticket_v2",
+    "page": 3,
+    "perPage": 20
+  },
+  "error": "HTTP Error 429: Too Many Requests"
+}

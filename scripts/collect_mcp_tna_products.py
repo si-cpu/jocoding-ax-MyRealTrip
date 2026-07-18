@@ -22,7 +22,7 @@ PROCESSED = OUT / "processed"
 REPORTS = OUT / "reports"
 MCP_URL = "https://mcp-servers.myrealtrip.com/mcp"
 
-CITIES = ["후쿠오카", "히로시마"]
+CITIES = ["오사카", "도쿄", "교토", "서울", "부산", "여수", "대전"]
 
 EXCLUDED_CATEGORY_VALUES = {
     "all",
@@ -194,6 +194,17 @@ def select_categories(categories: list[dict[str, Any]], requested_values: set[st
 def city_match(title: str, city: str) -> str:
     if city in title:
         return "title_contains_city"
+    aliases = {
+        "오사카": ["USJ", "유니버설", "도톤보리", "난바", "우메다", "교토", "고베", "나라", "Osaka"],
+        "도쿄": ["Tokyo", "스카이트리", "시부야", "신주쿠", "아사쿠사", "디즈니", "팀랩"],
+        "교토": ["Kyoto", "기요미즈", "후시미", "아라시야마", "금각사", "기온"],
+        "서울": ["Seoul", "경복궁", "한강", "북촌", "남산", "N서울타워", "롯데월드"],
+        "부산": ["Busan", "해운대", "광안리", "감천", "자갈치", "태종대"],
+        "여수": ["Yeosu", "오동도", "해상케이블카", "밤바다", "향일암"],
+        "대전": ["Daejeon", "유성", "오월드", "엑스포", "한밭", "계족산"],
+    }
+    if any(token in title for token in aliases.get(city, [])):
+        return "title_alias_match"
     if city == "후쿠오카" and any(token in title for token in ["하카타", "나카스", "Hakata", "Fukuoka"]):
         return "title_alias_match"
     if city == "히로시마" and any(token in title for token in ["Hiroshima", "미야지마", "Miyajima"]):
@@ -311,13 +322,28 @@ def main() -> int:
     summaries = []
     call_id = 1000
     for city in cities:
-        rows, summary = collect_city(
-            city,
-            call_id,
-            requested_categories=requested_categories,
-            max_pages=args.max_pages,
-            delay=args.delay,
-        )
+        try:
+            rows, summary = collect_city(
+                city,
+                call_id,
+                requested_categories=requested_categories,
+                max_pages=args.max_pages,
+                delay=args.delay,
+            )
+        except Exception as exc:
+            rows = []
+            summary = {
+                "city": city,
+                "category_count": 0,
+                "selected_categories": [],
+                "raw_product_rows": 0,
+                "deduped_product_rows": 0,
+                "city_match_status": {},
+                "error": str(exc),
+            }
+            (RAW / f"{city}_collection_error.json").write_text(
+                json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
+            )
         call_id += 500
         new_rows.extend(rows)
         summaries.append(summary)

@@ -1,0 +1,120 @@
+{
+  "success": true,
+  "searchParams": {
+    "city": "오사카"
+  },
+  "categories": [
+    {
+      "name": "전체",
+      "value": "all",
+      "isSelected": false
+    },
+    {
+      "name": "근교투어",
+      "value": "suburb_tour",
+      "isSelected": false
+    },
+    {
+      "name": "티켓·입장권",
+      "value": "ticket_v2",
+      "isSelected": false
+    },
+    {
+      "name": "미식",
+      "value": "delicacies",
+      "isSelected": false
+    },
+    {
+      "name": "이동·교통",
+      "value": "transportation_v2",
+      "isSelected": false
+    },
+    {
+      "name": "골프",
+      "value": "golf_cc",
+      "isSelected": false
+    },
+    {
+      "name": "여행용품",
+      "value": "travel_goods",
+      "isSelected": false
+    },
+    {
+      "name": "시내투어",
+      "value": "sinae_tour",
+      "isSelected": false
+    },
+    {
+      "name": "체험·클래스",
+      "value": "activity_class",
+      "isSelected": false
+    },
+    {
+      "name": "입장권",
+      "value": "ticket",
+      "isSelected": false
+    },
+    {
+      "name": "투어",
+      "value": "tour",
+      "isSelected": false
+    },
+    {
+      "name": "유심·와이파이",
+      "value": "usimwifi",
+      "isSelected": false
+    },
+    {
+      "name": "이동/교통편의",
+      "value": "transportation",
+      "isSelected": false
+    },
+    {
+      "name": "미식/식사권",
+      "value": "foodie",
+      "isSelected": false
+    },
+    {
+      "name": "액티비티",
+      "value": "activity",
+      "isSelected": false
+    },
+    {
+      "name": "스냅촬영",
+      "value": "snap_v2",
+      "isSelected": false
+    },
+    {
+      "name": "여행편의/대여",
+      "value": "convenience",
+      "isSelected": false
+    },
+    {
+      "name": "스파/힐링",
+      "value": "spa_healing",
+      "isSelected": false
+    },
+    {
+      "name": "여행편의",
+      "value": "convenience_v2",
+      "isSelected": false
+    },
+    {
+      "name": "클래스",
+      "value": "class",
+      "isSelected": false
+    },
+    {
+      "name": "스냅",
+      "value": "snap",
+      "isSelected": false
+    },
+    {
+      "name": "스파·마사지",
+      "value": "spamassage",
+      "isSelected": false
+    }
+  ],
+  "totalCount": 1115,
+  "message": "오사카에서 22개의 카테고리를 찾았습니다. (총 상품 1115개)"
+}

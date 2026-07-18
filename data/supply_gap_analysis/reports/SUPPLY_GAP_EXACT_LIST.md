@@ -1,7 +1,7 @@
 # Supply Gap Exact List
 
-- Generated at: 2026-07-18T15:23:09+09:00
-- Total official assets: 32
+- Generated at: 2026-07-18T15:28:52+09:00
+- Total official assets: 88
 - Matched/partial assets: 2
 - Under-connected assets: 30
 
@@ -9,6 +9,13 @@
 
 | City | Classification | Count |
 |---|---|---:|
+| 교토 | MCP 미수집 자산 | 8 |
+| 대전 | MCP 미수집 자산 | 8 |
+| 도쿄 | MCP 미수집 자산 | 8 |
+| 부산 | MCP 미수집 자산 | 8 |
+| 서울 | MCP 미수집 자산 | 8 |
+| 여수 | MCP 미수집 자산 | 8 |
+| 오사카 | MCP 미수집 자산 | 8 |
 | 히로시마 | 부분 상품화 자산 | 2 |
 | 히로시마 | 상품화 부족 자산 | 30 |
 

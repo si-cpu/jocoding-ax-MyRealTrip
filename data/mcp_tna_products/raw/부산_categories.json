@@ -1,0 +1,100 @@
+{
+  "success": true,
+  "searchParams": {
+    "city": "부산"
+  },
+  "categories": [
+    {
+      "name": "전체",
+      "value": "all",
+      "isSelected": false
+    },
+    {
+      "name": "여행용품",
+      "value": "travel_goods",
+      "isSelected": false
+    },
+    {
+      "name": "입장권",
+      "value": "ticket",
+      "isSelected": false
+    },
+    {
+      "name": "액티비티",
+      "value": "activity",
+      "isSelected": false
+    },
+    {
+      "name": "투어",
+      "value": "tour",
+      "isSelected": false
+    },
+    {
+      "name": "스냅",
+      "value": "snap",
+      "isSelected": false
+    },
+    {
+      "name": "크루즈·페리 투어",
+      "value": "cruise_tour",
+      "isSelected": false
+    },
+    {
+      "name": "클래스",
+      "value": "class",
+      "isSelected": false
+    },
+    {
+      "name": "여행편의/대여",
+      "value": "convenience",
+      "isSelected": false
+    },
+    {
+      "name": "키즈",
+      "value": "kids",
+      "isSelected": false
+    },
+    {
+      "name": "스파/힐링",
+      "value": "spa_healing",
+      "isSelected": false
+    },
+    {
+      "name": "스파·마사지",
+      "value": "spamassage",
+      "isSelected": false
+    },
+    {
+      "name": "유심·와이파이",
+      "value": "usimwifi",
+      "isSelected": false
+    },
+    {
+      "name": "이동/교통편의",
+      "value": "transportation",
+      "isSelected": false
+    },
+    {
+      "name": "부산 뷰티",
+      "value": "busan_beauty",
+      "isSelected": false
+    },
+    {
+      "name": "뷰티",
+      "value": "beauty",
+      "isSelected": false
+    },
+    {
+      "name": "골프",
+      "value": "golf_cc",
+      "isSelected": false
+    },
+    {
+      "name": "서울 뷰티",
+      "value": "korea_beauty",
+      "isSelected": false
+    }
+  ],
+  "totalCount": 258,
+  "message": "부산에서 18개의 카테고리를 찾았습니다. (총 상품 258개)"
+}

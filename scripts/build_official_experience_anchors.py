@@ -244,6 +244,50 @@ def hiroshima_event_anchors() -> list[dict[str, str]]:
     return anchors
 
 
+def multicity_seed_anchors() -> list[dict[str, str]]:
+    path = PROCESSED / "curated" / "multicity_tourism_seed_assets.csv"
+    if not path.exists():
+        return []
+    rows = read_csv(path)
+    anchors = []
+    for idx, row in enumerate(rows, start=1):
+        city_id = clean(row.get("city_id"))
+        local_name = clean(row.get("official_name_local"))
+        display_name_ko = clean(row.get("display_name_ko"))
+        if not city_id or not local_name:
+            continue
+        anchors.append(
+            {
+                "anchor_id": f"official-seed-{city_id}-{slug(local_name)}",
+                "city_id": city_id,
+                "city_name": clean(row.get("city_name")),
+                "country_code": clean(row.get("country_code")),
+                "anchor_name": local_name,
+                "anchor_name_local": local_name,
+                "anchor_name_en": clean(row.get("official_name_en")),
+                "anchor_type": "place",
+                "official_source_type": "tourism_seed",
+                "source_dataset": "multicity_tourism_seed_assets",
+                "source_record_id": str(idx),
+                "source_url": clean(row.get("source_url")),
+                "description": clean(row.get("notes")),
+                "category": clean(row.get("category")),
+                "address": "",
+                "lat": "",
+                "lng": "",
+                "start_date": "",
+                "end_date": "",
+                "price_text": "",
+                "evidence_text": " / ".join(x for x in [local_name, display_name_ko, clean(row.get("source_url"))] if x),
+                "confidence": "0.82",
+                "review_status": "seed_for_first_pass",
+                "match_ready": "true",
+                "notes": f"First-pass multi-city tourism seed. Korean display name: {display_name_ko}",
+            }
+        )
+    return anchors
+
+
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     REPORTS.mkdir(parents=True, exist_ok=True)
@@ -252,6 +296,7 @@ def main() -> int:
     anchors.extend(fukuoka_yatai_anchors())
     anchors.extend(hiroshima_facility_anchors())
     anchors.extend(hiroshima_event_anchors())
+    anchors.extend(multicity_seed_anchors())
 
     write_csv(OUT / "official_experience_anchors.csv", anchors)
     with (OUT / "official_experience_anchors.jsonl").open("w", encoding="utf-8") as f:
@@ -292,6 +337,7 @@ def main() -> int:
         "- Fukuoka yatai anchors are deduplicated by `屋台ID`.",
         "- Hiroshima tourism facilities are filtered to Hiroshima city code `341002`.",
         "- Hiroshima event anchors are time-sensitive and should be discounted or excluded when expired.",
+        "- Multi-city seed anchors are official/DMO reference seeds for first-pass comparison; replace with city open-data resources when available.",
     ]
     (REPORTS / "OFFICIAL_ANCHOR_BUILD_REPORT.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 

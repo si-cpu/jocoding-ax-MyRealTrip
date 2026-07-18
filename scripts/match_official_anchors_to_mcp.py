@@ -77,7 +77,7 @@ def is_partner_candidate_only(anchor: dict[str, str]) -> bool:
 
 
 def is_primary_tourism_asset(anchor: dict[str, str]) -> bool:
-    return anchor.get("official_source_type") == "tourism_facility" and anchor.get("anchor_type") == "place"
+    return anchor.get("official_source_type") in {"tourism_facility", "tourism_seed"} and anchor.get("anchor_type") == "place"
 
 
 def clean(text: str | None) -> str:
@@ -102,10 +102,19 @@ def write_csv(path: Path, fields: list[str], rows: list[dict[str, str]]) -> None
 
 
 def city_to_query(city_id: str) -> str:
-    if city_id == "jp-fukuoka":
-        return "후쿠오카"
-    if city_id == "jp-hiroshima":
-        return "히로시마"
+    mapping = {
+        "jp-osaka": "오사카",
+        "jp-tokyo": "도쿄",
+        "jp-kyoto": "교토",
+        "jp-fukuoka": "후쿠오카",
+        "jp-hiroshima": "히로시마",
+        "kr-seoul": "서울",
+        "kr-busan": "부산",
+        "kr-yeosu": "여수",
+        "kr-daejeon": "대전",
+    }
+    if city_id in mapping:
+        return mapping[city_id]
     return city_id
 
 
@@ -174,10 +183,12 @@ def evidence_policy(product: dict[str, str], match_type: str) -> tuple[str, str]
     )
 
 
-def classify(product_count: int, official_source_type: str) -> tuple[str, str, float, float, float]:
+def classify(product_count: int, official_source_type: str, city_product_count: int) -> tuple[str, str, float, float, float]:
     official_strength = 1.0
     if official_source_type == "official_event":
         official_strength = 0.75
+    if city_product_count == 0:
+        return "MCP 미수집 자산", "MCP collection has no products for this city; retry collection before scoring supply gap", official_strength, 0.0, 0.0
     if product_count >= 3:
         supply = 1.0
     elif product_count == 2:
@@ -241,8 +252,9 @@ def main() -> int:
         for match in anchor_matches:
             unique_products[match["product_url"] or match["product_title"]] = match
         product_count = len(unique_products)
+        city_product_count = sum(1 for product in products if product.get("city_query") == city_to_query(anchor["city_id"]))
         classification, reason, official_strength, supply, gap = classify(
-            product_count, anchor["official_source_type"]
+            product_count, anchor["official_source_type"], city_product_count
         )
         titles = " | ".join(m["product_title"] for m in list(unique_products.values())[:5])
         scores.append(
@@ -337,6 +349,7 @@ def main() -> int:
             "## Important interpretation",
             "",
             "- `상품화 부족 자산` means no direct MCP product match in the collected sample, not proof of zero market demand.",
+            "- `MCP 미수집 자산` means official/seed anchors exist but the city has no collected MCP products yet, often due to collection rate limits.",
             "- MCP collection was rate-limited for several non-tour categories, so the current match is a first-pass sample.",
             "- Generic Fukuoka yatai aliases such as `야타이` and `포장마차` apply only to the aggregate `후쿠오카 야타이` anchor.",
             "- Individual yatai stalls are kept as partner candidates and excluded from primary tourism-asset gap scoring to avoid restaurant-level overcounting.",
