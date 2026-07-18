@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-07-18T15:40:04+09:00",
-  "anchor_count": 172,
+  "generated_at": "2026-07-18T16:17:08+09:00",
+  "anchor_count": 742,
   "by_city": {
     "jp-fukuoka": 108,
+    "jp-kyoto": 570,
     "jp-hiroshima": 64
   },
   "by_type": {
     "place_cluster": 1,
     "food_place": 107,
-    "place": 32,
+    "place": 602,
     "event": 32
   },
   "by_source": {
     "official_yatai_cluster": 1,
     "official_yatai": 107,
-    "tourism_facility": 32,
+    "tourism_facility": 602,
     "official_event": 32
   },
   "outputs": [

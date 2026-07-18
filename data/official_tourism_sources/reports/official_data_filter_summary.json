@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-18T12:23:48+09:00",
-  "total_csv_files": 35,
+  "generated_at": "2026-07-18T16:14:58+09:00",
+  "total_csv_files": 38,
   "bucket_counts": {
-    "rejected_or_later_city": 7,
-    "needs_review": 19,
-    "accepted": 6,
+    "rejected_or_later_city": 8,
+    "needs_review": 20,
+    "accepted": 7,
     "reference": 2,
     "secondary": 1
   },
-  "accepted_rows": 486,
+  "accepted_rows": 1264,
   "secondary_rows": 451,
   "reference_rows": 1605,
   "items": [
@@ -361,6 +361,36 @@
       "reason": "Row-level split: stored 1 rows outside Hiroshima city as later-city candidates",
       "row_count": 1,
       "encoding": "cp932"
+    },
+    {
+      "source_file": "data/official_tourism_sources/raw/kyoto_pref_tourism_facilities.csv",
+      "processed_file": "data/official_tourism_sources/processed/accepted/kyoto_tourism_facilities_city_only.csv",
+      "dataset_name": "Kyoto Prefecture tourism facility list / Kyoto city-only split",
+      "source_url": "https://data.bodik.jp/dataset/6ad07527-e6ad-4528-b1ad-00e8b5bd1b38/resource/7f63e283-49c4-4737-a838-ccea5cdbc205/download/260002kankoushisetsu.csv",
+      "bucket": "accepted",
+      "reason": "Row-level split: kept 778 rows whose municipality name starts with 京都市",
+      "row_count": 778,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "source_file": "data/official_tourism_sources/raw/kyoto_pref_tourism_facilities.csv",
+      "processed_file": "data/official_tourism_sources/processed/rejected_or_later_city/kyoto_pref_tourism_facilities_non_city_rows.csv",
+      "dataset_name": "Kyoto Prefecture tourism facility list / non-Kyoto city rows",
+      "source_url": "https://data.bodik.jp/dataset/6ad07527-e6ad-4528-b1ad-00e8b5bd1b38/resource/7f63e283-49c4-4737-a838-ccea5cdbc205/download/260002kankoushisetsu.csv",
+      "bucket": "rejected_or_later_city",
+      "reason": "Row-level split: stored 853 rows outside Kyoto city as later-city candidates",
+      "row_count": 853,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "source_file": "data/official_tourism_sources/raw/tokyo_tourist_spot_parameter_survey.csv",
+      "processed_file": "",
+      "dataset_name": "Tokyo tourist spot parameter survey: tourist spot visitor results",
+      "source_url": "https://www.opendata.metro.tokyo.lg.jp/sangyouroudou/tourist_number_survey/R6tourist_number_survey_1.csv",
+      "bucket": "needs_review",
+      "reason": "No filter rule",
+      "row_count": 2,
+      "encoding": "utf-8-sig"
     }
   ]
 }

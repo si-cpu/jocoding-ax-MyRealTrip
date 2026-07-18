@@ -17,6 +17,7 @@ REPORTS = ROOT / "data" / "official_tourism_sources" / "reports"
 
 FUKUOKA_CITY_CODES = {"401307"}
 HIROSHIMA_CITY_CODES = {"341002"}
+KYOTO_CITY_PREFIX = "京都市"
 
 
 def read_csv_rows(path: Path) -> tuple[list[str], list[dict[str, str]], str]:
@@ -112,6 +113,10 @@ def classify_hiroshima_file(path: Path, meta: dict, rows: list[dict[str, str]]) 
     return "needs_review", f"Hiroshima source but code validation incomplete: {dict(codes.most_common(5))}"
 
 
+def is_kyoto_city_row(row: dict[str, str]) -> bool:
+    return row_city_name(row).startswith(KYOTO_CITY_PREFIX)
+
+
 def main() -> int:
     PROCESSED.mkdir(parents=True, exist_ok=True)
     REPORTS.mkdir(parents=True, exist_ok=True)
@@ -163,6 +168,40 @@ def main() -> int:
                         }
                     )
                 continue
+        elif path.name == "kyoto_pref_tourism_facilities.csv":
+            city_rows = [row for row in rows if is_kyoto_city_row(row)]
+            other_rows = [row for row in rows if not is_kyoto_city_row(row)]
+            if city_rows:
+                out_path = PROCESSED / "accepted" / "kyoto_tourism_facilities_city_only.csv"
+                write_csv(out_path, fieldnames, city_rows)
+                manifest.append(
+                    {
+                        "source_file": str(path.relative_to(ROOT)),
+                        "processed_file": str(out_path.relative_to(ROOT)),
+                        "dataset_name": f"{meta.get('dataset_name', 'Kyoto Prefecture tourism facility list')} / Kyoto city-only split",
+                        "source_url": meta.get("url", ""),
+                        "bucket": "accepted",
+                        "reason": f"Row-level split: kept {len(city_rows)} rows whose municipality name starts with 京都市",
+                        "row_count": len(city_rows),
+                        "encoding": encoding,
+                    }
+                )
+            if other_rows:
+                out_path = PROCESSED / "rejected_or_later_city" / "kyoto_pref_tourism_facilities_non_city_rows.csv"
+                write_csv(out_path, fieldnames, other_rows)
+                manifest.append(
+                    {
+                        "source_file": str(path.relative_to(ROOT)),
+                        "processed_file": str(out_path.relative_to(ROOT)),
+                        "dataset_name": f"{meta.get('dataset_name', 'Kyoto Prefecture tourism facility list')} / non-Kyoto city rows",
+                        "source_url": meta.get("url", ""),
+                        "bucket": "rejected_or_later_city",
+                        "reason": f"Row-level split: stored {len(other_rows)} rows outside Kyoto city as later-city candidates",
+                        "row_count": len(other_rows),
+                        "encoding": encoding,
+                    }
+                )
+            continue
         elif path.name.startswith("Fukuoka") or path.name == "fukuoka_yatai_basic_info.csv":
             bucket, reason = classify_fukuoka_file(path, meta, rows)
         else:

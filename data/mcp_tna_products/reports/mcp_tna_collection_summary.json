@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-18T15:37:36+09:00",
+  "generated_at": "2026-07-18T16:15:30+09:00",
   "city_summaries": [
     {
-      "city": "오사카",
+      "city": "교토",
       "category_count": 22,
       "selected_categories": [
         {
@@ -10,32 +10,75 @@
           "value": "tour"
         },
         {
+          "name": "근교투어",
+          "value": "suburb_tour"
+        },
+        {
+          "name": "시내투어",
+          "value": "sinae_tour"
+        },
+        {
           "name": "티켓·입장권",
           "value": "ticket_v2"
+        },
+        {
+          "name": "입장권",
+          "value": "ticket"
+        },
+        {
+          "name": "미식/식사권",
+          "value": "foodie"
+        },
+        {
+          "name": "미식",
+          "value": "delicacies"
+        },
+        {
+          "name": "체험·클래스",
+          "value": "activity_class"
+        },
+        {
+          "name": "액티비티",
+          "value": "activity"
+        },
+        {
+          "name": "스냅촬영",
+          "value": "snap_v2"
+        },
+        {
+          "name": "스냅",
+          "value": "snap"
+        },
+        {
+          "name": "스파/힐링",
+          "value": "spa_healing"
+        },
+        {
+          "name": "클래스",
+          "value": "class"
         }
       ],
-      "raw_product_rows": 40,
-      "deduped_product_rows": 40,
+      "raw_product_rows": 50,
+      "deduped_product_rows": 49,
       "city_match_status": {
-        "title_contains_city": 23,
-        "title_alias_match": 10,
-        "unknown_or_other_city": 7
-      }
+        "title_contains_city": 38,
+        "unknown_or_other_city": 9,
+        "title_alias_match": 2
+      },
+      "error": "HTTP Error 429: Too Many Requests",
+      "stopped_on_rate_limit": true
     }
   ],
-  "new_products": 40,
-  "total_products": 103,
+  "new_products": 49,
+  "total_products": 146,
   "merge_existing": true,
   "requested_cities": [
-    "오사카"
+    "교토"
   ],
-  "requested_categories": [
-    "ticket_v2",
-    "tour"
-  ],
-  "max_pages": 2,
-  "delay": 5.0,
-  "use_cache": true,
+  "requested_categories": [],
+  "max_pages": 3,
+  "delay": 1.0,
+  "use_cache": false,
   "stop_on_429": true,
   "outputs": [
     "data/mcp_tna_products/processed/mcp_tna_products.csv",

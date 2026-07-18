@@ -1,0 +1,29 @@
+{
+  "source": "data/official_tourism_sources/processed/accepted/kyoto_tourism_facilities_city_only.csv",
+  "skipped_non_primary_rows": 208,
+  "skip_terms": [
+    "ホテル",
+    "旅館",
+    "お宿",
+    "宿",
+    "民宿",
+    "ペンション",
+    "ロッジ",
+    "ゲストハウス",
+    "レストラン",
+    "食堂",
+    "料理",
+    "カフェ",
+    "喫茶",
+    "茶屋",
+    "菓",
+    "餅",
+    "豆腐",
+    "とうふ",
+    "納豆",
+    "甘味",
+    "グリル",
+    "パーク",
+    "駐車場"
+  ]
+}

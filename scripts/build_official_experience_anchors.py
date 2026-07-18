@@ -45,6 +45,46 @@ ANCHOR_FIELDS = [
     "notes",
 ]
 
+KYOTO_NON_PRIMARY_NAME_TERMS = (
+    "ホテル",
+    "旅館",
+    "お宿",
+    "宿",
+    "民宿",
+    "ペンション",
+    "ロッジ",
+    "ゲストハウス",
+    "レストラン",
+    "食堂",
+    "料理",
+    "カフェ",
+    "喫茶",
+    "茶屋",
+    "菓",
+    "餅",
+    "豆腐",
+    "とうふ",
+    "納豆",
+    "甘味",
+    "グリル",
+    "パーク",
+    "駐車場",
+)
+
+KYOTO_NON_PRIMARY_TEXT_TERMS = (
+    "宿泊",
+    "客室",
+    "朝食",
+    "レストラン",
+    "食事",
+    "料理",
+    "菓子",
+    "甘味",
+    "ランチ",
+    "駐車場",
+    "コインパーキング",
+)
+
 
 def clean(text: str | None) -> str:
     if not text:
@@ -244,6 +284,74 @@ def hiroshima_event_anchors() -> list[dict[str, str]]:
     return anchors
 
 
+def kyoto_facility_anchors() -> list[dict[str, str]]:
+    path = PROCESSED / "accepted" / "kyoto_tourism_facilities_city_only.csv"
+    if not path.exists():
+        return []
+    rows = read_csv(path)
+    anchors = []
+    skipped_non_primary = 0
+    for row in rows:
+        name = clean(row.get("名称"))
+        no = clean(row.get("NO"))
+        if not name:
+            continue
+        text_for_filter = " ".join(
+            clean(row.get(key))
+            for key in ["名称", "説明", "アクセス方法", "連絡先名称", "住所"]
+        )
+        if any(term in name for term in KYOTO_NON_PRIMARY_NAME_TERMS) or any(
+            term in text_for_filter for term in KYOTO_NON_PRIMARY_TEXT_TERMS
+        ):
+            skipped_non_primary += 1
+            continue
+        description = clean(row.get("説明"))
+        evidence = " / ".join(x for x in [name, description[:160], clean(row.get("アクセス方法"))] if x)
+        anchors.append(
+            {
+                "anchor_id": f"official-kyoto-facility-{no or slug(name)}",
+                "city_id": "jp-kyoto",
+                "city_name": "교토",
+                "country_code": "JP",
+                "anchor_name": name,
+                "anchor_name_local": name,
+                "anchor_name_en": clean(row.get("名称_英語")),
+                "anchor_type": "place",
+                "official_source_type": "tourism_facility",
+                "source_dataset": "kyoto_tourism_facilities_city_only",
+                "source_record_id": no,
+                "source_url": clean(row.get("URL")),
+                "description": description,
+                "category": "관광시설",
+                "address": clean(row.get("住所")),
+                "lat": clean(row.get("緯度")),
+                "lng": clean(row.get("経度")),
+                "start_date": "",
+                "end_date": "",
+                "price_text": clean(row.get("料金（詳細）") or row.get("料金（基本）")),
+                "evidence_text": evidence,
+                "confidence": "0.9",
+                "review_status": "accepted",
+                "match_ready": "true",
+                "notes": "Kyoto Prefecture official tourism facility; filtered to municipality names starting with 京都市. Lodging/restaurant-like records are excluded from primary tourism-place anchors by name terms.",
+            }
+        )
+    if skipped_non_primary:
+        (REPORTS / "kyoto_anchor_non_primary_skip_summary.json").write_text(
+            json.dumps(
+                {
+                    "source": str(path.relative_to(ROOT)),
+                    "skipped_non_primary_rows": skipped_non_primary,
+                    "skip_terms": list(KYOTO_NON_PRIMARY_NAME_TERMS),
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
+    return anchors
+
+
 def multicity_seed_anchors() -> list[dict[str, str]]:
     path = PROCESSED / "curated" / "multicity_tourism_seed_assets.csv"
     if not path.exists():
@@ -294,6 +402,7 @@ def main() -> int:
 
     anchors = []
     anchors.extend(fukuoka_yatai_anchors())
+    anchors.extend(kyoto_facility_anchors())
     anchors.extend(hiroshima_facility_anchors())
     anchors.extend(hiroshima_event_anchors())
     seed_anchors = multicity_seed_anchors()
@@ -345,6 +454,7 @@ def main() -> int:
         "",
         "- Fukuoka yatai anchors are deduplicated by `屋台ID`.",
         "- Hiroshima tourism facilities are filtered to Hiroshima city code `341002`.",
+        "- Kyoto tourism facilities are filtered to municipality names starting with `京都市`; lodging/restaurant-like records are excluded from primary place anchors by name terms.",
         "- Hiroshima event anchors are time-sensitive and should be discounted or excluded when expired.",
         "- Multi-city seed anchors are exported separately as candidate/demo anchors and are excluded from the primary official anchor file to avoid analysis contamination.",
     ]

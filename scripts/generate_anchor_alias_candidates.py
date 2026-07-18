@@ -40,6 +40,26 @@ FIELDS = [
 ]
 
 JP_KO_TERMS = [
+    ("京都", "교토"),
+    ("清水寺", "청수사"),
+    ("金閣寺", "금각사"),
+    ("銀閣寺", "은각사"),
+    ("鹿苑寺", "로쿠온지"),
+    ("慈照寺", "지쇼지"),
+    ("伏見稲荷大社", "후시미이나리"),
+    ("伏見稲荷", "후시미이나리"),
+    ("稲荷", "이나리"),
+    ("嵐山", "아라시야마"),
+    ("祇園", "기온"),
+    ("二条城", "니조성"),
+    ("北野天満宮", "키타노텐만구"),
+    ("三千院", "산젠인"),
+    ("延暦寺", "엔랴쿠지"),
+    ("大原", "오하라"),
+    ("寺", "사"),
+    ("神社", "신사"),
+    ("天満宮", "텐만구"),
+    ("大社", "대사"),
     ("広島", "히로시마"),
     ("福岡", "후쿠오카"),
     ("宮島", "미야지마"),
@@ -100,6 +120,16 @@ GENERIC_SUFFIXES = [
 ]
 
 CURATED_KO_NAMES = {
+    "鹿苑寺（金閣寺）": ["금각사", "킨카쿠지"],
+    "清水寺": ["청수사", "기요미즈데라"],
+    "伏見稲荷大社": ["후시미이나리", "후시미 이나리"],
+    "嵐山": "아라시야마",
+    "慈照寺（銀閣寺）": ["은각사", "긴카쿠지"],
+    "元離宮二条城": "니조성",
+    "北野天満宮": "키타노텐만구",
+    "三千院": "산젠인",
+    "延暦寺": "엔랴쿠지",
+    "祇園": "기온",
     "縮景園": "슛케이엔",
     "ひろしま遊学の森 広島県緑化センター": "히로시마 유학의 숲 히로시마현 녹화센터",
     "ひろしま遊学の森 広島市森林公園（こんちゅう館）": "히로시마 유학의 숲 히로시마시 삼림공원 곤충관",
@@ -164,7 +194,9 @@ def rule_translate_jp_to_ko(name: str) -> list[tuple[str, str, float]]:
     variants: list[tuple[str, str, float]] = []
     curated = CURATED_KO_NAMES.get(clean(name))
     if curated:
-        variants.append((curated, "curated_ko_name", 0.95))
+        curated_values = curated if isinstance(curated, list) else [curated]
+        for curated_value in curated_values:
+            variants.append((curated_value, "curated_ko_name", 0.95))
     translated = name
     hits = 0
     for jp, ko in JP_KO_TERMS:

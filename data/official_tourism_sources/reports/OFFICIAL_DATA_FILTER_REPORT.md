@@ -1,9 +1,9 @@
 # Official Tourism Data Filter Report
 
-- Generated at: 2026-07-18T12:23:48+09:00
-- CSV files inspected: 35
-- Bucket counts: {'rejected_or_later_city': 7, 'needs_review': 19, 'accepted': 6, 'reference': 2, 'secondary': 1}
-- Accepted rows: 486
+- Generated at: 2026-07-18T16:14:58+09:00
+- CSV files inspected: 38
+- Bucket counts: {'rejected_or_later_city': 8, 'needs_review': 20, 'accepted': 7, 'reference': 2, 'secondary': 1}
+- Accepted rows: 1264
 - Secondary rows: 451
 - Reference rows: 1605
 
@@ -46,3 +46,6 @@
 | secondary | 451 | `data/official_tourism_sources/raw/hiroshima_public_wifi.csv` | `data/official_tourism_sources/processed/secondary/hiroshima_public_wifi.csv` | Official Hiroshima public Wi-Fi; useful as convenience data, not a tourism anchor by default |
 | accepted | 32 | `data/official_tourism_sources/raw/hiroshima_tourism_facilities.csv` | `data/official_tourism_sources/processed/accepted/hiroshima_tourism_facilities_city_only.csv` | Row-level split: kept 32 rows with municipality code 341002 |
 | rejected_or_later_city | 1 | `data/official_tourism_sources/raw/hiroshima_tourism_facilities.csv` | `data/official_tourism_sources/processed/rejected_or_later_city/hiroshima_tourism_facilities_non_city_rows.csv` | Row-level split: stored 1 rows outside Hiroshima city as later-city candidates |
+| accepted | 778 | `data/official_tourism_sources/raw/kyoto_pref_tourism_facilities.csv` | `data/official_tourism_sources/processed/accepted/kyoto_tourism_facilities_city_only.csv` | Row-level split: kept 778 rows whose municipality name starts with 京都市 |
+| rejected_or_later_city | 853 | `data/official_tourism_sources/raw/kyoto_pref_tourism_facilities.csv` | `data/official_tourism_sources/processed/rejected_or_later_city/kyoto_pref_tourism_facilities_non_city_rows.csv` | Row-level split: stored 853 rows outside Kyoto city as later-city candidates |
+| needs_review | 2 | `data/official_tourism_sources/raw/tokyo_tourist_spot_parameter_survey.csv` | `` | No filter rule |

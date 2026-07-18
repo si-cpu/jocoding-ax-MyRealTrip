@@ -1,4 +1,574 @@
 ﻿anchor_id,city_id,city_name,anchor_name,anchor_type,official_source_type,official_strength,mcp_supply_strength,mcp_product_count,gap_score,classification,reason,top_product_titles,analysis_scope
+official-kyoto-facility-0000007795,jp-kyoto,교토,貴了庵,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003468,jp-kyoto,교토,鹿苑寺（金閣寺）,place,tourism_facility,1.0,1.0,6,0.0,검증된 대표 경험,official asset has multiple MCP-linked products,"[교토역 출발, 하차가능] 오사카 버스투어 아라시야마 금각사 청수사 니코니코 일일 투어 | [교토] 후시미 이나리 + 킨카쿠지 + 대나무 숲 :: 세계유산 7곳 종일 버스 투어 | [여행 한 그릇] 사진 촬영 포함, 아라시야마, 금각사, 여우신사, 청수사 교토 버스 투어 | 오사카 출발 교토 1일 버스투어 프로사진 촬영 아라시야마 금각사 청수사 후시미이나리 유투어 | 1인출발-교토버스투어 (후시미이나리,청수사,금각사,아리시야마)교토역 &오사카 우메다 승하차",primary_tourism_asset
+official-kyoto-facility-0000009493,jp-kyoto,교토,源光庵,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000084,jp-kyoto,교토,建勲神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007556,jp-kyoto,교토,大谷大学博物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000012,jp-kyoto,교토,ガラシャ/グラススタジオ北やま,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003749,jp-kyoto,교토,島津アリーナ京都（京都府立体育館）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000276,jp-kyoto,교토,平野神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009498,jp-kyoto,교토,等持院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000678,jp-kyoto,교토,御すぐき處 京都なり田,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007742,jp-kyoto,교토,紫野 Anri,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000679,jp-kyoto,교토,神馬堂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000680,jp-kyoto,교토,一和（一文字屋和輔）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007953,jp-kyoto,교토,大森リゾートキャンプ場,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008680,jp-kyoto,교토,上賀茂手づくり市,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006735,jp-kyoto,교토,志明院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000684,jp-kyoto,교토,龍源院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007723,jp-kyoto,교토,手仕事雑貨屋 風土,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000687,jp-kyoto,교토,高桐院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003708,jp-kyoto,교토,社家,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000233,jp-kyoto,교토,深泥池,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009496,jp-kyoto,교토,大仙院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000255,jp-kyoto,교토,大田神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007797,jp-kyoto,교토,表千家北山会館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003470,jp-kyoto,교토,賀茂別雷神社（上賀茂神社）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007796,jp-kyoto,교토,大宮交通公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003559,jp-kyoto,교토,立命館大学国際平和ミュージアム（2021年4月1日～2023年9月までリニューアルのため休館）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008703,jp-kyoto,교토,梅辻家住宅,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003561,jp-kyoto,교토,高麗美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009494,jp-kyoto,교토,瑞峯院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001120,jp-kyoto,교토,キャピタル東洋亭本店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009495,jp-kyoto,교토,正伝寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000257,jp-kyoto,교토,大徳寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000258,jp-kyoto,교토,今宮神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003563,jp-kyoto,교토,京都府立堂本印象美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001123,jp-kyoto,교토,光悦茶家,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000275,jp-kyoto,교토,わら天神宮,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000261,jp-kyoto,교토,常照寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003290,jp-kyoto,교토,京象嵌の館 川人象嵌・川人ハンズ,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006757,jp-kyoto,교토,京都の歴史を学ぶ（平安京の遺跡めぐりなど）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003622,jp-kyoto,교토,高津古文化会館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003732,jp-kyoto,교토,京都こども文化会館（エンゼルハウス）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000074,jp-kyoto,교토,千本釈迦堂（大報恩寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007716,jp-kyoto,교토,弓月京店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003261,jp-kyoto,교토,近為,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003731,jp-kyoto,교토,京都府立府民ホール（アルティ）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000075,jp-kyoto,교토,釘抜地蔵（石像寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003730,jp-kyoto,교토,京都府立文化芸術会館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000056,jp-kyoto,교토,梨木神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000080,jp-kyoto,교토,宝鏡寺（人形の寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007317,jp-kyoto,교토,西陣くらしの美術館 冨田屋,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000057,jp-kyoto,교토,廬山寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009089,jp-kyoto,교토,御所西あいぜん 西村兄妹キモノ店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003484,jp-kyoto,교토,公益財団法人手織技術振興財団 織成舘,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007751,jp-kyoto,교토,上七軒くろすけ,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000072,jp-kyoto,교토,西陣,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000078,jp-kyoto,교토,上七軒,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006105,jp-kyoto,교토,染井,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000081,jp-kyoto,교토,本法寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003621,jp-kyoto,교토,相国寺承天閣美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009488,jp-kyoto,교토,瑞春院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007728,jp-kyoto,교토,あかりデザイン工房,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003482,jp-kyoto,교토,西陣織会館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008683,jp-kyoto,교토,囀市,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000054,jp-kyoto,교토,京都御所,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000102,jp-kyoto,교토,一条戻り橋,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009445,jp-kyoto,교토,TAKENOKO 有限会社横山竹材店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003620,jp-kyoto,교토,大将軍八神社方徳殿,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008688,jp-kyoto,교토,天神さんの市,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003318,jp-kyoto,교토,山田松香木店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003828,jp-kyoto,교토,ギャラリー紫織庵,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000067,jp-kyoto,교토,慈照院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009477,jp-kyoto,교토,京の手創り体験,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003625,jp-kyoto,교토,樂美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009614,jp-kyoto,교토,ハリス理化学館同志社ギャラリー,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003487,jp-kyoto,교토,安達くみひも館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009194,jp-kyoto,교토,京・西陣 孝太郎の酢,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003381,jp-kyoto,교토,妙蓮寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009193,jp-kyoto,교토,澤井醤油 本店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000028,jp-kyoto,교토,町家写真館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008668,jp-kyoto,교토,京漆器・蒔絵 平野,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000059,jp-kyoto,교토,相国寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003624,jp-kyoto,교토,京都市考古資料館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003623,jp-kyoto,교토,京都市歴史資料館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003616,jp-kyoto,교토,国定史跡「頼山陽書斎山紫水明處」,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003617,jp-kyoto,교토,北村美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003702,jp-kyoto,교토,金剛能楽堂／能・狂言,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003703,jp-kyoto,교토,北野天満宮,place,tourism_facility,1.0,0.45,1,0.55,부분 상품화 자산,official asset has at least one MCP-linked product,"교토 관광 “OKOSHI” 버스 - 라이트업 교토의 단풍 키타노텐만구 오도이 단풍과 마이코와의 저녁, 쇼잔 정원",primary_tourism_asset
+official-kyoto-facility-0000000058,jp-kyoto,교토,護王神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003626,jp-kyoto,교토,益富地学会館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009499,jp-kyoto,교토,鞍馬寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003655,jp-kyoto,교토,鞍馬山霊宝殿,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003650,jp-kyoto,교토,京都国立近代美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009508,jp-kyoto,교토,圓光寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003721,jp-kyoto,교토,無鄰菴,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009073,jp-kyoto,교토,京都市武道センター,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003372,jp-kyoto,교토,妙円寺・松ヶ崎大黒天,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008183,jp-kyoto,교토,法然院森のセンター,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003929,jp-kyoto,교토,六盛,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003649,jp-kyoto,교토,京都市京セラ美術館（京都市美術館）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000521,jp-kyoto,교토,安楽寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003652,jp-kyoto,교토,国指定史跡岩倉具視幽棲旧宅,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009504,jp-kyoto,교토,詩仙堂（丈山寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000158,jp-kyoto,교토,永観堂（禅林寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003233,jp-kyoto,교토,京都市勧業館みやこめっせ,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007557,jp-kyoto,교토,アートゾーン神楽岡,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003651,jp-kyoto,교토,京都工芸繊維大学美術工芸資料館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003733,jp-kyoto,교토,京都府立陶板名画の庭,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009502,jp-kyoto,교토,京都府立植物園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003736,jp-kyoto,교토,京都コンサートホール,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000159,jp-kyoto,교토,熊野若王子神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006472,jp-kyoto,교토,ガーデンミュージアム比叡,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003741,jp-kyoto,교토,大原女に変身・着付け体験,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007769,jp-kyoto,교토,大原工房,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000161,jp-kyoto,교토,法然院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008238,jp-kyoto,교토,大本山南禅寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000166,jp-kyoto,교토,琵琶湖疏水,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008687,jp-kyoto,교토,百万遍さんの手づくり市,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000170,jp-kyoto,교토,インクライン,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003193,jp-kyoto,교토,阿弥陀寺（古知谷）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009467,jp-kyoto,교토,京つけもの 大安,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000173,jp-kyoto,교토,天授庵,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003953,jp-kyoto,교토,匠斎庵,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000181,jp-kyoto,교토,平安神宮,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001108,jp-kyoto,교토,南禅寺順正,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009009,jp-kyoto,교토,権兵衛 北山店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001110,jp-kyoto,교토,おめん,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001112,jp-kyoto,교토,梁山泊,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009505,jp-kyoto,교토,慈照寺（銀閣寺）,place,tourism_facility,1.0,0.45,1,0.55,부분 상품화 자산,official asset has at least one MCP-linked product,[인디고트래블] 오사카 교토 일일 버스투어 여행 후시미이나리 아라시야마 은각사 청수사,primary_tourism_asset
+official-kyoto-facility-0000000183,jp-kyoto,교토,聖護院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009044,jp-kyoto,교토,井村美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000186,jp-kyoto,교토,金戒光明寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008741,jp-kyoto,교토,レンタサイクルえむじか出町柳店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000247,jp-kyoto,교토,音無しの滝,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006108,jp-kyoto,교토,安本バイクプール／レンタサイクル,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000187,jp-kyoto,교토,真如堂（真正極楽寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008428,jp-kyoto,교토,大原観光保勝会,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009466,jp-kyoto,교토,聖護院八ッ橋総本店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000192,jp-kyoto,교토,京都府立図書館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008160,jp-kyoto,교토,宝泉院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003523,jp-kyoto,교토,京都ギリシアローマ美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008150,jp-kyoto,교토,大原温泉,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009195,jp-kyoto,교토,おみやげぎゃるり 楽楽,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003773,jp-kyoto,교토,宝が池公園運動施設,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000692,jp-kyoto,교토,由岐神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006115,jp-kyoto,교토,哲学の道,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003383,jp-kyoto,교토,南禅会館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000694,jp-kyoto,교토,奥の院魔王殿,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008172,jp-kyoto,교토,重森三玲邸庭園美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000696,jp-kyoto,교토,渡辺木の芽煮本舗,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006541,jp-kyoto,교토,来迎院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000700,jp-kyoto,교토,花背,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009197,jp-kyoto,교토,AYANOKOJI 岡崎本店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003370,jp-kyoto,교토,南禅院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003353,jp-kyoto,교토,無礙光院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000210,jp-kyoto,교토,修学院離宮,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000209,jp-kyoto,교토,曼殊院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003464,jp-kyoto,교토,賀茂御祖神社（下鴨神社）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000211,jp-kyoto,교토,一乗寺下り松,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000212,jp-kyoto,교토,金福寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000213,jp-kyoto,교토,狸谷山不動院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000215,jp-kyoto,교토,赤山禅院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003323,jp-kyoto,교토,もとしろ,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000218,jp-kyoto,교토,雲母漬老舗「穂野出」,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000223,jp-kyoto,교토,宝が池公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003646,jp-kyoto,교토,京都府立京都学・歴彩館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000226,jp-kyoto,교토,三宅八幡宮,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000227,jp-kyoto,교토,実相院門跡,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003639,jp-kyoto,교토,泉屋博古館（住友コレクション）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000265,jp-kyoto,교토,貴船神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003416,jp-kyoto,교토,京都市動物園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000268,jp-kyoto,교토,株式会社川島織物セルコン 川島織物文化館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000229,jp-kyoto,교토,圓通寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000230,jp-kyoto,교토,妙満寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003705,jp-kyoto,교토,京都観世会館／能・狂言,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003647,jp-kyoto,교토,京都徳力版画館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003648,jp-kyoto,교토,京都大学総合博物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000236,jp-kyoto,교토,蓮華寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000237,jp-kyoto,교토,三千院,place,tourism_facility,1.0,0.45,1,0.55,부분 상품화 자산,official asset has at least one MCP-linked product,교토 교외 상설 코스 - 오하라 산젠인과 세계유산 비에이산 엔료쿠지,primary_tourism_asset
+official-kyoto-facility-0000000238,jp-kyoto,교토,勝林院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000240,jp-kyoto,교토,実光院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000242,jp-kyoto,교토,寂光院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003637,jp-kyoto,교토,藤井斉成会有鄰館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003635,jp-kyoto,교토,琵琶湖疏水記念館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003527,jp-kyoto,교토,京都伝統産業ミュージアム,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003634,jp-kyoto,교토,野村美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000065,jp-kyoto,교토,糺ノ森,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003163,jp-kyoto,교토,京都市百井青少年村,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000267,jp-kyoto,교토,小町寺（補陀洛寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003645,jp-kyoto,교토,野仏庵,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003644,jp-kyoto,교토,京都民芸資料館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003643,jp-kyoto,교토,白沙村荘橋本関雪記念館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000014,jp-kyoto,교토,京都造形芸術大学芸術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000035,jp-kyoto,교토,六角堂（紫雲山頂法寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006132,jp-kyoto,교토,井筒八ッ橋本舗 京極一番街－南錦小路－,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003716,jp-kyoto,교토,小川家住宅（二條陣屋）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000036,jp-kyoto,교토,本能寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008665,jp-kyoto,교토,古典の日記念 京都市平安京創生館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006434,jp-kyoto,교토,石長松菊園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006462,jp-kyoto,교토,新選組 壬生屯所遺跡（八木家）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001084,jp-kyoto,교토,三嶋亭,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001091,jp-kyoto,교토,丸太町十二段家,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008553,jp-kyoto,교토,八幡さんのおもしろ市,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000042,jp-kyoto,교토,イノダコーヒ本店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007555,jp-kyoto,교토,花園大学歴史博物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000045,jp-kyoto,교토,新京極,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008179,jp-kyoto,교토,京都伝統工芸館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000062,jp-kyoto,교토,神泉苑（真言宗寺院）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000030,jp-kyoto,교토,四条河原町,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003315,jp-kyoto,교토,ギャラリーマロニエ,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006460,jp-kyoto,교토,和詩倶楽部,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000033,jp-kyoto,교토,三条大橋,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008180,jp-kyoto,교토,京都便利堂（本店仮店舗）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000032,jp-kyoto,교토,高瀬川（一之船入跡）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000047,jp-kyoto,교토,錦市場,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008212,jp-kyoto,교토,元離宮二条城 特別名勝二の丸庭園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003598,jp-kyoto,교토,島津製作所 創業記念資料館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006473,jp-kyoto,교토,大西清右衛門美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000048,jp-kyoto,교토,先斗町,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008732,jp-kyoto,교토,spa TRINITE,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003599,jp-kyoto,교토,壬生寺歴史資料室,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000006,jp-kyoto,교토,壬生寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009478,jp-kyoto,교토,わくわく館（ワックジャパン）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003434,jp-kyoto,교토,堀野記念館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009166,jp-kyoto,교토,香老舗 林龍昇堂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003459,jp-kyoto,교토,元離宮二条城,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007724,jp-kyoto,교토,座辺の骨董 幾一里,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001087,jp-kyoto,교토,晦庵 河道屋,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007762,jp-kyoto,교토,まんざら亭 NISHIKI,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007956,jp-kyoto,교토,京都万華鏡ミュージアム姉小路館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003832,jp-kyoto,교토,セカンドハウス東洞院店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006742,jp-kyoto,교토,京都絞り工芸館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003833,jp-kyoto,교토,鈴木一染織コレクション,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003699,jp-kyoto,교토,大江能楽堂／能・狂言,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007958,jp-kyoto,교토,クラフトやまむら,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007957,jp-kyoto,교토,永楽屋 細辻伊兵衛商店 本店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003603,jp-kyoto,교토,いけばな資料館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003602,jp-kyoto,교토,京都生活工藝館「無名舎」,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006538,jp-kyoto,교토,ハートプラザKYOTO三条,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003228,jp-kyoto,교토,長谷川松寿堂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008692,jp-kyoto,교토,京都国際マンガミュージアム,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003310,jp-kyoto,교토,金属工芸工房 竹影堂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003311,jp-kyoto,교토,ついぶ京都工房,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003309,jp-kyoto,교토,香老舗 松栄堂 京都本店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003307,jp-kyoto,교토,くろちく天正館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008240,jp-kyoto,교토,錦の水,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006107,jp-kyoto,교토,御霊水,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009588,jp-kyoto,교토,アートコンプレックス1928,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009689,jp-kyoto,교토,香老舗 松栄堂 薫習館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009653,jp-kyoto,교토,京都さがの館 京都四条本店（京あるき）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008664,jp-kyoto,교토,染・清流館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009457,jp-kyoto,교토,ヴィアイン京都四条室町,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009043,jp-kyoto,교토,先斗町歌舞練場,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009184,jp-kyoto,교토,炭火焼鳥 串くら本店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008147,jp-kyoto,교토,omo cafe,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009186,jp-kyoto,교토,京都一の傅 本店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008453,jp-kyoto,교토,京うちわ 阿以波,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000145,jp-kyoto,교토,泉涌寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009513,jp-kyoto,교토,知恩院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003251,jp-kyoto,교토,ぶぶ家,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006129,jp-kyoto,교토,高台寺「掌美術館」,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006221,jp-kyoto,교토,ゑびす神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000147,jp-kyoto,교토,京漬物・ニシダや,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009705,jp-kyoto,교토,京都さがの館 京都祇園店（京あるき）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003299,jp-kyoto,교토,森陶器館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009707,jp-kyoto,교토,川勝總本家 清水参道店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000149,jp-kyoto,교토,今熊野観音寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009706,jp-kyoto,교토,川勝總本家 高台寺二年坂店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003696,jp-kyoto,교토,南座,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009512,jp-kyoto,교토,青蓮院門跡,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000152,jp-kyoto,교토,即成院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009510,jp-kyoto,교토,円山公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000154,jp-kyoto,교토,五大堂同聚院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003365,jp-kyoto,교토,霊山観音,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003366,jp-kyoto,교토,法住寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000128,jp-kyoto,교토,八坂の塔（法観寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009460,jp-kyoto,교토,京都東山荘,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000129,jp-kyoto,교토,五条大橋,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000137,jp-kyoto,교토,智積院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006453,jp-kyoto,교토,豊国さんのおもしろ市,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009515,jp-kyoto,교토,並河靖之七宝記念館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003587,jp-kyoto,교토,豊国神社宝物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006466,jp-kyoto,교토,清水三年坂美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003300,jp-kyoto,교토,今井半念珠店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009514,jp-kyoto,교토,大本山東福寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006468,jp-kyoto,교토,総本家ゆどうふ奥丹清水,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000139,jp-kyoto,교토,子安の塔,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006469,jp-kyoto,교토,漢検 漢字博物館・図書館（漢字ミュージアム）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003377,jp-kyoto,교토,悲田院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006470,jp-kyoto,교토,井伊美術館（旧中村甲刀修史館）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000105,jp-kyoto,교토,八坂神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003378,jp-kyoto,교토,智積院会館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009517,jp-kyoto,교토,芬陀院（雪舟寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000107,jp-kyoto,교토,長楽寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007961,jp-kyoto,교토,永楽屋 細辻伊兵衛商店 祇園店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000109,jp-kyoto,교토,高台寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003469,jp-kyoto,교토,清水寺,place,tourism_facility,1.0,1.0,8,0.0,검증된 대표 경험,official asset has multiple MCP-linked products,"[한국어]교토 & 나라 1일 투어 |기요미즈데라, 후시미이나리 신사, 나라 사슴 공원 | [교토역 출발, 하차가능] 오사카 버스투어 아라시야마 금각사 청수사 니코니코 일일 투어 | 교토 요코쿠지 사원 및 아라시야마 투어(요코쿠지 사원, 아라시야마 및 기요미즈데라 사원) | [여행 한 그릇] 사진 촬영 포함, 아라시야마, 금각사, 여우신사, 청수사 교토 버스 투어 | [인디고트래블] 오사카 교토 일일 버스투어 여행 후시미이나리 아라시야마 은각사 청수사",primary_tourism_asset
+official-kyoto-facility-0000009516,jp-kyoto,교토,霊雲院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000110,jp-kyoto,교토,京都霊山護國神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000117,jp-kyoto,교토,いもぼう平野家本家,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003247,jp-kyoto,교토,来迎院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003246,jp-kyoto,교토,茶寮都路里,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009639,jp-kyoto,교토,京都和心館（ワックジャパン）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001103,jp-kyoto,교토,いづう,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009615,jp-kyoto,교토,レンタサイクルえむじか祇園店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001104,jp-kyoto,교토,権兵衛,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000136,jp-kyoto,교토,養源院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003592,jp-kyoto,교토,河井寛次郎記念館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009655,jp-kyoto,교토,AYANOKOJI 祇園店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000119,jp-kyoto,교토,壱銭洋食の店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009511,jp-kyoto,교토,光明院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003713,jp-kyoto,교토,産寧坂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007733,jp-kyoto,교토,神宮道 波多野,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000125,jp-kyoto,교토,二年坂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003586,jp-kyoto,교토,洛東遺芳館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008802,jp-kyoto,교토,やげんぼり花見小路店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003591,jp-kyoto,교토,京都祇園らんぷ美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009045,jp-kyoto,교토,建仁寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000127,jp-kyoto,교토,地主神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006841,jp-kyoto,교토,北座ぎをん思いで博物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006118,jp-kyoto,교토,祇園の御神水,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006121,jp-kyoto,교토,音羽の滝,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000131,jp-kyoto,교토,六波羅蜜寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009201,jp-kyoto,교토,扇や 半げしょう,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009202,jp-kyoto,교토,有喜屋 清水吉晴庵,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003593,jp-kyoto,교토,何必館・京都現代美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007316,jp-kyoto,교토,祇をん新門荘,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003590,jp-kyoto,교토,京都国立博物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000132,jp-kyoto,교토,三十三間堂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000133,jp-kyoto,교토,妙法院門跡,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003589,jp-kyoto,교토,近藤悠三記念館 柳水（1階）、念々洞（2階）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001096,jp-kyoto,교토,菊乃井,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003594,jp-kyoto,교토,ガラスの部屋（休館中）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003588,jp-kyoto,교토,金比羅絵馬館（休館中）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003306,jp-kyoto,교토,京都国際工芸センター WAZAGU,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003714,jp-kyoto,교토,祇園,place,tourism_facility,1.0,1.0,4,0.0,검증된 대표 경험,official asset has multiple MCP-linked products,"[교토] 기온 게이샤 야간 워킹 투어 — 최대 10명 소규모 그룹 | (당일 사용) 교토 기온 거리~ 야간 가이세키 미식투어 (10코스 저녁식사와 야경 감상) | [교토] 기온 게이샤 지구 야간 워킹 투어 + 폰토초 골목 탐방 | 일본 오사카 출발 나라 우지 교토 기온거리 버스 투어 여행, 그리고 무료 사진 촬영",primary_tourism_asset
+official-kyoto-facility-0000003297,jp-kyoto,교토,京焼 陶あん,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003585,jp-kyoto,교토,幕末維新ミュージアム「霊山歴史館」,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000135,jp-kyoto,교토,豊国神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003584,jp-kyoto,교토,六波羅蜜寺宝物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000143,jp-kyoto,교토,方広寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000144,jp-kyoto,교토,わらじや,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003295,jp-kyoto,교토,堀尾竹荘,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003292,jp-kyoto,교토,高台寺 一念坂 金網つじ,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008673,jp-kyoto,교토,洛東タクシー,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003321,jp-kyoto,교토,コトブキ陶春,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006838,jp-kyoto,교토,瑞香 加島,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003190,jp-kyoto,교토,川崎大師 京都別院 笠原寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003320,jp-kyoto,교토,清水焼の郷会館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003312,jp-kyoto,교토,株式会社御池,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000198,jp-kyoto,교토,疏水公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000199,jp-kyoto,교토,毘沙門堂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000200,jp-kyoto,교토,天智天皇陵,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000201,jp-kyoto,교토,大石神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000202,jp-kyoto,교토,勧修寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000203,jp-kyoto,교토,隨心院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003630,jp-kyoto,교토,京の田舎民具資料館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003631,jp-kyoto,교토,一燈園資料館「香倉院」,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008239,jp-kyoto,교토,天之真名井,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003972,jp-kyoto,교토,京都総合観光案内所 京なび,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003502,jp-kyoto,교토,京都タワー,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003725,jp-kyoto,교토,角屋もてなしの文化美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007725,jp-kyoto,교토,田中長奈良漬店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007552,jp-kyoto,교토,ひと・まち交流館 京都,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006743,jp-kyoto,교토,有限会社京都サイクリングツアープロジェクト（KCTP）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003671,jp-kyoto,교토,ブリキのおもちゃと人形博物館（TIN TOYS & DOLL MUSEUM）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003669,jp-kyoto,교토,京都鉄道博物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001209,jp-kyoto,교토,東本願寺（真宗本廟）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003668,jp-kyoto,교토,風俗博物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007553,jp-kyoto,교토,龍谷大学 大宮学舎,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003419,jp-kyoto,교토,梅小路公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008555,jp-kyoto,교토,JR京都駅新幹線八条口デリバリーサービス,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008696,jp-kyoto,교토,竹笹堂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000004152,jp-kyoto,교토,美術館「えき」KYOTO,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006471,jp-kyoto,교토,KCIギャラリー,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003460,jp-kyoto,교토,本願寺（西本願寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009163,jp-kyoto,교토,川勝總本家 本店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003859,jp-kyoto,교토,鉄道案内所,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009546,jp-kyoto,교토,京都水族館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001066,jp-kyoto,교토,鳥彌三,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006537,jp-kyoto,교토,公益財団法人京都府国際センター,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003330,jp-kyoto,교토,森田和紙 倭紙の店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008686,jp-kyoto,교토,梅小路公園手づくり市,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001080,jp-kyoto,교토,ちもと,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003333,jp-kyoto,교토,京扇堂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006102,jp-kyoto,교토,イワイサイクル木津屋橋店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003860,jp-kyoto,교토,京都駅ビルインフォメーション,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008173,jp-kyoto,교토,渉成園（枳殼邸）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000002431,jp-kyoto,교토,宝酒造株式会社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006136,jp-kyoto,교토,SUNRISE TOURS JTB,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009688,jp-kyoto,교토,オムロンコミュニケーションプラザ,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003907,jp-kyoto,교토,秦家住宅,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006119,jp-kyoto,교토,京都市学校歴史博物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000002822,jp-kyoto,교토,京都定期観光バス,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008667,jp-kyoto,교토,正行院（猿寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003908,jp-kyoto,교토,杉本家住宅,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008178,jp-kyoto,교토,株式会社若林佛具製作所,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006748,jp-kyoto,교토,薫玉堂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006836,jp-kyoto,교토,京都劇場,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008456,jp-kyoto,교토,みやこばし すす竹（箸）（市原平兵衞商店）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008196,jp-kyoto,교토,五明金箔工芸,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007973,jp-kyoto,교토,京都市市民防災センター,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000011,jp-kyoto,교토,観智院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008676,jp-kyoto,교토,都タクシー,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003461,jp-kyoto,교토,教王護国寺（東寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008691,jp-kyoto,교토,京都市健康増進センター ヘルスピア21,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009530,jp-kyoto,교토,エムケイ株式会社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006096,jp-kyoto,교토,京都東寺骨董市,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008706,jp-kyoto,교토,奥谷組社寺建築展示資料館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008710,jp-kyoto,교토,弘法さんの市,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003690,jp-kyoto,교토,博物館さがの人形の家,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000294,jp-kyoto,교토,常寂光寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009071,jp-kyoto,교토,京都アクアリーナ,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000020,jp-kyoto,교토,扇子司 伊藤常,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000296,jp-kyoto,교토,二尊院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003455,jp-kyoto,교토,龍安寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000297,jp-kyoto,교토,祇王寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009654,jp-kyoto,교토,川勝總本家 嵐山店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000298,jp-kyoto,교토,滝口寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009470,jp-kyoto,교토,京つけもの もり 本社工場・本社三条店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000299,jp-kyoto,교토,あだし野念仏寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009518,jp-kyoto,교토,羽田酒造有限会社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000301,jp-kyoto,교토,宝篋院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009722,jp-kyoto,교토,福田美術館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000302,jp-kyoto,교토,清凉寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008186,jp-kyoto,교토,嵯峨嵐山文華館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000304,jp-kyoto,교토,神護寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008730,jp-kyoto,교토,天翔の湯大門,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003726,jp-kyoto,교토,落柿舎,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009550,jp-kyoto,교토,東映太秦映画村「エヴァンゲリオン京都基地」,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003267,jp-kyoto,교토,金唐革・ステンドグラス工房「チェリ デザイン」,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007962,jp-kyoto,교토,19世紀ホール,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000312,jp-kyoto,교토,梅宮大社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009519,jp-kyoto,교토,妙心寺 退蔵院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003458,jp-kyoto,교토,仁和寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000314,jp-kyoto,교토,西院春日神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003194,jp-kyoto,교토,法金剛院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008194,jp-kyoto,교토,嵐山温泉「駅の足湯」,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003195,jp-kyoto,교토,念佛寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009690,jp-kyoto,교토,源光寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003376,jp-kyoto,교토,大覚寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008662,jp-kyoto,교토,京都嵐山 嵐丼,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009069,jp-kyoto,교토,京都市宇多野ユースホステル,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000001125,jp-kyoto,교토,萬長,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008429,jp-kyoto,교토,嵐山保勝会,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000486,jp-kyoto,교토,福徳寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008441,jp-kyoto,교토,京北ふれあい朝市,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000005956,jp-kyoto,교토,宇津峡公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008195,jp-kyoto,교토,らんぶらレンタサイクル,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007963,jp-kyoto,교토,トロッコおじさんのレンタサイクル トロッコ嵯峨店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000284,jp-kyoto,교토,蚕の社（木嶋坐天照御魂神社）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009338,jp-kyoto,교토,武将体験 時代劇の高津商会,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000487,jp-kyoto,교토,常照皇寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000489,jp-kyoto,교토,栗尾峠,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000285,jp-kyoto,교토,車折神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003689,jp-kyoto,교토,京都市嵯峨鳥居本町並み保存館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003683,jp-kyoto,교토,大河内山荘庭園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000283,jp-kyoto,교토,広隆寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000282,jp-kyoto,교토,了徳寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003339,jp-kyoto,교토,株式会社竹定商店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003338,jp-kyoto,교토,中嶋象嵌,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003681,jp-kyoto,교토,公益財団法人陽明文庫,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000709,jp-kyoto,교토,桂春院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000740,jp-kyoto,교토,大沢池,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000742,jp-kyoto,교토,広沢池,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003685,jp-kyoto,교토,清凉寺（嵯峨釈迦堂）霊宝館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000743,jp-kyoto,교토,愛宕山・愛宕神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000744,jp-kyoto,교토,愛宕念仏寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003688,jp-kyoto,교토,広隆寺霊宝殿,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003359,jp-kyoto,교토,妙心寺大衆禅堂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003277,jp-kyoto,교토,西明寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003421,jp-kyoto,교토,ジオラマ京都JAPAN（鉄道ミュージアム）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003686,jp-kyoto,교토,仁和寺霊宝館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003466,jp-kyoto,교토,高山寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003792,jp-kyoto,교토,西京極総合運動公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000822,jp-kyoto,교토,山国隊,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006092,jp-kyoto,교토,東映太秦映画村,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003391,jp-kyoto,교토,鹿王院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003462,jp-kyoto,교토,天龍寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000876,jp-kyoto,교토,東映太秦映画村「映画文化館」,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003691,jp-kyoto,교토,京都嵐山オルゴール博物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000002932,jp-kyoto,교토,上桂川の魚釣り,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006106,jp-kyoto,교토,レンタサイクル京都,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006475,jp-kyoto,교토,京都市京北森林公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006728,jp-kyoto,교토,嵯峨美術大学・嵯峨美術短期大学附属博物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006123,jp-kyoto,교토,ローケツ染・職人体験やまもと,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003495,jp-kyoto,교토,栗山工房,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003498,jp-kyoto,교토,あだしのまゆ村,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003278,jp-kyoto,교토,西山艸堂,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006829,jp-kyoto,교토,ぶらり嵐山,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003165,jp-kyoto,교토,京北運動公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000279,jp-kyoto,교토,蓮華寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000490,jp-kyoto,교토,山國神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000287,jp-kyoto,교토,亀山公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000491,jp-kyoto,교토,中道寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000493,jp-kyoto,교토,八丁渓谷,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000288,jp-kyoto,교토,臨川寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000494,jp-kyoto,교토,祖父谷,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000495,jp-kyoto,교토,滝又滝,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000496,jp-kyoto,교토,周山城址,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000289,jp-kyoto,교토,渡月橋,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000290,jp-kyoto,교토,中ノ島公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000293,jp-kyoto,교토,野宮神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008677,jp-kyoto,교토,松尾大社 亀の市,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006100,jp-kyoto,교토,阪急レンタサイクル嵐山,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008695,jp-kyoto,교토,千弥農園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000308,jp-kyoto,교토,松尾大社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007803,jp-kyoto,교토,嵐山温泉,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009525,jp-kyoto,교토,西芳寺（苔寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000310,jp-kyoto,교토,地蔵院（竹の寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009524,jp-kyoto,교토,正法寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000313,jp-kyoto,교토,桂離宮,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003728,jp-kyoto,교토,青山音楽記念館（バロックザール）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008190,jp-kyoto,교토,夢アトリエ,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000316,jp-kyoto,교토,大原野神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007770,jp-kyoto,교토,田畑ランプ館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000318,jp-kyoto,교토,勝持寺（花の寺）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008707,jp-kyoto,교토,京都花鳥館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000319,jp-kyoto,교토,金蔵寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000320,jp-kyoto,교토,十輪寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000321,jp-kyoto,교토,善峯寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003180,jp-kyoto,교토,桂坂野鳥遊園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003769,jp-kyoto,교토,サイクリングロード,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003611,jp-kyoto,교토,松尾大社お酒の資料館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003612,jp-kyoto,교토,京都市立芸術大学芸術資料館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000753,jp-kyoto,교토,京都市洛西竹林公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006452,jp-kyoto,교토,善峯寺文殊寺宝館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006113,jp-kyoto,교토,亀の井,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006137,jp-kyoto,교토,京都桂温泉 仁左衛門の湯,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007535,jp-kyoto,교토,染匠よしかわ,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000292,jp-kyoto,교토,法輪寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009720,jp-kyoto,교토,京都市南部クリーンセンター環境学習施設 さすてな京都,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003212,jp-kyoto,교토,京都市青少年科学センター,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000008430,jp-kyoto,교토,特定非営利活動法人伏見観光協会,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009619,jp-kyoto,교토,京都教育大学教育資料館（まなびの森ミュージアム）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000323,jp-kyoto,교토,伏見稲荷大社,place,tourism_facility,1.0,1.0,5,0.0,검증된 대표 경험,official asset has multiple MCP-linked products,"[한국어]교토 & 나라 1일 투어 |기요미즈데라, 후시미이나리 신사, 나라 사슴 공원 | [교토] 후시미 이나리 + 킨카쿠지 + 대나무 숲 :: 세계유산 7곳 종일 버스 투어 | [인디고트래블] 오사카 교토 일일 버스투어 여행 후시미이나리 아라시야마 은각사 청수사 | 오사카 출발 교토 1일 버스투어 프로사진 촬영 아라시야마 금각사 청수사 후시미이나리 유투어 | 1인출발-교토버스투어 (후시미이나리,청수사,금각사,아리시야마)교토역 &오사카 우메다 승하차",primary_tourism_asset
+official-kyoto-facility-0000009592,jp-kyoto,교토,乃木神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000324,jp-kyoto,교토,石峰寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000007966,jp-kyoto,교토,森林総合研究所関西支所 森の展示館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000325,jp-kyoto,교토,藤森神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009529,jp-kyoto,교토,京都府立伏見港公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000327,jp-kyoto,교토,城南宮,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000009047,jp-kyoto,교토,菊水若水,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000328,jp-kyoto,교토,安楽寿院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003944,jp-kyoto,교토,神聖蔵元直売店,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000004004,jp-kyoto,교토,株式会社山本本家,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003121,jp-kyoto,교토,黄桜株式会社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000002964,jp-kyoto,교토,株式会社北川本家,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000002991,jp-kyoto,교토,株式会社小山本家酒造京都伏見工場,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000002987,jp-kyoto,교토,月桂冠株式会社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003995,jp-kyoto,교토,キンシ正宗株式会社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003997,jp-kyoto,교토,松本酒造株式会社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000205,jp-kyoto,교토,三宝院,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000764,jp-kyoto,교토,御香宮神社,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003425,jp-kyoto,교토,月桂冠大倉記念館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003463,jp-kyoto,교토,醍醐寺,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006734,jp-kyoto,교토,十二単記念撮影館 雪月花苑（株式会社弥栄）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003573,jp-kyoto,교토,JR稲荷駅ランプ小屋,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000000912,jp-kyoto,교토,横大路運動公園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006774,jp-kyoto,교토,湯～とぴあ ダイゴ,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006844,jp-kyoto,교토,京エコロジーセンター （京都市環境保全活動センター）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003710,jp-kyoto,교토,寺田屋,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003709,jp-kyoto,교토,大橋家庭園（苔涼庭）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003568,jp-kyoto,교토,乃木神社宝物館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003567,jp-kyoto,교토,伏見城跡出土遺物展示室,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003570,jp-kyoto,교토,醍醐寺霊宝館,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003569,jp-kyoto,교토,藤森神社宝物殿,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000003288,jp-kyoto,교토,京セラギャラリー・京セラファインセラミック館・稲盛ライブラリー,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000002410,jp-kyoto,교토,株式会社京姫酒造,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
+official-kyoto-facility-0000006110,jp-kyoto,교토,御香水,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
 official-hiroshima-facility-1,jp-hiroshima,히로시마,縮景園,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
 official-hiroshima-facility-2,jp-hiroshima,히로시마,ひろしま遊学の森 広島県緑化センター,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
 official-hiroshima-facility-3,jp-hiroshima,히로시마,ひろしま遊学の森 広島市森林公園（こんちゅう館）,place,tourism_facility,1.0,0.0,0,1.0,상품화 부족 자산,official asset has no direct MCP product match in collected sample,,primary_tourism_asset
