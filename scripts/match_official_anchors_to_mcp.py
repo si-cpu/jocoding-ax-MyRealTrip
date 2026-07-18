@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ANCHORS = ROOT / "data" / "official_tourism_sources" / "anchors" / "official_experience_anchors.csv"
 PRODUCTS = ROOT / "data" / "mcp_tna_products" / "processed" / "mcp_tna_products.csv"
+AUTO_ALIASES = ROOT / "data" / "supply_gap_analysis" / "auto_anchor_alias_candidates.csv"
 OUT = ROOT / "data" / "supply_gap_analysis"
 REPORTS = OUT / "reports"
 
@@ -69,19 +70,6 @@ PARTNER_CANDIDATE_FIELDS = [
     "partner_candidate_reason",
 ]
 
-OFFICIAL_ALIAS_MAP = {
-    "広島城": ["히로시마성", "히로시마 성", "Hiroshima Castle"],
-    "広島平和記念資料館": [
-        "평화기념관",
-        "평화 기념관",
-        "평화기념자료관",
-        "히로시마 평화기념관",
-        "Hiroshima Peace Memorial Museum",
-    ],
-    "おりづるタワー": ["오리즈루 타워", "오리즈루타워", "Orizuru Tower"],
-}
-
-
 def is_partner_candidate_only(anchor: dict[str, str]) -> bool:
     return anchor.get("official_source_type") in {"official_yatai", "official_yatai_cluster"} or anchor.get(
         "anchor_type"
@@ -117,26 +105,42 @@ def city_to_query(city_id: str) -> str:
     return city_id
 
 
-def alias_candidates(anchor: dict[str, str]) -> list[str]:
+def load_auto_aliases() -> dict[str, list[str]]:
+    if not AUTO_ALIASES.exists():
+        return {}
+    aliases: dict[str, list[str]] = defaultdict(list)
+    for row in read_csv(AUTO_ALIASES):
+        try:
+            confidence = float(row.get("confidence") or 0)
+            matched_count = int(row.get("matched_product_count") or 0)
+        except ValueError:
+            continue
+        if matched_count <= 0 or confidence < 0.75:
+            continue
+        aliases[row["anchor_id"]].append(clean(row.get("alias_ko")))
+    return aliases
+
+
+def alias_candidates(anchor: dict[str, str], auto_aliases: dict[str, list[str]]) -> list[str]:
     values = [
         anchor.get("anchor_name"),
         anchor.get("anchor_name_local"),
         anchor.get("anchor_name_en"),
     ]
-    values.extend(OFFICIAL_ALIAS_MAP.get(clean(anchor.get("anchor_name")), []))
+    values.extend(auto_aliases.get(anchor["anchor_id"], []))
     # Category-level aliases only for the aggregate yatai inventory.
     if anchor.get("official_source_type") == "official_yatai_cluster":
         values.extend(["야타이", "yatai", "포장마차", "나카스 포장마차", "후쿠오카 야타이"])
     return [v for v in dict.fromkeys(clean(v) for v in values) if v]
 
 
-def match_score(anchor: dict[str, str], product: dict[str, str]) -> tuple[float, str, str]:
+def match_score(anchor: dict[str, str], product: dict[str, str], auto_aliases: dict[str, list[str]]) -> tuple[float, str, str]:
     title = clean(product.get("title"))
     raw = clean(product.get("raw_text"))
     haystack = normalize(f"{title} {raw}")
     title_norm = normalize(title)
 
-    for alias in alias_candidates(anchor):
+    for alias in alias_candidates(anchor, auto_aliases):
         alias_norm = normalize(alias)
         if not alias_norm or len(alias_norm) < 2:
             continue
@@ -194,13 +198,14 @@ def main() -> int:
 
     matches = []
     matched_by_anchor: dict[str, list[dict[str, str]]] = defaultdict(list)
+    auto_aliases = load_auto_aliases()
     primary_anchors = [anchor for anchor in anchors if not is_partner_candidate_only(anchor)]
     partner_candidate_anchors = [anchor for anchor in anchors if is_partner_candidate_only(anchor)]
     for anchor in primary_anchors:
         city_query = city_to_query(anchor["city_id"])
         city_products = [p for p in products if p.get("city_query") == city_query]
         for product in city_products:
-            score, mtype, evidence = match_score(anchor, product)
+            score, mtype, evidence = match_score(anchor, product, auto_aliases)
             if score <= 0:
                 continue
             evidence_level, policy = evidence_policy(product, mtype)
@@ -289,6 +294,8 @@ def main() -> int:
         "primary_official_anchor_count": len(primary_anchors),
         "partner_candidate_anchor_count": len(partner_candidate_anchors),
         "mcp_product_count": len(products),
+        "auto_alias_anchor_count": len(auto_aliases),
+        "auto_alias_count": sum(len(v) for v in auto_aliases.values()),
         "match_count": len(matches),
         "matched_anchor_count": len(matched_by_anchor),
         "classification_counts": dict(Counter(row["classification"] for row in scores)),
@@ -309,6 +316,8 @@ def main() -> int:
         f"- Primary tourism-asset anchors: {summary['primary_official_anchor_count']}",
         f"- Partner-candidate anchors excluded from primary scoring: {summary['partner_candidate_anchor_count']}",
         f"- MCP products: {summary['mcp_product_count']}",
+        f"- Auto alias anchors used: {summary['auto_alias_anchor_count']}",
+        f"- Auto aliases used: {summary['auto_alias_count']}",
         f"- Direct matches: {summary['match_count']}",
         f"- Matched anchors: {summary['matched_anchor_count']}",
         f"- Classification counts: {summary['classification_counts']}",

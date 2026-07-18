@@ -16,15 +16,9 @@ OUT = ANALYSIS / "exports"
 REPORTS = ANALYSIS / "reports"
 SCORES = ANALYSIS / "supply_gap_scores.csv"
 MATCHES = ANALYSIS / "official_mcp_anchor_matches.csv"
+DETAIL_EVIDENCE = ANALYSIS / "detail_evidence" / "tour_detail_evidence.csv"
 ANCHORS = ROOT / "data" / "official_tourism_sources" / "anchors" / "official_experience_anchors.csv"
-
-KOREAN_DISPLAY_NAME_MAP = {
-    "후쿠오카 야타이": "후쿠오카 야타이",
-    "福岡市 屋台": "후쿠오카 야타이",
-    "広島城": "히로시마성",
-    "広島平和記念資料館": "히로시마 평화기념자료관",
-    "おりづるタワー": "오리즈루 타워",
-}
+AUTO_ALIASES = ANALYSIS / "auto_anchor_alias_candidates.csv"
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -58,13 +52,26 @@ def action_for(row: dict[str, str]) -> str:
     return "별칭/상세일정/파트너 후보 검토"
 
 
-def korean_display_name(anchor: dict[str, str]) -> str:
-    for key in (anchor.get("anchor_name"), anchor.get("anchor_name_local")):
-        value = KOREAN_DISPLAY_NAME_MAP.get(key or "")
-        if value:
-            return value
-    if anchor.get("city_id") == "jp-fukuoka" and anchor.get("official_source_type") == "official_yatai_cluster":
-        return "후쿠오카 야타이"
+def load_display_aliases() -> dict[str, str]:
+    if not AUTO_ALIASES.exists():
+        return {}
+    aliases: dict[str, str] = {}
+    with AUTO_ALIASES.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            try:
+                confidence = float(row.get("confidence") or 0)
+                matched_count = int(row.get("matched_product_count") or 0)
+            except ValueError:
+                continue
+            if matched_count <= 0 or confidence < 0.75:
+                continue
+            aliases.setdefault(row["anchor_id"], row["alias_ko"])
+    return aliases
+
+
+def korean_display_name(anchor: dict[str, str], display_aliases: dict[str, str]) -> str:
+    if anchor.get("anchor_id") in display_aliases:
+        return display_aliases[anchor["anchor_id"]]
     return "미정"
 
 
@@ -81,11 +88,16 @@ def main() -> int:
     REPORTS.mkdir(parents=True, exist_ok=True)
     scores = read_csv(SCORES)
     matches = read_csv(MATCHES)
+    detail_rows = read_csv(DETAIL_EVIDENCE) if DETAIL_EVIDENCE.exists() else []
     anchors = {row["anchor_id"]: row for row in read_csv(ANCHORS)}
+    display_aliases = load_display_aliases()
 
     match_by_anchor: dict[str, list[dict[str, str]]] = {}
     for match in matches:
         match_by_anchor.setdefault(match["anchor_id"], []).append(match)
+    detail_by_anchor_product = {
+        (row["anchor_id"], row["product_id"]): row for row in detail_rows
+    }
 
     fields = [
         "rank",
@@ -102,6 +114,7 @@ def main() -> int:
         "matched_product_titles",
         "matched_product_urls",
         "evidence_levels",
+        "tour_detail_evidence_levels",
         "evidence_policies",
         "match_evidence",
         "follow_up_action",
@@ -110,12 +123,17 @@ def main() -> int:
     for idx, row in enumerate(scores, start=1):
         anchor_matches = match_by_anchor.get(row["anchor_id"], [])
         anchor = anchors.get(row["anchor_id"], {})
+        detail_levels = []
+        for match in anchor_matches:
+            detail = detail_by_anchor_product.get((match["anchor_id"], match["product_id"]))
+            if detail and detail.get("detail_evidence_level"):
+                detail_levels.append(detail["detail_evidence_level"])
         rows.append(
             {
                 "rank": str(idx),
                 "city": display_city(row["city_id"], row["city_name"]),
                 "official_name_ja": anchor.get("anchor_name_local") or row["anchor_name"],
-                "display_name_ko": korean_display_name(anchor),
+                "display_name_ko": korean_display_name(anchor, display_aliases),
                 "official_name_en": anchor.get("anchor_name_en", ""),
                 "anchor_type": row["anchor_type"],
                 "official_source_type": row["official_source_type"],
@@ -126,6 +144,7 @@ def main() -> int:
                 "matched_product_titles": " | ".join(m["product_title"] for m in anchor_matches) or "없음",
                 "matched_product_urls": " | ".join(m["product_url"] for m in anchor_matches) or "없음",
                 "evidence_levels": " | ".join(m.get("evidence_level", "") for m in anchor_matches if m.get("evidence_level")) or "없음",
+                "tour_detail_evidence_levels": " | ".join(detail_levels) or "해당 없음",
                 "evidence_policies": " | ".join(m.get("evidence_policy", "") for m in anchor_matches if m.get("evidence_policy")) or "없음",
                 "match_evidence": " | ".join(m["evidence_text"] for m in anchor_matches) or "없음",
                 "follow_up_action": action_for(row),
@@ -166,15 +185,15 @@ def main() -> int:
             "",
             "## Matched / partially productized assets",
             "",
-        "| City | Official asset (JA) | Display name (KO) | MCP status | Evidence level | Product count | Matched products |",
-        "|---|---|---|---|---|---:|---|",
+        "| City | Official asset (JA) | Display name (KO) | MCP status | Title evidence | Tour detail evidence | Product count | Matched products |",
+        "|---|---|---|---|---|---|---:|---|",
         ]
     )
     for row in rows:
         if row["classification"] != "부분 상품화 자산":
             continue
         lines.append(
-            f"| {row['city']} | {row['official_name_ja']} | {row['display_name_ko']} | {row['mcp_one_to_one_status']} | {row['evidence_levels']} | {row['mcp_product_count']} | {row['matched_product_titles']} |"
+            f"| {row['city']} | {row['official_name_ja']} | {row['display_name_ko']} | {row['mcp_one_to_one_status']} | {row['evidence_levels']} | {row['tour_detail_evidence_levels']} | {row['mcp_product_count']} | {row['matched_product_titles']} |"
         )
 
     lines.extend(

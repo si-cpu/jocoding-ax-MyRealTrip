@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-07-18T15:09:46+09:00",
+  "checked_tour_title_matches": 2,
+  "detail_evidence_counts": {
+    "exclusion_only": 1,
+    "detail_unavailable": 1
+  },
+  "raw_detail_dir": "data/supply_gap_analysis/detail_evidence/raw",
+  "output_csv": "data/supply_gap_analysis/detail_evidence/tour_detail_evidence.csv"
+}

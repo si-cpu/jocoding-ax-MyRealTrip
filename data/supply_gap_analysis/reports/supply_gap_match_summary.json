@@ -1,9 +1,11 @@
 {
-  "generated_at": "2026-07-18T14:44:52+09:00",
+  "generated_at": "2026-07-18T14:55:13+09:00",
   "official_anchor_count": 172,
   "primary_official_anchor_count": 64,
   "partner_candidate_anchor_count": 108,
   "mcp_product_count": 63,
+  "auto_alias_anchor_count": 2,
+  "auto_alias_count": 2,
   "match_count": 2,
   "matched_anchor_count": 2,
   "classification_counts": {

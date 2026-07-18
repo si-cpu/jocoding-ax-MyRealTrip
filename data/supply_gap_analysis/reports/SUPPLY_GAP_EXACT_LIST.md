@@ -1,6 +1,6 @@
 # Supply Gap Exact List
 
-- Generated at: 2026-07-18T14:44:52+09:00
+- Generated at: 2026-07-18T15:09:46+09:00
 - Total official assets: 64
 - Matched/partial assets: 2
 - Under-connected assets: 62
@@ -14,10 +14,10 @@
 
 ## Matched / partially productized assets
 
-| City | Official asset (JA) | Display name (KO) | MCP status | Evidence level | Product count | Matched products |
-|---|---|---|---|---|---:|---|
-| 히로시마 | 広島城 | 히로시마성 | 1대1 대응 확인 | tour_title_needs_detail | 1 | 히로시마 일일관광 - 미야지마, 평화공원, 원폭돔, 히로시마성 |
-| 히로시마 | 広島平和記念資料館 | 히로시마 평화기념자료관 | 1대1 대응 확인 | tour_title_needs_detail | 1 | [히로시마] 평화기념관 + 미야지마 이쓰쿠시마 신사 :: 유네스코 등재지 1일 투어 |
+| City | Official asset (JA) | Display name (KO) | MCP status | Title evidence | Tour detail evidence | Product count | Matched products |
+|---|---|---|---|---|---|---:|---|
+| 히로시마 | 広島城 | 히로시마성 | 1대1 대응 확인 | tour_title_needs_detail | exclusion_only | 1 | 히로시마 일일관광 - 미야지마, 평화공원, 원폭돔, 히로시마성 |
+| 히로시마 | 広島平和記念資料館 | 히로시마평화기념관 | 1대1 대응 확인 | tour_title_needs_detail | detail_unavailable | 1 | [히로시마] 평화기념관 + 미야지마 이쓰쿠시마 신사 :: 유네스코 등재지 1일 투어 |
 
 ## Under-connected assets - full list
 
@@ -52,7 +52,7 @@
 | 29 | 히로시마 | 広島市まんが図書館あさ閲覧室 | 미정 | 없음 | place | 별칭/상세일정/파트너 후보 검토 |
 | 30 | 히로시마 | 広島市水産振興センター(魚と漁業の資料展示室) | 미정 | 없음 | place | 별칭/상세일정/파트너 후보 검토 |
 | 31 | 히로시마 | 広島市水道資料館 | 미정 | 없음 | place | 별칭/상세일정/파트너 후보 검토 |
-| 32 | 히로시마 | おりづるタワー | 오리즈루 타워 | 없음 | place | 별칭/상세일정/파트너 후보 검토 |
+| 32 | 히로시마 | おりづるタワー | 미정 | 없음 | place | 별칭/상세일정/파트너 후보 검토 |
 | 33 | 히로시마 | 【サイエンスショー】「びっくり実験大集合！」 （江波山気象館） | 미정 | 없음 | event | 이벤트 유효기간 확인 후 상품화 후보 검토 |
 | 34 | 히로시마 | 【サイエンスショー】「びっくり実験大集合！」 （江波山気象館） | 미정 | 없음 | event | 이벤트 유효기간 확인 후 상품화 후보 검토 |
 | 35 | 히로시마 | 【サイエンスショー】「びっくり実験大集合！」（江波山気象館） | 미정 | 없음 | event | 이벤트 유효기간 확인 후 상품화 후보 검토 |
