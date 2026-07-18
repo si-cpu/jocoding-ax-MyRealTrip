@@ -31,14 +31,14 @@
 30,히로시마,広島市水産振興センター(魚と漁業の資料展示室),히로시마 수산진흥센터 물고기와 어업 자료전시실,,place,tourism_facility,상품화 부족 자산,없음,0,1.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
 31,히로시마,広島市水道資料館,히로시마 수도자료관,,place,tourism_facility,상품화 부족 자산,없음,0,1.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
 32,히로시마,おりづるタワー,오리즈루 타워,,place,tourism_facility,상품화 부족 자산,없음,0,1.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
-33,오사카,ユニバーサル・スタジオ・ジャパン,유니버설 스튜디오 재팬,Universal Studios Japan,place,tourism_seed,MCP 미수집 자산,없음,0,0.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
-34,오사카,道頓堀,도톤보리,Dotonbori,place,tourism_seed,MCP 미수집 자산,없음,0,0.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
-35,오사카,大阪城,오사카성,Osaka Castle,place,tourism_seed,MCP 미수집 자산,없음,0,0.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
-36,오사카,梅田スカイビル 空中庭園展望台,우메다 스카이빌딩 공중정원,Umeda Sky Building Kuchu Teien Observatory,place,tourism_seed,MCP 미수집 자산,없음,0,0.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
-37,오사카,あべのハルカス,아베노 하루카스,Abeno Harukas,place,tourism_seed,MCP 미수집 자산,없음,0,0.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
-38,오사카,海遊館,가이유칸,Osaka Aquarium Kaiyukan,place,tourism_seed,MCP 미수집 자산,없음,0,0.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
-39,오사카,通天閣,쓰텐카쿠,Tsutenkaku Tower,place,tourism_seed,MCP 미수집 자산,없음,0,0.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
-40,오사카,新世界,신세카이,Shinsekai,place,tourism_seed,MCP 미수집 자산,없음,0,0.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
+33,오사카,ユニバーサル・スタジオ・ジャパン,유니버설 스튜디오 재팬,Universal Studios Japan,place,tourism_seed,부분 상품화 자산,1대다 대응 확인,2,0.3,[1일권] 오사카 유니버설 스튜디오 재팬 입장권 | 슈퍼 닌텐도 월드 입장 확약권 + 유니버설 스튜디오 재팬 1일권 + 간사이 조이패스,https://experiences.myrealtrip.com/products/6082857 | https://experiences.myrealtrip.com/products/6082964,ticket_product_confirmed | ticket_product_confirmed,해당 없음,입장권은 상품 자체가 해당 시설 이용권이므로 제목/상품명 매칭을 강한 근거로 본다. | 입장권은 상품 자체가 해당 시설 이용권이므로 제목/상품명 매칭을 강한 근거로 본다.,유니버설 스튜디오 재팬 | 유니버설 스튜디오 재팬,연결 상품 유지/확장 검토
+34,오사카,道頓堀,도톤보리,Dotonbori,place,tourism_seed,상품화 부족 자산,없음,0,1.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
+35,오사카,大阪城,오사카성,Osaka Castle,place,tourism_seed,부분 상품화 자산,1대1 대응 확인,1,0.55,오사카성 천수각 입장권,https://experiences.myrealtrip.com/products/5869506,ticket_product_confirmed,해당 없음,입장권은 상품 자체가 해당 시설 이용권이므로 제목/상품명 매칭을 강한 근거로 본다.,오사카성,연결 상품 유지/확장 검토
+36,오사카,梅田スカイビル 空中庭園展望台,우메다 스카이빌딩 공중정원,Umeda Sky Building Kuchu Teien Observatory,place,tourism_seed,부분 상품화 자산,1대1 대응 확인,1,0.55,우메다 스카이 빌딩 공중정원 전망대 입장권,https://experiences.myrealtrip.com/products/6082850,ticket_product_confirmed,해당 없음,입장권은 상품 자체가 해당 시설 이용권이므로 제목/상품명 매칭을 강한 근거로 본다.,우메다 스카이빌딩 공중정원,연결 상품 유지/확장 검토
+37,오사카,あべのハルカス,아베노 하루카스,Abeno Harukas,place,tourism_seed,부분 상품화 자산,1대1 대응 확인,1,0.55,오사카 아베노 하루카스 300 전망대 입장권,https://experiences.myrealtrip.com/products/6047066,ticket_product_confirmed,해당 없음,입장권은 상품 자체가 해당 시설 이용권이므로 제목/상품명 매칭을 강한 근거로 본다.,아베노 하루카스,연결 상품 유지/확장 검토
+38,오사카,海遊館,가이유칸,Osaka Aquarium Kaiyukan,place,tourism_seed,부분 상품화 자산,1대1 대응 확인,1,0.55,캡틴라인 승선권 편도 (가이유칸-USJ),https://experiences.myrealtrip.com/products/6082885,ticket_product_confirmed,해당 없음,입장권은 상품 자체가 해당 시설 이용권이므로 제목/상품명 매칭을 강한 근거로 본다.,가이유칸,연결 상품 유지/확장 검토
+39,오사카,通天閣,쓰텐카쿠,Tsutenkaku Tower,place,tourism_seed,상품화 부족 자산,없음,0,1.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
+40,오사카,新世界,신세카이,Shinsekai,place,tourism_seed,부분 상품화 자산,1대1 대응 확인,1,0.55,[즉시확정] 츠텐카쿠 타워 (통천각) - 신세카이의 중심에서 만나는 레트로 오사카 (다양한 옵션 선택 가능!),https://experiences.myrealtrip.com/products/5808685,ticket_product_confirmed,해당 없음,입장권은 상품 자체가 해당 시설 이용권이므로 제목/상품명 매칭을 강한 근거로 본다.,신세카이,연결 상품 유지/확장 검토
 41,도쿄,浅草寺,센소지,Sensoji Temple,place,tourism_seed,MCP 미수집 자산,없음,0,0.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
 42,도쿄,東京スカイツリー,도쿄 스카이트리,Tokyo Skytree,place,tourism_seed,MCP 미수집 자산,없음,0,0.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토
 43,도쿄,東京タワー,도쿄 타워,Tokyo Tower,place,tourism_seed,MCP 미수집 자산,없음,0,0.0,없음,없음,없음,해당 없음,없음,없음,별칭/상세일정/파트너 후보 검토

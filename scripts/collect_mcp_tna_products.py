@@ -9,6 +9,7 @@ import json
 import re
 import time
 import urllib.request
+import urllib.error
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
@@ -77,6 +78,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--category", action="append", help="Category value to collect. Can be repeated.")
     parser.add_argument("--max-pages", type=int, default=7, help="Maximum pages per category.")
     parser.add_argument("--delay", type=float, default=0.6, help="Delay seconds between MCP search calls.")
+    parser.add_argument("--use-cache", action="store_true", help="Reuse existing raw MCP responses instead of calling again.")
+    parser.add_argument("--stop-on-429", action="store_true", help="Stop the current city as soon as MCP returns HTTP 429.")
     parser.add_argument(
         "--merge-existing",
         action="store_true",
@@ -112,6 +115,10 @@ def call_mcp(tool: str, arguments: dict[str, Any], call_id: int) -> dict[str, An
         outer = json.loads(resp.read().decode("utf-8"))
     text = outer["result"]["content"][0]["text"]
     return json.loads(text)
+
+
+def is_rate_limit_error(exc: Exception) -> bool:
+    return isinstance(exc, urllib.error.HTTPError) and exc.code == 429 or "HTTP Error 429" in str(exc)
 
 
 def walk(node: Any):
@@ -226,11 +233,17 @@ def collect_city(
     requested_categories: set[str] | None = None,
     max_pages: int = 7,
     delay: float = 0.6,
+    use_cache: bool = False,
+    stop_on_429: bool = False,
 ) -> tuple[list[dict[str, str]], dict[str, Any]]:
-    categories_response = call_mcp("getCategoryList", {"city": city}, call_id_start)
+    category_path = RAW / f"{city}_categories.json"
+    if use_cache and category_path.exists():
+        categories_response = json.loads(category_path.read_text(encoding="utf-8"))
+    else:
+        categories_response = call_mcp("getCategoryList", {"city": city}, call_id_start)
     categories = categories_response.get("categories", [])
     selected_categories = select_categories(categories, requested_categories)
-    (RAW / f"{city}_categories.json").write_text(
+    category_path.write_text(
         json.dumps(categories_response, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
@@ -241,16 +254,31 @@ def collect_city(
         empty_or_duplicate_pages = 0
         for page in range(1, max_pages + 1):
             args = {"query": city, "category": category["value"], "page": page, "perPage": 20}
+            raw_path = RAW / f"{city}_{category['value']}_page{page}.json"
             try:
-                response = call_mcp("searchTnas", args, call_id)
+                if use_cache and raw_path.exists():
+                    response = json.loads(raw_path.read_text(encoding="utf-8"))
+                else:
+                    response = call_mcp("searchTnas", args, call_id)
             except Exception as exc:
                 (RAW / f"{city}_{category['value']}_page{page}_error.json").write_text(
                     json.dumps({"args": args, "error": str(exc)}, ensure_ascii=False, indent=2),
                     encoding="utf-8",
                 )
+                if stop_on_429 and is_rate_limit_error(exc):
+                    return dedupe_products(products), {
+                        "city": city,
+                        "category_count": len(categories),
+                        "selected_categories": selected_categories,
+                        "raw_product_rows": len(products),
+                        "deduped_product_rows": len(dedupe_products(products)),
+                        "city_match_status": dict(Counter(row["city_match_status"] for row in dedupe_products(products))),
+                        "error": str(exc),
+                        "stopped_on_rate_limit": True,
+                    }
                 break
             call_id += 1
-            (RAW / f"{city}_{category['value']}_page{page}.json").write_text(
+            raw_path.write_text(
                 json.dumps(response, ensure_ascii=False, indent=2), encoding="utf-8"
             )
             parsed = parse_products(response)
@@ -280,11 +308,7 @@ def collect_city(
                 break
             time.sleep(delay)
 
-    by_url: dict[str, dict[str, str]] = {}
-    for row in products:
-        key = row["url"] or f"{row['title']}|{row['category_value']}"
-        by_url.setdefault(key, row)
-    deduped = list(by_url.values())
+    deduped = dedupe_products(products)
     summary = {
         "city": city,
         "category_count": len(categories),
@@ -294,6 +318,14 @@ def collect_city(
         "city_match_status": dict(Counter(row["city_match_status"] for row in deduped)),
     }
     return deduped, summary
+
+
+def dedupe_products(products: list[dict[str, str]]) -> list[dict[str, str]]:
+    by_url: dict[str, dict[str, str]] = {}
+    for row in products:
+        key = row["url"] or f"{row['title']}|{row['category_value']}"
+        by_url.setdefault(key, row)
+    return list(by_url.values())
 
 
 def read_existing_rows() -> list[dict[str, str]]:
@@ -329,6 +361,8 @@ def main() -> int:
                 requested_categories=requested_categories,
                 max_pages=args.max_pages,
                 delay=args.delay,
+                use_cache=args.use_cache,
+                stop_on_429=args.stop_on_429,
             )
         except Exception as exc:
             rows = []
@@ -365,6 +399,8 @@ def main() -> int:
         "requested_categories": sorted(requested_categories) if requested_categories else [],
         "max_pages": args.max_pages,
         "delay": args.delay,
+        "use_cache": bool(args.use_cache),
+        "stop_on_429": bool(args.stop_on_429),
         "outputs": [
             str((PROCESSED / "mcp_tna_products.csv").relative_to(ROOT)),
             str((PROCESSED / "mcp_tna_products.jsonl").relative_to(ROOT)),

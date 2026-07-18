@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-18T15:28:10+09:00",
+  "generated_at": "2026-07-18T15:37:45+09:00",
   "primary_anchor_count": 88,
   "alias_candidate_count": 181,
-  "matched_alias_candidate_count": 2,
+  "matched_alias_candidate_count": 8,
   "outputs": [
     "data/supply_gap_analysis/auto_anchor_alias_candidates.csv"
   ]

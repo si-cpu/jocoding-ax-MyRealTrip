@@ -1,88 +1,42 @@
 {
-  "generated_at": "2026-07-18T15:28:00+09:00",
+  "generated_at": "2026-07-18T15:37:36+09:00",
   "city_summaries": [
     {
       "city": "오사카",
-      "category_count": 0,
-      "selected_categories": [],
-      "raw_product_rows": 0,
-      "deduped_product_rows": 0,
-      "city_match_status": {},
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "city": "도쿄",
-      "category_count": 0,
-      "selected_categories": [],
-      "raw_product_rows": 0,
-      "deduped_product_rows": 0,
-      "city_match_status": {},
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "city": "교토",
-      "category_count": 0,
-      "selected_categories": [],
-      "raw_product_rows": 0,
-      "deduped_product_rows": 0,
-      "city_match_status": {},
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "city": "서울",
-      "category_count": 0,
-      "selected_categories": [],
-      "raw_product_rows": 0,
-      "deduped_product_rows": 0,
-      "city_match_status": {},
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "city": "부산",
-      "category_count": 0,
-      "selected_categories": [],
-      "raw_product_rows": 0,
-      "deduped_product_rows": 0,
-      "city_match_status": {},
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "city": "여수",
-      "category_count": 0,
-      "selected_categories": [],
-      "raw_product_rows": 0,
-      "deduped_product_rows": 0,
-      "city_match_status": {},
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "city": "대전",
-      "category_count": 0,
-      "selected_categories": [],
-      "raw_product_rows": 0,
-      "deduped_product_rows": 0,
-      "city_match_status": {},
-      "error": "HTTP Error 429: Too Many Requests"
+      "category_count": 22,
+      "selected_categories": [
+        {
+          "name": "투어",
+          "value": "tour"
+        },
+        {
+          "name": "티켓·입장권",
+          "value": "ticket_v2"
+        }
+      ],
+      "raw_product_rows": 40,
+      "deduped_product_rows": 40,
+      "city_match_status": {
+        "title_contains_city": 23,
+        "title_alias_match": 10,
+        "unknown_or_other_city": 7
+      }
     }
   ],
-  "new_products": 0,
-  "total_products": 63,
+  "new_products": 40,
+  "total_products": 103,
   "merge_existing": true,
   "requested_cities": [
-    "오사카",
-    "도쿄",
-    "교토",
-    "서울",
-    "부산",
-    "여수",
-    "대전"
+    "오사카"
   ],
   "requested_categories": [
     "ticket_v2",
     "tour"
   ],
-  "max_pages": 1,
-  "delay": 1.0,
+  "max_pages": 2,
+  "delay": 5.0,
+  "use_cache": true,
+  "stop_on_429": true,
   "outputs": [
     "data/mcp_tna_products/processed/mcp_tna_products.csv",
     "data/mcp_tna_products/processed/mcp_tna_products.jsonl"
