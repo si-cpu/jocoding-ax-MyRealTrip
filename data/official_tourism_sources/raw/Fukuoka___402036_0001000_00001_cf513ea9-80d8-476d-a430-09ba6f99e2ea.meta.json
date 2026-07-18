@@ -1,0 +1,13 @@
+{
+  "city": "Fukuoka",
+  "source_key": "Fukuoka___402036_0001000_00001_cf513ea9-80d8-476d-a430-09ba6f99e2ea",
+  "dataset_name": "観光情報 / 観光情報",
+  "url": "https://data.bodik.jp/dataset/75abeca5-552b-4661-aa04-ca073acc34d3/resource/cf513ea9-80d8-476d-a430-09ba6f99e2ea/download/40203610000000100001.csv",
+  "expected_kind": "csv",
+  "priority": "A4/A5",
+  "note": "CKAN search query=観光; package=402036_0001000_00001",
+  "saved_path": "data/official_tourism_sources/raw/Fukuoka___402036_0001000_00001_cf513ea9-80d8-476d-a430-09ba6f99e2ea.csv",
+  "bytes": 34708,
+  "content_type": "text/csv; charset=utf-8",
+  "downloaded_at": "2026-07-18T12:01:38+0900"
+}

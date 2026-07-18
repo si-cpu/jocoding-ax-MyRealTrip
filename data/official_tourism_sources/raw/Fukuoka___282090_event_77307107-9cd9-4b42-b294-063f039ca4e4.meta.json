@@ -1,0 +1,13 @@
+{
+  "city": "Fukuoka",
+  "source_key": "Fukuoka___282090_event_77307107-9cd9-4b42-b294-063f039ca4e4",
+  "dataset_name": "イベント情報 / 2024年6月イベント情報",
+  "url": "https://data.bodik.jp/dataset/a3c147e6-7b25-4cc9-a4b5-54b6a9d9a112/resource/77307107-9cd9-4b42-b294-063f039ca4e4/download/2024.6.csv",
+  "expected_kind": "csv",
+  "priority": "A4/A5",
+  "note": "CKAN search query=イベント; package=282090_event",
+  "saved_path": "data/official_tourism_sources/raw/Fukuoka___282090_event_77307107-9cd9-4b42-b294-063f039ca4e4.csv",
+  "bytes": 11640,
+  "content_type": "text/csv",
+  "downloaded_at": "2026-07-18T12:01:56+0900"
+}

@@ -1,0 +1,13 @@
+{
+  "city": "Fukuoka",
+  "source_key": "Fukuoka___272078_bunkazai_90757c55-2a97-449e-8474-0355240a8d9e",
+  "dataset_name": "文化財 / 文化財.csv",
+  "url": "https://data.bodik.jp/dataset/3d8ed84e-f4da-4881-be2c-ddd117706caa/resource/90757c55-2a97-449e-8474-0355240a8d9e/download/bunkazai.csv",
+  "expected_kind": "csv",
+  "priority": "A4/A5",
+  "note": "CKAN search query=文化財; package=272078_bunkazai",
+  "saved_path": "data/official_tourism_sources/raw/Fukuoka___272078_bunkazai_90757c55-2a97-449e-8474-0355240a8d9e.csv",
+  "bytes": 12373,
+  "content_type": "text/csv",
+  "downloaded_at": "2026-07-18T12:01:39+0900"
+}

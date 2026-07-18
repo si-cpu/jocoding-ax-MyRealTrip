@@ -1,0 +1,13 @@
+{
+  "city": "Hiroshima",
+  "source_key": "hiroshima_public_wifi",
+  "dataset_name": "Hiroshima open data: public Wi-Fi access points",
+  "url": "https://hiroshima-opendata.dataeye.jp/resource_download/9855",
+  "expected_kind": "csv",
+  "priority": "C",
+  "note": "Official Hiroshima public Wi-Fi resource; collected as secondary data, not tourism anchor by default.",
+  "saved_path": "data/official_tourism_sources/raw/hiroshima_public_wifi.csv",
+  "bytes": 98124,
+  "content_type": "text/csv; charset=utf-8",
+  "downloaded_at": "2026-07-18T12:01:35+0900"
+}

@@ -1,0 +1,13 @@
+{
+  "city": "Hiroshima",
+  "source_key": "hiroshima_events",
+  "dataset_name": "Hiroshima open data: events",
+  "url": "https://hiroshima-opendata.dataeye.jp/resource_download/9846",
+  "expected_kind": "csv",
+  "priority": "A6",
+  "note": "Official Hiroshima event open-data resource linked from Hiroshima city page.",
+  "saved_path": "data/official_tourism_sources/raw/hiroshima_events.csv",
+  "bytes": 25801,
+  "content_type": "text/csv; charset=utf-8",
+  "downloaded_at": "2026-07-18T12:01:34+0900"
+}

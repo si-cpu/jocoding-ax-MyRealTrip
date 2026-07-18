@@ -1,0 +1,9 @@
+{
+  "args": {
+    "query": "후쿠오카",
+    "category": "activity",
+    "page": 1,
+    "perPage": 20
+  },
+  "error": "HTTP Error 429: Too Many Requests"
+}

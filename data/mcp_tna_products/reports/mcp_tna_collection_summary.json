@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-07-18T14:00:08+09:00",
+  "city_summaries": [
+    {
+      "city": "히로시마",
+      "category_count": 14,
+      "selected_categories": [
+        {
+          "name": "투어",
+          "value": "tour"
+        }
+      ],
+      "raw_product_rows": 13,
+      "deduped_product_rows": 13,
+      "city_match_status": {
+        "title_contains_city": 13
+      }
+    }
+  ],
+  "new_products": 13,
+  "total_products": 63,
+  "merge_existing": true,
+  "requested_cities": [
+    "히로시마"
+  ],
+  "requested_categories": [
+    "tour"
+  ],
+  "max_pages": 2,
+  "delay": 1.2,
+  "outputs": [
+    "data/mcp_tna_products/processed/mcp_tna_products.csv",
+    "data/mcp_tna_products/processed/mcp_tna_products.jsonl"
+  ]
+}
