@@ -46,11 +46,22 @@ FIELDS = [
 ]
 
 MANUAL_ALIASES = {
-    "official-fukuoka-museum-1": ["후쿠오카시 미술관", "후쿠오카 미술관"],
-    "official-fukuoka-museum-2": ["후쿠오카 아시아 미술관", "아시아미술관"],
-    "official-fukuoka-museum-3": ["후쿠오카시 박물관", "후쿠오카 박물관"],
-    "official-fukuoka-museum-4": ["매장문화재센터", "매장 문화재 센터"],
-    "official-fukuoka-museum-5": ["아카렌가 문화관", "붉은벽돌 문화관"],
+    "official-fukuoka-guide-26792": [
+        "캐널시티 하카타",
+        "캐널 시티 하카타",
+        "캐널시티 히카타",
+        "캐널 시티 히카타",
+    ],
+    "official-fukuoka-guide-26798": ["후쿠오카타워", "후쿠오카 타워"],
+    "official-fukuoka-guide-26825": ["오호리공원", "오호리 공원"],
+    "official-fukuoka-guide-26906": ["구시다신사", "구시다 신사", "쿠시다 신사"],
+    "official-fukuoka-guide-26815": ["후쿠오카시 미술관", "후쿠오카 미술관"],
+    "official-fukuoka-guide-26794": ["후쿠오카 아시아 미술관", "아시아미술관"],
+    "official-fukuoka-guide-26814": ["후쿠오카시 박물관", "후쿠오카 박물관"],
+    "official-fukuoka-guide-26950": ["아카렌가 문화관", "붉은벽돌 문화관"],
+    "official-fukuoka-guide-26800": ["마린월드", "마린 월드", "우미노나카미치 마린월드"],
+    "official-fukuoka-guide-26799": ["우미노나카미치 해변공원", "우미노나카미치"],
+    "official-fukuoka-guide-26970": ["노코노시마"],
     "official-hiroshima-facility-1": ["슛케이엔", "슈케이엔", "축경원"],
     "official-hiroshima-facility-7": ["아사동물공원", "아사 동물원"],
     "official-hiroshima-facility-10": ["히로시마 현립 미술관"],
@@ -188,7 +199,16 @@ def is_visit_itinerary_slot(slot: dict[str, str], alias: str) -> bool:
     text = f"{title} {description}"
     if not matched_alias(text, [alias]):
         return False
-    logistics_markers = ("미팅", "집결", "픽업", "탑승", "출발", "해산", "복귀")
+    logistics_markers = (
+        "미팅",
+        "집결",
+        "픽업",
+        "탑승",
+        "출발",
+        "해산",
+        "복귀",
+        "정차",
+    )
     visit_markers = (
         "방문",
         "관람",
@@ -198,18 +218,63 @@ def is_visit_itinerary_slot(slot: dict[str, str], alias: str) -> bool:
         "체험",
         "자유시간",
         "감상",
-        "투어",
         "견학",
-        "정원",
-        "박물관",
-        "미술관",
     )
     has_logistics = any(marker in text for marker in logistics_markers)
-    has_visit = any(marker in text for marker in visit_markers)
     alias_in_title = normalize(alias) in normalize(title)
-    if has_logistics and not has_visit:
+    titled_itinerary_course = alias_in_title and any(
+        marker in title for marker in ("코스", "일정", "관광")
+    )
+    compact_alias = normalize(alias)
+    compact_text = normalize(text)
+    alias_index = compact_text.find(compact_alias)
+    compact_context = (
+        compact_text[max(0, alias_index - 80) : alias_index + len(compact_alias) + 100]
+        if alias_index >= 0
+        else compact_text
+    )
+    has_contextual_visit = any(
+        normalize(marker) in compact_context for marker in visit_markers
+    )
+    relation_only_markers = (
+        "연결",
+        "조망",
+        "전망",
+        "바라",
+        "보이는",
+        "인접",
+        "근처",
+        "주변",
+        "위치",
+    )
+    relation_only = any(
+        normalize(marker) in compact_context for marker in relation_only_markers
+    )
+    replacement_markers = ("대체됩니다", "대체 예정", "대체될", "대체 가능")
+    replacement_text = any(marker in text for marker in replacement_markers)
+    replacement_target = bool(
+        re.search(
+            rf"{re.escape(compact_alias)}(?:은|는|이|가)?(?:으로|로)대체",
+            compact_text,
+        )
+    )
+    conditional_replacement = replacement_text and any(
+        marker in text for marker in ("경우", "악천후", "휴장", "상황에 따라")
+    )
+
+    # A slot whose advertised place is explicitly replaced does not confirm a
+    # visit to that advertised place. The replacement target itself may count.
+    if alias_in_title and replacement_text and not replacement_target:
         return False
-    return alias_in_title or has_visit
+    if conditional_replacement and not alias_in_title:
+        return False
+    if has_logistics and not has_contextual_visit and not titled_itinerary_course:
+        return False
+    if alias_in_title:
+        return True
+    if replacement_target:
+        return True
+    return has_contextual_visit and not relation_only
 
 
 def evidence_excerpt(label: str, text: str, alias: str) -> str:
@@ -277,7 +342,14 @@ def main() -> int:
         for slot in read_csv(PUBLIC_SLOTS):
             slot_text = clean(f"{slot['slot_title']} {slot['slot_description']}")
             for anchor in anchors:
-                alias = matched_alias(slot_text, aliases_by_anchor[anchor["anchor_id"]])
+                aliases = aliases_by_anchor[anchor["anchor_id"]]
+                # Prefer an alias in the itinerary title. A canonical spelling
+                # in the description must not hide a reviewed title typo such
+                # as 캐널 시티 히카타, because title placement is the stronger
+                # evidence that the slot is actually a course stop.
+                alias = matched_alias(slot["slot_title"], aliases) or matched_alias(
+                    slot_text, aliases
+                )
                 if (
                     not alias
                     or not is_visit_itinerary_slot(slot, alias)

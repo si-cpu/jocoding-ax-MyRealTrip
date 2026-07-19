@@ -24,6 +24,13 @@ GENERATED_DETAIL_LINKS = (
     / "tour_details"
     / "tour_detail_official_place_matches.csv"
 )
+PUBLIC_ITINERARY_PRODUCTS = (
+    ROOT
+    / "data"
+    / "supply_gap_analysis"
+    / "tour_details"
+    / "public_itinerary_products.csv"
+)
 OUT = ROOT / "data" / "supply_gap_analysis"
 REPORTS = OUT / "reports"
 
@@ -82,6 +89,31 @@ PARTNER_CANDIDATE_FIELDS = [
     "partner_candidate_reason",
 ]
 
+CITY_COVERAGE_FIELDS = [
+    "city_id",
+    "city_name",
+    "official_scope",
+    "official_asset_count",
+    "mcp_product_count",
+    "confirmed_anchor_count",
+    "detail_pending_anchor_count",
+    "observed_linked_anchor_count",
+    "confirmed_match_rate_pct",
+    "observed_link_rate_pct",
+    "confirmed_match_rate_display",
+    "observed_link_rate_display",
+    "citywide_rate_eligible",
+    "unlinked_or_unverified_anchor_count",
+    "collection_complete",
+    "rate_status",
+]
+
+CITY_OFFICIAL_SCOPES = {
+    "jp-fukuoka": "후쿠오카시 공식 한국어 관광가이드(비관광·시외 필터 후)",
+    "jp-hiroshima": "공식 관광시설(비관광 시설 필터 후)",
+    "jp-kyoto": "공식 관광시설(비관광 시설 필터 후)",
+}
+
 def is_partner_candidate_only(anchor: dict[str, str]) -> bool:
     return anchor.get("official_source_type") in {"official_yatai", "official_yatai_cluster"} or anchor.get(
     "anchor_type"
@@ -120,6 +152,16 @@ def write_csv(path: Path, fields: list[str], rows: list[dict[str, str]]) -> None
         writer.writerows(rows)
 
 
+def load_public_itinerary_product_ids() -> set[str]:
+    if not PUBLIC_ITINERARY_PRODUCTS.exists():
+        return set()
+    return {
+        clean(row.get("product_id"))
+        for row in read_csv(PUBLIC_ITINERARY_PRODUCTS)
+        if clean(row.get("product_id"))
+    }
+
+
 def city_to_query(city_id: str) -> str:
     mapping = {
         "jp-osaka": "오사카",
@@ -143,6 +185,60 @@ def city_collection_complete(city_query: str) -> bool:
     return not any(MCP_RAW.glob(f"{city_query}_*_error.json")) and not (
         MCP_RAW / f"{city_query}_collection_error.json"
     ).exists()
+
+
+def build_city_coverage(
+    scores: list[dict[str, str]], products: list[dict[str, str]]
+) -> list[dict[str, str]]:
+    """Build city-level denominators and match rates without mixing cities."""
+    coverage_rows = []
+    city_ids = sorted({row["city_id"] for row in scores})
+    for city_id in city_ids:
+        city_scores = [row for row in scores if row["city_id"] == city_id]
+        city_name = city_scores[0]["city_name"] if city_scores else city_id
+        city_query = city_to_query(city_id)
+        city_products = [row for row in products if row.get("city_query") == city_query]
+        confirmed = sum(int(row.get("confirmed_product_count") or 0) > 0 for row in city_scores)
+        pending = sum(
+            int(row.get("confirmed_product_count") or 0) == 0
+            and int(row.get("detail_pending_product_count") or 0) > 0
+            for row in city_scores
+        )
+        official_count = len(city_scores)
+        observed = confirmed + pending
+        complete = city_collection_complete(city_query)
+        limited_official_scope = False
+        if complete:
+            rate_status = "계산 가능"
+        else:
+            rate_status = "잠정치(MCP 일부 오류)"
+        confirmed_rate = (confirmed / official_count * 100) if official_count else None
+        observed_rate = (observed / official_count * 100) if official_count else None
+        coverage_rows.append(
+            {
+                "city_id": city_id,
+                "city_name": city_name,
+                "official_scope": CITY_OFFICIAL_SCOPES.get(city_id, "공식 관광시설 표본"),
+                "official_asset_count": str(official_count),
+                "mcp_product_count": str(len(city_products)),
+                "confirmed_anchor_count": str(confirmed),
+                "detail_pending_anchor_count": str(pending),
+                "observed_linked_anchor_count": str(observed),
+                "confirmed_match_rate_pct": f"{confirmed_rate:.1f}" if confirmed_rate is not None else "",
+                "observed_link_rate_pct": f"{observed_rate:.1f}" if observed_rate is not None else "",
+                "confirmed_match_rate_display": (
+                    f"{confirmed_rate:.1f}%"
+                ),
+                "observed_link_rate_display": (
+                    f"{observed_rate:.1f}%"
+                ),
+                "citywide_rate_eligible": str(not limited_official_scope).lower(),
+                "unlinked_or_unverified_anchor_count": str(official_count - observed),
+                "collection_complete": str(complete).lower(),
+                "rate_status": rate_status,
+            }
+        )
+    return coverage_rows
 
 
 def load_auto_aliases() -> dict[str, list[str]]:
@@ -295,6 +391,7 @@ def main() -> int:
     matches = []
     matched_by_anchor: dict[str, list[dict[str, str]]] = defaultdict(list)
     auto_aliases = load_auto_aliases()
+    public_itinerary_product_ids = load_public_itinerary_product_ids()
     primary_anchors = [anchor for anchor in anchors if is_primary_tourism_asset(anchor)]
     partner_candidate_anchors = [anchor for anchor in anchors if is_partner_candidate_only(anchor)]
     for anchor in primary_anchors:
@@ -305,6 +402,14 @@ def main() -> int:
             if score <= 0:
                 continue
             evidence_level, policy = evidence_policy(product, mtype)
+            if (
+                evidence_level == "tour_title_needs_detail"
+                and clean(product.get("product_id")) in public_itinerary_product_ids
+            ):
+                # The itinerary was already inspected. A place absent from the
+                # positive place links must not be revived as a title-only
+                # pending match; confirmed itinerary links are added below.
+                continue
             match = {
                 "anchor_id": anchor["anchor_id"],
                 "city_id": anchor["city_id"],
@@ -427,6 +532,7 @@ def main() -> int:
             }
         )
     primary_scores = [{**row, "analysis_scope": "primary_tourism_asset"} for row in scores]
+    city_coverage = build_city_coverage(scores, products)
     partner_candidates = [
         {
             "anchor_id": anchor["anchor_id"],
@@ -449,6 +555,7 @@ def main() -> int:
     write_csv(OUT / "official_mcp_anchor_matches.csv", MATCH_FIELDS, matches)
     write_csv(OUT / "supply_gap_scores.csv", SCORE_FIELDS, scores)
     write_csv(OUT / "primary_tourism_asset_scores.csv", PRIMARY_SCORE_FIELDS, primary_scores)
+    write_csv(OUT / "city_supply_coverage.csv", CITY_COVERAGE_FIELDS, city_coverage)
     write_csv(OUT / "partner_candidate_yatai_stalls.csv", PARTNER_CANDIDATE_FIELDS, partner_candidates)
     with (OUT / "supply_gap_scores.jsonl").open("w", encoding="utf-8") as f:
         for row in scores:
@@ -465,6 +572,7 @@ def main() -> int:
         "match_count": len(matches),
         "matched_anchor_count": len(matched_by_anchor),
         "classification_counts": dict(Counter(row["classification"] for row in scores)),
+        "by_city_coverage": city_coverage,
         "by_city_classification": {
             city: dict(Counter(row["classification"] for row in scores if row["city_id"] == city))
             for city in sorted(set(row["city_id"] for row in scores))
@@ -497,6 +605,26 @@ def main() -> int:
         lines.append(f"| {city} | {counts} |")
     lines.extend(
         [
+            "",
+            "## City-level coverage",
+            "",
+            "| City | Official scope | Official assets | MCP products | Confirmed | Detail pending | Confirmed match rate | Observed link rate | Status |",
+            "|---|---|---:|---:|---:|---:|---:|---:|---|",
+        ]
+    )
+    for row in city_coverage:
+        lines.append(
+            f"| {row['city_name']} | {row['official_scope']} | {row['official_asset_count']} | {row['mcp_product_count']} | "
+            f"{row['confirmed_anchor_count']} | {row['detail_pending_anchor_count']} | "
+            f"{row['confirmed_match_rate_display']} | {row['observed_link_rate_display']} | "
+            f"{row['rate_status']} |"
+        )
+    lines.extend(
+        [
+            "",
+            "- Confirmed match rate uses only ticket/product-card evidence or positive tour-detail evidence.",
+            "- Observed link rate additionally includes tour-title matches still waiting for itinerary/inclusion confirmation.",
+            "- Rates marked provisional must not be presented as final coverage until city collection errors are cleared.",
             "",
             "## Important interpretation",
             "",

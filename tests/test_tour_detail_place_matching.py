@@ -105,6 +105,52 @@ class TourDetailPlaceMatchingTest(unittest.TestCase):
         self.assertFalse(is_visit_itinerary_slot(meeting, "오리즈루 타워"))
         self.assertTrue(is_visit_itinerary_slot(visit, "오리즈루 타워"))
 
+    def test_titled_course_with_timed_destination_is_a_visit(self):
+        slot = {
+            "slot_title": "후쿠오카 출발 노코노시마 이토시마 코스",
+            "slot_description": (
+                "9:15 메이노하마선착장 출발 → 9:25 노코노시마선착장 "
+                "9:45 전용버스 탑승 → 9:55 노코노시마 "
+                "13:00 노코노시마선착장 출발"
+            ),
+        }
+        self.assertTrue(is_visit_itinerary_slot(slot, "노코노시마"))
+
+    def test_place_mentioned_only_as_a_geographic_connection_is_not_a_visit(self):
+        slot = {
+            "slot_title": "우미노나카미치 해변 공원",
+            "slot_description": "후쿠오카와 시카노시마를 연결하는 해상공원입니다.",
+        }
+        self.assertFalse(is_visit_itinerary_slot(slot, "시카노시마"))
+
+    def test_conditional_replacement_is_not_a_confirmed_visit(self):
+        slot = {
+            "slot_title": "큐슈 자연동물원",
+            "slot_description": (
+                "악천후로 동물원이 휴장할 경우 우미노나카미치 수족관으로 "
+                "대체됩니다."
+            ),
+        }
+        self.assertFalse(is_visit_itinerary_slot(slot, "우미노나카미치"))
+
+    def test_explicit_replacement_target_can_be_a_visit(self):
+        slot = {
+            "slot_title": "후쿠오카 타워",
+            "slot_description": "해당 관광지는 후쿠오카성터로 대체됩니다.",
+        }
+        self.assertFalse(is_visit_itinerary_slot(slot, "후쿠오카 타워"))
+        self.assertTrue(is_visit_itinerary_slot(slot, "후쿠오카성터"))
+
+    def test_optional_dropoff_is_not_a_confirmed_visit(self):
+        slot = {
+            "slot_title": "후쿠오카 타워 정차",
+            "slot_description": (
+                "후쿠오카타워 주변 정차 가능한 곳에서 하차 가능하며 "
+                "하차 인원이 없으면 하카타역으로 이동합니다."
+            ),
+        }
+        self.assertFalse(is_visit_itinerary_slot(slot, "후쿠오카 타워"))
+
 
 if __name__ == "__main__":
     unittest.main()

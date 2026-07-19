@@ -1,14 +1,15 @@
 {
   "source": "data/official_tourism_sources/processed/accepted/hiroshima_tourism_facilities_city_only.csv",
   "source_rows": 32,
-  "primary_anchor_rows": 29,
+  "primary_anchor_rows": 28,
   "excluded_counts": {
     "commercial_business": 1,
+    "local_recreation_facility": 1,
     "research_institute": 1,
     "branch_component": 1
   },
   "category_counts": {
-    "nature_or_park": 8,
+    "nature_or_park": 7,
     "museum_or_gallery": 19,
     "heritage_or_landmark": 1,
     "observation_or_landmark": 1

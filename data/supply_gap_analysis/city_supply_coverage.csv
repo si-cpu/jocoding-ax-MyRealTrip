@@ -1,0 +1,4 @@
+﻿city_id,city_name,official_scope,official_asset_count,mcp_product_count,confirmed_anchor_count,detail_pending_anchor_count,observed_linked_anchor_count,confirmed_match_rate_pct,observed_link_rate_pct,confirmed_match_rate_display,observed_link_rate_display,citywide_rate_eligible,unlinked_or_unverified_anchor_count,collection_complete,rate_status
+jp-fukuoka,후쿠오카,후쿠오카시 공식 한국어 관광가이드(비관광·시외 필터 후),81,180,10,0,10,12.3,12.3,12.3%,12.3%,true,71,false,잠정치(MCP 일부 오류)
+jp-hiroshima,히로시마,공식 관광시설(비관광 시설 필터 후),28,20,4,0,4,14.3,14.3,14.3%,14.3%,true,24,false,잠정치(MCP 일부 오류)
+jp-kyoto,교토,공식 관광시설(비관광 시설 필터 후),292,49,0,8,8,0.0,2.7,0.0%,2.7%,true,284,false,잠정치(MCP 일부 오류)

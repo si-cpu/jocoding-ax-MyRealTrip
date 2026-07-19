@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-07-19T16:54:44+09:00",
+  "mcp_search_pool_products": 180,
+  "official_denominator_places": 81,
+  "reviewed_place_candidates": 14,
+  "list_status_counts": {
+    "included": 7,
+    "review_needed": 2,
+    "excluded": 5
+  },
+  "final_bucket_counts": {
+    "official_raw_not_in_81": 4,
+    "official_other_catalog_not_in_81": 3,
+    "platform_only_review_candidate": 2,
+    "excluded_foodplace": 1,
+    "excluded_foodplace_or_child": 1,
+    "excluded_private_nightlife": 1,
+    "excluded_outside_city": 2
+  },
+  "included_detail_places": 7,
+  "included_canonical_places": 4,
+  "included_and_review_canonical_places": 6,
+  "important_caveat": "products and places are different units; 180 minus 81 is invalid",
+  "csv": "data/supply_gap_analysis/exports/fukuoka_mcp_minus_official81_destinations.csv",
+  "report": "data/supply_gap_analysis/reports/FUKUOKA_MCP_MINUS_OFFICIAL81_DESTINATIONS.md"
+}

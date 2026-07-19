@@ -82,8 +82,11 @@ KYOTO_NON_PRIMARY_NAME_RULES = (
     ),
     (
         "administrative_or_sports_facility",
-        r"体育館|運動場|競技場|武道センター|運動施設|府民ホール|"
-        r"運動公園|文化芸術会館|こども文化会館|国際交流会館|国際センター|"
+        r"体育館|総合体育館|市民体育館|スポーツセンター|スポーツ施設|"
+        r"運動場|運動施設|運動公園|陸上競技場|競技場|野球場|球場|"
+        r"テニスコート|市民プール|屋内プール|武道場|武道センター|"
+        r"トレーニングセンター|交通公園|府民ホール|"
+        r"文化芸術会館|こども文化会館|国際交流会館|国際センター|"
         r"コンベンション|会議場",
     ),
     ("abstract_course", r"を学ぶ|めぐり|コース$"),
@@ -106,9 +109,22 @@ KYOTO_PRIMARY_NAME_RULES = (
 )
 
 KYOTO_COMMERCIAL_DESCRIPTION_PATTERN = re.compile(
-    r"店内|営業|メニュー|食事|料理|飲食|販売|商品|お買い求め|"
+    r"店内|お店|店舗|営業|メニュー|食事|料理|飲食|販売|商品|お買い求め|"
+    r"取り揃え|アンテナショップ|常設店舗|直営店|小売|"
     r"ランチ|ディナー|ゆどうふ|湯豆腐|ゆば|湯葉|舌鼓|"
     r"予約制の宿|宿泊施設|客室"
+)
+
+KYOTO_STRONG_COMMERCIAL_DESCRIPTION_PATTERN = re.compile(
+    r"取り揃えて|アンテナショップ|常設店舗|直営店|小売|"
+    r"元お茶屋.{0,40}お店"
+)
+
+KYOTO_RESIDENT_SPORTS_DESCRIPTION_PATTERN = re.compile(
+    r"(府民|市民|区民).{0,20}(健康増進|体力向上|スポーツ・レクリエーション)|"
+    r"(健康増進|体力の向上).{0,30}(体育館|競技場|テニスコート|プール)|"
+    r"総合体育館.{0,80}(テニスコート|市民プール|競技場)|"
+    r"(競技場|野球場).{0,80}(テニスコート|市民プール|体育館)"
 )
 
 KYOTO_AUDIT_FIELDS = [
@@ -213,6 +229,7 @@ FUKUOKA_MUSEUM_KO_NAMES = {
 
 HIROSHIMA_EXCLUDED_FACILITIES = {
     "4": ("commercial_business", "restaurant, banquet hall and wedding venue; garden access is limited to customers"),
+    "6": ("local_recreation_facility", "children's traffic-learning park rather than an independent tourism asset"),
     "17": ("research_institute", "research institute requiring advance arrangements, not a general tourism place"),
     "29": ("branch_component", "branch reading room of the main manga library"),
 }
@@ -440,6 +457,13 @@ def kyoto_facility_classification(row: dict[str, str]) -> tuple[str, str, str]:
         if re.search(pattern, name, flags=re.IGNORECASE):
             return "excluded_non_primary", classification, f"name matched /{pattern}/"
 
+    if KYOTO_RESIDENT_SPORTS_DESCRIPTION_PATTERN.search(description):
+        return (
+            "excluded_non_primary",
+            "administrative_or_sports_facility",
+            "description identifies a resident-use sports complex",
+        )
+
     for classification, pattern in KYOTO_PRIMARY_NAME_RULES:
         if re.search(pattern, name):
             if (
@@ -458,6 +482,13 @@ def kyoto_facility_classification(row: dict[str, str]) -> tuple[str, str, str]:
                     "religious place token appears inside a commercial business name",
                 )
             return "primary", classification, f"name matched /{pattern}/"
+
+    if KYOTO_STRONG_COMMERCIAL_DESCRIPTION_PATTERN.search(description):
+        return (
+            "excluded_non_primary",
+            "commercial_business",
+            "description identifies a retail or restaurant business rather than a place",
+        )
 
     if re.search(r"(院|堂|宮|塔|庵)$", name) and re.search(
         r"塔頭|宗の寺|本尊|仏像|開山|伽藍|拝観|境内", description
@@ -663,6 +694,72 @@ def fukuoka_museum_anchors() -> list[dict[str, str]]:
                 "review_status": "accepted",
                 "match_ready": "true",
                 "notes": "Fukuoka City official museum/public cultural facility dataset; five-record MVP baseline",
+            }
+        )
+    return anchors
+
+
+def fukuoka_official_guide_anchors() -> list[dict[str, str]]:
+    path = PROCESSED / "accepted" / "fukuoka_official_guide_places.csv"
+    if not path.exists():
+        return []
+    anchors = []
+    for row in read_csv(path):
+        spot_id = clean(row.get("spot_id"))
+        name_local = clean(row.get("name_local"))
+        name_ko = clean(row.get("name_ko"))
+        if not spot_id or not name_local or not name_ko:
+            continue
+        description = clean(row.get("description"))
+        areas = clean(row.get("areas"))
+        categories = clean(row.get("categories"))
+        classification = clean(row.get("classification"))
+        source_url = clean(row.get("source_url"))
+        anchors.append(
+            {
+                "anchor_id": f"official-fukuoka-guide-{spot_id}",
+                "city_id": "jp-fukuoka",
+                "city_name": "후쿠오카",
+                "country_code": "JP",
+                "anchor_name": name_local,
+                "anchor_name_local": name_local,
+                "anchor_name_ko": name_ko,
+                "anchor_name_en": "",
+                "translation_source": "official_fukuoka_korean_guide",
+                "translation_status": "reviewed",
+                "anchor_type": "place",
+                "official_source_type": "tourism_facility",
+                "source_dataset": "fukuoka_official_guide_places",
+                "source_record_id": spot_id,
+                "source_url": source_url,
+                "description": description,
+                "category": classification,
+                "address": areas,
+                "lat": "",
+                "lng": "",
+                "start_date": "",
+                "end_date": "",
+                "price_text": "",
+                "evidence_text": " / ".join(
+                    value
+                    for value in [
+                        name_local,
+                        name_ko,
+                        areas,
+                        categories,
+                        description[:200],
+                    ]
+                    if value
+                ),
+                "confidence": "0.96",
+                "review_status": "accepted",
+                "match_ready": "true",
+                "notes": (
+                    "Fukuoka City official Japanese sightseeing catalog joined to "
+                    "the official Korean guide by stable spot ID; city scope and "
+                    "visitor-facing tourism suitability filtered with an auditable "
+                    "excluded dataset."
+                ),
             }
         )
     return anchors
@@ -955,7 +1052,7 @@ def main() -> int:
 
     anchors = []
     anchors.extend(fukuoka_yatai_anchors())
-    anchors.extend(fukuoka_museum_anchors())
+    anchors.extend(fukuoka_official_guide_anchors())
     anchors.extend(kyoto_facility_anchors())
     anchors.extend(hiroshima_facility_anchors())
     anchors.extend(hiroshima_event_anchors())
@@ -984,6 +1081,10 @@ def main() -> int:
         ],
         "seed_candidate_count_excluded_from_primary_anchors": len(seed_anchors),
     }
+    fukuoka_guide_count = sum(
+        row.get("source_dataset") == "fukuoka_official_guide_places"
+        for row in anchors
+    )
     (REPORTS / "official_anchor_build_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
     )
@@ -1007,6 +1108,8 @@ def main() -> int:
         "## Notes",
         "",
         "- Fukuoka yatai anchors are deduplicated by `屋台ID`.",
+        f"- Fukuoka primary place anchors come from the complete 468-record Yokanavi sightseeing catalog joined to the official Korean guide by spot ID; {fukuoka_guide_count} city-scoped, visitor-facing Korean-published places enter primary scoring.",
+        "- All excluded Fukuoka records remain auditable in `processed/excluded/fukuoka_official_guide_excluded.csv`.",
         "- Hiroshima tourism facilities are filtered to Hiroshima city code `341002`.",
         "- Kyoto tourism facilities are filtered to municipality names starting with `京都市`; only high-confidence place-level assets enter primary scoring.",
         "- Kyoto non-primary, ambiguous, and same-place component records are preserved with reasons in `reports/kyoto_facility_classification_audit.csv`.",

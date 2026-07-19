@@ -9,7 +9,12 @@ from scripts.build_official_experience_anchors import (
     kyoto_facility_classification,
     kyoto_parent_components,
 )
-from scripts.match_official_anchors_to_mcp import classify, is_review_ready_korean_alias
+from scripts.match_official_anchors_to_mcp import (
+    build_city_coverage,
+    classify,
+    is_review_ready_korean_alias,
+)
+from scripts.collect_fukuoka_official_guide import classify as classify_fukuoka_spot
 from scripts.rank_hidden_destination_candidates import has_verified_mrt_supply
 
 
@@ -25,6 +30,67 @@ def kyoto_row(no: str, name: str, description: str = "", address: str = "", lat:
 
 
 class KyotoFacilityClassificationTest(unittest.TestCase):
+    def test_fukuoka_official_korean_tourism_place_is_primary(self):
+        disposition, classification, _ = classify_fukuoka_spot(
+            {
+                "name_local": "福岡タワー",
+                "name_ko": "후쿠오카 타워",
+                "areas": "シーサイドももち・早良",
+                "categories": "自然・景観|建築物",
+            }
+        )
+        self.assertEqual(disposition, "accepted")
+        self.assertEqual(classification, "nature_or_scenic_place")
+
+    def test_fukuoka_japanese_only_record_is_preserved_but_not_scored(self):
+        disposition, classification, _ = classify_fukuoka_spot(
+            {
+                "name_local": "地域の小さな史跡",
+                "name_ko": "",
+                "areas": "博多旧市街",
+                "categories": "歴史・神社・仏閣",
+            }
+        )
+        self.assertEqual(disposition, "excluded")
+        self.assertEqual(classification, "not_published_in_official_korean_guide")
+
+    def test_fukuoka_resident_sports_park_is_excluded(self):
+        disposition, classification, _ = classify_fukuoka_spot(
+            {
+                "name_local": "今津運動公園",
+                "name_ko": "이마즈 운동공원",
+                "areas": "WEST COAST",
+                "categories": "スポーツ|ファミリー",
+            }
+        )
+        self.assertEqual(disposition, "excluded")
+        self.assertEqual(classification, "resident_sports_facility")
+
+    def test_fukuoka_sports_tagged_family_park_is_still_excluded(self):
+        disposition, classification, _ = classify_fukuoka_spot(
+            {
+                "name_local": "東平尾公園（博多の森）",
+                "name_ko": "히가시히라오 공원",
+                "areas": "博多駅",
+                "categories": "スポーツ|ファミリー",
+            }
+        )
+        self.assertEqual(disposition, "excluded")
+        self.assertEqual(classification, "resident_sports_facility")
+
+    def test_fukuoka_superseded_component_page_is_deduplicated(self):
+        disposition, classification, _ = classify_fukuoka_spot(
+            {
+                "spot_id": "26805",
+                "name_local": "ABURAYAMA FUKUOKA（旧 油山市民の森・自然観察の森）",
+                "name_ko": "아부라야마 시민의 숲과 자연 관찰의 숲",
+                "areas": "南",
+                "categories": "レジャー・アウトドア|ファミリー",
+            }
+        )
+        self.assertEqual(disposition, "excluded")
+        self.assertEqual(classification, "superseded_duplicate")
+
     def test_fukuoka_official_museums_have_reviewed_korean_names(self):
         self.assertEqual(FUKUOKA_MUSEUM_KO_NAMES["福岡市美術館"], "후쿠오카시미술관")
         self.assertEqual(FUKUOKA_MUSEUM_KO_NAMES["福岡市赤煉瓦文化館"], "후쿠오카시 아카렌가문화관")
@@ -35,6 +101,7 @@ class KyotoFacilityClassificationTest(unittest.TestCase):
 
     def test_hiroshima_non_tourism_facilities_are_explicitly_excluded(self):
         self.assertEqual(HIROSHIMA_EXCLUDED_FACILITIES["4"][0], "commercial_business")
+        self.assertEqual(HIROSHIMA_EXCLUDED_FACILITIES["6"][0], "local_recreation_facility")
         self.assertEqual(HIROSHIMA_EXCLUDED_FACILITIES["17"][0], "research_institute")
         self.assertEqual(HIROSHIMA_EXCLUDED_FACILITIES["29"][0], "branch_component")
 
@@ -72,6 +139,72 @@ class KyotoFacilityClassificationTest(unittest.TestCase):
         )
         self.assertEqual(disposition, "excluded_non_primary")
         self.assertEqual(classification, "parking")
+
+    def test_resident_sports_center_is_excluded(self):
+        disposition, classification, _ = kyoto_facility_classification(
+            kyoto_row("11", "南区スポーツセンター", "市民向けの体育施設。")
+        )
+        self.assertEqual(disposition, "excluded_non_primary")
+        self.assertEqual(classification, "administrative_or_sports_facility")
+
+    def test_tennis_court_is_excluded(self):
+        disposition, classification, _ = kyoto_facility_classification(
+            kyoto_row("12", "広域公園テニスコート")
+        )
+        self.assertEqual(disposition, "excluded_non_primary")
+        self.assertEqual(classification, "administrative_or_sports_facility")
+
+    def test_baseball_ground_is_not_automatically_treated_as_attraction(self):
+        disposition, classification, _ = kyoto_facility_classification(
+            kyoto_row("13", "市民野球場")
+        )
+        self.assertEqual(disposition, "excluded_non_primary")
+        self.assertEqual(classification, "administrative_or_sports_facility")
+
+    def test_park_name_does_not_hide_resident_sports_complex(self):
+        disposition, classification, _ = kyoto_facility_classification(
+            kyoto_row(
+                "14",
+                "京都府立伏見港公園",
+                "府民の健康増進と体力の向上を目的とし、"
+                "総合体育館、競技場、テニスコート、プールがある。",
+            )
+        )
+        self.assertEqual(disposition, "excluded_non_primary")
+        self.assertEqual(classification, "administrative_or_sports_facility")
+
+    def test_local_traffic_education_park_is_excluded(self):
+        disposition, classification, _ = kyoto_facility_classification(
+            kyoto_row(
+                "15",
+                "大宮交通公園",
+                "自転車を学び、市民が交流する交通教育公園。",
+            )
+        )
+        self.assertEqual(disposition, "excluded_non_primary")
+        self.assertEqual(classification, "administrative_or_sports_facility")
+
+    def test_restaurant_described_as_part_of_famous_district_is_excluded(self):
+        disposition, classification, _ = kyoto_facility_classification(
+            kyoto_row(
+                "16",
+                "上七軒くろすけ",
+                "五花街のひとつ、上七軒にある元お茶屋の建物を利用したお店。",
+            )
+        )
+        self.assertEqual(disposition, "excluded_non_primary")
+        self.assertEqual(classification, "commercial_business")
+
+    def test_retailer_with_natural_place_token_is_excluded(self):
+        disposition, classification, _ = kyoto_facility_classification(
+            kyoto_row(
+                "17",
+                "ぶらり嵐山",
+                "観光地にあるアンテナショップとして運営する常設店舗。",
+            )
+        )
+        self.assertEqual(disposition, "excluded_non_primary")
+        self.assertEqual(classification, "commercial_business")
 
     def test_shop_with_landmark_word_is_not_misclassified(self):
         disposition, classification, _ = kyoto_facility_classification(
@@ -145,6 +278,35 @@ class KyotoFacilityClassificationTest(unittest.TestCase):
 
 
 class SupplyGapClassificationTest(unittest.TestCase):
+    def test_city_coverage_uses_separate_city_denominators(self):
+        scores = [
+            {
+                "city_id": "jp-kyoto",
+                "city_name": "교토",
+                "confirmed_product_count": "1",
+                "detail_pending_product_count": "0",
+            },
+            {
+                "city_id": "jp-kyoto",
+                "city_name": "교토",
+                "confirmed_product_count": "0",
+                "detail_pending_product_count": "1",
+            },
+            {
+                "city_id": "jp-hiroshima",
+                "city_name": "히로시마",
+                "confirmed_product_count": "0",
+                "detail_pending_product_count": "0",
+            },
+        ]
+        coverage = {row["city_id"]: row for row in build_city_coverage(scores, [])}
+        self.assertEqual(coverage["jp-kyoto"]["official_asset_count"], "2")
+        self.assertEqual(coverage["jp-kyoto"]["confirmed_match_rate_pct"], "50.0")
+        self.assertEqual(coverage["jp-kyoto"]["observed_link_rate_pct"], "100.0")
+        self.assertEqual(coverage["jp-kyoto"]["citywide_rate_eligible"], "true")
+        self.assertEqual(coverage["jp-hiroshima"]["official_asset_count"], "1")
+        self.assertEqual(coverage["jp-hiroshima"]["observed_link_rate_pct"], "0.0")
+
     def test_mixed_japanese_korean_alias_is_not_review_ready(self):
         self.assertFalse(is_review_ready_korean_alias("교토祇園らんぷ미술관"))
         self.assertTrue(is_review_ready_korean_alias("니조성"))

@@ -1,0 +1,78 @@
+{
+  "mode": "verify",
+  "status": "passed",
+  "started_at": "2026-07-19T11:29:35+09:00",
+  "finished_at": "2026-07-19T11:29:35+09:00",
+  "elapsed_seconds": 0.11,
+  "cities": [
+    "후쿠오카",
+    "히로시마"
+  ],
+  "network_steps_requested": [],
+  "steps": [
+    {
+      "name": "unit_tests",
+      "kind": "verify",
+      "network": false,
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.11
+    }
+  ],
+  "city_metrics": [
+    {
+      "city_id": "jp-fukuoka",
+      "city_name": "후쿠오카",
+      "official_scope": "후쿠오카시 공식 한국어 관광가이드(비관광·시외 필터 후)",
+      "official_asset_count": "81",
+      "mcp_product_count": "180",
+      "confirmed_anchor_count": "10",
+      "detail_pending_anchor_count": "0",
+      "observed_linked_anchor_count": "10",
+      "confirmed_match_rate_pct": "12.3",
+      "observed_link_rate_pct": "12.3",
+      "confirmed_match_rate_display": "12.3%",
+      "observed_link_rate_display": "12.3%",
+      "citywide_rate_eligible": "true",
+      "unlinked_or_unverified_anchor_count": "71",
+      "collection_complete": "false",
+      "rate_status": "잠정치(MCP 일부 오류)"
+    },
+    {
+      "city_id": "jp-hiroshima",
+      "city_name": "히로시마",
+      "official_scope": "공식 관광시설(비관광 시설 필터 후)",
+      "official_asset_count": "28",
+      "mcp_product_count": "20",
+      "confirmed_anchor_count": "4",
+      "detail_pending_anchor_count": "0",
+      "observed_linked_anchor_count": "4",
+      "confirmed_match_rate_pct": "14.3",
+      "observed_link_rate_pct": "14.3",
+      "confirmed_match_rate_display": "14.3%",
+      "observed_link_rate_display": "14.3%",
+      "citywide_rate_eligible": "true",
+      "unlinked_or_unverified_anchor_count": "24",
+      "collection_complete": "false",
+      "rate_status": "잠정치(MCP 일부 오류)"
+    },
+    {
+      "city_id": "jp-kyoto",
+      "city_name": "교토",
+      "official_scope": "공식 관광시설(비관광 시설 필터 후)",
+      "official_asset_count": "292",
+      "mcp_product_count": "49",
+      "confirmed_anchor_count": "0",
+      "detail_pending_anchor_count": "8",
+      "observed_linked_anchor_count": "8",
+      "confirmed_match_rate_pct": "0.0",
+      "observed_link_rate_pct": "2.7",
+      "confirmed_match_rate_display": "0.0%",
+      "observed_link_rate_display": "2.7%",
+      "citywide_rate_eligible": "true",
+      "unlinked_or_unverified_anchor_count": "284",
+      "collection_complete": "false",
+      "rate_status": "잠정치(MCP 일부 오류)"
+    }
+  ]
+}

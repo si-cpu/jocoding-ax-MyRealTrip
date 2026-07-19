@@ -1,6 +1,6 @@
 # Official Tourism Data Filter Report
 
-- Generated at: 2026-07-18T16:14:58+09:00
+- Generated at: 2026-07-19T11:28:11+09:00
 - CSV files inspected: 38
 - Bucket counts: {'rejected_or_later_city': 8, 'needs_review': 20, 'accepted': 7, 'reference': 2, 'secondary': 1}
 - Accepted rows: 1264

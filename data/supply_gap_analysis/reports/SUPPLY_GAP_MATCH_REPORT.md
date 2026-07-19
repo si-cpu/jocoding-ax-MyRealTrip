@@ -1,23 +1,35 @@
 # Supply Gap Match Report
 
-- Generated at: 2026-07-18T21:05:17+09:00
-- Official anchors: 471
-- Primary tourism-asset anchors: 331
+- Generated at: 2026-07-19T11:28:14+09:00
+- Official anchors: 541
+- Primary tourism-asset anchors: 401
 - Partner-candidate anchors excluded from primary scoring: 108
 - MCP products: 283
 - Auto alias anchors used: 37
 - Auto aliases used: 53
-- Direct matches: 36
-- Matched anchors: 12
-- Classification counts: {'MCP 추가 수집 필요': 319, '연결 후보(투어 상세 확인 필요)': 8, '부분 상품화 자산': 3, '검증된 대표 경험': 1}
+- Direct matches: 63
+- Matched anchors: 22
+- Classification counts: {'MCP 추가 수집 필요': 379, '검증된 대표 경험': 6, '부분 상품화 자산': 8, '연결 후보(투어 상세 확인 필요)': 8}
 
 ## By city
 
 | City | Classification counts |
 |---|---|
-| jp-fukuoka | {'MCP 추가 수집 필요': 5} |
-| jp-hiroshima | {'부분 상품화 자산': 3, 'MCP 추가 수집 필요': 25, '검증된 대표 경험': 1} |
-| jp-kyoto | {'연결 후보(투어 상세 확인 필요)': 8, 'MCP 추가 수집 필요': 289} |
+| jp-fukuoka | {'MCP 추가 수집 필요': 71, '검증된 대표 경험': 5, '부분 상품화 자산': 5} |
+| jp-hiroshima | {'부분 상품화 자산': 3, 'MCP 추가 수집 필요': 24, '검증된 대표 경험': 1} |
+| jp-kyoto | {'연결 후보(투어 상세 확인 필요)': 8, 'MCP 추가 수집 필요': 284} |
+
+## City-level coverage
+
+| City | Official scope | Official assets | MCP products | Confirmed | Detail pending | Confirmed match rate | Observed link rate | Status |
+|---|---|---:|---:|---:|---:|---:|---:|---|
+| 후쿠오카 | 후쿠오카시 공식 한국어 관광가이드(비관광·시외 필터 후) | 81 | 180 | 10 | 0 | 12.3% | 12.3% | 잠정치(MCP 일부 오류) |
+| 히로시마 | 공식 관광시설(비관광 시설 필터 후) | 28 | 20 | 4 | 0 | 14.3% | 14.3% | 잠정치(MCP 일부 오류) |
+| 교토 | 공식 관광시설(비관광 시설 필터 후) | 292 | 49 | 0 | 8 | 0.0% | 2.7% | 잠정치(MCP 일부 오류) |
+
+- Confirmed match rate uses only ticket/product-card evidence or positive tour-detail evidence.
+- Observed link rate additionally includes tour-title matches still waiting for itinerary/inclusion confirmation.
+- Rates marked provisional must not be presented as final coverage until city collection errors are cleared.
 
 ## Important interpretation
 

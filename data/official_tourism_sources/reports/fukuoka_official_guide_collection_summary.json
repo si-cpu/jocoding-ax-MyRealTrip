@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-07-19T00:59:37.543524+00:00",
+  "source": "https://yokanavi.com/spots",
+  "korean_source": "https://www.gofukuoka.jp/ko/searches?story%5B%5D=spot",
+  "pages_fetched": 26,
+  "catalog_rows": 468,
+  "official_korean_names": 218,
+  "accepted_rows": 81,
+  "excluded_rows": 387,
+  "accepted_classifications": {
+    "architecture_or_landmark": 7,
+    "art_place": 3,
+    "culture_or_museum": 9,
+    "family_attraction": 6,
+    "heritage_or_religious_site": 34,
+    "nature_or_scenic_place": 16,
+    "visitor_leisure": 6
+  },
+  "excluded_classifications": {
+    "individual_food_business": 2,
+    "lodging": 2,
+    "non_primary_category": 7,
+    "not_published_in_official_korean_guide": 235,
+    "outside_fukuoka_city": 126,
+    "resident_sports_facility": 6,
+    "sports_only": 5,
+    "superseded_duplicate": 1,
+    "transport_or_rental_service": 3
+  },
+  "policy": "Use the complete official sightseeing catalog as the raw universe; exclude places wholly outside Fukuoka City, resident sports facilities, lodging, rental/transport services, individual food businesses and records without a visitor-facing sightseeing category. The primary MRT-comparison denominator is limited to records also published by the official Korean guide; Japanese-only records remain preserved and auditable.",
+  "accepted_file": "data/official_tourism_sources/processed/accepted/fukuoka_official_guide_places.csv",
+  "excluded_file": "data/official_tourism_sources/processed/excluded/fukuoka_official_guide_excluded.csv",
+  "raw_directory": "data/official_tourism_sources/raw/fukuoka_official_guide"
+}
