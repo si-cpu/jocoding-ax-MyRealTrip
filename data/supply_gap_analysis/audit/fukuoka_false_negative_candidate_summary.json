@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-19T11:28:17+09:00",
+  "official_places_scanned": 81,
+  "mcp_products_scanned": 180,
+  "exact_name_candidate_pairs": 8,
+  "disposition_counts": {
+    "dropoff_only": 1,
+    "replaced_itinerary": 2,
+    "option_available": 1,
+    "relation_only": 3,
+    "view_only": 1
+  },
+  "strict_matches_added": 0,
+  "unresolved_candidates": 0,
+  "method_limit": "This gate audits official Japanese/Korean/English names only. Unregistered translations or aliases can still create false negatives."
+}

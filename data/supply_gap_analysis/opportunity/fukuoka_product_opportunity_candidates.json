@@ -1,0 +1,165 @@
+[
+  {
+    "rank": 1,
+    "name": "시카노시마·긴인 공원",
+    "anchor_ids": [
+      "official-fukuoka-guide-27159",
+      "official-fukuoka-guide-26826"
+    ],
+    "opportunity_type": "new_route",
+    "reason": "바다·고대 교류사·해산물이라는 서로 다른 방문 이유가 한 권역에 있고, 기존 우미노나카미치 공급과 연결해 코스를 확장할 수 있다.",
+    "concept": "우미노나카미치 → 시카노시마 → 긴인 공원 → 해산물 → 일몰",
+    "official_places": [
+      {
+        "anchor_id": "official-fukuoka-guide-27159",
+        "name_ja": "志賀島",
+        "name_ko": "시카노시마",
+        "official_url": "https://yokanavi.com/spots/27159"
+      },
+      {
+        "anchor_id": "official-fukuoka-guide-26826",
+        "name_ja": "金印公園",
+        "name_ko": "긴인 공원",
+        "official_url": "https://yokanavi.com/spots/26826"
+      }
+    ],
+    "confirmed_mcp_product_count": 0,
+    "confirmed_product_ids": [],
+    "confirmed_product_titles": [],
+    "demand_status": "unvalidated",
+    "decision_status": "bd_validation_candidate"
+  },
+  {
+    "rank": 2,
+    "name": "ABURAYAMA FUKUOKA",
+    "anchor_ids": [
+      "official-fukuoka-guide-26804"
+    ],
+    "opportunity_type": "new_half_day_product",
+    "reason": "도심 근교에서 자연·목장·식음·어드벤처를 한 번에 구성할 수 있어 가족·커플 반일 상품 가설이 선명하다.",
+    "concept": "도심 왕복 이동 + 목장·자연 체험 + 식음 또는 어드벤처 옵션",
+    "official_places": [
+      {
+        "anchor_id": "official-fukuoka-guide-26804",
+        "name_ja": "ABURAYAMA FUKUOKA",
+        "name_ko": "모모랜드 아부라야마 목장",
+        "official_url": "https://yokanavi.com/spots/26804"
+      }
+    ],
+    "confirmed_mcp_product_count": 0,
+    "confirmed_product_ids": [],
+    "confirmed_product_titles": [],
+    "demand_status": "unvalidated",
+    "decision_status": "bd_validation_candidate"
+  },
+  {
+    "rank": 3,
+    "name": "하카타 전통공예·전통예능",
+    "anchor_ids": [
+      "official-fukuoka-guide-27178",
+      "official-fukuoka-guide-119804"
+    ],
+    "opportunity_type": "partner_experience",
+    "reason": "시설 관람보다 하카타오리·하카타인형·전통공연을 예약 가능한 체험으로 전환할 여지가 있다.",
+    "concept": "구시다신사·하카타 옛 거리 + 공예 체험 + 공연일 지정 전통예능",
+    "official_places": [
+      {
+        "anchor_id": "official-fukuoka-guide-27178",
+        "name_ja": "はかた伝統工芸館（ ※2025年5月2日（金曜日）博多区博多駅前一丁目に移転オープン！）",
+        "name_ko": "하카타 전통공예관 ※2025년 5월 2일(금요일) 하카타구 하카타역 앞 잇쵸메에 이전 오픈!",
+        "official_url": "https://yokanavi.com/spots/27178"
+      },
+      {
+        "anchor_id": "official-fukuoka-guide-119804",
+        "name_ja": "博多伝統芸能館",
+        "name_ko": "하카타 전통 예능관",
+        "official_url": "https://yokanavi.com/spots/119804"
+      }
+    ],
+    "confirmed_mcp_product_count": 0,
+    "confirmed_product_ids": [],
+    "confirmed_product_titles": [],
+    "demand_status": "unvalidated",
+    "decision_status": "bd_validation_candidate"
+  },
+  {
+    "rank": 4,
+    "name": "후쿠오카 장난감 미술관",
+    "anchor_ids": [
+      "official-fukuoka-guide-235901"
+    ],
+    "opportunity_type": "family_experience",
+    "reason": "라라포트 안의 체험형 가족 시설로, 입장과 워크숍을 결합한 부모·아동 상품을 검토할 수 있다.",
+    "concept": "장난감 미술관 입장 + 목육 워크숍 + 라라포트 자유시간",
+    "official_places": [
+      {
+        "anchor_id": "official-fukuoka-guide-235901",
+        "name_ja": "福岡おもちゃ美術館",
+        "name_ko": "후쿠오카 장난감 미술관",
+        "official_url": "https://yokanavi.com/spots/235901"
+      }
+    ],
+    "confirmed_mcp_product_count": 0,
+    "confirmed_product_ids": [],
+    "confirmed_product_titles": [],
+    "demand_status": "unvalidated",
+    "decision_status": "bd_validation_candidate"
+  },
+  {
+    "rank": 5,
+    "name": "후쿠오카시 미술관·쇼후엔",
+    "anchor_ids": [
+      "official-fukuoka-guide-26815",
+      "official-fukuoka-guide-27157"
+    ],
+    "opportunity_type": "quiet_city_theme",
+    "reason": "공급이 확인된 오호리공원 주변을 미술·정원·다도 테마로 확장해 도심의 조용한 대안을 만들 수 있다.",
+    "concept": "오호리공원 → 후쿠오카시 미술관 → 쇼후엔 정원·다도",
+    "official_places": [
+      {
+        "anchor_id": "official-fukuoka-guide-26815",
+        "name_ja": "福岡市美術館",
+        "name_ko": "후쿠오카시 미술관",
+        "official_url": "https://yokanavi.com/spots/26815"
+      },
+      {
+        "anchor_id": "official-fukuoka-guide-27157",
+        "name_ja": "松風園",
+        "name_ko": "쇼후엔",
+        "official_url": "https://yokanavi.com/spots/27157"
+      }
+    ],
+    "confirmed_mcp_product_count": 0,
+    "confirmed_product_ids": [],
+    "confirmed_product_titles": [],
+    "demand_status": "unvalidated",
+    "decision_status": "bd_validation_candidate"
+  },
+  {
+    "rank": 6,
+    "name": "노코노시마",
+    "anchor_ids": [
+      "official-fukuoka-guide-26970"
+    ],
+    "opportunity_type": "expand_existing_supply",
+    "reason": "실제 방문 투어가 확인됐지만 현재 연결 상품이 1개뿐이라 신규 발굴이 아니라 공급 확대 후보로 분류한다.",
+    "concept": "계절 꽃·섬 체류 시간을 명시한 정규 소그룹 또는 페리 결합 상품",
+    "official_places": [
+      {
+        "anchor_id": "official-fukuoka-guide-26970",
+        "name_ja": "能古島",
+        "name_ko": "노코노시마 섬",
+        "official_url": "https://yokanavi.com/spots/26970"
+      }
+    ],
+    "confirmed_mcp_product_count": 1,
+    "confirmed_product_ids": [
+      "3885537"
+    ],
+    "confirmed_product_titles": [
+      "<후쿠오카/유후인/벳푸> VIP프라이빗 맞춤 투어 [여행자보증보험가입업체]"
+    ],
+    "demand_status": "unvalidated",
+    "decision_status": "existing_supply_expansion"
+  }
+]

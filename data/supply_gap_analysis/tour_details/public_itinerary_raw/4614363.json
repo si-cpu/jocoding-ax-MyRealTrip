@@ -1,0 +1,52 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 16941,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "10:00 ▼시라이트 폭포 (자유 시간)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/31/Z1Ap/erYGXDMu4S.jpg",
+          "duration": "30분 소요"
+        },
+        {
+          "title": "11:00 ▼라이잔 센뉴지 다이히오인 (자유 시간, 입장료 별도)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/31/nCc3/cBAkSyyaWT.jpg",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "12:20 ▼코코넛나무 그네",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/31/88sY/Xeryp0SGsC.jpg",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "13:10  ▼사쿠라이 후타미가우라 부부 바위 (桜井二見浦 夫婦岩)(점심 시간 포함)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/31/VlbR/VPieB77TjO.jpg",
+          "duration": "1시간 40분 소요"
+        },
+        {
+          "title": "15:20 ▼게야노오토(芥屋の大門)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/31/mHBS/71zq7jYwz1.jpg",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "16:40 ▼후쿠오카 타워 & 해변 공원(자유 시간, 입장료 별도)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/31/8c9X/E7PvGzo9Vl.jpg",
+          "duration": "50분 소요"
+        },
+        {
+          "title": "18:00 후쿠오카 로손 오리엔탈 호텔 후쿠오카점 앞에 도착하여 오늘의 일정을 즐겁게 마치세요!",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

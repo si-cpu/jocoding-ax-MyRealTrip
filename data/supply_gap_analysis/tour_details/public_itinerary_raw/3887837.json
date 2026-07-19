@@ -1,0 +1,23 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 12957,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "✨이토시마 ",
+          "description": "09：00　🔔출발합니다.   🎶정해진 코스를 이동하면서도 아름다운 곳을 보며 갑니다. \r\n10：00    사쿠라이 후타이 가우라 해변일대 - 팜비치,카페체험등\r\n11 ：00    런던버스,  토토로의 숲,등 일대\r\n11 ：40    소금공방 톳탄 일대 관람",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/158323/248656_original_1720580440.jpg?1720580440",
+          "duration": "540분 소요"
+        },
+        {
+          "title": "✨카라츠...",
+          "description": "13：00    하토마사키  도착,점심식사 （￥900～￥3500）\n13：00하토마사키 등대, 해변 일대 관광\n14：00    나나츠 가마국정공원\n15：20    카라츠성\n16：10     니지노마츠바라 （소나무 숲）\n16：30   후쿠오카로 이동\n18：00   후쿠오카 도착",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/158323/248657_original_1720580440.jpg?1720580440"
+        }
+      ]
+    }
+  ]
+}

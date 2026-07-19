@@ -1,0 +1,57 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 27659,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "08：30 ▼후쿠오카 하카타역 출발（버스 출발 10분전까지 도착 부탁드립니다. ）",
+          "description": "Easygo깃발을 들고 오렌지색 조끼를 착용한 가이드가 현장에서 대기하고 있습니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/rq8D/C9ylvlqwRK.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905711,
+              "lng": 130.4218021
+            },
+            "label": "4-23 Hakataekichūōgai"
+          }
+        },
+        {
+          "title": "09:00 ▼다자이후 (텐만구)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/Y0L5/PqIWzmooH5.jpg",
+          "duration": "1시간 20분 소요"
+        },
+        {
+          "title": "12:00▼유후인",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/fgvj/TGgourskSa.jpg",
+          "duration": "2시간 소요"
+        },
+        {
+          "title": "14:30▼벳푸 로프웨이",
+          "description": "※ 로프웨이 이용 요금은 별도이며, 현금 결제만 가능합니다. 💴\n원활한 이용을 위해 미리 충분한 현금을 준비해 주시기 바랍니다. 😊\n원활한 일정 진행을 위해 고객님의 협조 부탁드립니다.\n\n※ 또한 기상 악화로 로프웨이 탑승이 불가할 경우,\n일정은 ‘해지옥(우미 지고쿠)’으로 변경됩니다. 🌊\n\n👉 해지옥 입장료는 고객님 현장 개별 부담(자비) 입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/dqy9/kEjvPLufhD.jpg",
+          "duration": "1시간 소요"
+        },
+        {
+          "title": "📢벳푸 로프웨이는 시설 점검으로 인해\n2026년 6월 22일 ~ 7월 17일 기간 동안 운행이 중단됩니다.\n이에 따라 해당 기간 동안의 오이타 코스 일정은 아래와 같이 변경됩니다.",
+          "description": "14:30~15:30 우미 지고쿠 (약 60분) 🌊 ※입장료 고객 개별 부담",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/3KP7/SRFHOtJSzS.jpg"
+        },
+        {
+          "title": "15：50▼가마도 지옥",
+          "description": "입장권이 포함되어 있으며 🎫\n모든 고객님께 온천 달걀 + 일본 대표 탄산음료 ‘라무네(Ramune)’를 특별 증정해 드립니다 🥚🥤",
+          "duration": "30분 소요"
+        },
+        {
+          "title": "18:30 ▼하카타역 치쿠시구치 도착",
+          "description": "당일 날씨 및 교통 상황에 따라 도착 시간이 변동될 수 있습니다.\n원활한 일정 진행을 위해 당일 항공편 탑승 또는 기타 중요한 일정(비행기, 열차 등)은 가급적 배정하지 않도록 부탁드립니다.\n\n또한 일정 지연 또는 변경으로 인해 발생하는 개인 일정상의 영향에 대해서는 당사에서 책임지지 않으니 이 점 양해 부탁드립니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/7U1Z/9RM9WTQ0PD.jpg"
+        }
+      ]
+    }
+  ]
+}

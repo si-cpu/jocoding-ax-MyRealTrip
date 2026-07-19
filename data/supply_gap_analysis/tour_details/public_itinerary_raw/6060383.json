@@ -1,0 +1,53 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 27655,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "08：00 ▼후쿠오카 하카타역 출발（버스 출발 10분전까지 도착 부탁드립니다. ）",
+          "description": "Easygo깃발을 들고 오렌지색 조끼를 착용한 가이드가 현장에서 대기하고 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/d0Iq/KVPTzPB1RC.jpg",
+          "duration": "10시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905711,
+              "lng": 130.4218021
+            },
+            "label": "4-23 Hakataekichūōgai"
+          }
+        },
+        {
+          "title": "10：20 ▼가미시키미 쿠마노이마스 신사",
+          "description": "‘신에게 가장 가까운 숲속 신사’로 불리는 가미시키미 쿠마노이마스 신사✨\n이끼로 뒤덮인 석등길과 신비로운 안개 풍경으로 유명하며, 인기 애니메이션의 배경지로도 알려진 감성 명소입니다.\n\n소원 성취와 힐링 파워스팟으로 사랑받는 다카치호 필수 여행지!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/qauw/jLoNAFB6gc.jpg",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "11：50 ▼ 타카치호 계곡",
+          "description": "에메랄드빛 절벽과 폭포가 어우러진 다카치호 협곡✨\n보트를 타고 협곡 사이를 천천히 둘러보며 일본 자연이 만들어낸 환상적인 절경을 가까이에서 감상할 수 있습니다.\n\n또한 점심 포함 옵션 선택 고객께는 현지 특색 소고기 정식을 제공합니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/gQUh/QJZXieX0za.jpg",
+          "duration": "1시간 50분 소요"
+        },
+        {
+          "title": "식사 포함 옵션: 현지 특산 소고기 정식 제공",
+          "description": "📌 안내 말씀드립니다\n\n고객님께서 식사 옵션을 선택하실 경우, 일정상 다카치호 협곡 카누(보트) 체험 예약 시간이 부족할 수 있습니다.\n\n따라서 다카치호 협곡 보트 체험을 예약하신 고객님께서는 식사 미포함 옵션 선택을 권장드립니다. 😊",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/cQis/wXJIQbcuJ8.jpg"
+        },
+        {
+          "title": "14：00▼아마노이와토 신사 & 아마노야스가와라",
+          "description": "일본 신화 속 아마테라스 오오카미 전설이 깃든 아마노이와토 신사✨\n신비로운 동굴과 울창한 숲길이 어우러져 신성하고 고요한 분위기를 느낄 수 있는 다카치호 대표 파워스팟입니다.\n\n강가를 따라 이어지는 아마노야스가와라도 함께 둘러보며 특별한 힐링 시간을 만나보세요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/9PyJ/rVZpFaH0hQ.jpg",
+          "duration": "1시간 소요"
+        },
+        {
+          "title": "18:00▼하카타역 치쿠시구치 도착",
+          "description": "당일 날씨 및 교통 상황에 따라 도착 시간이 변동될 수 있습니다.\n원활한 일정 진행을 위해 당일 항공편 탑승 또는 기타 중요한 일정(비행기, 열차 등)은 가급적 배정하지 않도록 부탁드립니다.\n\n또한 일정 지연 또는 변경으로 인해 발생하는 개인 일정상의 영향에 대해서는 당사에서 책임지지 않으니 이 점 양해 부탁드립니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/23/rWLw/kWW0f8bqVo.jpg"
+        }
+      ]
+    }
+  ]
+}

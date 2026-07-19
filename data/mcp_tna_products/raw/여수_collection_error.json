@@ -1,0 +1,9 @@
+{
+  "city": "여수",
+  "category_count": 0,
+  "selected_categories": [],
+  "raw_product_rows": 0,
+  "deduped_product_rows": 0,
+  "city_match_status": {},
+  "error": "HTTP Error 429: Too Many Requests"
+}

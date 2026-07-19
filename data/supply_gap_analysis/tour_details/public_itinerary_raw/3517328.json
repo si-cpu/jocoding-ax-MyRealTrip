@@ -1,0 +1,36 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 5236,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "다자이후",
+          "description": "학문의 신 스가와라노미치자네를 모시고 있는 다자이후 텐만구는 자녀의 학업 성취를 기원하는 부모님들의 발길이 끊이지 않는 곳입니다. 넓은 경내에는 매화나무, 녹나무등 아름다운 꽃이 계절마다 색다른 분위기를 연출하고 있습니다. 여기에는 스가와라의 유체를 싣고 고향(교토)향하던 우마차가 갑자기 멈춰서 움직이지 않았다는 전설이 있습니다. 소의 동상과 연못에 아름답습니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/55053/116987_original_1553852494.jpg?1553852494",
+          "duration": "70분 소요"
+        },
+        {
+          "title": "유후인",
+          "description": "유후인에 오면 동화속으로 들어가는 느낌이 듭니다. 특히 긴린코 호수가 그렇습니다. 기온차가  심한 아침이면 물안개가 피어올라 동화속의 분위기를 만드는데 이 때문인지 일본 젊은이들 사이에 프러포즈 하기 좋은 곳으로 손꼽히곤 합니다. 긴린코 호수 작품과 신의 자연을 비교할 수 있는 좋은 기회로 젊은 여성이 혼자서도 안심하고 방문할 수 있는 관광지입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/55053/116989_original_1553853040.jpg?1553853040",
+          "duration": "160분 소요"
+        },
+        {
+          "title": "유후다케",
+          "description": "유후인의 전경을 조망할 수 있는 전망대가 있으며 아름다운 풍경을 자랑합니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/55053/116990_original_1553852496.jpg?1553852496",
+          "duration": "20분 소요"
+        },
+        {
+          "title": "벳부 가마도지옥",
+          "description": "지옥순례란 벳부의 대표적인 온천 8개를 돌아보는 것을 말합니다. 이 곳에선 비교적 여러 형태의 ‘지옥’을 볼 수 있습니다. ‘가마도’란 이 지역 수호신 카마도 하치만쿠의 제사 때 이 온천에서 나오는 90도의 증기를 이용해 밥을 한 것에서 유래되었습니다. 이곳에는 바위틈으로 100도의 뜨거운 수중기를 내 뿜는 부뚜막 지옥, 스님 머리를 닮았다고 하는 스님지옥을 볼 수 있습니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/55053/199138_original_1678173913.jpg?1678173913",
+          "duration": "40분 소요"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "generated_at": "2026-07-18T15:54:53+0900",
+  "success_count": 6,
+  "failure_count": 26,
+  "successes": [
+    {
+      "city": "Japan",
+      "source_key": "digital_agency_pref_open_data_list",
+      "dataset_name": "Digital Agency prefecture open-data list",
+      "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/2b1128e2-c699-4aa0-9206-37169a6697c8/7192f365/20260228_resources_opendata_lg_pref_list_02.csv",
+      "priority": "A2",
+      "path": "data/official_tourism_sources/raw/digital_agency_pref_open_data_list.csv",
+      "bytes": 29177,
+      "row_count": 47,
+      "content_type": "text/csv",
+      "note": "Find prefectural open-data portals."
+    },
+    {
+      "city": "Japan",
+      "source_key": "digital_agency_municipality_open_data_list",
+      "dataset_name": "Digital Agency municipality open-data list",
+      "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/2b1128e2-c699-4aa0-9206-37169a6697c8/821f1348/20260228_resources_opendata_lg_mani_list_03.csv",
+      "priority": "A2",
+      "path": "data/official_tourism_sources/raw/digital_agency_municipality_open_data_list.csv",
+      "bytes": 723377,
+      "row_count": 1558,
+      "content_type": "text/csv",
+      "note": "Find municipal open-data portals."
+    },
+    {
+      "city": "Tokyo",
+      "source_key": "tokyo_tourist_spot_parameter_survey",
+      "dataset_name": "Tokyo tourist spot parameter survey: tourist spot visitor results",
+      "url": "https://www.opendata.metro.tokyo.lg.jp/sangyouroudou/tourist_number_survey/R6tourist_number_survey_1.csv",
+      "priority": "A3",
+      "path": "data/official_tourism_sources/raw/tokyo_tourist_spot_parameter_survey.csv",
+      "bytes": 185,
+      "row_count": 2,
+      "content_type": "text/csv",
+      "note": "Tokyo Metropolitan Government open-data CSV for tourist spot visitor survey; official place anchors with demand signal."
+    },
+    {
+      "city": "Hiroshima",
+      "source_key": "hiroshima_tourism_facilities",
+      "dataset_name": "Hiroshima open data: tourism facilities",
+      "url": "https://hiroshima-opendata.dataeye.jp/resource_download/9858",
+      "priority": "A6",
+      "path": "data/official_tourism_sources/raw/hiroshima_tourism_facilities.csv",
+      "bytes": 22432,
+      "row_count": 33,
+      "content_type": "text/csv; charset=utf-8",
+      "note": "Official Hiroshima tourism open-data resource linked from Hiroshima city page."
+    },
+    {
+      "city": "Hiroshima",
+      "source_key": "hiroshima_events",
+      "dataset_name": "Hiroshima open data: events",
+      "url": "https://hiroshima-opendata.dataeye.jp/resource_download/9846",
+      "priority": "A6",
+      "path": "data/official_tourism_sources/raw/hiroshima_events.csv",
+      "bytes": 25801,
+      "row_count": 32,
+      "content_type": "text/csv; charset=utf-8",
+      "note": "Official Hiroshima event open-data resource linked from Hiroshima city page."
+    },
+    {
+      "city": "Hiroshima",
+      "source_key": "hiroshima_public_wifi",
+      "dataset_name": "Hiroshima open data: public Wi-Fi access points",
+      "url": "https://hiroshima-opendata.dataeye.jp/resource_download/9855",
+      "priority": "C",
+      "path": "data/official_tourism_sources/raw/hiroshima_public_wifi.csv",
+      "bytes": 98124,
+      "row_count": 451,
+      "content_type": "text/csv; charset=utf-8",
+      "note": "Official Hiroshima public Wi-Fi resource; collected as secondary data, not tourism anchor by default."
+    }
+  ],
+  "failures": [
+    {
+      "city": "Kyoto",
+      "source_key": "failed_catalog_Kyoto_",
+      "dataset_name": "FAILED CKAN search: 京都府 観光施設一覧",
+      "url": "https://data.bodik.jp/api/3/action/package_search?q=%E4%BA%AC%E9%83%BD%E5%BA%9C%20%E8%A6%B3%E5%85%89%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7",
+      "priority": "A3",
+      "status": "catalog_failed",
+      "reason": "Kyoto Prefecture tourism facility dataset via BODIK/CKAN. Error: HTTP Error 403: Forbidden"
+    },
+    {
+      "city": "Kyoto",
+      "source_key": "failed_catalog_Kyoto_260002_kankou_shisetsu",
+      "dataset_name": "FAILED CKAN search: 260002_kankou_shisetsu",
+      "url": "https://data.bodik.jp/api/3/action/package_search?q=260002_kankou_shisetsu",
+      "priority": "A3",
+      "status": "catalog_failed",
+      "reason": "Kyoto Prefecture tourism facility dataset via BODIK/CKAN. Error: HTTP Error 403: Forbidden"
+    },
+    {
+      "city": "Kyoto",
+      "source_key": "failed_catalog_Kyoto_",
+      "dataset_name": "FAILED CKAN search: 観光施設 京都府",
+      "url": "https://data.bodik.jp/api/3/action/package_search?q=%E8%A6%B3%E5%85%89%E6%96%BD%E8%A8%AD%20%E4%BA%AC%E9%83%BD%E5%BA%9C",
+      "priority": "A3",
+      "status": "catalog_failed",
+      "reason": "Kyoto Prefecture tourism facility dataset via BODIK/CKAN. Error: HTTP Error 403: Forbidden"
+    },
+    {
+      "city": "Fukuoka",
+      "source_key": "failed_catalog_Fukuoka_",
+      "dataset_name": "FAILED CKAN search: 屋台",
+      "url": "https://data.bodik.jp/api/3/action/package_search?q=%E5%B1%8B%E5%8F%B0",
+      "priority": "A4/A5",
+      "status": "catalog_failed",
+      "reason": "Fukuoka city BODIK/CKAN catalog. Error: HTTP Error 403: Forbidden"
+    },
+    {
+      "city": "Fukuoka",
+      "source_key": "failed_catalog_Fukuoka_",
+      "dataset_name": "FAILED CKAN search: 観光",
+      "url": "https://data.bodik.jp/api/3/action/package_search?q=%E8%A6%B3%E5%85%89",
+      "priority": "A4/A5",
+      "status": "catalog_failed",
+      "reason": "Fukuoka city BODIK/CKAN catalog. Error: HTTP Error 403: Forbidden"
+    },
+    {
+      "city": "Fukuoka",
+      "source_key": "failed_catalog_Fukuoka_",
+      "dataset_name": "FAILED CKAN search: 文化財",
+      "url": "https://data.bodik.jp/api/3/action/package_search?q=%E6%96%87%E5%8C%96%E8%B2%A1",
+      "priority": "A4/A5",
+      "status": "catalog_failed",
+      "reason": "Fukuoka city BODIK/CKAN catalog. Error: HTTP Error 403: Forbidden"
+    },
+    {
+      "city": "Fukuoka",
+      "source_key": "failed_catalog_Fukuoka_",
+      "dataset_name": "FAILED CKAN search: イベント",
+      "url": "https://data.bodik.jp/api/3/action/package_search?q=%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88",
+      "priority": "A4/A5",
+      "status": "catalog_failed",
+      "reason": "Fukuoka city BODIK/CKAN catalog. Error: HTTP Error 403: Forbidden"
+    },
+    {
+      "city": "Fukuoka",
+      "source_key": "failed_catalog_Fukuoka_",
+      "dataset_name": "FAILED CKAN search: 地域の魅力",
+      "url": "https://data.bodik.jp/api/3/action/package_search?q=%E5%9C%B0%E5%9F%9F%E3%81%AE%E9%AD%85%E5%8A%9B",
+      "priority": "A4/A5",
+      "status": "catalog_failed",
+      "reason": "Fukuoka city BODIK/CKAN catalog. Error: HTTP Error 403: Forbidden"
+    },
+    {
+      "city": "Hiroshima",
+      "source_key": "failed_catalog_Hiroshima_",
+      "dataset_name": "FAILED CKAN search: 観光施設",
+      "url": "https://hiroshima-city.dataeye.jp/api/3/action/package_search?q=%E8%A6%B3%E5%85%89%E6%96%BD%E8%A8%AD",
+      "priority": "A6",
+      "status": "catalog_failed",
+      "reason": "Candidate Hiroshima open-data CKAN endpoint. Error: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "city": "Hiroshima",
+      "source_key": "failed_catalog_Hiroshima_",
+      "dataset_name": "FAILED CKAN search: イベント",
+      "url": "https://hiroshima-city.dataeye.jp/api/3/action/package_search?q=%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88",
+      "priority": "A6",
+      "status": "catalog_failed",
+      "reason": "Candidate Hiroshima open-data CKAN endpoint. Error: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "city": "Hiroshima",
+      "source_key": "failed_catalog_Hiroshima_",
+      "dataset_name": "FAILED CKAN search: 文化財",
+      "url": "https://hiroshima-city.dataeye.jp/api/3/action/package_search?q=%E6%96%87%E5%8C%96%E8%B2%A1",
+      "priority": "A6",
+      "status": "catalog_failed",
+      "reason": "Candidate Hiroshima open-data CKAN endpoint. Error: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "city": "Hiroshima",
+      "source_key": "failed_catalog_Hiroshima_",
+      "dataset_name": "FAILED CKAN search: 観光",
+      "url": "https://hiroshima-city.dataeye.jp/api/3/action/package_search?q=%E8%A6%B3%E5%85%89",
+      "priority": "A6",
+      "status": "catalog_failed",
+      "reason": "Candidate Hiroshima open-data CKAN endpoint. Error: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "city": "Hiroshima",
+      "source_key": "failed_catalog_Hiroshima_",
+      "dataset_name": "FAILED CKAN search: 観光施設",
+      "url": "https://www.city.hiroshima.lg.jp/api/3/action/package_search?q=%E8%A6%B3%E5%85%89%E6%96%BD%E8%A8%AD",
+      "priority": "A6",
+      "status": "catalog_failed",
+      "reason": "Fallback if official site exposes CKAN-compatible endpoint. Error: HTTP Error 404: Not Found"
+    },
+    {
+      "city": "Hiroshima",
+      "source_key": "failed_catalog_Hiroshima_",
+      "dataset_name": "FAILED CKAN search: イベント",
+      "url": "https://www.city.hiroshima.lg.jp/api/3/action/package_search?q=%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88",
+      "priority": "A6",
+      "status": "catalog_failed",
+      "reason": "Fallback if official site exposes CKAN-compatible endpoint. Error: HTTP Error 404: Not Found"
+    },
+    {
+      "city": "Hiroshima",
+      "source_key": "failed_catalog_Hiroshima_",
+      "dataset_name": "FAILED CKAN search: 文化財",
+      "url": "https://www.city.hiroshima.lg.jp/api/3/action/package_search?q=%E6%96%87%E5%8C%96%E8%B2%A1",
+      "priority": "A6",
+      "status": "catalog_failed",
+      "reason": "Fallback if official site exposes CKAN-compatible endpoint. Error: HTTP Error 404: Not Found"
+    },
+    {
+      "city": "Hiroshima",
+      "source_key": "failed_catalog_Hiroshima_",
+      "dataset_name": "FAILED CKAN search: 観光",
+      "url": "https://www.city.hiroshima.lg.jp/api/3/action/package_search?q=%E8%A6%B3%E5%85%89",
+      "priority": "A6",
+      "status": "catalog_failed",
+      "reason": "Fallback if official site exposes CKAN-compatible endpoint. Error: HTTP Error 404: Not Found"
+    },
+    {
+      "city": "Osaka",
+      "source_key": "osaka_mapnavi_culture_tourism",
+      "dataset_name": "Map Navi Osaka facility points: culture/tourism",
+      "url": "https://www.mapnavi.city.osaka.lg.jp/osakacity/osakacity/opendatafile/map_1/CSV/opendata_1005.csv",
+      "priority": "A3",
+      "status": "download_failed",
+      "reason": "<urlopen error timed out>",
+      "note": "Culture/tourism facilities."
+    },
+    {
+      "city": "Osaka",
+      "source_key": "osaka_mapnavi_historic_sites",
+      "dataset_name": "Map Navi Osaka facility points: famous/historic sites",
+      "url": "https://www.mapnavi.city.osaka.lg.jp/osakacity/osakacity/opendatafile/map_1/CSV/opendata_1008.csv",
+      "priority": "A3",
+      "status": "download_failed",
+      "reason": "<urlopen error timed out>",
+      "note": "Shrines, temples, famous places, historic sites."
+    },
+    {
+      "city": "Osaka",
+      "source_key": "osaka_mapnavi_parks_sports",
+      "dataset_name": "Map Navi Osaka facility points: parks/sports",
+      "url": "https://www.mapnavi.city.osaka.lg.jp/osakacity/osakacity/opendatafile/map_1/CSV/opendata_1003.csv",
+      "priority": "A3",
+      "status": "download_failed",
+      "reason": "<urlopen error timed out>",
+      "note": "Parks and sports facilities; useful as secondary official assets."
+    },
+    {
+      "city": "Fukuoka",
+      "source_key": "fukuoka_yatai_basic_info",
+      "dataset_name": "Fukuoka open data: yatai basic information",
+      "url": "https://data.bodik.jp/dataset/87ff2527-7486-42de-84c4-bc21e352d456/resource/328edbc1-6967-4d0a-8f6d-6678420f4fe2/download/20260703_yatai_opendata_r2.csv",
+      "priority": "A4",
+      "status": "download_failed",
+      "reason": "HTTP Error 403: Forbidden",
+      "note": "Official Fukuoka yatai basic information dataset; found via data.bodik.jp CKAN."
+    },
+    {
+      "city": "Seoul",
+      "source_key": "seoul_open_data_tourist_spots",
+      "need": "Find Seoul-wide official tourist spot/open-data resource. District-only sources such as Mapo-gu tourist boundary CSV should be isolated from Seoul-wide analysis.",
+      "reason": "Need city-wide official source or explicitly district-scoped analysis.",
+      "priority": "B1",
+      "status": "manual_lookup_needed"
+    },
+    {
+      "city": "Busan",
+      "source_key": "busan_tourism_lod",
+      "need": "Evaluate Busan film/culture/tourism LOD TTL from data.go.kr and extract tourism-place triples if downloadable without login.",
+      "reason": "LOD/TTL parser needed; not a simple CSV primary anchor yet.",
+      "priority": "B1",
+      "status": "manual_lookup_needed"
+    },
+    {
+      "city": "Yeosu",
+      "source_key": "yeosu_tourism_info",
+      "need": "Use data.go.kr Yeosu tourism information file/API candidate if downloadable or with service key.",
+      "reason": "Public Data Portal resource found; may require portal download/API handling.",
+      "priority": "B1",
+      "status": "manual_lookup_needed"
+    },
+    {
+      "city": "Daejeon",
+      "source_key": "daejeon_major_tourist_visitors",
+      "need": "Use data.go.kr Daejeon major tourist spot visitor status if downloadable or with service key.",
+      "reason": "Public Data Portal resource found; good demand-signal anchor candidate but may be annual/old and API-converted.",
+      "priority": "B1",
+      "status": "manual_lookup_needed"
+    },
+    {
+      "city": "Nara",
+      "source_key": "nara_official_tourism_assets",
+      "need": "Find Nara prefecture/city official open-data resources for tourist facilities, events, cultural properties.",
+      "reason": "No verified direct resource URL yet.",
+      "priority": "B1",
+      "status": "manual_lookup_needed"
+    },
+    {
+      "city": "Beppu/Yufuin",
+      "source_key": "oita_beppu_yufu_official_tourism_assets",
+      "need": "Find Oita/Beppu/Yufu official open-data resources for onsen, tourist facilities, events.",
+      "reason": "No verified direct resource URL yet.",
+      "priority": "B2",
+      "status": "manual_lookup_needed"
+    }
+  ]
+}

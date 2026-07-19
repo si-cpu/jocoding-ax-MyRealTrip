@@ -1,0 +1,56 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 190,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "출발, 만남",
+          "description": "만나는 장소는 일본 후쿠오카 하카타 역 오리엔탈 호텔 앞 로손 편의점입니다.\n\n후쿠오카 하카타 역 오리엔탈 호텔 앞에 있는 로손 편의점 앞에서 여행 당일 오전 8시 정각부터 오전 8시 15분까지 여행자 분과 만남을 시작합니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/06/CsgN/Hvl7p5L5jz.jpg"
+        },
+        {
+          "title": "첫 번째 여행지 중 하나, 아리타 포세린 파크",
+          "description": "아리타 도자기를 주제로 한 유럽풍 테마파크입니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/12/1yVB/26haYYWrlJ.png",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "첫 번째 여행지 중 둘, 츠빙거 궁전",
+          "description": "독일 작센 선제후이자 폴란드 왕이었던 아우구스트 왕에 의해 1709년 23년의 세월에 걸쳐 지금의 드레스덴시에 세워진 츠빙거 궁전을 모델로 한 건물입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/12/fq2p/Z5dzF6XCwg.png",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "첫 번째 여행지 중 셋, 바로크 정원",
+          "description": "츠빙거 궁전의 중앙 입구를 지나면 사계절 선명한 꽃들과 함께 광활한 바로크 정원이 펼쳐집니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/12/VNXy/MvWB5Q9QBL.png",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "하우스텐보스 (경유지)",
+          "description": "일본의 대표적인 테마파크 중 하나로, 여행 한 그릇에서 하우스텐보스 경유를 처음으로 시작하게 되었습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/12/noPf/ELUaFbZqcv.png"
+        },
+        {
+          "title": "두 번째 여행지, 나가사키",
+          "description": "나가사키 여행지에는 차이나타운, 수변공원, 현 미술관, 글로버 가든, 노면전차 등 다양한 관광지가 있어 자유롭게 여행을 즐기시면 됩니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/12/HRiy/Y0lJzOacy9.png",
+          "duration": "4시간 소요"
+        },
+        {
+          "title": "하우스텐보스 (경유지)",
+          "description": "하우스텐보스에서 일정을 보내고자 하시는 분들을 위하여 여행 한 그릇에서 하우스텐보스 경유를 시작하게 되었습니다.\n하차하셨던 장소에서 승차하실 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/06/sasF/8Ygd3MKD4s.jpg"
+        },
+        {
+          "title": "도착",
+          "description": "여행 한 그릇과 여행하시는 당일 오후 7시 50분 경에 탑승하신 곳과 동일한 하카타 역 오리엔탈 호텔 앞 로손 편의점에 내리시게 되십니다.\n\n도착지로 돌아오시는 길에 여행 한 그릇의 여행 안내원이 여행에 대한 여러가지 정보 등을 알려드릴 예정입니다.\n그리고 한 분 한 분 질문을 받으며 최선을 다해 만족스러운 여행 할 수 있도록 도움을 드릴 예정입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/06/eMtV/wmu4zGVDhL.jpg"
+        }
+      ]
+    }
+  ]
+}

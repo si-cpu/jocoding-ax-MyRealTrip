@@ -1,0 +1,13 @@
+{
+  "city": "Fukuoka",
+  "source_key": "Fukuoka___46201_bunkazai_r050101_3611454e-6d15-48c6-8f34-69e01226340e",
+  "dataset_name": "文化財一覧 / 市内にある指定文化財および登録文化財データ（csv）",
+  "url": "https://data.bodik.jp/dataset/3b909719-36fd-45aa-ad0b-1eccb218dc22/resource/3611454e-6d15-48c6-8f34-69e01226340e/download/5-3_bunkazai_r060401-.csv",
+  "expected_kind": "csv",
+  "priority": "A4/A5",
+  "note": "CKAN search query=文化財; package=46201_bunkazai_r050101",
+  "saved_path": "data/official_tourism_sources/raw/Fukuoka___46201_bunkazai_r050101_3611454e-6d15-48c6-8f34-69e01226340e.csv",
+  "bytes": 14098,
+  "content_type": "text/csv",
+  "downloaded_at": "2026-07-18T12:01:40+0900"
+}

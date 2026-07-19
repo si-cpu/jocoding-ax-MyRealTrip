@@ -1,0 +1,40 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 28353,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "08:30 후쿠오카 집합 및 출발",
+          "description": "집합 장소는 로손 오리엔탈 호텔 후쿠오카점, 하카타역 지쿠시구치 근처입니다.\n주소는 4-23 Hakataekichuogai, Hakata Ward, Fukuoka, 812-0012 Japan."
+        },
+        {
+          "title": "10:30 우미지고쿠 자유 관광",
+          "description": ""
+        },
+        {
+          "title": "11:15 가마도지고쿠 자유 관광",
+          "description": ""
+        },
+        {
+          "title": "12:25 규슈 자연동물공원 자유 관광",
+          "description": ""
+        },
+        {
+          "title": "14:30 유후인 마을 자유 관광",
+          "description": ""
+        },
+        {
+          "title": "16:50 후쿠오카로 귀환 출발",
+          "description": ""
+        },
+        {
+          "title": "18:30 후쿠오카 도착 후 투어 종료",
+          "description": "하차 장소는 로손 하카타역 지쿠시구치점입니다.\n주소는 2 Chome-2-2 Hakataekihigashi, Hakata Ward, Fukuoka, 812-0013 Japan."
+        }
+      ]
+    }
+  ]
+}

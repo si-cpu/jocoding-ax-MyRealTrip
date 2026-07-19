@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "searchParams": {
+    "query": "후쿠오카",
+    "page": 15,
+    "perPage": 20,
+    "category": "tour"
+  },
+  "pagination": {
+    "currentPage": 15,
+    "hasNextPage": false,
+    "totalCount": 0,
+    "itemsInThisPage": 0
+  },
+  "products": []
+}

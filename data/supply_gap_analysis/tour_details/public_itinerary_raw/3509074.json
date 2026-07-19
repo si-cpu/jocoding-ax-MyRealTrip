@@ -1,0 +1,111 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 3214,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "[첫째날] 후쿠오카 공항 픽업",
+          "description": "* 첫날이라 무리하지 않는 일정으로 시작됩니다~\r\n그러나~ 일정을 좀더 원하시면 현지에서 상황에 맞춰 무리하지 않는 일정으로 추가도 가능합니다~ ^^\r\n쇼핑을 원하시는 경우도 적합한 곳에서 쇼핑을 하실수 있도록 안내해 드립니다^^",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29638_original_1525851390.jpg?1525851390"
+        },
+        {
+          "title": "[첫째날] 오호리공원 관광 ",
+          "description": "후쿠오카성의 영주였던 쿠로다 나가마사가 후쿠오카 성을 축성할 당시 성을 보호할 목적으로 성벽 둘레에 판 구덩이 (오호리)라 하여 그 이름이 유래가 되어 지금의 오호리공원의 이름이 지어지게 되었습니다~ \r\n1929년개장을 시작한 오호리 공원은 일본에서 손꼽히는 물의 공원으로 여름에는 불꽃놀이가 가장 볼만한 곳이며 시민 휴식터로서 널리 사랑받고 있는 곳입니다~",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29495_original_1525851528.jpg?1525851528",
+          "duration": "30분 소요"
+        },
+        {
+          "title": "[첫째날]점심",
+          "description": "1.우동/2.오므라이스/3.일정식(중에서)\r\n*식사 예산(1,500엔~2,500엔/1인)",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29500_original_1525851524.jpg?1525851524",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "[첫째날] 유후인",
+          "description": "* 이동(1시간30분) ~ 도착후 관광(2시간)\r\n\r\n오이타현 중부에 위치한 유후인은 분지를 중심으로 펼쳐져 마을이 형성되어 있습니다~ \r\n1584미터 유후산아래에 자리한 긴린코호수는 유후인의 심볼적인 곳이기도 합니다~\r\n이름이 지어지게된유래는 여기사는 물고기의 비늘이 석양에 비춰져 빛나는 모습을 보고 금빛같이 빛나는 물고기들이 이호수에 산다하여 긴린코(금",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29642_original_1525851387.jpg?1525851387",
+          "duration": "100분 소요"
+        },
+        {
+          "title": "[첫째날] 장자원 습지원",
+          "description": "* 이동(1시간) ~ 도착후 산책 및 포토타임(30분)\r\n\r\n2005년 람사르 협약에 등록된 곳으로 일본 최대급 규모의 습지원 입니다~ \r\n구주연산과 한다고원이 어울려져 최고의 경치을 자랑할 뿐 아니라 다양한 습지식물들이 많아 연구의 목적으로 이곳을 찾는 분들도 많습니다~ \r\n물론 트레킹으로도 많은 사랑을 받고 있는 곳이기도 하구요~ \r\n초여름에는 푸른 신",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29646_original_1525851379.jpg?1525851379",
+          "duration": "50분 소요"
+        },
+        {
+          "title": "[첫째날] 숙소",
+          "description": "안내(10분) 호텔체크인 및 숙소 시설안내후~\r\n*좀 일찍 체크인한후~ 온천을 여유롭게즐길수 있도록 한 일정 입니다^^\r\n*숙소예상금액(1박2식+2인1실인경우 11,800엔~43,200엔) \r\n- 숙소는 저렴한것부터~ 비싼것까지 3곳을 추천해드립니다.\r\n-  나에게 맞는 예산에 맞춰 선택이 가능합니다.\r\n\r\n\r\n* 후쿠오카외 타지역 숙박을 잡으실경우 가이드",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/30723_original_1525850837.jpg?1525850837",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "[둘째날] 숙소 픽업",
+          "description": "9AM에 숙소에서 픽업해 드리겠습니다\r\n(시간은 조율 가능하십니다)",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/30722_original_1525850840.jpg?1525850840",
+          "duration": "30분 소요"
+        },
+        {
+          "title": " [둘째날] 타카치호 ",
+          "description": "* 이동(1시간10분) ~ 도착후 뱃놀이 및 관광 \r\n*뱃놀이 비용 (30분 2,000엔 정원은 3명까지)\r\n\r\n미야자키현 북서부에 위치한 곳으로 큐슈산지의 거의 중앙에 자리한 곳입니다~ \r\n다카치호 마을의 중앙에 고카세강이 있는데요~ 아소 용암이 흘러들어 침식한 곳입니다~ V자 협곡으로 적색을 띤 안산암의 절벽이 양편에 길게 이어져 있습니다~\r\n하얀 물보",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29518_original_1525851501.jpg?1525851501",
+          "duration": "90분 소요"
+        },
+        {
+          "title": "[둘째날] 점심(맛집) ",
+          "description": "1.향토요리 / 2.메밀 / 3. 두부요리(중에서)\r\n*식사 예산(1,500엔~2,500엔/1인)",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29502_original_1525851522.jpg?1525851522",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "[둘째날] 아소 대관봉",
+          "description": "* 이동(30분) ~ 도착후 관광(30분)\r\n\r\n아소 국립공원의 중심지로 128킬로미터의 넓은 외륜산과 7개의 마을이 있는곳이며 칼데라 산맥의 어원이 된곳이기도 합니다.~ 포루투칼사람이 처음여기를 올라와서 바라본 경관이 큰 냄비처름 생긴 산맥이네~라 하였다고 합니다 ~ 큰 냄비는 (칼데라) 포루투칼언어라고 합니다~ \r\n아소의 그랜드케니언이라 불릴만큼 잔연경",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29647_original_1525851376.jpg?1525851376",
+          "duration": "90분 소요"
+        },
+        {
+          "title": "[둘째날] 쿠로카와 온천",
+          "description": "* 이동(20분) ~ 도착후 관광(30분)\r\n\r\n옛 부터 에도시대의 영주들이 자주 찾은 곳으로도 유명한 온천지인 쿠로카와 온천은 산새속에 숨어있는 온천마을이라 불러도 손색이 없을 정도로 여유로움을 안겨주며 자연에 몸을 맡겨 노천온천을 느긋하게 즐길수도 있는곳이기도 합니다~ \r\n전통료칸숙소는 고냉지에서 재배한 식재료를 사용해 숙박하시는 분들에게 대접을 하고 ",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29645_original_1525851382.jpg?1525851382",
+          "duration": "30분 소요"
+        },
+        {
+          "title": "[둘째날] 숙소",
+          "description": "안내(10분) 호텔체크인 및 숙소 시설안내후~\r\n*좀 일찍 체크인한후~ 온천을 여유롭게즐길수 있도록 한 일정 입니다^^\r\n*숙소예상금액(1박2식+2인1실인경우 11,800엔~43,200엔) \r\n- 숙소는 저렴한것부터~ 비싼것까지 3곳을 추천해드립니다.\r\n-  나에게 맞는 예산에 맞춰 선택이 가능합니다.\r\n\r\n\r\n* 후쿠오카외 타지역 숙박을 잡으실경우 가이드",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29519_original_1525851498.jpg?1525851498"
+        },
+        {
+          "title": "[셋째날] 숙소 픽업",
+          "description": "9AM에 숙소에서 픽업해 드리겠습니다\r\n(시간은 조율 가능하십니다)",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29515_original_1525851507.jpg?1525851507"
+        },
+        {
+          "title": "[셋째날] 야나가와 카와쿠다리",
+          "description": "*이동(1시간30분) ~ 도착후 관광(60분)\r\n*입장료 비용(1,540엔/1인) 1시간코스\r\n\r\n일본의 베니스라 불리는 야나가와는 버드나무가 자리한 하천이라하여 야나가와라(류천)이라 이름이 붙게 되게 되었다고 합니다. 옛 성주를 지키기위해 인공적으로 수로를 만든곳도 있으며 여기 수로는 일본의 생활고를 엿볼수 있는 그런 코스로 되어 있습니다.  사공이 저어",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29525_original_1525851485.jpg?1525851485",
+          "duration": "130분 소요"
+        },
+        {
+          "title": "[셋째날] 점심(맛집) ",
+          "description": "1.장어찜밥/2,우동/3,스시(중에서)\r\n*식사 예산(1,500엔~3,500엔/1인)",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29524_original_1525851489.jpg?1525851489",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "[셋째날] 후쿠오카 다자이후 천만궁",
+          "description": "* 이동(1시간30분) ~ 도착후 관광(50분)\r\n\r\n901년전 좌천되어 내려와 2년만에 별세를 하였고 그 2년 동안 수많은 제자를 양성해 내였다고 합니다 ~ \r\n그 제자들이 스승인 스가와라노미치자네를 모시기 위해 919년에사전을 건조하게 되었다고 합니다~ \r\n뛰어난 학자 서예가로서 그 이름이 높았던 관료였다고 합니다~\r\n지금은 마을을 수호하는 수호신사로 ",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29648_original_1525851373.jpg?1525851373",
+          "duration": "60분 소요"
+        },
+        {
+          "title": "[셋째날] 후쿠오카 국제 공항 ",
+          "description": "이동 ~ 도착후 출국수속 안내                  안내해드린후~ 일정종료                        \r\n※ 모든 일정은 현지상황에 맞춰 일정변경도 가능합니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/7201/29723_original_1525851290.jpg?1525851290",
+          "duration": "30분 소요"
+        }
+      ]
+    }
+  ]
+}

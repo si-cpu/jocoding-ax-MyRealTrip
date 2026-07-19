@@ -1,0 +1,97 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 16320,
+      "title": "미야자키 다카치호 (승선권 미포함)",
+      "slots": [
+        {
+          "title": "8:00출발하다-로손 후쿠오카 오리엔탈 호텔 하카타 에키 치쿠시구치 ",
+          "description": "Address:4-23 Hakataekichuogai, HakataWard, Fukuoka,812-0012,Japan\n8:00 출발이니, 가능하면 집합 장소에 15분 일찍 도착해 주시기 바랍니다. 출발 전날 밤 18시부터 22시 사이에 차량 번호와 기사 연락처 등의 관련 정보를 고객님의 이메일로 발송해 드릴 예정입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/24/VhlH/s6fWFj91f1.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5908373,
+              "lng": 130.4221034
+            },
+            "label": "4-23 Hakataekichūōgai"
+          }
+        },
+        {
+          "title": "10:50-가미코미 구마노자 신사 —— 애니메이션 성지순례!",
+          "description": "📍《반딧불의 숲》《너츠메 우인장》촬영지\n✨ 핵심 포인트:\n100여 개 석등로드 걷기 = 2차원 세계 입장! 🏮→📸\n「뚫린 바위」전설: 악마 오니하의 발자국이 남은 기적의 암석 💪\n연인이라면 「잎맥 없는 신목」에서 소원 빌기 💑",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/24/5A1D/xkMXlkX6is.jpg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8537942,
+              "lng": 131.1585205
+            },
+            "label": "2619 Kamishikimi"
+          }
+        },
+        {
+          "title": "12:20-아마노이와토 신사 × 아마노야스카와라",
+          "description": "🌌 아마테라스가 숨은 동굴 × 신들의 회의장\n✨ 체험 추천:\n서본궁 신성한 암벽에 손 대기 🔮\n돌탑 쌓기: 한 개 돌=한 개 소원! 집중할수록 효험 ↑ 🧱→🎋\n7~9월: 무료 아이스크림 제공 🍦\n📌 재미있는 사실: 돌탑은 「신들의 장기판」♟️",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/24/AOVL/6YqvTKPubf.jpg",
+          "duration": "1시간 10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.734707,
+              "lng": 131.3503
+            },
+            "label": "아마노 이와토 신사"
+          }
+        },
+        {
+          "title": "13:50-타카치호 협곡(자유롭게 점심 식사 가능한 시간 포함)",
+          "description": "🏞️ 진명이 폭포 × 3개의 다리 × 선인의 병풍암\n✨ 압권 장면:\n17m 폭포 아래서 무지개 발견 🌈\n오니하의 힘돌: 매년 새 끈으로 장식하는 200톤 바위 💥\n1km 편안한 산책로, 시대 다른 다리 3개 동시 감상 📷",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/24/4p9U/AtGXRcLgZV.jpg",
+          "duration": "1시간 20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.7012777,
+              "lng": 131.3007272
+            },
+            "label": "Takachiho Gorge"
+          }
+        },
+        {
+          "title": "15:10-귀국 여정을 시작하세요",
+          "description": "하카타역에 오후 6시경 도착하여 여행이 끝났습니다.\n귀경 시간은 참고용이며, 당일 일정 진행 상황이나 교통 상황에 따라 변경될 수 있습니다."
+        }
+      ]
+    },
+    {
+      "itineraryId": 16320,
+      "title": "미야자키 다카치호 (승선권 포함)",
+      "slots": [
+        {
+          "title": "08:30-로손 후쿠오카 오리엔탈 호텔 하카타 에키 치쿠시구치",
+          "description": "Address:4-23 Hakataekichuogai, HakataWard, Fukuoka,812-0012,Japan",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/07/18/yG4t/MwCzBASnIl.jpg"
+        },
+        {
+          "title": "11:10-가미코미 구마노자 신사",
+          "description": "📍《반딧불의 숲》《너츠메 우인장》촬영지\n✨ 핵심 포인트:\n100여 개 석등로드 걷기 = 2차원 세계 입장! 🏮→📸\n「뚫린 바위」전설: 악마 오니하의 발자국이 남은 기적의 암석 💪\n연인이라면 「잎맥 없는 신목」에서 소원 빌기 💑",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "12：40-다카센호우샤（승선권 포함）",
+          "description": "[다카센호우샤 보트]\n천천히 협곡 깊숙이 노를 저어 가자, 하늘빛은 좁은 골짜기에 모였고, 머리 위에는 금빛 햇살만 남아 절벽 꼭대기의 울창한 숲을 지나 강물 위에 반짝이는 반점이 되었습니다. 사방은 매우 조용했고, 노가 물을 가르는 가벼운 소리와 숲 속의 작은 새들의 울음소리만이 들려왔습니다. 물소리가 암벽에 부딪혀 긴 메아리를 만들어냈고, 협곡 전체가 가볍게 공감했습니다.\n[유람선 이용에 관한 금지사항 및 주의사항]\n1. 전복이나 구명조끼의 오작동을 방지하기 위해 유람선의 항해 구간에 있는 폭포에 들어가지 마십시오.\n2. 시설에서 제공하는 구명조끼는 자동충전식으로 센서에 물이 들어오면 작동됩니다(가스통 안의 가스가 방출되면 구명조끼는 자동으로 충전됩니다).\n3. 재무가 일단 물에 빠지면, 인양할 가능성이 없으니, 자신의 귀중품을 잘 보호하세요.",
+          "duration": "1시간 30분 소요"
+        },
+        {
+          "title": "14:30-아마노이와토 신사 × 아마노야스카와라",
+          "description": "🌌 아마테라스가 숨은 동굴 × 신들의 회의장\n✨ 체험 추천:\n서본궁 신성한 암벽에 손 대기 🔮\n돌탑 쌓기: 한 개 돌=한 개 소원! 집중할수록 효험 ↑ 🧱→🎋\n7~9월: 무료 아이스크림 제공 🍦\n📌 재미있는 사실: 돌탑은 「신들의 장기판」♟️",
+          "duration": "1시간 소요"
+        },
+        {
+          "title": "18:30-하카타 역",
+          "description": "*위의 일정은 날씨, 도로 사정 등으로 인하여 조정될 수 있으니 양해 부탁드립니다."
+        }
+      ]
+    }
+  ]
+}

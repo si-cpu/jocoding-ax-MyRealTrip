@@ -1,0 +1,92 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 3212,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "[첫째날] 후쿠오카 센츄리 골프장",
+          "description": "골프장은 총 18홀로 되어 있습니다.\r\n골프텔도 겸하고 있으며 후쿠오카에서는 명문 골프장으로 손꼽히는 곳입니다. 수준급 높은 수많은 경기를 이곳 센츄리 CC에서 시합이 있었고 지금도 그 유명세를 뽐내고 있는곳입니다. \r\n후쿠오카 시내에서 약50분 차량으로 소요되는 곳에 위치해 있습니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/14873_original_1525859058.jpg?1525859058"
+        },
+        {
+          "title": "[첫째날] 점심 클럽하우스",
+          "description": "메뉴는 클럽하우스 메뉴로 추천해 드립니다. \r\n-식사예산: 1,500엔~2,500엔",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/14878_original_1525859057.jpg?1525859057"
+        },
+        {
+          "title": "[첫째날]후쿠오카 센츄리 골프장",
+          "description": "인아웃 코스로 나누어서\r\n전반 후반 하프타임이 이루어 집니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/14879_original_1525859055.jpg?1525859055"
+        },
+        {
+          "title": "[첫째날]숙소안내",
+          "description": "숙소는 예약이된곳으로 안내해 드립니니다. 숙소안내후 체크인도와 드리고 난후~ 저녁식사장으로 안내해드립니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29672_original_1525851362.jpg?1525851362"
+        },
+        {
+          "title": "[둘째날]숙소픽업",
+          "description": "아침 조식은 호텔에서 드십니다\r\n골프시간에 맞춰 호텔 픽업해 드립니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29673_original_1525851360.jpg?1525851360"
+        },
+        {
+          "title": "[둘째날] 라이잔 골프장",
+          "description": "인아웃 코스로 나누어서\r\n전반 후반 하프타임이 이루어 집니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29678_original_1525851355.jpg?1525851355"
+        },
+        {
+          "title": "[둘째날]후쿠오카 라이잔 골프장",
+          "description": "골프장은 총 18홀로 되어 있습니다.\r\n타이거 우즈가 경기를 하여 유명한 곳이기도 합니다. 이 이외 수많은 시합을 여기에서 하고 있습니다. \r\n후쿠오카 시내에서 약50분 차량으로 소요되는 곳에 위치해 있습니다",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29674_original_1525851359.jpg?1525851359"
+        },
+        {
+          "title": "[둘째날] 점심 클럽하우스",
+          "description": "메뉴는 클럽하우스 메뉴로 추천해 드립니다. \r\n-식사예산: 1,500엔~2,500엔",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29677_original_1525851357.jpg?1525851357"
+        },
+        {
+          "title": "[둘째날] 케널시티",
+          "description": "없는게 없는 복합 쇼핑타운 ! \r\n먹고, 즐기고, 쇼핑하는 즐거움을 한곳에서 해결이 가능한 복합 쇼핑타운 캐널시티 입니다.\r\n다양한 시설이 들어서 있는 이곳은 도시 속의 또 하나의 도시라 불리기도 합니다. \r\n빌딩 사이에 180m에 이르는 인공 운하도 빼 놓을 수 없는 볼거리 입니다.\r\n라멘 스타디움과 무인양품, 마츠모토키요시 등 다양한 브랜드들이 자리하고",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29680_original_1525851354.jpg?1525851354"
+        },
+        {
+          "title": "[둘째날] 숙박안내",
+          "description": "숙소는 예약이된곳으로 안내해 드립니니다. 숙소안내후 체크인도와 드리고 난후~ 저녁식사장으로 안내해드립니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29682_original_1525851351.jpg?1525851351"
+        },
+        {
+          "title": "[셋째날]숙소픽업",
+          "description": "아침 조식은 호텔에서 드십니다\r\n골프시간에 맞춰 호텔 픽업해 드립니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29683_original_1525851349.jpg?1525851349"
+        },
+        {
+          "title": "[셋째날] 퀸즈힐 골프장",
+          "description": "골프장은 총 18홀로 되어 있습니다.\r\n수많은 경기가 이곳 자 퀸즈힐CC에서 펼쳐졌던 곳입니다. \r\n후쿠오카 시내에서 약50분 차량으로 소요되는 곳에 위치해 있습니다",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29684_original_1525851347.jpg?1525851347"
+        },
+        {
+          "title": "[셋째날]점심 클럽하우스",
+          "description": "메뉴는 클럽하우스 메뉴로 추천해 드립니다. \r\n-식사예산: 1,500엔~2,500엔",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29685_original_1525851345.jpg?1525851345"
+        },
+        {
+          "title": "[셋째날]자 퀸즈힐 골프장",
+          "description": "인아웃 코스로 나누어서\r\n전반 후반 하프타임이 이루어 집니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29686_original_1525851344.jpg?1525851344"
+        },
+        {
+          "title": "[셋째날] 마리노아시티 아울렛",
+          "description": "골프 종료후 마리노아 시티 아울렛몰 안내~\r\n2000년에 오픈 한 마리노아시티는 큐슈 최대급의 아울렛 몰. 멋진 패션에서부터, 스포츠, 악세사리, 인테리어까지 모든 장르의 샵이 약 170개.\r\n워터 프론트의 입지를 살리고있으며, 쇼핑뿐만 아니라 관광지로서도 인기많습니다. 세일이나 다양한 이벤트등을 개최하고 있는곳입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29688_original_1525851341.jpg?1525851341"
+        },
+        {
+          "title": "[셋째날] 후쿠오카 국제공항 안내",
+          "description": "항공시간에 맞춰서 쇼핑후 안내해 드립니다. \r\n도착후~ 수속절차 안내해드리며 마지막으로 인사를 나누고 헤어집니다.~",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/3404/29689_original_1525851339.jpg?1525851339"
+        }
+      ]
+    }
+  ]
+}

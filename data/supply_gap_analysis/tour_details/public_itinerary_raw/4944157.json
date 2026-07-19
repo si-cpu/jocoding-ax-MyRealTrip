@@ -1,0 +1,114 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 19233,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "후쿠오카 시내(하카타・텐진 등) 출발 【구마모토현청】 루피 동상 관람 – 복구의 상징, 투어 시작!",
+          "description": "숙소 공항 후쿠오카 시내 픽업 후 이동 \n만난 장소에 따라서 이동시간이 조금 달라집니다\n\n9시 픽업 이동 시간 약1시간30분\n\n루피 동상 (구마모토 현청)에 10:30도착",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/14/8gaD/G7pZwqDumE.jpeg",
+          "duration": "1시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.7876557,
+              "lng": 130.7405613
+            },
+            "label": "구마모토현청 앞"
+          }
+        },
+        {
+          "title": "【구마모토 시 동식물원】 쵸파 동상 관람 – 귀여움과 힐링 타임",
+          "description": "귀여운 ‘선의’와 함께하는 힐링 타임",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/14/Ockc/gLFH4x5DgM.jpeg",
+          "duration": "30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.7745613,
+              "lng": 130.7476687
+            },
+            "label": "구마모토시 동식물원"
+          }
+        },
+        {
+          "title": "【마시키마치청】 상디 동상 관람 – ‘요리사’의 도시에서 미식의 향기",
+          "description": " ‘요리사’의 도시에서 미식의 향기",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/14/7G8m/GX2yQRtKrW.jpeg",
+          "duration": "30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.7863474,
+              "lng": 130.8229215
+            },
+            "label": "236 Kiyama"
+          }
+        },
+        {
+          "title": "런치 (니시하라마치 /점심 식사 )",
+          "description": "니시하라마치 주변에서 에너지 충전!",
+          "duration": "1시간 20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8377682,
+              "lng": 130.9030209
+            },
+            "label": "니시하라야쿠바이리구치"
+          }
+        },
+        {
+          "title": "【니시하라마치청】 나미 동상 관람 – 자연과 조화를 이룬 평화로운 마을",
+          "description": "자연과 조화를 이룬 평화로운 마을",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/14/zdTC/RXCisCvba0.jpeg",
+          "duration": "20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8423585,
+              "lng": 130.9383435
+            },
+            "label": "2115-3 Komori"
+          }
+        },
+        {
+          "title": "【오오즈마치청】 조로 동상 관람 ",
+          "description": "조로 동상 관람 ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/14/nqI6/xT2XeOgWxA.jpeg",
+          "duration": "30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8767089,
+              "lng": 130.8707811
+            },
+            "label": "1156-3 Ōzu"
+          }
+        },
+        {
+          "title": "오오즈 출발 →구마모토성으로 이동 (아소의 풍경을 차창으로 감상)",
+          "description": "구마모토성 구경",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/10/14/abNh/KyCtum81YF.jpg",
+          "duration": "1시간 20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.80574,
+              "lng": 130.70596
+            },
+            "label": "구마모토 성"
+          }
+        },
+        {
+          "title": "구마모토 출발→후쿠오카 시내",
+          "description": "숙소 또는 원하시는 장소로 모셔다 드립니다!",
+          "duration": "1시간 40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5835196,
+              "lng": 130.4372709
+            },
+            "label": "하카타구"
+          }
+        }
+      ]
+    }
+  ]
+}

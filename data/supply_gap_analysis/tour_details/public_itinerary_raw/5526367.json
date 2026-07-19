@@ -1,0 +1,85 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 21183,
+      "title": "오쿠노시마와 사이조 계획",
+      "slots": [
+        {
+          "title": "히로시마역 북쪽 출구에서 가이드와 만나세요",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/12/qlv3/ni205wdULZ.jpeg"
+        },
+        {
+          "title": "히로시마 역 ⇒ 오쿠노시마",
+          "description": "지역 버스, 페리 / 오전 10시 40분 도착",
+          "duration": "2시간 소요"
+        },
+        {
+          "title": "오쿠노시마에서의 자유 시간 및 점심",
+          "description": "",
+          "duration": "2시간 소요"
+        },
+        {
+          "title": "오쿠노시마 섬 ⇒ 사이조",
+          "description": "페리, 기차 / 오후 2시 30분 도착",
+          "duration": "2시간 소요"
+        },
+        {
+          "title": "사이조에서 사케 양조장 방문하기",
+          "description": "",
+          "duration": "2시간 30분 소요"
+        },
+        {
+          "title": "사이조 역  ⇒ 히로시마 역",
+          "description": "R 열차 / 17:45 도착",
+          "duration": "40분 소요"
+        },
+        {
+          "title": "히로시마 역에서 투어를 마칩니다",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "itineraryId": 21183,
+      "title": "오쿠노시마와 다케하라 계획",
+      "slots": [
+        {
+          "title": "히로시마역 북쪽 출구에서 가이드와 만나세요",
+          "description": ""
+        },
+        {
+          "title": "히로시마 역 ⇒ 오쿠노시마",
+          "description": "지역 버스, 페리 / 오전 10시 40분 도착",
+          "duration": "2시간 소요"
+        },
+        {
+          "title": "오쿠노시마에서의 자유 시간 및 점심",
+          "description": "",
+          "duration": "2시간 소요"
+        },
+        {
+          "title": "오쿠노시마 ⇒ 다케하라",
+          "description": "페리, 버스 / 13:32 도착",
+          "duration": "1시간 소요"
+        },
+        {
+          "title": "다케하라에서 사케 양조장 방문하기",
+          "description": "",
+          "duration": "1시간 30분 소요"
+        },
+        {
+          "title": "신미나토바시 역 ⇒ 히로시마 역",
+          "description": "버스 / 17:23 도착",
+          "duration": "1시간 소요"
+        },
+        {
+          "title": "히로시마 역에서 투어를 마칩니다",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

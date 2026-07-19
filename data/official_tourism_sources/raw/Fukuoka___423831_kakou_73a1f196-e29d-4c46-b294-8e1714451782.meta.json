@@ -1,0 +1,13 @@
+{
+  "city": "Fukuoka",
+  "source_key": "Fukuoka___423831_kakou_73a1f196-e29d-4c46-b294-8e1714451782",
+  "dataset_name": "観光施設 / 観光施設【小値賀町】",
+  "url": "https://data.bodik.jp/dataset/98c73b22-047e-4b5f-a454-5ba2b205fd98/resource/73a1f196-e29d-4c46-b294-8e1714451782/download/.csv",
+  "expected_kind": "csv",
+  "priority": "A4/A5",
+  "note": "CKAN search query=観光; package=423831_kakou",
+  "saved_path": "data/official_tourism_sources/raw/Fukuoka___423831_kakou_73a1f196-e29d-4c46-b294-8e1714451782.csv",
+  "bytes": 983,
+  "content_type": "application/octet-stream",
+  "downloaded_at": "2026-07-18T12:01:38+0900"
+}

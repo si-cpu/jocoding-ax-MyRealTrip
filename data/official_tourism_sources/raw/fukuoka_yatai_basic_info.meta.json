@@ -1,0 +1,13 @@
+{
+  "city": "Fukuoka",
+  "source_key": "fukuoka_yatai_basic_info",
+  "dataset_name": "Fukuoka open data: yatai basic information",
+  "url": "https://data.bodik.jp/dataset/87ff2527-7486-42de-84c4-bc21e352d456/resource/328edbc1-6967-4d0a-8f6d-6678420f4fe2/download/20260703_yatai_opendata_r2.csv",
+  "expected_kind": "csv",
+  "priority": "A4",
+  "note": "Official Fukuoka yatai basic information dataset; found via data.bodik.jp CKAN.",
+  "saved_path": "data/official_tourism_sources/raw/fukuoka_yatai_basic_info.csv",
+  "bytes": 289944,
+  "content_type": "text/csv",
+  "downloaded_at": "2026-07-18T12:01:35+0900"
+}

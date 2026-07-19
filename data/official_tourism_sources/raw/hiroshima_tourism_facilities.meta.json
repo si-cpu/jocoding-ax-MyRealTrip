@@ -1,0 +1,13 @@
+{
+  "city": "Hiroshima",
+  "source_key": "hiroshima_tourism_facilities",
+  "dataset_name": "Hiroshima open data: tourism facilities",
+  "url": "https://hiroshima-opendata.dataeye.jp/resource_download/9858",
+  "expected_kind": "csv",
+  "priority": "A6",
+  "note": "Official Hiroshima tourism open-data resource linked from Hiroshima city page.",
+  "saved_path": "data/official_tourism_sources/raw/hiroshima_tourism_facilities.csv",
+  "bytes": 22432,
+  "content_type": "text/csv; charset=utf-8",
+  "downloaded_at": "2026-07-18T15:54:52+0900"
+}

@@ -1,0 +1,46 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 16878,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "11:00 ▼타카치호 계곡 (자유시간, 점심시간 포함, 점심 및 기타 입장료는 본인 부담)",
+          "description": "웅장하게 펼쳐진 절벽과 17m 높이에서 떨어지는 마나이 폭포가 아름다운 타카치호 협곡의 풍경을 감상해 보세요. 절경과 함께 여유로운 산책을 즐길 수 있는 산책로도 조성되어 있으니 이용해 보는 걸 추천해 드려요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/05/yUPC/tEkz97AsDq.jpg",
+          "duration": "2시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 34.64580929999999,
+              "lng": 135.5041846
+            },
+            "label": "타카치호"
+          }
+        },
+        {
+          "title": "14:00 ▼아소산 (자유시간）",
+          "description": "광활한 초원에서 자연의 감동을 느낄 수 있는 곳, 바로 구마모토의 구사센리예요. 풀이 천 리나 펼쳐져 있다는 뜻의 '구사센리(草千里)'에서 말도 구경하고, 연못에 비친 푸른 하늘도 감상해 보세요.\n\n* 3월 초부터 12월 초까지 승마 체험이 가능합니다. 희망할 경우 개인 사비로 진행되며 2인 승마는 초등학교 저학년 이하 어린이만 이용할 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/05/rHNR/Pr8NorjA3l.jpg",
+          "duration": "1시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.884907,
+              "lng": 131.0849344
+            },
+            "label": "아소산 나카타케 화구"
+          }
+        },
+        {
+          "title": "16:00 오늘의 일정을 마치고 귀환합니다.",
+          "description": ""
+        },
+        {
+          "title": "18:30 후쿠오카 로손 오리엔탈 호텔 후쿠오카점 앞 최종하차",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 22078,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "8:00 모임 장소: 하카타역 츠쿠시구치 출구",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/03/gSgP/oVamnPPdpP.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.58981,
+              "lng": 130.4204315
+            },
+            "label": "812-0012"
+          }
+        },
+        {
+          "title": " 다카치호 협곡 ",
+          "description": "🏞️ 다카치호 협곡은 아소 화산의 용암이 고려강의 오랜 침식으로 만들어낸 자연의 경이로움입니다. 계곡 양측에는 마치 예술품 같은 주상절리 암벽이 우뚝 서 있고, 비취빛 강물이 굽이쳐 흐르며, 그중에서도 높이 17m의 마나이 폭포가 특히 눈에 띕니다. ✨ 편안한 산책로를 따라 이 살아 있는 산수화를 다양한 각도에서 감상하실 수 있으며, 청량함과 장관을 가까이에서 느끼며 원시 자연이 안겨주는 고요함에 빠져들 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/03/BDdA/j8B3A45WmM.jpeg",
+          "duration": "1시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.6879741,
+              "lng": 131.3048353
+            },
+            "label": "Mukoyama Shrine"
+          }
+        },
+        {
+          "title": "다카치호 아마테라스 철도",
+          "description": "🚂 다카치호의 푸른 숲속을 누비는 이 향수 어린 기차 여행은 협곡 풍경을 바라보는 독특한 시각을 제공합니다. 동화 같은 선로를 천천히 달리는 기차창 밖으로는 🌿 흐르는 숲과 계곡의 풍경화가 펼쳐집니다. 기적 소리와 바퀴 규칙음에 맞춰 시간마저 느려진 듯한 느낌을 받으며, 한적한 이동 관광의 시간을 편안하게 즐기실 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/03/it0v/apfXXnT13u.jpeg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.7146701,
+              "lng": 131.306921
+            },
+            "label": "1425-1 Mitai"
+          }
+        },
+        {
+          "title": "아마노야스카와라",
+          "description": "⛰️ 세속과 성지를 나누는 암반 동굴을 지나면, 신화 속 ‘팔백만 신이 모였다’는 아마노야스카와라에 닿습니다. 강바닥에는 참배객들이 정성을 다해 쌓아올린 무수한 돌탑(카와라보쿠)이 조용히 서 있고, 🪨 강한 영적 힘이 느껴지는 고요한 경관을 만들어냅니다. 귀에는 맑은 물소리와 바람에 흔들리는 나뭇잎 소리만 들려, 시간이 멈춘 명상 공간에 들어온 듯한 기분이 들게 합니다. 여기서 소원을 빌며 내면의 평화와 오래된 전설의 기운을 느껴보세요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/03/3jwd/6ZtQPUSkEL.jpeg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.7426662,
+              "lng": 131.3510866
+            },
+            "label": "882-1621"
+          }
+        },
+        {
+          "title": "다카치호 신사",
+          "description": "⛩️ 오랜 삼나무 숲에 안겨 있는 이 신사는 약 1900년의 역사를 자랑하며, 일본 신화 ‘천손 강림’ 전설과 연결되는 중요한 성지로 전해집니다. 아마테라스 오오미카미를 비롯한 주요 신령들을 모시고 있으며, 🌲 영역 내에는 거목과 시간이 함께 빚어낸 엄숙한 기운이 가득합니다. 기원을 드리는 것 외에도, 밤이면 전통 ‘다카치호 카구라’ 신악이 공연되는 이곳은, 낮에는 세상 소음에서 벗어나 침묵 속에서 일본 신앙 문화의 뿌리를 느낄 수 있는 장소입니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/03/gkkI/agj4W1P02T.jpeg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.7064533,
+              "lng": 131.3020682
+            },
+            "label": "1037 Mitai"
+          }
+        },
+        {
+          "title": "18:30 모든 일정을 마친 후, 후쿠오카로 돌아옵니다.",
+          "description": "해산 장소: 하카타역 츠쿠시구치 출구",
+          "place": {
+            "coordinate": {
+              "lat": 33.58981,
+              "lng": 130.4204315
+            },
+            "label": "812-0012"
+          }
+        }
+      ]
+    }
+  ]
+}

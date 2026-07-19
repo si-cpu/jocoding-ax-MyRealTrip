@@ -1,0 +1,72 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 27262,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "HEARTS 버스스테이션 하카타 1층 안내데스크 앞 미팅",
+          "description": "[07:45~07:55] HEARTS 버스스테이션 하카타 1층 안내데스크 앞 미팅\n※하카타 버스터미널로 가시면 안 됩니다. \n※'YOUTOURBUS' 미팅 보드를 든 안내원이 여러분을 기다리고 있습니다.  \n[08:00] 버스 출발",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/14/NRDy/pSEVjERzAc.jpg"
+        },
+        {
+          "title": "유후인(약 3시간 자유관광)",
+          "description": "[09:40] 유후인 (약 3시간 자유관광 )",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/28/ox7J/hDnewDgHju.jpg",
+          "duration": "3시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2674871,
+              "lng": 131.3655357
+            },
+            "label": "유후인 플로랄빌리지"
+          }
+        },
+        {
+          "title": "쿠주 고원 드라이브",
+          "description": "차창관광",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/14/T9mw/hRaDIXBbV8.jpg"
+        },
+        {
+          "title": "타데와라 습지(약 40분)",
+          "description": "[13:30] 타데와라 습지(약 40분)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/14/esoX/jZzEbh1tca.jpg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.1188296,
+              "lng": 131.2312549
+            },
+            "label": "타데와라 습지"
+          }
+        },
+        {
+          "title": "쿠주 꽃공원",
+          "description": "[14:40] 쿠주 꽃공원(약 1시간)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/05/14/wIZQ/JPtTTMjoq9.jpg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.0482542,
+              "lng": 131.243794
+            },
+            "label": "쿠쥬하나코엔"
+          }
+        },
+        {
+          "title": "하카타역 하차",
+          "description": "[18:10] 하카타역 하차",
+          "place": {
+            "coordinate": {
+              "lat": 33.5892521,
+              "lng": 130.4190278
+            },
+            "label": "하카타역"
+          }
+        }
+      ]
+    }
+  ]
+}

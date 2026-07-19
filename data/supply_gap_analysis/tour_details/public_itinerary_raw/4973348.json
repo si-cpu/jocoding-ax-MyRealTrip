@@ -1,0 +1,397 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 19601,
+      "title": "[4월-9월]화구접근가능시",
+      "slots": [
+        {
+          "title": "[08:10am] HEARTS 버스 스테이션 하카타 앞 출발",
+          "description": "출발 10분 전까지 도착 부탁드립니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/02/XllN/bJ5IrHKULd.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5874109,
+              "lng": 130.4197989
+            },
+            "label": "HEARTS Bus Station Hakata"
+          }
+        },
+        {
+          "title": "[09:10am] 타마나 휴게소 (약 10분 휴식)",
+          "description": "현지 교통 상황에 따라 머무는 시간이 변동될 수 있습니다.",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.0123304,
+              "lng": 130.5846635
+            },
+            "label": "Tamana Parking Area (Southbound)"
+          }
+        },
+        {
+          "title": "[10:30 - 11:40am] 쿠사센리",
+          "description": "몽골을 가지 않아도 마주할 수 있는 드넓은 초원, 구마모토 쿠사센리에서 만나보아요!\n* 개별적으로 식사 시간을 갖을 수 있으며, 전망대 혹은 박물관 비용은 투어 상품에 포함되어 있지 않습니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/27/BWoU/BG6TL15NVv.jpg",
+          "duration": "1시간 10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8818249,
+              "lng": 131.0533279
+            },
+            "label": "구사센리(구사센리가하마)"
+          }
+        },
+        {
+          "title": "[11:50 - 12:25pm] 아소산 나카다케 화구",
+          "description": "아소 산조 터미널 - 아소산 나카다케 화구를 방문 예정입니다.\n* 아소산 나카다케 화구를 방문하고자 하는 분들은 아소 산조 터미널에서 11:50am에 화구 전용 셔틀버스를 탑승해야 하며, 화구 전용 탑승 셔틀버스는 개별적으로 구매가 필요합니다. \n* 아소산 나카다케 화구에서 아소 산조 터미널로 복귀하는 버스는 반드시 12:20pm에 탑승이 필요합니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/27/dBow/6uv5b7EG6F.jpg",
+          "duration": "30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.884907,
+              "lng": 131.0849344
+            },
+            "label": "아소산 나카다케 화구"
+          }
+        },
+        {
+          "title": "[13:30 - 14:30pm] 타카치호 협곡",
+          "description": "숲의 청량한 공기를 마시며 산책로를 걸어 '일본의 폭포 100선'에 선정된 마나이 폭포가 절벽을 타고 쏟아져 내리는 장관을 마주해보세요. 협곡 사이로 폭포가 떨어지고 아래에 보트가 떠 있는 풍경은 그야 말로 포토스팟으로 제격이랍니다!\n\n* 체류시간이 한정적이기 때문에, 보트 예약을 권하지 않습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/27/3OTy/ihIaXhOl0D.jpg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.7012777,
+              "lng": 131.3007272
+            },
+            "label": "타카치호 협곡"
+          }
+        },
+        {
+          "title": "[14:40 - 15:20pm] 아마노이와토 신사 (아마노야스가와라)",
+          "description": "신사 자체도 고즈넉하고 멋있지만, 이곳의 진짜 하이라이트는 강을 따라 10분 정도 걸어 들어가면 나오는 거대한 동굴 '아마노야스가와라'입니다. 이 신비로운 동굴 안팎에는 방문객들이 소원을 빌며 쌓아 올린 수만 개의 돌탑이 빼곡하게 자리 잡고 있어 어디서도 볼 수 없는 몽환적이고도 압도적인 풍경을 마주할 수 있답니다!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/27/jNHr/aXvMwgCxsp.jpg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.734707,
+              "lng": 131.3503
+            },
+            "label": "아마노 이와토 신사"
+          }
+        },
+        {
+          "title": "후쿠오카로 복귀 ~ 🚌",
+          "description": ""
+        },
+        {
+          "title": "[18:00pm] HEARTS 버스 스테이션 하카타 앞 하차",
+          "description": "현장 교통 상황에 따라 하차 시간은 달라질 수 있습니다. "
+        }
+      ]
+    },
+    {
+      "itineraryId": 19601,
+      "title": "[4월-9월]화구접근불가능시",
+      "slots": [
+        {
+          "title": "[08:10am] HEARTS 버스 스테이션 하카타 앞 출발",
+          "description": "출발 10분 전까지 도착 부탁드립니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/02/Ei4o/YSArFtN2FI.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5874109,
+              "lng": 130.4197989
+            },
+            "label": "HEARTS Bus Station Hakata"
+          }
+        },
+        {
+          "title": "[09:10am] 타마나 휴게소 (약 10분 휴식)",
+          "description": "현지 교통 상황에 따라 머무는 시간이 변동될 수 있습니다.",
+          "place": {
+            "coordinate": {
+              "lat": 33.0123304,
+              "lng": 130.5846635
+            },
+            "label": "Tamana Parking Area (Southbound)"
+          }
+        },
+        {
+          "title": "[10:30 - 12:00pm] 쿠사센리",
+          "description": "몽골을 가지 않아도 마주할 수 있는 드넓은 초원, 구마모토 쿠사센리에서 만나보아요!\n* 개별적으로 식사 시간을 갖을 수 있으며, 전망대 혹은 박물관 비용은 투어 상품에 포함되어 있지 않습니다. \n\n아소산 분화구에 갈 수 없을 때는 쿠사센리에서 더 많은 시간을 보내게 됩니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/27/ESyM/pLf55P9AWx.jpg",
+          "duration": "1시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8818249,
+              "lng": 131.0533279
+            },
+            "label": "구사센리(구사센리가하마)"
+          }
+        },
+        {
+          "title": "[13:00 - 14:30pm] 타카치호 협곡",
+          "description": "숲의 청량한 공기를 마시며 산책로를 걸어 '일본의 폭포 100선'에 선정된 마나이 폭포가 절벽을 타고 쏟아져 내리는 장관을 마주해보세요. 협곡 사이로 폭포가 떨어지고 아래에 보트가 떠 있는 풍경은 그야 말로 포토스팟으로 제격이랍니다!\n\n* 체류시간이 한정적이기 때문에, 보트 예약을 권하지 않습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/27/NQE6/wHjmun6MD4.jpg",
+          "duration": "1시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.7012777,
+              "lng": 131.3007272
+            },
+            "label": "타카치호 협곡"
+          }
+        },
+        {
+          "title": "[14:40 - 15:20pm] 아마노이와토 신사 (아마노야스가와라)",
+          "description": "신사 자체도 고즈넉하고 멋있지만, 이곳의 진짜 하이라이트는 강을 따라 10분 정도 걸어 들어가면 나오는 거대한 동굴 '아마노야스가와라'입니다. 이 신비로운 동굴 안팎에는 방문객들이 소원을 빌며 쌓아 올린 수만 개의 돌탑이 빼곡하게 자리 잡고 있어 어디서도 볼 수 없는 몽환적이고도 압도적인 풍경을 마주할 수 있답니다!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/27/3J8S/2e7eV7XPun.jpg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.734707,
+              "lng": 131.3503
+            },
+            "label": "아마노 이와토 신사"
+          }
+        },
+        {
+          "title": "후쿠오카로 복귀 ~ 🚌",
+          "description": ""
+        },
+        {
+          "title": "[18:00pm] HEARTS 버스 스테이션 하카타 앞 하차",
+          "description": "현지 교통 상황에 따라 하차 시간은 변동될 수 있습니다."
+        }
+      ]
+    },
+    {
+      "itineraryId": 19601,
+      "title": "[10월~3월]화구접근가능시",
+      "slots": [
+        {
+          "title": "[10:15am] HEARTS 버스 스테이션 하카타 앞 출발",
+          "description": "출발 10분 전까지 도착 부탁드립니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/02/bPf6/PeBVDSEZj1.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5874109,
+              "lng": 130.4197989
+            },
+            "label": "HEARTS Bus Station Hakata"
+          }
+        },
+        {
+          "title": "[10:30am] 후쿠오카 중앙우체국 앞 출발",
+          "description": "출발 10분 전까지 도착 부탁드립니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/31/pJUE/EOFJav7dfc.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5929018,
+              "lng": 130.3990277
+            },
+            "label": "후쿠오카 중앙 우체국"
+          }
+        },
+        {
+          "title": "[11:40am] 타마나 휴게소 (약 10분 휴식)",
+          "description": "현지 교통 상황에 따라 변동될 수 있습니다. ",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.0123304,
+              "lng": 130.5846635
+            },
+            "label": "Tamana Parking Area (Southbound)"
+          }
+        },
+        {
+          "title": "[13:10 - 14:45pm] 아소산 지역",
+          "description": "쿠사센리 - 아소 산조 터미널 - 아소산 나카다케 화구를 방문 예정입니다.\n* 아소산 나카다케 화구를 방문하고자 하는 분들은 아소 산조 터미널에서 14:15pm에 화구 전용 셔틀버스를 탑승해야 하며, 화구 전용 탑승 셔틀버스는 개별적으로 구매가 필요합니다. \n* 아소산 나카다케 화구에서 아소 산조 터미널로 복귀하는 버스는 반드시 14:45pm에 탑승이 필요합니다. ",
+          "duration": "1시간 40분 소요"
+        },
+        {
+          "title": "쿠사센리",
+          "description": "몽골을 가지 않아도 마주할 수 있는 드넓은 초원, 구마모토 쿠사센리에서 만나보아요!\n* 개별적으로 식사 시간을 갖을 수 있으며, 전망대 혹은 박물관 비용은 투어 상품에 포함되어 있지 않습니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/31/tdFc/xC2fvhRH05.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 32.8818249,
+              "lng": 131.0533279
+            },
+            "label": "구사센리(구사센리가하마)"
+          }
+        },
+        {
+          "title": "아소 산조 터미널",
+          "description": "아소산 나카다케 화구로 가는 전용 셔틀버스를 탑승하는 곳입니다. 방문하고자 하시는 분들만 선택하여 개별적으로 구매(왕복 1,400엔) 부탁드립니다. 나카다케 화구 방문을 원하지 않으시는 분들은 터미널 내의 휴게 공간에서 간단한 간식을 드실 수 있습니다. ",
+          "place": {
+            "coordinate": {
+              "lat": 32.8799648,
+              "lng": 131.0743293
+            },
+            "label": "아소 산조 터미널"
+          }
+        },
+        {
+          "title": "아소산 나카다케 화구",
+          "description": "지구의 숨결을 느낄 수 있는 경이로운 에메랄드빛 화구호를 품은 활화산이지만, 그만큼 화산 활동 상황에 따라 방문이 제한될 수 있는 역동적인 장소입니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/31/9ZFY/uv8TYZRKa1.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 32.884907,
+              "lng": 131.0849344
+            },
+            "label": "아소산 나카다케 화구"
+          }
+        },
+        {
+          "title": "[15:00pm] 아소산조터미널에서 쿠로카와 온천으로 출발-!",
+          "description": ""
+        },
+        {
+          "title": "[16:00 - 18:00pm] 쿠로카와 온천",
+          "description": "12월 말 ~ 3월 말까지 유아카리 라이트업 축제가 있습니다. 일몰 시간에 따라 축제를 관람할 수 있는 여부가 달라질 수 있습니다. 료칸의 노천탕에서 온천욕을 즐기는 비용은 포함되어 있지 않으며, 개별적으로 구매해주셔야 합니다. 대신 무료로 족욕을 체험할 수 있는 공간이 있습니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/31/vsLn/q6k0QzcpDy.jpg",
+          "duration": "2시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.0780086,
+              "lng": 131.1417149
+            },
+            "label": "쿠로카와 온천 안내소"
+          }
+        },
+        {
+          "title": "[20:10pm] 후쿠오카 중앙우체국 하차",
+          "description": "현지 교통 상황에 따라 하차 시간은 변동될 수 있습니다.",
+          "place": {
+            "coordinate": {
+              "lat": 33.5929018,
+              "lng": 130.3990277
+            },
+            "label": "후쿠오카 중앙 우체국"
+          }
+        },
+        {
+          "title": "[20:30pm] HEARTS 버스 스테이션 하카타 앞 하차",
+          "description": "현지 교통 상황에 따라 하차 시간은 변동될 수 있습니다.",
+          "place": {
+            "coordinate": {
+              "lat": 33.5874109,
+              "lng": 130.4197989
+            },
+            "label": "HEARTS Bus Station Hakata"
+          }
+        }
+      ]
+    },
+    {
+      "itineraryId": 19601,
+      "title": "[10월~3월]화구접근불가능시",
+      "slots": [
+        {
+          "title": "[10:15am] HEARTS 버스 스테이션 하카타 앞 출발",
+          "description": "출발 10분 전까지 도착 부탁드립니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/02/HqAW/WWgY9CCQXT.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5874109,
+              "lng": 130.4197989
+            },
+            "label": "HEARTS Bus Station Hakata"
+          }
+        },
+        {
+          "title": "[10:30am] 후쿠오카 중앙우체국 앞 출발",
+          "description": "출발 10분 전까지 도착 부탁드립니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/31/zW6G/LFB0kkWeLV.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5929018,
+              "lng": 130.3990277
+            },
+            "label": "후쿠오카 중앙 우체국"
+          }
+        },
+        {
+          "title": "[13:10 - 14:20pm] 쿠사센리",
+          "description": "몽골을 가지 않아도 마주할 수 있는 드넓은 초원, 구마모토 쿠사센리에서 만나보아요!\n* 개별적으로 식사 시간을 갖을 수 있으며, 전망대 혹은 박물관 비용은 투어 상품에 포함되어 있지 않습니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/31/TItk/UwQ0hjiIOo.jpg",
+          "duration": "1시간 10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8818249,
+              "lng": 131.0533279
+            },
+            "label": "구사센리(구사센리가하마)"
+          }
+        },
+        {
+          "title": "[15:00pm - 15:30pm] 다이칸보 전망대",
+          "description": "'큰 경치를 보는 봉우리'라는 뜻을 가진 것처럼, 아소의 웅장한 자연 경관을 360도 파노라마로 감상할 수 있는 곳입니다.\n\n* 날씨가 좋지 않아 다이칸보 전망대를 가지 못할 경우, 카미시키미 쿠마노이마스 신사로 대체되며, 일정 순서 및 시간대는 변동될 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/31/g9BZ/TD9BciVmh5.jpg",
+          "duration": "30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.9982499,
+              "lng": 131.0709722
+            },
+            "label": "다이칸보 전망대"
+          }
+        },
+        {
+          "title": "카미시키미 쿠마노이마스 신사 (날씨 안좋은 경우, 대체지)",
+          "description": "* 안개가 많이 낀 상황 등 날씨로 인해 분화구 접근과 다이칸보 전망대를 가지 못할 경우, 해당 신사로 대체됩니다. 현지 상황에 따라 일정 순서 및 시간대는 변동될 수 있습니다. \n\n애니메이션 <반딧불이의 숲으로>와 <나츠메 우인장>의 배경지로 유명한, 마치 정령들이 숨어 살 것 같은 신비로운 숲속 성역입니다. 🌲 하늘을 가릴 듯 빽빽하게 솟은 삼나무 숲 사이로 끝없이 이어지는 돌계단과, 그 길을 따라 늘어선 100여 개의 이끼 낀 석등이 자아내는 풍경은 현실 세계가 아닌 듯한 몽환적인 분위기를 압도합니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/31/KAcC/OJwn104bun.jpg",
+          "duration": "50분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 32.8537942,
+              "lng": 131.1585205
+            },
+            "label": "카미시키미 쿠마노이마스 신사"
+          }
+        },
+        {
+          "title": "[16:00-18:30] 쿠로카와 온천",
+          "description": "12월 말 ~ 3월 말까지 유아카리 라이트업 축제가 있습니다. 일몰 시간에 따라 축제를 관람할 수 있는 여부가 달라질 수 있습니다. 료칸의 노천탕에서 온천욕을 즐기는 비용은 포함되어 있지 않으며, 개별적으로 구매해주셔야 합니다. 대신 무료로 족욕을 체험할 수 있는 공간이 있습니다. \n\n* 이전 방문 스팟에 따라 쿠로카와 온천에서 머무는 시간이 변동될 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/31/ucGN/jfNGrBiccA.jpg",
+          "duration": "2시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.0780086,
+              "lng": 131.1417149
+            },
+            "label": "쿠로카와 온천 안내소"
+          }
+        },
+        {
+          "title": "[20:10pm] 후쿠오카 중앙 우체국 하차",
+          "description": "현지 교통 상황에 따라 하차 시간은 변동될 수 있습니다. ",
+          "place": {
+            "coordinate": {
+              "lat": 33.5929018,
+              "lng": 130.3990277
+            },
+            "label": "후쿠오카 중앙 우체국"
+          }
+        },
+        {
+          "title": "[20:30pm] HEARTS 버스 스테이션 하카타 앞 하차",
+          "description": "현지 교통 상황에 따라 하차 시간은 변동될 수 있습니다. ",
+          "place": {
+            "coordinate": {
+              "lat": 33.5874109,
+              "lng": 130.4197989
+            },
+            "label": "HEARTS Bus Station Hakata"
+          }
+        }
+      ]
+    }
+  ]
+}

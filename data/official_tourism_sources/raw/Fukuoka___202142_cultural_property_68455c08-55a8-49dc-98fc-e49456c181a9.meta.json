@@ -1,0 +1,13 @@
+{
+  "city": "Fukuoka",
+  "source_key": "Fukuoka___202142_cultural_property_68455c08-55a8-49dc-98fc-e49456c181a9",
+  "dataset_name": "文化財一覧 / 遺跡一覧",
+  "url": "https://data.bodik.jp/dataset/268a89fe-29f9-4e41-949e-87fe6589054a/resource/68455c08-55a8-49dc-98fc-e49456c181a9/download/202142_remains.csv",
+  "expected_kind": "csv",
+  "priority": "A4/A5",
+  "note": "CKAN search query=文化財; package=202142_cultural_property",
+  "saved_path": "data/official_tourism_sources/raw/Fukuoka___202142_cultural_property_68455c08-55a8-49dc-98fc-e49456c181a9.csv",
+  "bytes": 50660,
+  "content_type": "text/csv",
+  "downloaded_at": "2026-07-18T12:01:41+0900"
+}

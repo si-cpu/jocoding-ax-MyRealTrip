@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "searchParams": {
+    "query": "히로시마",
+    "page": 3,
+    "perPage": 20,
+    "category": "activity_class"
+  },
+  "pagination": {
+    "currentPage": 3,
+    "hasNextPage": false,
+    "totalCount": 0,
+    "itemsInThisPage": 0
+  },
+  "products": []
+}

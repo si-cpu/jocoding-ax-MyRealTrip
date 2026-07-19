@@ -1,0 +1,77 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 26995,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "하츠 버스스테이션 하카타 터미널",
+          "description": "하카타역 옆, 하츠 버스스테이션 하카타 터미널.\n8시 10분 미팅 시작, 8시 30분 출발.\n눈이 와도, 비가 와도 실내에서 쾌적하게 미팅이 가능한\n하카타역 옆 하-츠 버스 스테이션 하카타에서 출발합니다.\n(※하카타 버스 터미널과 다른 곳이니 혼동 주의.)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/08/BjTF/JTajHnvse8.jpg",
+          "duration": "20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5874109,
+              "lng": 130.4197989
+            },
+            "label": "HEARTS Bus Station Hakata"
+          }
+        },
+        {
+          "title": "온천마을 유후인",
+          "description": "온천과 자연이 어우러진 마을로, 맑은 공기와 아름다운\n산세 속에서 몸과 마음이 치유되는 곳.\n다양한 온천과 산책로 그리고 아기자기한 상점 및\n맛집들이 여러분을 기다리고 있어요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/08/dNnz/FvDov1vqTU.jpg",
+          "duration": "2시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.266822,
+              "lng": 131.3609997
+            },
+            "label": "유후인초 가와카미"
+          }
+        },
+        {
+          "title": "벳부 아프리칸 사파리",
+          "description": "아시아 최대 규모의 사파리형 동물원.\n약 35만 평의 광활한 자연 속에서 70여 종, 약 1,400마리\n이상의 많은 동물들이 서식하고 있습니다.\n사파리 투어 후 실제로 만나기 힘든 동물들과\n직접 교감할 수 있는 동물 만남 존까지 여유롭게!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/08/M1AJ/cQJSscAwrv.jpg",
+          "duration": "3시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.3509251,
+              "lng": 131.4137658
+            },
+            "label": "아프리칸 사파리"
+          }
+        },
+        {
+          "title": "쿠스 휴게소",
+          "description": "아무 휴게소나 가지 않죠~! 쿠스 휴게소!\n유후인과 벳부가 있는 오이타 지역은 유제품이 유명!\n그중 으뜸 요구르트인 야마나미 목장의 요구르트를\n쿠스 휴게소에서 만날 수 있어요~!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/08/yjvx/qIcQYowqbt.jpg",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2821518,
+              "lng": 131.1170862
+            },
+            "label": "Kusu Parking Area (Westbound)"
+          }
+        },
+        {
+          "title": "하카타역 치쿠시출구 앞",
+          "description": "하차 후 어디로든지 편안하게 이동이 가능한\n하카타역 앞에서 하차를 진행합니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/08/E9Tk/OcmWq9JmrI.jpg",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔후쿠오카"
+          }
+        }
+      ]
+    }
+  ]
+}

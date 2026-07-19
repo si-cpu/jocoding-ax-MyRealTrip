@@ -1,0 +1,28 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 20859,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "히로시마 가모츠루 사케 양조장 투어 워킹 투어",
+          "description": ""
+        },
+        {
+          "title": "양조 해설 동영상",
+          "description": ""
+        },
+        {
+          "title": "전시 코너 투어",
+          "description": ""
+        },
+        {
+          "title": "쇼핑과 시식",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

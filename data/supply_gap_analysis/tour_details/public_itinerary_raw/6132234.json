@@ -1,0 +1,25 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 28191,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "13:00 로손 오리엔탈 호텔 후쿠오카점 앞 미팅 후 출발",
+          "description": ""
+        },
+        {
+          "title": "14:30 ▼간몬해협 불꽃축제 회장",
+          "description": "",
+          "duration": "7시간 소요"
+        },
+        {
+          "title": "23:00  로손 오리엔탈 호텔 후쿠오카점 앞에 도착하여 오늘의 일정을 즐겁게 마치세요!",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

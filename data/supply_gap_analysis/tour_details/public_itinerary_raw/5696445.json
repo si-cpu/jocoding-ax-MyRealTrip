@@ -1,0 +1,47 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 22021,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "미팅 장소: 08:00 로손 후쿠오카 하카타 오리엔탈 호텔 (하카타역 츠쿠시구치 앞)",
+          "description": "**투어 출발 10분 전까지 미팅 장소에 도착해 주세요. \n제시간에 출발하며 늦으실 경우 기다리기 어려우니 시간 엄수 부탁드립니다~",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/31/GbiV/2L8cytjXaX.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔후쿠오카"
+          }
+        },
+        {
+          "title": "10:50 가미시키미쿠마노자 신사",
+          "description": "약 30~40분",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/31/mUYf/A1S7Od1eFr.jpg"
+        },
+        {
+          "title": "12:20 아마노이와토 신사 & 아마노야스가와라",
+          "description": "약 60-70분",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/31/TVNJ/BdAuNN0FmF.jpg"
+        },
+        {
+          "title": "13:50 타카치호 협곡",
+          "description": "약 70-80분",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/31/AkEm/uzLdYiA8I8.jpg"
+        },
+        {
+          "title": "15:10 복귀",
+          "description": ""
+        },
+        {
+          "title": "18:00 후쿠오카 도착 및 해산",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "city": "Fukuoka",
+  "source_key": "Fukuoka___isit_yatai_4f07763f-bc6e-4c4a-8e2c-314eb9032247",
+  "dataset_name": "屋台基本情報 / 屋台基本情報",
+  "url": "https://data.bodik.jp/dataset/43392078-63d2-453f-8181-df7be0b46e77/resource/4f07763f-bc6e-4c4a-8e2c-314eb9032247/download/20240806_yatai_opendata2024v6.csv",
+  "expected_kind": "csv",
+  "priority": "A4/A5",
+  "note": "CKAN search query=屋台; package=isit_yatai",
+  "saved_path": "data/official_tourism_sources/raw/Fukuoka___isit_yatai_4f07763f-bc6e-4c4a-8e2c-314eb9032247.csv",
+  "bytes": 235594,
+  "content_type": "text/csv",
+  "downloaded_at": "2026-07-18T12:01:36+0900"
+}

@@ -1,0 +1,30 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 12952,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "첫째날 코스",
+          "description": "09：00 후쿠오카　출발 \r\n      ---> 나가사키 도착\r\n      ---> 글로버 공원,오우라 성당\r\n      ---> 차이나타운및 메가네바시\r\n      ---> 점심식사( 중화요리 또는 현지식 1인￥1、000～￥2、000 )\r\n      ---> 나가사키 항\r\n  　--->평화의 공원,원폭 기념관\r\n      ---> 이나사야마 전망대\r\n      ---> 나가사키 시내 숙소",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/158222/248466_original_1720451604.jpg?1720451604",
+          "duration": "540분 소요"
+        },
+        {
+          "title": "둘째 날 코스",
+          "description": "08：40 숙소 출발\r\n       --->운젠 도착 \r\n       --->지옥 온천\r\n       --->니타제2전망대\r\n       ---> 점심식사( 중식또는 현지식 1인￥1、000～￥2、000 )\r\n       ---> 운젠아마쿠사 국립공원\r\n       ---> 시마바라 성\r\n       --->야나가와 카와쿠다리\r\n       --->야나가와시 숙소도착",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/158222/248467_original_1720451604.jpg?1720451604",
+          "duration": "540분 소요"
+        },
+        {
+          "title": "셋째 날  코스",
+          "description": "09：00 숙소 출발\r\n       --->쿠마모토성\r\n        --->중식(  현지식 1인￥1、000～￥3、000 )\r\n        --->아소산 일대 관광\r\n        --->쿠로가와 온천 마을\r\n                (또는 히라가와 온천마을)\r\n        ---> 후쿠오카도착",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/158222/248468_original_1720451604.jpg?1720451604",
+          "duration": "540분 소요"
+        }
+      ]
+    }
+  ]
+}

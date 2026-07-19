@@ -1,0 +1,36 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 12024,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "쿠마모토 성 투어",
+          "description": "일본성의 성에세 4번째로 인기있는 성\r\n임진왜란의 가등청정이 16세기말 완성",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/160811/253319_original_1724742556.jpg?1724742556",
+          "duration": "60분 소요"
+        },
+        {
+          "title": "쿠사센리 전망대 투어",
+          "description": "풀의 천리란 뜻의 쿠사센리는 30만년전 화산에 의해 \r\n형성된 해발 1000미터의 초원",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/160811/253320_original_1724742556.jpg?1724742556",
+          "duration": "60분 소요"
+        },
+        {
+          "title": "아소산 분화구 정상 (나카다케 화구)",
+          "description": "세계 최대의 칼데라 화산으로 분화구 \r\n지름 400미터, 깊이130미터에 이른다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/160811/253321_original_1724742555.jpg?1724742555",
+          "duration": "60분 소요"
+        },
+        {
+          "title": "시라카와 수원지 ",
+          "description": "일본의 명수 100선에 선택된 맑고 차가운 용천수지\r\n쿠마모토 지역의 식수원으로 연간 6천만톤의 물을 공급한다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/160811/253322_original_1724742556.jpg?1724742556",
+          "duration": "90분 소요"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "city": "Japan",
+  "source_key": "digital_agency_pref_open_data_list",
+  "dataset_name": "Digital Agency prefecture open-data list",
+  "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/2b1128e2-c699-4aa0-9206-37169a6697c8/7192f365/20260228_resources_opendata_lg_pref_list_02.csv",
+  "expected_kind": "csv",
+  "priority": "A2",
+  "note": "Find prefectural open-data portals.",
+  "saved_path": "data/official_tourism_sources/raw/digital_agency_pref_open_data_list.csv",
+  "bytes": 29177,
+  "content_type": "text/csv",
+  "downloaded_at": "2026-07-18T15:54:15+0900"
+}

@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-18T20:05:01+09:00",
+  "cities": [
+    "후쿠오카",
+    "히로시마"
+  ],
+  "source_tour_rows": 151,
+  "unique_tour_products": 145,
+  "cached_products": 3,
+  "network_success_products": 142,
+  "failed_products": 0,
+  "products_with_sections": 145,
+  "section_rows": 1231
+}

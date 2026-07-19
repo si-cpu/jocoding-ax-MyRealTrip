@@ -1,0 +1,65 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 16939,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "출발 10분 전까지 약속 장소에 나와주십시오.",
+          "description": ""
+        },
+        {
+          "title": "8:00  호텔 출발 ",
+          "description": ""
+        },
+        {
+          "title": "11:00 다카치호 협곡 (150분)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/11/dy8z/7EoNYyNJX5.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 32.701015,
+              "lng": 131.30133
+            },
+            "label": "다카치호 협곡"
+          }
+        },
+        {
+          "title": "다카치호 협곡 보트 타기 ",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/11/3Aqk/dJIAHd6Ygq.jpg"
+        },
+        {
+          "title": "점심 식사(식사 비용은 투어 요금에 포함되여 있지 않습니다.)",
+          "description": "희망 사항이 있을 경우 사전에 연락주십시오.사진은 미야자키 명물 이미지 사진입니다.다카치호 소고기,다카치호 닭고기 숫불구이,소바(메밀 국수),미야자키 소멘(면발이 가는 국수)등이 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/11/PeYu/oLBuAtl8UX.jpg"
+        },
+        {
+          "title": "13:40 다카치호 신사 (30분)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/11/JEkx/AWpeDXVb69.jpg"
+        },
+        {
+          "title": "14:30 아마노이와토 신사(60분)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/11/we0t/AdE3Mqu93l.jpg"
+        },
+        {
+          "title": "사토바(삭은 이빨 같은 돌이 라는 뜻)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/11/IXUr/iPzbAgkoPO.jpg"
+        },
+        {
+          "title": "15:30 후쿠오카로 출발 ",
+          "description": ""
+        },
+        {
+          "title": "19:00 후쿠오카 호텔에 도착 ",
+          "description": "투어 종료"
+        }
+      ]
+    }
+  ]
+}

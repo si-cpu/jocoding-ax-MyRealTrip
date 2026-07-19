@@ -1,0 +1,11 @@
+{
+  "dataset_title": "福岡市 公共施設一覧（美術館・博物館等）",
+  "publisher": "福岡市",
+  "resource_id": "da4211dc-9670-42a1-b92b-5d8cddb0d722",
+  "source_page": "https://data.bodik.jp/dataset/401307_ftoshiken_public_facility/resource/da4211dc-9670-42a1-b92b-5d8cddb0d722",
+  "api_url": "https://data.bodik.jp/api/action/datastore_search?resource_id=da4211dc-9670-42a1-b92b-5d8cddb0d722&limit=100",
+  "license": "Creative Commons Attribution",
+  "last_modified": "2025-01-07T11:13:00+09:00",
+  "record_count": 5,
+  "retrieval_note": "The accepted CSV preserves the five records returned by the public BODIK datastore for the MVP."
+}

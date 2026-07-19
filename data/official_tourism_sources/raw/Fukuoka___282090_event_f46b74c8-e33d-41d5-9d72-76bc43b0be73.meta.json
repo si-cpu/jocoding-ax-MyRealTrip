@@ -1,0 +1,13 @@
+{
+  "city": "Fukuoka",
+  "source_key": "Fukuoka___282090_event_f46b74c8-e33d-41d5-9d72-76bc43b0be73",
+  "dataset_name": "イベント情報 / 2021年10月－11月イベント情報",
+  "url": "https://data.bodik.jp/dataset/a3c147e6-7b25-4cc9-a4b5-54b6a9d9a112/resource/f46b74c8-e33d-41d5-9d72-76bc43b0be73/download/2021-10_11event.xlsx",
+  "expected_kind": "xlsx",
+  "priority": "A4/A5",
+  "note": "CKAN search query=イベント; package=282090_event",
+  "saved_path": "data/official_tourism_sources/raw/Fukuoka___282090_event_f46b74c8-e33d-41d5-9d72-76bc43b0be73.dat",
+  "bytes": 40248,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "downloaded_at": "2026-07-18T12:02:34+0900"
+}

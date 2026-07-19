@@ -1,0 +1,99 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 783,
+      "title": "A.유후인-히타-유후다케-다자이후",
+      "slots": [
+        {
+          "title": "하츠 버스 스테이션 하카타 미팅",
+          "description": "하츠 버스 스테이션 하카타 (HEARTS Bus Station Hakata)\n1번 탑승장 앞\n파란색 인디고트래블 깃발 가이드 미팅!\n\n겨울에는 따뜻, 여름에는 시원~\n인디고트래블이 유일하게 사용하는 쾌적한 미팅장소\n\n*8시 15분에 미팅 마감됩니다\n미팅시간까지 늦지 않게 와주세요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/02/20/Tjgw/ywui4YeVsj.jpeg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5874109,
+              "lng": 130.4197989
+            },
+            "label": "HEARTS Bus Station Hakata"
+          }
+        },
+        {
+          "title": "유후인 ",
+          "description": "'후쿠오카 미인'이라는 표현의 원천지 유후인\n일본 20-30대 여성들이 가장 선호하는 온천 휴양지 중 한 곳 입니다. \n유후인 마을에 숨어있는 매력적인 장소들을 안내해드리겠습니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/19748/58188_original_1525850571.jpg?1525850571",
+          "duration": "3시간 소요"
+        },
+        {
+          "title": "유후다케 등산로(차창관광)",
+          "description": "해발 1584m의 장엄한 경관을 자랑하는 유후다케\r\n도보로 올라가기 힘든 곳을 버스로 편하게 올라갑니다\r\n포토타임을 놓치지 마세요!\r\n*기상 악화 시 일정이 변경될 수 있습니다",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/13/dhLw/CAi5jtxI8m.jpg"
+        },
+        {
+          "title": "히타시 '마메다마치'",
+          "description": "400년전 에도시대의 건물이 보존되어있는 히타 '마메다마치'에서\r\n고즈넉한 옛 거리를 산책합니다",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/19748/203293_original_1682571107.jpg?1682571107",
+          "duration": "1시간 소요"
+        },
+        {
+          "title": "히타시 '히타역'",
+          "description": "히타의 대표 인증샷 스팟! 히타역 광장에서 두 가지 매력을 동시에 만나보세요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/07/06/4KCw/zQ8ySrUAOf.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "다자이후시 & 다자이후 텐만구",
+          "description": "후쿠오카 근교의 인기 좋은 관광지 다자이후\r\n고즈넉한 옛 거리와 곳곳에 담긴 이야기가 있습니다\r\n더불어, 학문의 신을 모시고 있는 1100년 역사의 다자이후 텐만구를 관람합니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/19748/58187_original_1525850573.jpg?1525850573",
+          "duration": "70분 소요"
+        },
+        {
+          "title": "하카타 역 종료",
+          "description": "19시에 하카타 역에 도착합니다\r\n현지 상황에 따라 늦어질 수 있습니다."
+        }
+      ]
+    },
+    {
+      "itineraryId": 783,
+      "title": "B.다자이후-벳부 가마도지옥-유후인",
+      "slots": [
+        {
+          "title": "하츠 버스 스테이션 하카타 미팅",
+          "description": "하츠 버스 스테이션 하카타 (HEARTS Bus Station Hakata)\n1,2번 탑승장 앞\n파란색 인디고트래블 깃발 가이드 미팅!\n\n겨울에는 따뜻, 여름에는 시원~\n인디고트래블이 유일하게 사용하는 쾌적한 미팅장소\n\n*8시 15분에 미팅 마감됩니다\n미팅시간까지 늦지 않게 와주세요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/13/k11t/lCpYHEc38g.jpeg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5874109,
+              "lng": 130.4197989
+            },
+            "label": "HEARTS Bus Station Hakata"
+          }
+        },
+        {
+          "title": "다자이후 & 다자이후 텐만구",
+          "description": "후쿠오카 근교의 인기 좋은 관광지 다자이후\n고즈넉한 옛 거리와 곳곳에 담긴 이야기가 있습니다\n더불어, 학문의 신을 모시고 있는 1100년 역사의 다자이후 텐만구를 관람합니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/13/1cY5/OdM7bFUtAR.jpg"
+        },
+        {
+          "title": "벳부 가마도지옥 온천",
+          "description": "일본에서 가장 많은 온천이 솟아나는 벳부의 지옥온천\n6개의 지옥을 보며 온천 달걀과 간장 푸딩, 라무네와 함께 족욕을 즐겨보세요!",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/13/n3ZS/wg2G1JSlSO.jpg"
+        },
+        {
+          "title": "유후다케",
+          "description": "해발 1584m의 장엄한 경관을 자랑하는 유후다케\n도보로 올라가기 힘든 곳을 버스로 편하게 올라갑니다\n포토타임을 놓치지 마세요!\n*기상 악화 시 일정이 변경될 수 있습니다",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/13/d3Cu/HxfrpOUuA3.jpg"
+        },
+        {
+          "title": "유후인",
+          "description": "'후쿠오카 미인'이라는 표현의 원천지 유후인\n일본 20-30대 여성들이 가장 선호하는 온천 휴양지 중 한 곳 입니다. \n유후인 마을에 숨어있는 매력적인 장소들을 안내해드리겠습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/04/13/x0Lt/YykwyQ2tJ2.jpg"
+        },
+        {
+          "title": "하카타역 종료",
+          "description": "19시에 하카타 역에 도착합니다\n현지 상황에 따라 늦어질 수 있습니다."
+        }
+      ]
+    }
+  ]
+}

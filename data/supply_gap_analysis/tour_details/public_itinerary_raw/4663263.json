@@ -1,0 +1,64 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 17220,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "무지개 해송숲 산책",
+          "description": "무지개해송숲은 토요토미히데요시의 조선침략 병참기지란 역사적배경\n아름다운 드라이브길과 끝없는 해변의 백사장이 볼거리\n이곳의 명물인 카라츠 햄버거도 꼭 맛보시길",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/27/4UBH/xEohq1ojYI.jpg",
+          "duration": "2시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.446316,
+              "lng": 129.99075
+            },
+            "label": "니지노 마츠바라"
+          }
+        },
+        {
+          "title": "카가미야마 전망대",
+          "description": "카라츠시 전체가 내려다보는 전망대\n자연 호수공원을 지나 철쭉 정원을 산책하며\n기분 전환이 되는 관광지",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/27/cs6j/ExFBhv61Yv.jpg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.4305767,
+              "lng": 130.0180433
+            },
+            "label": "카카미야마 전망대"
+          }
+        },
+        {
+          "title": "카라츠 일본성",
+          "description": "일본의 조선침략의 병참 기지였던 카라츠성\n토요토미히데요시의 측근이었던 \n초대방주 테라자와히로유키에 의해 완성",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/27/VxpN/tZRPO6ydNV.jpg",
+          "duration": "2시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.4534129,
+              "lng": 129.9782295
+            },
+            "label": "가라쓰 성"
+          }
+        },
+        {
+          "title": "나나츠노가마 주상절리해안",
+          "description": "육각기둥의 해안절벽 주상절리가 일품\n주변 절경을 산책할 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/06/27/TPO4/xWfswvqZlH.jpg",
+          "duration": "2시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.54893500000001,
+              "lng": 129.9317843
+            },
+            "label": "Nanatsugama"
+          }
+        }
+      ]
+    }
+  ]
+}

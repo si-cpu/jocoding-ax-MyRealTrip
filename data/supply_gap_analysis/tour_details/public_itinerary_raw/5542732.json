@@ -1,0 +1,16 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 20858,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "4시간 소요, 이츠쿠시마 신사, 다이쇼인 사원, 모미지다니 공원",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

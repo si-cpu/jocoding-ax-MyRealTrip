@@ -1,0 +1,89 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 327,
+      "title": "NEW일정",
+      "slots": [
+        {
+          "title": "HEARTS 버스스테이션 하카타 1층 안내데스크 앞 미팅",
+          "description": "[07:45 - 07:55] HEARTS 버스스테이션 하카타 1층 안내데스크 앞 미팅",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/01/mbcv/qAcnRwf1Io.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5897275,
+              "lng": 130.4207274
+            },
+            "label": "하카타"
+          }
+        },
+        {
+          "title": "유후다케",
+          "description": "유후다케 차창관광\n유후다케는 해발 1,584m로 유후인의 상징으로 아름다운 산입니다. 봄에는 진달래가 만발하고 여름에는 녹색의 초원이 펼쳐진 모습으로 바뀌고 가을부터 단풍이 빨갛게 물듭니다. 겨울에는 산 꼭대기에 새하얀 모자를 쓰고 1년 내내 다채로운 모습을 보여주는 사랑받는 산입니다.\n\n※하차하여 사진 촬영은 진행하지 않습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/09/02/Jh61/bkhYvyauFG.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.2653153,
+              "lng": 131.396025
+            },
+            "label": "유후다케 등산로입구(由布岳登山口)"
+          }
+        },
+        {
+          "title": "유후인",
+          "description": "[10:05] 유후인 세이키치차야(勢吉茶屋)앞 도착\n〒879-5102 大分県由布市湯布院町川上3042-1\n※조이풀 레스토랑 유후인점 건너편이 세이키치차야입니다.\n(Joyfull ジョイフル 大分湯布院店)\n\n[10:05 - 14:05] 유후인 (자유 점심, 온천 및 쇼핑, 여행 약 4시간 자유관광)(유후인 승차가능) \n★승차를 희망하시는 분은 반드시 메모에 남겨주시길 바랍니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/09/02/O4Rs/9FXcsbqLaJ.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.266822,
+              "lng": 131.3609997
+            },
+            "label": "유후인초 가와카미"
+          }
+        },
+        {
+          "title": "벳부 유노하나",
+          "description": "[14:25-14:55] 벳부 유노하나(약 30분)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/09/02/uTBt/7JSqllMfdY.jpg"
+        },
+        {
+          "title": "벳부 지옥 순례",
+          "description": "[15:05 - 15:35] 지옥 순례 가마도 지옥 (약 30분 자유관광) (벳부 하차가능) \n★하차를 희망하시는 분은 반드시 메모에 남겨주시길 바랍니다.\n*가마도 지옥 입장료 포함(대인(고등학생 이상) 500엔, 소인(어린이~중학생) 250엔)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/09/02/UyDb/lhr64xgY8W.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.3163879,
+              "lng": 131.4723906
+            },
+            "label": "가마도 지옥"
+          }
+        },
+        {
+          "title": "유후인",
+          "description": "[16:05] 유후인 세이키치차야 앞\n[16:10] 버스 출발",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/09/02/n0ku/KACCLWFesS.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.266822,
+              "lng": 131.3609997
+            },
+            "label": "유후인초 가와카미"
+          }
+        },
+        {
+          "title": "하카타역",
+          "description": "[17:50~] 하카타역 치쿠시구치(筑紫口) 로손 편의점 앞 도착 후 해산\n\n* 현지의 도로와 교통 사정에 따라 시간 및 일정 변동이 있을 수 있습니다. \n* 현지 사정에 따라 하카타역 17:50~도착 시간이 다소 지연될 수 있습니다.\n* 유투어버스에서는 항공기에 탑승하지 못 하는 것에 대해 도움을 드리기 어려울 수 있습니다.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/09/02/MaPF/J9cmnf5T1M.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5897275,
+              "lng": 130.4207274
+            },
+            "label": "하카타"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 22364,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "후쿠오카 1일차",
+          "description": "",
+          "place": {
+            "coordinate": {
+              "lat": 33.5951,
+              "lng": 130.3513
+            },
+            "label": "모모치 해변"
+          }
+        },
+        {
+          "title": "후쿠오카 1일차",
+          "description": "",
+          "place": {
+            "coordinate": {
+              "lat": 33.5931,
+              "lng": 130.3515
+            },
+            "label": "후쿠오카 타워"
+          }
+        },
+        {
+          "title": "후쿠오카 1일차",
+          "description": "",
+          "place": {
+            "coordinate": {
+              "lat": 33.5919174,
+              "lng": 130.4046376
+            },
+            "label": "나카스 크루즈"
+          }
+        },
+        {
+          "title": "후쿠오카 2일차",
+          "description": "",
+          "place": {
+            "coordinate": {
+              "lat": 33.2673861,
+              "lng": 131.3645627
+            },
+            "label": "유노츠보 거리"
+          }
+        },
+        {
+          "title": "후쿠오카 2일차",
+          "description": "",
+          "place": {
+            "coordinate": {
+              "lat": 33.266644,
+              "lng": 131.36911
+            },
+            "label": "긴린 호수"
+          }
+        },
+        {
+          "title": "후쿠오카 3일차",
+          "description": "",
+          "place": {
+            "coordinate": {
+              "lat": 33.315765,
+              "lng": 131.46979
+            },
+            "label": "벳부 지옥온천"
+          }
+        },
+        {
+          "title": "후쿠오카 3일차",
+          "description": "",
+          "place": {
+            "coordinate": {
+              "lat": 33.35031,
+              "lng": 131.41495
+            },
+            "label": "아프리칸 사파리"
+          }
+        },
+        {
+          "title": "후쿠오카 4일차",
+          "description": "",
+          "place": {
+            "coordinate": {
+              "lat": 33.520805,
+              "lng": 130.53479
+            },
+            "label": "다자이후 텐만구"
+          }
+        }
+      ]
+    }
+  ]
+}

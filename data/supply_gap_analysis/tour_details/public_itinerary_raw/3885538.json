@@ -1,0 +1,18 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 11812,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "후쿠오카출발 이토시마 코스",
+          "description": "09:00 호텔 → 사쿠라이신사\r\n10:20 사쿠라이신사 → 후타미가우라 or 팜비치가든\r\n11:20 후타미가우라 or 팜비치가든 → 런던버스카페(혹은 식사처)\r\n13:00 런던버스카페(혹은 식사처) → 마타이치노시오\r\n14:30 마타이치노시오 → 시라이토노타키\r\n16:00 시라이토노타키 → 호텔\r\n17:00 호텔",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/134419/205660_original_1684907473.jpg?1684907473",
+          "duration": "480분 소요"
+        }
+      ]
+    }
+  ]
+}

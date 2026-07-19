@@ -1,0 +1,75 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 15242,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "9:00 후쿠오카 미쯔코시 백화점 <라이온 광장>에서 가이드를 만나세요.",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/21/elSZ/OEVyFEaE9x.jpg",
+          "duration": "10분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.58935,
+              "lng": 130.39998
+            },
+            "label": "후쿠오카 미츠코시 백화점"
+          }
+        },
+        {
+          "title": "9:30 야나가와행 기차 타기",
+          "description": "미쯔코시 백화점 옆에 있는 <니시테츠 텐진역>에서 ",
+          "duration": "50분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5886806,
+              "lng": 130.3999949
+            },
+            "label": "니시테츠 후쿠오카역 빌딩"
+          }
+        },
+        {
+          "title": "10:19 야나가와역 도착",
+          "description": "역에 도착하면 카메노이 호텔의 셔틀버스가 마중나옵니다."
+        },
+        {
+          "title": "야나가와 강 나룻배 체험",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/03/07/cda2/S5tYZWfMIR.jpeg",
+          "duration": "1시간 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.1586757,
+              "lng": 130.3961642
+            },
+            "label": "柳川川下り観光通り"
+          }
+        },
+        {
+          "title": "점심 장어덮밥 세트  ",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/03/07/t3Z6/y4E3KBYZ3H.jpeg"
+        },
+        {
+          "title": "14:37 텐진행 열차 출발 (표준 계획)",
+          "description": "",
+          "duration": "50분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.1651727,
+              "lng": 130.4191961
+            },
+            "label": "니시테쓰야나가와"
+          }
+        },
+        {
+          "title": "15:30 니시테츠 텐진역 도착 (표준 시간)",
+          "description": "그 다음 전차를 탈 경우에는 30분- 1시간 정도 늦어집니다. \n투어후의 저녁 일정을 잡을 경우 17:00이후로 추천드립니다.\n가이드와 헤어지고 투어는 종료됩니다."
+        }
+      ]
+    }
+  ]
+}

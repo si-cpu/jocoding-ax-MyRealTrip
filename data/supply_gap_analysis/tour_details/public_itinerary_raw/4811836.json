@@ -1,0 +1,57 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 18050,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "팜트리스윙",
+          "description": "요즘 SNS 인증사진으로 많이 뜨고 있는 팜트리 스윙.\n아름다운 이토시마 해변에 야자수 나무를 이어서 만들어 놓은 그네가 명소로 꼽힙니다. \n그네에서 멋진 인증사진, 꼭 남겨주세요",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/18/AWlL/GUA2NO2Vcy.jpg",
+          "duration": "30분 소요"
+        },
+        {
+          "title": "사쿠라이 후타미가우라 (부부바위/사쿠라이신사/팜비치가든)",
+          "description": "일본의 아름다운 해안 100선에 뽑힌 명소 입니다. \n순백의 사쿠라이 도리이와 인연을 이어주는 전설이 있는 부부 바위는 이토시마 여행의 핵심이기도 합니다. \n또한, 멋진 야자수 나무가 이어져 이국적인 풍경을 자랑하는 팜비치가든에서도 시간을 보냅니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/18/Xnao/yo41BxxknL.jpg",
+          "duration": "50분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.640537,
+              "lng": 130.1985
+            },
+            "label": "사쿠라이 후타미가우라(지층 전망대)"
+          }
+        },
+        {
+          "title": "토토로 숲",
+          "description": "일본의 유명 애니메이션에 등장했던 신비스러운 숲과 꼭 빼닮아 유명해진 곳 입니다. \n금방이라도 만화 캐릭터가 튀어나올 것 만 같은 분위기는 물론\n아름다운 이토시마 해변도 함께 관람하실 수 있어요 \n\n* 시간관계상 전망대는 올라가지 않습니다 *",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/18/xrzX/1hTVHJAYzB.jpg",
+          "duration": "30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5950234,
+              "lng": 130.1094904
+            },
+            "label": "Itoshima's Totoro Forest"
+          }
+        },
+        {
+          "title": "톳탄 소금공방",
+          "description": "전통을 간직한 이토시마의 소금 공방으로 실제 소금이 제조되는 모습을 보실 수 있으며\n소금으로 만들어진 다양한 먹거리, 기념품도 구매하실 수 있습니다. \n신기한 소금공방 체험과 함께 이토시마의 아름다운 해변 감상도 잊지 마세요.",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/18/ueFB/2P1VtufLmG.jpg",
+          "duration": "30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5771816,
+              "lng": 130.0897402
+            },
+            "label": "마타이치노시오 제염소 공방 톳탄"
+          }
+        }
+      ]
+    }
+  ]
+}

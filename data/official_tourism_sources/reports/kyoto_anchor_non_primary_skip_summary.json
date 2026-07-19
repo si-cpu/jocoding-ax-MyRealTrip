@@ -1,0 +1,37 @@
+{
+  "source": "data/official_tourism_sources/processed/accepted/kyoto_tourism_facilities_city_only.csv",
+  "source_rows": 778,
+  "primary_anchor_rows": 292,
+  "disposition_counts": {
+    "excluded_non_primary": 304,
+    "primary": 292,
+    "needs_review": 169,
+    "excluded_component": 13
+  },
+  "classification_counts": {
+    "commercial_business": 110,
+    "retail_or_rental_service": 62,
+    "parking": 16,
+    "religious_site": 164,
+    "museum_or_gallery": 60,
+    "administrative_or_sports_facility": 14,
+    "heritage_or_landmark": 40,
+    "food_or_beverage": 49,
+    "ambiguous_facility": 147,
+    "lodging_or_bathing": 26,
+    "time_limited_event": 7,
+    "district_or_street": 7,
+    "nature_or_park": 21,
+    "visitor_cultural_candidate": 22,
+    "closed_or_expired": 3,
+    "abstract_course": 2,
+    "transport_or_convenience": 15,
+    "child_record_of_same_place": 13
+  },
+  "primary_translation_status_counts": {
+    "reviewed": 34,
+    "auto_needs_review": 258
+  },
+  "audit_file": "data/official_tourism_sources/reports/kyoto_facility_classification_audit.csv",
+  "policy": "Only high-confidence place-level assets enter primary scoring. Non-primary, ambiguous, and same-place component records remain auditable."
+}

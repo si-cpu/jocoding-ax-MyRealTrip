@@ -1,0 +1,53 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 21904,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "08:30 하카타 역 오리엔탈 호텔 1층 집합 ",
+          "description": ""
+        },
+        {
+          "title": "08:45 투어 버스 출발 ",
+          "description": ""
+        },
+        {
+          "title": "09:30 난조인 (약 60분 자유 관광)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/24/lZo2/YmoJfTZcdY.jpg"
+        },
+        {
+          "title": "12:00 토토이치바 (자유 점심 식사)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/24/hMJa/UsjJLn3wWo.jpg"
+        },
+        {
+          "title": "13:10 아시야가마노사토 박물관 & 녹차 체험 (약 80분)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/24/yp5b/DCJ3s3Y2D8.jpg"
+        },
+        {
+          "title": "16:15 토토로 숲 (약 30분 자유 관광) ",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/24/GA1A/R6mT7OBKDh.jpg"
+        },
+        {
+          "title": "17:30 사쿠라이 후타미가우라 (약 30분 자유 관광)",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/24/a2Uh/Z8QYRX9waF.jpg"
+        },
+        {
+          "title": "후쿠오카로 출발",
+          "description": ""
+        },
+        {
+          "title": "약 19:30 하카타 역 도착 및 투어 종료  ",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-07-18T18:06:57+09:00",
+  "city_summaries": [
+    {
+      "city": "후쿠오카",
+      "category_count": 21,
+      "selected_categories": [
+        {
+          "name": "투어",
+          "value": "tour"
+        }
+      ],
+      "raw_product_rows": 138,
+      "deduped_product_rows": 138,
+      "city_match_status": {
+        "title_contains_city": 93,
+        "unknown_or_other_city": 45
+      }
+    }
+  ],
+  "new_products": 138,
+  "total_products": 283,
+  "merge_existing": true,
+  "requested_cities": [
+    "후쿠오카"
+  ],
+  "requested_categories": [
+    "tour"
+  ],
+  "max_pages": 20,
+  "delay": 8.0,
+  "use_cache": true,
+  "stop_on_429": true,
+  "outputs": [
+    "data/mcp_tna_products/processed/mcp_tna_products.csv",
+    "data/mcp_tna_products/processed/mcp_tna_products.jsonl"
+  ]
+}

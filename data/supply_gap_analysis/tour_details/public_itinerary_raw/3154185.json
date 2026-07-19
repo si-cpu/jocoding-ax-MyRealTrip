@@ -1,0 +1,42 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 329,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "유후인",
+          "description": "[10:15~10:25] joyful 레스트랑 맞은편 세이키치차야(勢吉茶屋) 주차장\n구글주소 : 大分県由布市湯布院町川上3042-2\n\n★주의!★\n구글지도에 세이키치차야로 검색하면 다른 위치로 나오기 때문에 위 주소 혹은 joyful 레스토랑으로 검색 부탁드립니다.\n\n[10:30] 벳부로 이동",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/31908/80749_original_1694059547.jpg?1694059547"
+        },
+        {
+          "title": "유후다케 차창관광",
+          "description": "유후다케는 해발 1,584m로 유후인의 상징으로 아름다운 산입니다. 봄에는 진달래가 만발하고 여름에는 녹색의 초원이 펼쳐진 모습으로 바뀌고 가을부터 단풍이 빨갛게 물듭니다. 겨울에는 산 꼭대기에 새하얀 모자를 쓰고 1년 내내 다채로운 모습을 보여주는 사랑받는 산입니다.\n\n※하차하여 사진촬영은 진행하지 않습니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/31908/97569_original_1684902512.jpg?1684902512"
+        },
+        {
+          "title": "벳부 지옥 순례",
+          "description": "[11:20 ~ 12:00] 가마도 지옥 순례(약 40분 자유여행)\n*가마도 지옥 입장료 포함(성인 450엔 / 초중고생 200엔)",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/31908/121231_original_1684902513.jpg?1684902513"
+        },
+        {
+          "title": "히타 마메다마치",
+          "description": "[13:00] 히타 마메다마치 도착 \n[13:00 ~ 14:30] 히타 마메다마치 자유여행(약 1시간 30분)",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/31908/209276_original_1689727816.jpg?1689727816"
+        },
+        {
+          "title": "다자이후 텐만구",
+          "description": "[15:30] 다자이후 텐만구 도착 \n[15:30 ~ 16:50] 다자이후 텐만구(약 1시간 20분 자유여행)",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/31908/204733_original_1684902566.jpg?1684902566"
+        },
+        {
+          "title": "하카타역",
+          "description": "[17:20~] 하카타역(博多駅) 치쿠시구치(筑紫口) 앞 도착 후 해산\n\n* 현지의 도로와 교통 사정에 따라 시간 및 일정 변동이 있을 수 있습니다. \n* 현지 사정에 따라 하카타역 17:20~도착 시간이 다소 지연될 수 있습니다.\n* 유투어버스에서는 항공기에 탑승하지 못 하는 것에 대해 도움을 드리기 어려울 수 있습니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/31908/121232_original_1684117560.jpg?1684117560"
+        }
+      ]
+    }
+  ]
+}

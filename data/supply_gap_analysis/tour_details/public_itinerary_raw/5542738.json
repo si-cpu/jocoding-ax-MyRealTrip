@@ -1,0 +1,56 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 20862,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "08:30부터 출발",
+          "description": ""
+        },
+        {
+          "title": "열차 이동",
+          "description": ""
+        },
+        {
+          "title": "09:35 미야지마 페리 선착장",
+          "description": "미야지마구치 부두 ⇒ 미야지마 부두"
+        },
+        {
+          "title": "이쓰쿠시마 신사",
+          "description": ""
+        },
+        {
+          "title": "점심 식사",
+          "description": ""
+        },
+        {
+          "title": "13:10 미야지마 페리 선착장",
+          "description": "미야지마 부두 ⇒ 미야지마구치 부두"
+        },
+        {
+          "title": "열차 이동",
+          "description": ""
+        },
+        {
+          "title": "14:30 히로시마 평화기념자료관",
+          "description": ""
+        },
+        {
+          "title": "원폭 돔",
+          "description": ""
+        },
+        {
+          "title": "열차 이동",
+          "description": ""
+        },
+        {
+          "title": "17:00 복귀",
+          "description": "* 일정은 교통 및 기상 상황에 따라 변경될 수 있습니다."
+        }
+      ]
+    }
+  ]
+}

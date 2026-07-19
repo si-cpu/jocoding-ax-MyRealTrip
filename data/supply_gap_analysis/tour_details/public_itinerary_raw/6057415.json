@@ -1,0 +1,79 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 27626,
+      "title": "7월~일정",
+      "slots": [
+        {
+          "title": "하카타역 치쿠시구치(筑紫口) 출구 방면 오리엔탈 호텔 1층 로손 편의점 앞 주차장 미팅  ",
+          "description": "[07:30~07:40] 하카타역 치쿠시구치(筑紫口) 출구 방면 오리엔탈 호텔 1층 로손 편의점 앞 주차장 미팅  \n[07:40] 버스 출발\n※'YOUTOURBUS+인타임투어' 미팅 보드를 든 안내원이 여러분을 기다리고 있습니다. ",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/06/26/5AJC/ONACBCKHNC.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔후쿠오카"
+          }
+        },
+        {
+          "title": "유후인",
+          "description": "[09:30] 유후인(약 2시간 40분)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/06/26/vKZo/34HzoXgHz0.jpg",
+          "duration": "2시간 40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.266822,
+              "lng": 131.3609997
+            },
+            "label": "유후인초 가와카미"
+          }
+        },
+        {
+          "title": "벳부 가마도지옥",
+          "description": "[12:40] 벳부 가마도지옥(약 40분 자유관광)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/06/26/iizi/FHvLU50B0m.jpg",
+          "duration": "40분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.3163879,
+              "lng": 131.4723906
+            },
+            "label": "가마도 지옥"
+          }
+        },
+        {
+          "title": "아프리칸 사파리",
+          "description": "★정글버스 미사용, 전세버스 차창 관광 방식 진행\n1팀 : 사파리 관광 → 이후 먹이체험 자유시간\n2팀 : 먹이체험 자유시간  → 이후 사파리 관광\n\n[13:50] 아프리칸 사파리 도착 및 준비\n              사파리투어(약 2시간 20분 자유관광)\n              먹이 체험 및 자유시간(도시락 지참 점심 or간식 가능)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/06/26/xIo3/v1UsbvEZt4.jpg",
+          "duration": "2시간 20분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.35031,
+              "lng": 131.41495
+            },
+            "label": "아프리칸 사파리"
+          }
+        },
+        {
+          "title": "상황에 따라 휴게소 정차",
+          "description": ""
+        },
+        {
+          "title": "하카타역",
+          "description": "[18:00~] 하카타역 치쿠시구치(筑紫口) 로손 편의점 앞 도착 후 해산\n\n※현지의 도로와 교통 사정에 따라 시간 및 일정의 변동이 있을 수 있습니다.\n※유투어버스에서는 항공기에 탑승하지 못 하는 것에 대한 책임을 지지 않습니다.\n※12개월 미만 영유아 탑승 불가",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/06/26/KOjQ/Sciarbex25.jpg",
+          "place": {
+            "coordinate": {
+              "lat": 33.5892521,
+              "lng": 130.4190278
+            },
+            "label": "하카타역"
+          }
+        }
+      ]
+    }
+  ]
+}

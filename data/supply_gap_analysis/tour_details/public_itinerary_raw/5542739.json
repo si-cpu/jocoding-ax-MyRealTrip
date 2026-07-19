@@ -1,0 +1,32 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 20863,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "출발 19:00",
+          "description": ""
+        },
+        {
+          "title": "도보 이동",
+          "description": ""
+        },
+        {
+          "title": "가이드 투어",
+          "description": "다양한 이자카야와 바를 방문합니다. 나가레카와 주변에는 히로시마식 오코노미야키, 호루몬 덴푸라, 굴 등 맛있는 이자카야 음식을 맛볼 수 있습니다."
+        },
+        {
+          "title": "도보 이동",
+          "description": ""
+        },
+        {
+          "title": "복귀 22:00",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

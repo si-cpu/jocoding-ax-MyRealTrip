@@ -1,0 +1,67 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 24204,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "하카타역(출발)",
+          "description": "",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔후쿠오카"
+          }
+        },
+        {
+          "title": "쿠스휴게소",
+          "description": "",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/13/KFBW/c9ngejGAKZ.jpg",
+          "duration": "10분 소요"
+        },
+        {
+          "title": "유후인",
+          "description": "유후인 탑승 가능(12:10분 집합) 12:30출발\n자유 중식 & 유후인 마을 관광(쇼핑, 온천, 산책 등)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/13/Utqb/Oj93Ma9qWG.JPG",
+          "duration": "2시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.2674871,
+              "lng": 131.3655357
+            },
+            "label": "유후인 플로랄빌리지"
+          }
+        },
+        {
+          "title": "벳푸 우미타마고 수족관 / 다카사키야마 자연동물원",
+          "description": "돌고래 퍼포먼스 2시, (먹이체험), 우미타마 퍼포먼스 3시\n원숭이 동물원 (걸어서 약 10분, 사루코 레일 이용시 약 5분)",
+          "imageUrl": "https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/13/jINK/4QaOMcPwaw.jpg",
+          "duration": "2시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.258465,
+              "lng": 131.53482
+            },
+            "label": "우미타마고"
+          }
+        },
+        {
+          "title": "하카타역",
+          "description": "",
+          "duration": "2시간 30분 소요",
+          "place": {
+            "coordinate": {
+              "lat": 33.5905739,
+              "lng": 130.4222477
+            },
+            "label": "로손 오리엔탈호텔후쿠오카"
+          }
+        }
+      ]
+    }
+  ]
+}

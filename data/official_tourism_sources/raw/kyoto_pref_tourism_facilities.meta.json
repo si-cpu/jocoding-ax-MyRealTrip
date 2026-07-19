@@ -1,0 +1,10 @@
+{
+  "city": "Kyoto",
+  "source_key": "kyoto_pref_tourism_facilities",
+  "dataset_name": "Kyoto Prefecture tourism facility list",
+  "url": "https://data.bodik.jp/dataset/6ad07527-e6ad-4528-b1ad-00e8b5bd1b38/resource/7f63e283-49c4-4737-a838-ccea5cdbc205/download/260002kankoushisetsu.csv",
+  "expected_kind": "csv",
+  "priority": "A3",
+  "retrieval_method": "manual_attachment_after_shell_403",
+  "note": "Official Kyoto Prefecture tourism facility CSV from BODIK. Direct shell download returned 403 in this environment, so the user provided the CSV attachment."
+}

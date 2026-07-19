@@ -1,0 +1,30 @@
+{
+  "source": "full_next_data",
+  "hydration_query_count": 2,
+  "itineraries": [
+    {
+      "itineraryId": 11660,
+      "title": "코스1",
+      "slots": [
+        {
+          "title": "쿠로가와 온천",
+          "description": "숲 내음과 새소리 물소리까지 시간이 멈춰 버린 듯한 느낌의 온천 마을에서 치유 회복에 좋은 온천까지. 계절마다 아름다운 표정을 바꾸는 경관과 풍부한 온천수를 만끽하실 노천탕 온천 순례를 하실수 있습니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/134092/205089_original_1684394042.jpg?1684394042",
+          "duration": "120분 소요"
+        },
+        {
+          "title": "다이칸보 전망대",
+          "description": "다이칸보 전망대는 아소산외륜의  가장 높은 지점인 해발 936m에 위치한 전망대 입니다.\r\n거대한 칼데라 안에 있는 아소의 5봉우리인 다카다케산 가장큰산 ,그리고 네코다케산 ,기시마산,나카다케산,에보시다케산 5봉우리를 둘러싸고 칼데라 밖깥쪽을  아소외륜산 이라고 하는데요 그 규모와 경이에 감탄사가 절로 나오는 곳입니다.\r\n그리고 끝없이 펼쳐 지는 능선을 타고 가면 또 다른 산의 느낌을 만날수 있습니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/134092/205144_original_1684409141.jpg?1684409141",
+          "duration": "60분 소요"
+        },
+        {
+          "title": "마에다 마치",
+          "description": "규슈의 작은 교토 마을 같은 마메다 마치 아기자기한 마을. 물이 깨끗 한 곳에서만 만들 수 있는 300년 된 양조장 또한 애주가분들에게 사랑받는 곳입니다.",
+          "imageUrl": "https://d2ur7st6jjikze.cloudfront.net/offer_courses/134092/205145_original_1684409140.jpg?1684409140",
+          "duration": "120분 소요"
+        }
+      ]
+    }
+  ]
+}
