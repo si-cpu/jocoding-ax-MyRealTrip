@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-07-19T19:58:02+09:00",
+  "deduplicated_fukuoka_products": 180,
+  "products_with_cached_payload": 180,
+  "products_with_usable_sections": 178,
+  "products_without_cached_payload": 0,
+  "category_counts": {
+    "tour": 138,
+    "ticket_v2": 1,
+    "ticket": 28,
+    "activity_class": 3,
+    "activity": 10
+  },
+  "detail_status_counts": {
+    "ok_cached": 180
+  },
+  "section_rows": 1503
+}

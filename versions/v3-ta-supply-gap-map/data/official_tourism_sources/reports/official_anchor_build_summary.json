@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-07-19T19:58:01+09:00",
+  "anchor_count": 541,
+  "by_city": {
+    "jp-fukuoka": 189,
+    "jp-kyoto": 292,
+    "jp-hiroshima": 60
+  },
+  "by_type": {
+    "place_cluster": 1,
+    "food_place": 107,
+    "place": 401,
+    "event": 32
+  },
+  "by_source": {
+    "official_yatai_cluster": 1,
+    "official_yatai": 107,
+    "tourism_facility": 401,
+    "official_event": 32
+  },
+  "outputs": [
+    "data/official_tourism_sources/anchors/official_experience_anchors.csv",
+    "data/official_tourism_sources/anchors/official_experience_anchors.jsonl",
+    "data/official_tourism_sources/anchors/multicity_seed_candidate_anchors.csv",
+    "data/official_tourism_sources/anchors/multicity_seed_candidate_anchors.jsonl"
+  ],
+  "seed_candidate_count_excluded_from_primary_anchors": 56
+}

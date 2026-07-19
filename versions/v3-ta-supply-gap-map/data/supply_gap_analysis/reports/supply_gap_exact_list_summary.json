@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-07-19T19:58:09+09:00",
+  "analysis_city_ids": [
+    "jp-fukuoka",
+    "jp-hiroshima"
+  ],
+  "total_official_assets": 109,
+  "matched_partial_assets": 14,
+  "under_connected_assets": 0,
+  "by_city_coverage": [
+    {
+      "city_id": "jp-fukuoka",
+      "city_name": "후쿠오카",
+      "official_scope": "후쿠오카시 공식 한국어 관광가이드(비관광·시외 필터 후)",
+      "official_asset_count": "81",
+      "mcp_product_count": "180",
+      "confirmed_anchor_count": "10",
+      "detail_pending_anchor_count": "0",
+      "observed_linked_anchor_count": "10",
+      "confirmed_match_rate_pct": "12.3",
+      "observed_link_rate_pct": "12.3",
+      "confirmed_match_rate_display": "12.3%",
+      "observed_link_rate_display": "12.3%",
+      "citywide_rate_eligible": "true",
+      "unlinked_or_unverified_anchor_count": "71",
+      "collection_complete": "false",
+      "rate_status": "잠정치(MCP 일부 오류)"
+    },
+    {
+      "city_id": "jp-hiroshima",
+      "city_name": "히로시마",
+      "official_scope": "공식 관광시설(비관광 시설 필터 후)",
+      "official_asset_count": "28",
+      "mcp_product_count": "20",
+      "confirmed_anchor_count": "4",
+      "detail_pending_anchor_count": "0",
+      "observed_linked_anchor_count": "4",
+      "confirmed_match_rate_pct": "14.3",
+      "observed_link_rate_pct": "14.3",
+      "confirmed_match_rate_display": "14.3%",
+      "observed_link_rate_display": "14.3%",
+      "citywide_rate_eligible": "true",
+      "unlinked_or_unverified_anchor_count": "24",
+      "collection_complete": "false",
+      "rate_status": "잠정치(MCP 일부 오류)"
+    }
+  ],
+  "outputs": [
+    "data/supply_gap_analysis/exports/fukuoka_hiroshima_city_supply_coverage.csv",
+    "data/supply_gap_analysis/exports/supply_gap_exact_list.csv",
+    "data/supply_gap_analysis/exports/matched_assets_exact_list.csv",
+    "data/supply_gap_analysis/exports/under_connected_assets_exact_list.csv",
+    "data/supply_gap_analysis/reports/SUPPLY_GAP_EXACT_LIST.md",
+    "data/supply_gap_analysis/reports/FUKUOKA_REANALYSIS.md"
+  ]
+}
